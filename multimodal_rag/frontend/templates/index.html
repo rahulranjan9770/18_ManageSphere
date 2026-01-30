@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Multimodal RAG System</title>
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Multimodal RAG System">
+    <meta name="description"
+        content="Evidence-Based Multimodal Retrieval & Generation System with offline capabilities. Upload documents, images, and audio for intelligent querying.">
+    <meta name="keywords" content="RAG, AI, Multimodal, Knowledge Base, Document Search, Offline App">
+    <meta name="author" content="Multimodal RAG">
+
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#6366f1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="RAG System">
+
+    <!-- Apple iOS Meta Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="RAG System">
+
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" sizes="72x72" href="/static/images/icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="96x96" href="/static/images/icon-96x96.png">
+    <link rel="apple-touch-icon" sizes="128x128" href="/static/images/icon-128x128.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/static/images/icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/static/images/icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="/static/images/icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="384x384" href="/static/images/icon-384x384.png">
+    <link rel="apple-touch-icon" sizes="512x512" href="/static/images/icon-512x512.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/images/icon-72x72.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/images/icon-72x72.png">
+
+    <!-- Manifest -->
+    <link rel="manifest" href="/static/manifest.json">
+
+    <!-- Microsoft Tiles -->
+    <meta name="msapplication-TileColor" content="#6366f1">
+    <meta name="msapplication-TileImage" content="/static/images/icon-144x144.png">
+    <meta name="msapplication-config" content="/static/browserconfig.xml">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/">
+    <meta property="og:title" content="Multimodal RAG System">
+    <meta property="og:description"
+        content="Evidence-Based Multimodal Retrieval & Generation System with offline capabilities">
+    <meta property="og:image" content="/static/images/icon-512x512.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="/">
+    <meta property="twitter:title" content="Multimodal RAG System">
+    <meta property="twitter:description"
+        content="Evidence-Based Multimodal Retrieval & Generation System with offline capabilities">
+    <meta property="twitter:image" content="/static/images/icon-512x512.png">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/static/css/styles.css?v=5.7">
+    <link rel="stylesheet" href="/static/css/pwa.css">
+    <link rel="stylesheet" href="/static/css/cloud.css">
+    <link rel="stylesheet" href="/static/css/language-selector.css">
+    <link rel="stylesheet" href="/static/css/drafter.css">
+    <link rel="stylesheet" href="/static/css/presentation.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>🧠 Multimodal RAG System</h1>
+            <p class="subtitle">Evidence-Based Multimodal Retrieval & Generation</p>
+        </header>
+
+        <div class="main-content">
+            <!-- Upload Section -->
+            <section class="upload-section card">
+                <h2>📤 Upload Documents</h2>
+                <div class="upload-area" id="uploadArea">
+                    <div class="upload-icon">📁</div>
+                    <p>Drag & drop files here or click to browse</p>
+                    <p class="upload-hint">Supported: PDF, DOCX, TXT, Images (JPG, PNG), Audio (MP3, WAV)</p>
+                    <input type="file" id="fileInput" multiple hidden>
+                </div>
+                <div id="uploadStatus" class="upload-status"></div>
+                <div class="stats-row">
+                    <div class="stats">
+                        <p>Total Chunks: <span id="totalChunks">0</span></p>
+                    </div>
+                    <div class="stats-actions">
+                        <button id="summarizeBtn" class="btn-summarize" title="Generate summary of all documents">
+                            📊 Summarize Repository
+                        </button>
+                        <button id="clearDbBtn" class="btn-danger" title="Clear all uploaded documents from database">
+                            🗑️ Clear Database
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Cloud Storage Integration Section -->
+            <section class="cloud-storage-section card">
+                <div class="cloud-header">
+                    <h2>☁️ Cloud Storage</h2>
+                    <div class="cloud-actions">
+                        <button id="refreshCloudBtn" class="btn-secondary" title="Refresh connections">
+                            🔄 Refresh
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Provider Cards -->
+                <div class="cloud-providers" id="cloudProviders">
+                    <div class="provider-card" data-provider="google_drive">
+                        <div class="provider-icon">📁</div>
+                        <div class="provider-name">Google Drive</div>
+                        <div class="provider-status">
+                            <span class="status-dot"></span>
+                            <span>Not connected</span>
+                        </div>
+                        <button class="connect-btn">Connect</button>
+                    </div>
+
+                    <div class="provider-card" data-provider="onedrive">
+                        <div class="provider-icon">☁️</div>
+                        <div class="provider-name">OneDrive</div>
+                        <div class="provider-status">
+                            <span class="status-dot"></span>
+                            <span>Not connected</span>
+                        </div>
+                        <button class="connect-btn">Connect</button>
+                    </div>
+
+                    <div class="provider-card" data-provider="aws_s3">
+                        <div class="provider-icon">🪣</div>
+                        <div class="provider-name">AWS S3</div>
+                        <div class="provider-status">
+                            <span class="status-dot"></span>
+                            <span>Not connected</span>
+                        </div>
+                        <button class="connect-btn">Connect</button>
+                    </div>
+
+                    <div class="provider-card" data-provider="dropbox">
+                        <div class="provider-icon">📦</div>
+                        <div class="provider-name">Dropbox</div>
+                        <div class="provider-status">
+                            <span class="status-dot"></span>
+                            <span>Not connected</span>
+                        </div>
+                        <button class="connect-btn">Connect</button>
+                    </div>
+                </div>
+
+                <!-- File Browser (Hidden by default) -->
+                <div class="cloud-file-browser" id="cloudFileBrowser">
+                    <div class="browser-header">
+                        <div class="path-breadcrumb">
+                            <span class="browser-provider-icon">📁</span>
+                            <span class="browser-provider-name">Provider</span>
+                            <span>/</span>
+                            <span id="currentFolderName">Root</span>
+                        </div>
+                        <div class="browser-controls">
+                            <button id="backToRootBtn" class="btn-mini" title="Back to root">🏠 Root</button>
+                            <button id="refreshFilesBtn" class="btn-mini" title="Refresh">🔄</button>
+                            <button id="closeBrowserBtn" class="btn-mini" title="Close">✕</button>
+                        </div>
+                    </div>
+
+                    <div class="cloud-search">
+                        <input type="text" id="cloudSearchInput" placeholder="🔍 Search files...">
+                    </div>
+
+                    <div class="bulk-actions-bar" id="bulkActionsBar">
+                        <div class="selection-info">
+                            <span>📑</span>
+                            <span><span id="selectionCount">0</span> files selected</span>
+                        </div>
+                        <div class="bulk-buttons">
+                            <button id="importSelectedBtn" class="import-selected-btn">
+                                📥 Import Selected
+                            </button>
+                            <button id="clearSelectionBtn" class="clear-selection-btn">
+                                ✕ Clear
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="cloud-file-list" id="cloudFileList">
+                        <div class="cloud-empty">
+                            <div class="empty-icon">📂</div>
+                            <p>Select a connected provider to browse files</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Cloud Connect Modal -->
+            <div class="cloud-modal-overlay" id="cloudConnectModal">
+                <div class="cloud-modal">
+                    <div class="cloud-modal-header">
+                        <h3>
+                            <span class="modal-provider-icon">📁</span>
+                            Connect to <span class="modal-provider-name">Provider</span>
+                        </h3>
+                        <button class="cloud-modal-close">&times;</button>
+                    </div>
+                    <div class="cloud-modal-content">
+                        <div class="modal-form-fields">
+                            <!-- Dynamic form fields -->
+                        </div>
+                    </div>
+                    <div class="cloud-modal-footer">
+                        <button class="cancel-btn">Cancel</button>
+                        <button class="connect-btn">Connect</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Import Progress Indicator -->
+            <div class="import-progress" id="importProgress">
+                <div class="import-progress-header">
+                    <h4>📥 Importing Files...</h4>
+                </div>
+                <div class="import-progress-bar">
+                    <div class="progress-fill" style="width: 0%"></div>
+                </div>
+                <div class="import-progress-status">Starting...</div>
+            </div>
+
+            <!-- Real-Time Sync Section -->
+            <section class="sync-section card">
+                <div class="sync-header">
+                    <h2>🔄 Real-Time Sync</h2>
+                    <div class="sync-controls">
+                        <span class="sync-status-indicator" id="syncStatusIndicator">
+                            <span class="status-dot offline"></span>
+                            <span class="status-text">Offline</span>
+                        </span>
+                        <button id="toggleSyncBtn" class="btn-secondary" title="Start/stop folder watching">
+                            ▶️ Start Watching
+                        </button>
+                    </div>
+                </div>
+
+                <div class="sync-container" id="syncContainer">
+                    <div class="sync-info">
+                        <div class="sync-stat">
+                            <span class="sync-icon">📁</span>
+                            <span class="sync-label">Watch Folder:</span>
+                            <span class="sync-value" id="watchFolderPath">Not configured</span>
+                        </div>
+                        <div class="sync-stat">
+                            <span class="sync-icon">📄</span>
+                            <span class="sync-label">Tracked Files:</span>
+                            <span class="sync-value" id="trackedFilesCount">0</span>
+                        </div>
+                        <div class="sync-stat">
+                            <span class="sync-icon">⚡</span>
+                            <span class="sync-label">Changes Detected:</span>
+                            <span class="sync-value" id="changesDetectedCount">0</span>
+                        </div>
+                        <div class="sync-stat auto-index-toggle">
+                            <span class="sync-icon">🤖</span>
+                            <span class="sync-label">Auto-Index:</span>
+                            <label class="toggle-switch">
+                                <input type="checkbox" id="autoIndexToggle">
+                                <span class="toggle-slider"></span>
+                            </label>
+                            <span class="auto-index-status" id="autoIndexStatus">Off</span>
+                        </div>
+                    </div>
+
+                    <div class="sync-notifications" id="syncNotifications">
+                        <div class="notifications-header">
+                            <span>📢 Live Notifications</span>
+                            <button id="clearNotificationsBtn" class="btn-mini">Clear</button>
+                        </div>
+                        <div class="notifications-list" id="notificationsList">
+                            <div class="notification-placeholder">
+                                No notifications yet. Start watching a folder to see live updates.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Summary Modal -->
+            <div class="summary-modal-overlay" id="summaryModal">
+                <div class="summary-modal">
+                    <div class="summary-modal-header">
+                        <h2>📊 Repository Summary</h2>
+                        <button class="summary-modal-close" id="closeSummaryModal">&times;</button>
+                    </div>
+                    <div class="summary-modal-content" id="summaryContent">
+                        <div class="summary-loading">
+                            <div class="loading-spinner"></div>
+                            <p>Analyzing your knowledge base...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Knowledge Graph Section -->
+            <section class="knowledge-graph-section card">
+                <div class="graph-header">
+                    <h2>📊 Knowledge Graph</h2>
+                    <div class="graph-actions">
+                        <button id="refreshGraphBtn" class="btn-secondary" title="Refresh graph">
+                            🔄 Refresh
+                        </button>
+                        <button id="toggleGraphBtn" class="btn-secondary" title="Show/hide graph">
+                            📈 Show Graph
+                        </button>
+                    </div>
+                </div>
+
+                <div class="graph-container" id="graphContainer" style="display: none;">
+                    <div class="graph-stats" id="graphStats">
+                        <div class="stat-item">
+                            <span class="stat-icon">📄</span>
+                            <span class="stat-value" id="graphDocCount">0</span>
+                            <span class="stat-label">Documents</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-icon">🔗</span>
+                            <span class="stat-value" id="graphEntityCount">0</span>
+                            <span class="stat-label">Entities</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-icon">↔️</span>
+                            <span class="stat-value" id="graphEdgeCount">0</span>
+                            <span class="stat-label">Connections</span>
+                        </div>
+                    </div>
+
+                    <div class="graph-legend">
+                        <span class="legend-item"><span class="node-indicator document"></span> Documents</span>
+                        <span class="legend-item"><span class="node-indicator value"></span> Values</span>
+                        <span class="legend-item"><span class="node-indicator machine"></span> Machines</span>
+                        <span class="legend-item"><span class="node-indicator concept"></span> Concepts</span>
+                        <span class="legend-item"><span class="node-indicator year"></span> Years</span>
+                    </div>
+
+                    <div class="graph-canvas-wrapper">
+                        <canvas id="graphCanvas" width="800" height="500"></canvas>
+                        <div class="graph-loading" id="graphLoading" style="display: none;">
+                            <div class="loading-spinner"></div>
+                            <p>Building knowledge graph...</p>
+                        </div>
+                    </div>
+
+                    <div class="node-details-panel" id="nodeDetailsPanel" style="display: none;">
+                        <div class="node-details-header">
+                            <span class="node-type-badge" id="nodeTypeBadge">Document</span>
+                            <h4 id="nodeLabel">Node Name</h4>
+                            <button class="close-details" id="closeNodeDetails">✕</button>
+                        </div>
+                        <div class="node-details-body" id="nodeDetailsBody">
+                            <!-- Dynamic content -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Query Section -->
+            <section class="query-section card">
+                <h2>🔍 Ask a Question</h2>
+
+                <!-- Persona Selector -->
+                <div class="persona-selector">
+                    <label class="persona-label">🎭 Response Style:</label>
+                    <div class="persona-options">
+                        <button type="button" class="persona-btn active" data-persona="standard"
+                            title="Balanced, concise response">
+                            <span class="persona-icon">⚖️</span>
+                            <span class="persona-name">Standard</span>
+                        </button>
+                        <button type="button" class="persona-btn" data-persona="academic"
+                            title="Formal, citation-heavy, detailed">
+                            <span class="persona-icon">🎓</span>
+                            <span class="persona-name">Academic</span>
+                        </button>
+                        <button type="button" class="persona-btn" data-persona="executive"
+                            title="Brief bullet points, key takeaways">
+                            <span class="persona-icon">💼</span>
+                            <span class="persona-name">Executive</span>
+                        </button>
+                        <button type="button" class="persona-btn" data-persona="eli5"
+                            title="Simple language for beginners">
+                            <span class="persona-icon">🧒</span>
+                            <span class="persona-name">Simple (ELI5)</span>
+                        </button>
+                        <button type="button" class="persona-btn" data-persona="technical"
+                            title="Deep-dive with code/formulas">
+                            <span class="persona-icon">⚙️</span>
+                            <span class="persona-name">Technical</span>
+                        </button>
+                        <button type="button" class="persona-btn" data-persona="debate"
+                            title="Present all viewpoints side-by-side">
+                            <span class="persona-icon">⚔️</span>
+                            <span class="persona-name">Debate</span>
+                        </button>
+                        <button type="button" class="persona-btn" data-persona="legal"
+                            title="Formal legal language with disclaimers">
+                            <span class="persona-icon">⚖️</span>
+                            <span class="persona-name">Legal</span>
+                        </button>
+                        <button type="button" class="persona-btn" data-persona="medical"
+                            title="Clinical language with safety caveats">
+                            <span class="persona-icon">🏥</span>
+                            <span class="persona-name">Medical</span>
+                        </button>
+                        <button type="button" class="persona-btn" data-persona="creative"
+                            title="Engaging storytelling style">
+                            <span class="persona-icon">✨</span>
+                            <span class="persona-name">Creative</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Conversation Context Panel -->
+                <div class="context-panel" id="contextPanel">
+                    <div class="context-header">
+                        <div class="context-status">
+                            <span class="context-icon">🧠</span>
+                            <span class="context-label">Semantic Memory</span>
+                            <span class="context-badge" id="contextBadge">Off</span>
+                        </div>
+                        <button class="context-toggle" id="contextToggle" title="Enable/disable conversation memory">
+                            Enable
+                        </button>
+                    </div>
+                    <div class="context-details" id="contextDetails" style="display: none;">
+                        <div class="context-info">
+                            <div class="context-stat">
+                                <span class="stat-label">Session</span>
+                                <span class="stat-value" id="sessionIdDisplay">-</span>
+                            </div>
+                            <div class="context-stat">
+                                <span class="stat-label">Messages</span>
+                                <span class="stat-value" id="messageCount">0</span>
+                            </div>
+                            <div class="context-stat">
+                                <span class="stat-label">Entities</span>
+                                <span class="stat-value" id="entityCount">0</span>
+                            </div>
+                        </div>
+                        <div class="entities-list" id="entitiesList">
+                            <span class="entities-placeholder">No entities tracked yet</span>
+                        </div>
+                        <button class="btn-clear-context" id="clearContextBtn" title="Clear conversation history">
+                            🗑️ Clear Context
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Live Web Search Panel -->
+                <div class="web-search-panel" id="webSearchPanel">
+                    <div class="web-search-header">
+                        <div class="web-search-status">
+                            <span class="web-search-icon">🌐</span>
+                            <span class="web-search-label">Live Web Search</span>
+                            <span class="web-search-badge" id="webSearchBadge">Off</span>
+                        </div>
+                        <button class="web-search-toggle" id="webSearchToggle" title="Enable/disable live web search">
+                            Enable
+                        </button>
+                    </div>
+                    <div class="web-search-hint">
+                        💡 Search the internet in real-time to supplement your document knowledge base
+                    </div>
+                </div>
+
+                <!-- Language Selector Panel -->
+                <div class="language-selector-panel" id="languageSelectorPanel">
+                    <div class="language-selector-header">
+                        <div class="language-selector-status">
+                            <span class="language-selector-icon">🌍</span>
+                            <span class="language-selector-label">Output Language</span>
+                            <span class="language-selector-badge" id="languageSelectorBadge">Auto-Detect</span>
+                        </div>
+                        <select id="languageSelect" class="language-select">
+                            <option value="">🤖 Auto-Detect</option>
+                            <optgroup label="🇮🇳 Indian Languages">
+                                <option value="hi">🇮🇳 Hindi (हिन्दी)</option>
+                                <option value="bn">🇮🇳 Bengali (বাংলা)</option>
+                                <option value="ta">🇮🇳 Tamil (தமிழ்)</option>
+                                <option value="te">🇮🇳 Telugu (తెలుగు)</option>
+                                <option value="mr">🇮🇳 Marathi (मराठी)</option>
+                                <option value="gu">🇮🇳 Gujarati (ગુજરાતી)</option>
+                                <option value="kn">🇮🇳 Kannada (ಕನ್ನಡ)</option>
+                                <option value="ml">🇮🇳 Malayalam (മലയാളം)</option>
+                                <option value="pa">🇮🇳 Punjabi (ਪੰਜਾਬੀ)</option>
+                                <option value="ur">🇮🇳 Urdu (اردو)</option>
+                            </optgroup>
+                            <optgroup label="🌍 European Languages">
+                                <option value="en">🇬🇧 English</option>
+                                <option value="es">🇪🇸 Spanish (Español)</option>
+                                <option value="fr">🇫🇷 French (Français)</option>
+                                <option value="de">🇩🇪 German (Deutsch)</option>
+                                <option value="it">🇮🇹 Italian (Italiano)</option>
+                                <option value="pt">🇵🇹 Portuguese (Português)</option>
+                                <option value="nl">🇳🇱 Dutch (Nederlands)</option>
+                                <option value="ru">🇷🇺 Russian (Русский)</option>
+                                <option value="pl">🇵🇱 Polish (Polski)</option>
+                                <option value="tr">🇹🇷 Turkish (Türkçe)</option>
+                            </optgroup>
+                            <optgroup label="🌏 Asian Languages">
+                                <option value="zh-cn">🇨🇳 Chinese Simplified (简体中文)</option>
+                                <option value="zh-tw">🇹🇼 Chinese Traditional (繁體中文)</option>
+                                <option value="ja">🇯🇵 Japanese (日本語)</option>
+                                <option value="ko">🇰🇷 Korean (한국어)</option>
+                                <option value="ar">🇸🇦 Arabic (العربية)</option>
+                                <option value="vi">🇻🇳 Vietnamese (Tiếng Việt)</option>
+                                <option value="th">🇹🇭 Thai (ไทย)</option>
+                                <option value="id">🇮🇩 Indonesian (Bahasa Indonesia)</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <div class="language-selector-hint">
+                        💡 Force responses in a specific language, or let the system auto-detect from your query
+                    </div>
+                </div>
+
+                <div class="query-input-area">
+                    <div class="query-input-wrapper">
+                        <textarea id="queryInput"
+                            placeholder="Enter your question here... (e.g., 'What are the main findings about X?', 'Show me diagrams related to Y')"
+                            rows="3"></textarea>
+                        <button id="voiceInputBtn" class="btn-voice" title="Click to speak your question">
+                            🎙️
+                        </button>
+                    </div>
+                    <button id="queryBtn" class="btn-primary">Search Knowledge Base</button>
+                </div>
+
+                <!-- Voice Status Indicator -->
+                <div id="voiceStatus" class="voice-status" style="display: none;">
+                    <div class="voice-indicator"></div>
+                    <span id="voiceStatusText">Listening...</span>
+                </div>
+            </section>
+
+            <!-- Smart Email/Report Drafter Section -->
+            <section class="drafter-section card">
+                <div class="drafter-header">
+                    <h2>✉️ Smart Drafter <span class="drafter-badge">AI-Powered</span></h2>
+                    <button class="drafter-toggle expanded" id="drafterToggle" title="Toggle drafter panel">
+                        <span>Hide</span>
+                        <span class="toggle-icon">▼</span>
+                    </button>
+                </div>
+
+                <div class="drafter-content expanded" id="drafterContent">
+                    <!-- Document Type Selector -->
+                    <div class="form-group">
+                        <label><span class="label-icon">📄</span> Document Type</label>
+                        <div class="template-selector" id="templateSelector">
+                            <button type="button" class="template-btn active" data-type="email">
+                                <span class="template-icon">📧</span>
+                                <span class="template-name">Email</span>
+                            </button>
+                            <button type="button" class="template-btn" data-type="report">
+                                <span class="template-icon">📊</span>
+                                <span class="template-name">Report</span>
+                            </button>
+                            <button type="button" class="template-btn" data-type="memo">
+                                <span class="template-icon">📝</span>
+                                <span class="template-name">Memo</span>
+                            </button>
+                            <button type="button" class="template-btn" data-type="summary">
+                                <span class="template-icon">📋</span>
+                                <span class="template-name">Summary</span>
+                            </button>
+                            <button type="button" class="template-btn" data-type="letter">
+                                <span class="template-icon">✉️</span>
+                                <span class="template-name">Letter</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Tone Selector -->
+                    <div class="form-group">
+                        <label><span class="label-icon">🎭</span> Tone</label>
+                        <div class="tone-selector" id="toneSelector">
+                            <button type="button" class="tone-btn" data-tone="formal">🎩 Formal</button>
+                            <button type="button" class="tone-btn active" data-tone="professional">💼
+                                Professional</button>
+                            <button type="button" class="tone-btn" data-tone="friendly">😊 Friendly</button>
+                            <button type="button" class="tone-btn" data-tone="urgent">⚡ Urgent</button>
+                            <button type="button" class="tone-btn" data-tone="apologetic">🙏 Apologetic</button>
+                            <button type="button" class="tone-btn" data-tone="confident">💪 Confident</button>
+                        </div>
+                    </div>
+
+                    <!-- Main Form -->
+                    <div class="drafter-form">
+                        <!-- Communication Goal -->
+                        <div class="form-group">
+                            <label><span class="label-icon">🎯</span> What do you want to communicate?</label>
+                            <textarea id="communicationGoal" class="drafter-textarea goal-input"
+                                placeholder="e.g., 'Inform client about project delay, use reasons from project_status.pdf' or 'Summarize quarterly performance for executives'"></textarea>
+                        </div>
+
+                        <!-- Recipient and Sender -->
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label><span class="label-icon">👤</span> Recipient (optional)</label>
+                                <input type="text" id="recipientInput" class="drafter-input"
+                                    placeholder="e.g., client, manager, team, John Smith">
+                            </div>
+                            <div class="form-group">
+                                <label><span class="label-icon">✍️</span> Your Name (optional)</label>
+                                <input type="text" id="senderInput" class="drafter-input"
+                                    placeholder="e.g., Project Manager, Sarah Johnson">
+                            </div>
+                        </div>
+
+                        <!-- Source Documents -->
+                        <div class="form-group">
+                            <label><span class="label-icon">📚</span> Reference Documents (optional)</label>
+                            <div class="source-tags-container" id="sourceTagsContainer">
+                                <input type="text" id="sourceDocInput" class="source-input"
+                                    placeholder="Type document name and press Enter...">
+                            </div>
+                            <span class="source-hint">Add specific documents from your knowledge base to
+                                reference</span>
+                        </div>
+
+                        <!-- Additional Context -->
+                        <div class="form-group">
+                            <label><span class="label-icon">💭</span> Additional Context (optional)</label>
+                            <textarea id="additionalContext" class="drafter-textarea"
+                                placeholder="Any extra details, specific points to include, or instructions..."
+                                rows="2"></textarea>
+                        </div>
+
+                        <!-- Generate Button -->
+                        <button id="generateDraftBtn" class="generate-draft-btn">
+                            <span class="btn-icon">✨</span>
+                            <span>Generate Draft</span>
+                        </button>
+                    </div>
+
+                    <!-- Draft Output Section -->
+                    <div class="draft-output-section" id="draftOutputSection" style="display: none;">
+                        <div class="draft-output-header">
+                            <h3>📄 Generated Draft</h3>
+                            <div class="draft-actions">
+                                <button class="draft-action-btn" id="copyDraftBtn" title="Copy to clipboard">
+                                    📋 Copy
+                                </button>
+                                <button class="draft-action-btn" id="editDraftBtn" title="Edit draft">
+                                    ✏️ Edit
+                                </button>
+                                <button class="draft-action-btn" id="regenerateDraftBtn" title="Regenerate draft">
+                                    🔄 Regenerate
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="draft-content-box">
+                            <div class="draft-subject" id="draftSubject" style="display: none;">
+                                <span>Subject:</span> <span id="draftSubjectText"></span>
+                            </div>
+                            <div class="draft-body" id="draftBody" contenteditable="false"></div>
+
+                            <!-- Sources Used -->
+                            <div class="draft-sources" id="draftSources" style="display: none;">
+                                <h4>📚 Sources Referenced</h4>
+                                <div class="source-ref-list" id="sourceRefList"></div>
+                            </div>
+                        </div>
+
+                        <!-- Suggestions -->
+                        <div class="draft-suggestions" id="draftSuggestions" style="display: none;">
+                            <h4>💡 Improvement Suggestions</h4>
+                            <div class="suggestion-list" id="suggestionList"></div>
+                        </div>
+
+                        <!-- Stats -->
+                        <div class="draft-stats">
+                            <div class="draft-stat">
+                                <span>⏱️</span>
+                                <span class="stat-value" id="draftTime">0.0s</span>
+                            </div>
+                            <div class="draft-stat">
+                                <span>📝</span>
+                                <span class="stat-value" id="draftWordCount">0</span> words
+                            </div>
+                            <div class="draft-stat">
+                                <span>📚</span>
+                                <span class="stat-value" id="draftSourceCount">0</span> sources
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Automated Presentation Generator Section -->
+            <section class="presentation-section card">
+                <div class="presentation-header">
+                    <h2>📊 Presentation Generator <span class="presentation-badge">PowerPoint</span></h2>
+                    <button class="presentation-toggle expanded" id="presentationToggle" title="Toggle panel">
+                        <span>Hide</span>
+                        <span class="toggle-icon">▼</span>
+                    </button>
+                </div>
+
+                <div class="presentation-content expanded" id="presentationContent">
+                    <!-- Topic Input -->
+                    <div class="form-group">
+                        <label><span class="label-icon">🎯</span> Presentation Topic</label>
+                        <textarea id="presentationTopic" class="drafter-textarea goal-input"
+                            placeholder="e.g., 'Q4 2025 Results Summary' or 'Project Status Update for Stakeholders'"></textarea>
+                    </div>
+
+                    <!-- Theme Selector -->
+                    <div class="form-group">
+                        <label><span class="label-icon">🎨</span> Theme</label>
+                        <div class="theme-selector" id="themeSelector">
+                            <button type="button" class="theme-btn active" data-theme="professional">
+                                <span class="theme-icon">💼</span>
+                                <span class="theme-name">Professional</span>
+                                <div class="theme-colors">
+                                    <span class="theme-color-dot" style="background: #1E3A5F;"></span>
+                                    <span class="theme-color-dot" style="background: #F08030;"></span>
+                                </div>
+                            </button>
+                            <button type="button" class="theme-btn" data-theme="modern">
+                                <span class="theme-icon">🎨</span>
+                                <span class="theme-name">Modern</span>
+                                <div class="theme-colors">
+                                    <span class="theme-color-dot" style="background: #6C5CE7;"></span>
+                                    <span class="theme-color-dot" style="background: #00D2D3;"></span>
+                                </div>
+                            </button>
+                            <button type="button" class="theme-btn" data-theme="minimal">
+                                <span class="theme-icon">⬜</span>
+                                <span class="theme-name">Minimal</span>
+                                <div class="theme-colors">
+                                    <span class="theme-color-dot" style="background: #2D3A4B;"></span>
+                                    <span class="theme-color-dot" style="background: #007BFF;"></span>
+                                </div>
+                            </button>
+                            <button type="button" class="theme-btn" data-theme="corporate">
+                                <span class="theme-icon">🏢</span>
+                                <span class="theme-name">Corporate</span>
+                                <div class="theme-colors">
+                                    <span class="theme-color-dot" style="background: #00528A;"></span>
+                                    <span class="theme-color-dot" style="background: #FFB800;"></span>
+                                </div>
+                            </button>
+                            <button type="button" class="theme-btn" data-theme="creative">
+                                <span class="theme-icon">✨</span>
+                                <span class="theme-name">Creative</span>
+                                <div class="theme-colors">
+                                    <span class="theme-color-dot" style="background: #E04389;"></span>
+                                    <span class="theme-color-dot" style="background: #4ECEC3;"></span>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Slide Count & Source Docs -->
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label><span class="label-icon">📑</span> Number of Slides</label>
+                            <input type="number" id="slideCount" class="drafter-input" value="5" min="3" max="15">
+                        </div>
+                        <div class="form-group">
+                            <label><span class="label-icon">📚</span> Source Documents (optional)</label>
+                            <div class="source-tags-container" id="presSourceTagsContainer">
+                                <input type="text" id="presSourceDocInput" class="source-input"
+                                    placeholder="Type document name and press Enter...">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Options -->
+                    <div class="pres-options">
+                        <div class="pres-option">
+                            <input type="checkbox" id="includeTitleSlide" checked>
+                            <label for="includeTitleSlide">Include Title Slide</label>
+                        </div>
+                        <div class="pres-option">
+                            <input type="checkbox" id="includeSummarySlide" checked>
+                            <label for="includeSummarySlide">Include Summary Slide</label>
+                        </div>
+                        <div class="pres-option">
+                            <input type="checkbox" id="includeSources" checked>
+                            <label for="includeSources">Include Source References</label>
+                        </div>
+                    </div>
+
+                    <!-- Additional Instructions -->
+                    <div class="form-group">
+                        <label><span class="label-icon">💭</span> Additional Instructions (optional)</label>
+                        <textarea id="presInstructions" class="drafter-textarea"
+                            placeholder="Any specific points to cover, style preferences, or special requirements..."
+                            rows="2"></textarea>
+                    </div>
+
+                    <!-- Generate Button -->
+                    <button id="generatePresBtn" class="generate-pres-btn">
+                        <span class="btn-icon">🎬</span>
+                        <span>Generate Presentation</span>
+                    </button>
+
+                    <!-- Output Section -->
+                    <div class="pres-output-section" id="presOutputSection" style="display: none;">
+                        <div class="pres-output-header">
+                            <h3>📊 Generated Presentation</h3>
+                        </div>
+
+                        <!-- Slide Previews -->
+                        <div class="slides-preview" id="slidesPreview"></div>
+
+                        <!-- Download Section -->
+                        <div class="pres-download-section" id="presDownloadSection">
+                            <div class="pres-file-info">
+                                <span class="pres-file-icon">📄</span>
+                                <div class="pres-file-details">
+                                    <span class="pres-file-name" id="presFileName">presentation.pptx</span>
+                                    <span class="pres-file-meta" id="presFileMeta">5 slides • Generated just now</span>
+                                </div>
+                            </div>
+                            <a id="presDownloadBtn" class="pres-download-btn" href="#" download>
+                                <span>⬇️</span>
+                                <span>Download PPTX</span>
+                            </a>
+                        </div>
+
+                        <!-- Stats -->
+                        <div class="pres-stats">
+                            <div class="pres-stat">
+                                <span>⏱️</span>
+                                <span class="stat-value" id="presTime">0.0s</span>
+                            </div>
+                            <div class="pres-stat">
+                                <span>📑</span>
+                                <span class="stat-value" id="presSlideCount">0</span> slides
+                            </div>
+                            <div class="pres-stat">
+                                <span>📚</span>
+                                <span class="stat-value" id="presSourceCount">0</span> sources
+                            </div>
+                        </div>
+
+                        <!-- Sources Used -->
+                        <div class="pres-sources" id="presSources" style="display: none;">
+                            <h4>📚 Sources Used</h4>
+                            <div class="pres-sources-list" id="presSourcesList"></div>
+                        </div>
+                    </div>
+
+                    <!-- Previous Presentations -->
+                    <div class="previous-presentations" id="previousPresentations" style="display: none;">
+                        <h4>📂 Previous Presentations</h4>
+                        <div class="previous-list" id="previousList"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Response Section -->
+            <section class="response-section card" id="responseSection" style="display: none;">
+                <div class="response-header">
+                    <h2>💡 Response</h2>
+                    <button id="voiceOutputBtn" class="btn-voice-output" title="Read response aloud">
+                        🔊 Listen
+                    </button>
+                </div>
+
+                <div class="badge-row">
+                    <div class="confidence-badge clickable" id="confidenceBadge"
+                        title="Click to see confidence breakdown"></div>
+                    <div class="persona-badge" id="personaBadge" style="display: none;"></div>
+                </div>
+
+                <!-- Confidence Explainability Dashboard -->
+                <div class="confidence-dashboard" id="confidenceDashboard" style="display: none;">
+                    <div class="dashboard-header">
+                        <h4>🔒 Why This Confidence?</h4>
+                        <button class="dashboard-close" id="closeDashboard">&times;</button>
+                    </div>
+
+                    <div class="dashboard-content">
+                        <!-- Factor Gauges -->
+                        <div class="factors-section">
+                            <h5>📊 Confidence Factors</h5>
+                            <div id="factorGauges"></div>
+                        </div>
+
+                        <!-- Actionable Tips -->
+                        <div class="tips-section" id="tipsSection" style="display: none;">
+                            <h5>💡 How to Improve</h5>
+                            <div id="actionableTips"></div>
+                        </div>
+
+                        <!-- Strongest/Weakest -->
+                        <div class="insights-row" id="insightsRow">
+                            <div class="insight-card positive" id="strongestFactor"></div>
+                            <div class="insight-card negative" id="weakestFactor"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="answer-content" id="answerContent"></div>
+
+                <div class="conflict-warning" id="conflictWarning" style="display: none;">
+                    ⚠️ <strong>Conflicting Information Detected</strong>
+                    <div id="conflictDetails"></div>
+                </div>
+
+                <div class="refusal-warning" id="refusalWarning" style="display: none;">
+                    🚫 <strong>Unable to Answer</strong>
+                    <div id="refusalReason"></div>
+                </div>
+
+                <!-- Smart Follow-up Suggestions -->
+                <div class="suggestions-panel" id="suggestionsPanel" style="display: none;">
+                    <h4>🤖 What would you like to explore next?</h4>
+
+                    <!-- Knowledge Gaps (highest priority) -->
+                    <div class="suggestion-group" id="knowledgeGapsGroup" style="display: none;">
+                        <span class="suggestion-label">📤 To improve results:</span>
+                        <div class="suggestion-chips" id="knowledgeGapsChips"></div>
+                    </div>
+
+                    <!-- Deep Dive Prompts -->
+                    <div class="suggestion-group" id="deepDivesGroup" style="display: none;">
+                        <span class="suggestion-label">🔍 Explore deeper:</span>
+                        <div class="suggestion-chips" id="deepDivesChips"></div>
+                    </div>
+
+                    <!-- Cross-Modal Exploration -->
+                    <div class="suggestion-group" id="crossModalGroup" style="display: none;">
+                        <span class="suggestion-label">🔄 Other content:</span>
+                        <div class="suggestion-chips" id="crossModalChips"></div>
+                    </div>
+
+                    <!-- Related Questions -->
+                    <div class="suggestion-group" id="relatedQuestionsGroup" style="display: none;">
+                        <span class="suggestion-label">❓ Related questions:</span>
+                        <div class="suggestion-chips" id="relatedQuestionsChips"></div>
+                    </div>
+                </div>
+
+                <!-- Evidence Sources -->
+                <details class="evidence-panel">
+                    <summary>📚 View Evidence Sources (<span id="sourceCount">0</span>)</summary>
+                    <div id="evidenceSources"></div>
+                </details>
+
+                <!-- Reasoning Chain Panel -->
+                <details class="reasoning-chain-panel" id="reasoningChainPanel">
+                    <summary>🔗 View Reasoning Chain (Evidence Provenance)</summary>
+
+                    <!-- Key Insights -->
+                    <div class="chain-insights" id="chainInsights">
+                        <h4>📊 Key Insights</h4>
+                        <ul id="insightsList"></ul>
+                    </div>
+
+                    <!-- Pipeline Visualization -->
+                    <div class="pipeline-visualization">
+                        <h4>🔄 RAG Pipeline Steps</h4>
+                        <div class="pipeline-steps" id="pipelineSteps"></div>
+                    </div>
+
+                    <!-- Export Options -->
+                    <div class="chain-actions">
+                        <div class="export-dropdown">
+                            <button id="exportDropdownBtn" class="btn-export" title="Export reasoning chain">
+                                📄 Export as...
+                            </button>
+                            <div class="export-menu" id="exportMenu">
+                                <button class="export-option" data-format="markdown">
+                                    📝 Markdown (.md)
+                                </button>
+                                <button class="export-option" data-format="text">
+                                    📄 Plain Text (.txt)
+                                </button>
+                                <button class="export-option" data-format="pdf">
+                                    📕 PDF Document (.pdf)
+                                </button>
+                            </div>
+                        </div>
+                        <span class="chain-id" id="chainIdDisplay"></span>
+                    </div>
+                </details>
+
+                <div class="processing-info">
+                    <small>Processing time: <span id="processingTime">0</span>s</small>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="/static/js/pwa.js"></script>
+    <script src="/static/js/cloud.js"></script>
+    <script src="/static/js/app.js?v=5.7"></script>
+</body>
+
+</html>

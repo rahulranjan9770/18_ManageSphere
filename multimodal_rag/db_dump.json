@@ -1,0 +1,140 @@
+{
+  "count": 9,
+  "data": [
+    {
+      "id": "41258a12-58fd-4bbe-bb80-d77d6bc4afe6",
+      "document": "Photosynthesis is the process by which plants convert light energy into chemical energy. It occurs in the chloroplasts of plant cells. The process requires sunlight, water, and carbon dioxide. The main products of photosynthesis are glucose and oxygen. The oxygen is released into the atmosphere. Photosynthesis is essential for life on Earth as it provides oxygen and is the basis of most food chains.",
+      "metadata": {
+        "modality": "text",
+        "chunk_index": "0",
+        "word_count": "64",
+        "encoding": "ascii",
+        "source_file": "2be32fd5-74b4-4669-8b6f-1844558abad3_test_document.txt",
+        "confidence": 1.0,
+        "timestamp": "2026-01-07T06:20:10.400164"
+      }
+    },
+    {
+      "id": "4b4aaea1-ddec-473d-a95f-061783098e8b",
+      "document": "During the meeting, it was discussed, discussed that the machines would be operated",
+      "metadata": {
+        "start_time": "0.0",
+        "compression_ratio": "1.416",
+        "modality": "audio",
+        "timestamp": "2026-01-07T06:20:17.703149",
+        "segment_id": "0",
+        "end_time": "6.8",
+        "audio_path": "C:\\Users\\Rahul kumar\\gita\\multimodal_rag\\data\\uploads\\1fe158a3-2050-44e8-a765-72e2149808fc_Recording.m4a",
+        "source_file": "1fe158a3-2050-44e8-a765-72e2149808fc_Recording.m4a",
+        "confidence": 0.4969235127177546,
+        "language": "en"
+      }
+    },
+    {
+      "id": "e6ed43a2-ebf3-4e6d-9c8c-7caaf797e674",
+      "document": "only between safe voltage limits, however, the exact voltage value was not clearly specified.",
+      "metadata": {
+        "modality": "audio",
+        "segment_id": "1",
+        "source_file": "1fe158a3-2050-44e8-a765-72e2149808fc_Recording.m4a",
+        "start_time": "6.8",
+        "end_time": "15.0",
+        "timestamp": "2026-01-07T06:20:17.703200",
+        "language": "en",
+        "audio_path": "C:\\Users\\Rahul kumar\\gita\\multimodal_rag\\data\\uploads\\1fe158a3-2050-44e8-a765-72e2149808fc_Recording.m4a",
+        "confidence": 0.4969235127177546,
+        "compression_ratio": "1.416"
+      }
+    },
+    {
+      "id": "69e98d56-f8c1-4736-a6c3-3541c85bda54",
+      "document": "During the meeting, it was discussed, discussed that the machines would be operated",
+      "metadata": {
+        "timestamp": "2026-01-07T06:28:05.399090",
+        "segment_id": "0",
+        "confidence": 0.4969235127177546,
+        "end_time": "6.8",
+        "language": "en",
+        "compression_ratio": "1.416",
+        "modality": "audio",
+        "audio_path": "C:\\Users\\Rahul kumar\\gita\\multimodal_rag\\data\\uploads\\3002b8c0-28d5-499d-aa26-2dab988bfac9_Recording.m4a",
+        "source_file": "3002b8c0-28d5-499d-aa26-2dab988bfac9_Recording.m4a",
+        "start_time": "0.0"
+      }
+    },
+    {
+      "id": "c55e5da0-489d-4c76-bcd9-6092197f0517",
+      "document": "only between safe voltage limits, however, the exact voltage value was not clearly specified.",
+      "metadata": {
+        "segment_id": "1",
+        "modality": "audio",
+        "confidence": 0.4969235127177546,
+        "source_file": "3002b8c0-28d5-499d-aa26-2dab988bfac9_Recording.m4a",
+        "compression_ratio": "1.416",
+        "language": "en",
+        "start_time": "6.8",
+        "timestamp": "2026-01-07T06:28:05.399163",
+        "audio_path": "C:\\Users\\Rahul kumar\\gita\\multimodal_rag\\data\\uploads\\3002b8c0-28d5-499d-aa26-2dab988bfac9_Recording.m4a",
+        "end_time": "15.0"
+      }
+    },
+    {
+      "id": "e40d6828-a541-4d82-9a76-ba0fede5e0b4",
+      "document": "Text extracted from e2ddcbed-03b7-4f00-b0e7-3d880d6e751e_label.png:\nMACHINE LABEL Voltage: 110v Manufactured: 2022",
+      "metadata": {
+        "source_file": "e2ddcbed-03b7-4f00-b0e7-3d880d6e751e_label.png",
+        "timestamp": "2026-01-07T06:37:24.077201",
+        "original_image_path": "C:\\Users\\Rahul kumar\\gita\\multimodal_rag\\data\\uploads\\e2ddcbed-03b7-4f00-b0e7-3d880d6e751e_label.png",
+        "is_ocr_extraction": "True",
+        "source_modality": "image",
+        "modality": "text",
+        "confidence": 0.95
+      }
+    },
+    {
+      "id": "e5c3d0d3-3fb6-4801-9252-f8c4dac8036c",
+      "document": "MACHINE SAFETY MANUAL This document describes the operational guidelines of the industrial machine. Operating Voltage: The standard operating voltage of the machine is 220V. Safety Instructions: - Always wear safety gloves while operating the machine. - Do not operate the machine in wet conditions. - Disconnect power supply before maintenance.",
+      "metadata": {
+        "chunk_index": "0",
+        "timestamp": "2026-01-07T06:37:35.640989",
+        "source_file": "0b271d4a-e4fa-4855-9d94-c0578f89c0e2_New Text Document.txt",
+        "encoding": "ascii",
+        "confidence": 1.0,
+        "word_count": "50",
+        "modality": "text"
+      }
+    },
+    {
+      "id": "a0ecaaa2-cb9a-43eb-b1fa-ea091824874a",
+      "document": "During the meeting, it was discussed, discussed that the machines would be operated",
+      "metadata": {
+        "segment_id": "0",
+        "audio_path": "C:\\Users\\Rahul kumar\\gita\\multimodal_rag\\data\\uploads\\8b7e3486-497e-4d8e-8e8c-b9034e6c0bd2_Recording.m4a",
+        "source_file": "8b7e3486-497e-4d8e-8e8c-b9034e6c0bd2_Recording.m4a",
+        "language": "en",
+        "modality": "audio",
+        "end_time": "6.8",
+        "confidence": 0.4969235127177546,
+        "start_time": "0.0",
+        "timestamp": "2026-01-07T06:39:57.963367",
+        "compression_ratio": "1.416"
+      }
+    },
+    {
+      "id": "7a67ac64-032e-4e54-bcd4-5ade6cdcca15",
+      "document": "only between safe voltage limits, however, the exact voltage value was not clearly specified.",
+      "metadata": {
+        "end_time": "15.0",
+        "source_file": "8b7e3486-497e-4d8e-8e8c-b9034e6c0bd2_Recording.m4a",
+        "audio_path": "C:\\Users\\Rahul kumar\\gita\\multimodal_rag\\data\\uploads\\8b7e3486-497e-4d8e-8e8c-b9034e6c0bd2_Recording.m4a",
+        "confidence": 0.4969235127177546,
+        "timestamp": "2026-01-07T06:39:57.963440",
+        "compression_ratio": "1.416",
+        "modality": "audio",
+        "start_time": "6.8",
+        "segment_id": "1",
+        "language": "en"
+      }
+    }
+  ]
+}

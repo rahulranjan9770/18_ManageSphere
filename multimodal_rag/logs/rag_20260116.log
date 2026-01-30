@@ -1,0 +1,10 @@
+2026-01-16 18:09:04,975 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-16 18:09:04,976 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-16 18:15:19,597 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is artificial intelligence? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-16 18:15:19,599 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is artificial i...' modality=Modality.TEXT
+2026-01-16 18:15:19,985 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.TEXT, k: 20)
+2026-01-16 18:15:19,985 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is artificial i...' modality=Modality.AUDIO
+2026-01-16 18:15:20,035 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 20)
+2026-01-16 18:15:20,036 - multimodal_rag - INFO - retrieve:89 - Retrieved 5 results across 2 modalities
+2026-01-16 18:15:20,039 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.786 | Sources: 5 | Reason: Avg relevance: 0.34; Avg source quality: 0.73; Unique sources: 3; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-16 18:15:20,749 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['4ec9a970-96d5-4b74-ba74-382243ebf88c', 'd1c9c3fb-9f79-4539-a176-dc49f143bf17'] | Details: 1 contradiction(s) detected between sources

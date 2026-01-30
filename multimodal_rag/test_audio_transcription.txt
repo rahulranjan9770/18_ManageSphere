@@ -1,0 +1,7 @@
+
+Hello, this is a test audio file for the Multimodal RAG System.
+This audio discusses the CHAKRAVYUH 1.0 Hackathon.
+CHAKRAVYUH is a national level hackathon happening on 30th and 31st January 2026.
+It's a 36-hour nonstop coding competition at GITA Autonomous College in Bhubaneshwar.
+The prize pool is one lakh rupees.
+This is a great opportunity for students to showcase their skills.

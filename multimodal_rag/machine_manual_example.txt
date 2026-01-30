@@ -1,0 +1,34 @@
+Machine Operating Manual
+
+How the Machine Works:
+
+This machine operates in three distinct steps to ensure efficient processing:
+
+Step 1: Power On
+Press and hold the power button for 3 seconds until the LED indicator turns green. Wait for the initialization sequence to complete (approximately 10 seconds).
+
+Step 2: Load Material
+Open the loading chamber by turning the handle clockwise. Place the material inside, ensuring it is properly aligned with the guide markers. Close the chamber securely.
+
+Step 3: Start Processing
+Press the START button. The machine will automatically process the material. The process typically takes 5-10 minutes depending on the material type.
+
+Safety Features:
+
+- Emergency Stop: Red button on the front panel
+- Overload Protection: Automatically shuts down if overheated
+- Safety Lock: Prevents operation when chamber is open
+
+Maintenance:
+
+Clean the machine weekly with a soft cloth. Do not use water or harsh chemicals. Lubricate moving parts monthly with provided lubricant.
+
+Troubleshooting:
+
+Problem: Machine won't start
+Solution: Check power connection and ensure chamber is properly closed
+
+Problem: Unusual noise during operation
+Solution: Stop the machine immediately and check for obstructions
+
+For technical support, contact: support@machine.com

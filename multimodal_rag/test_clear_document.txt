@@ -1,0 +1,9 @@
+This is a test document to verify the clear database functionality.
+
+The Multimodal RAG system allows users to upload documents and query them using AI.
+
+This test will demonstrate:
+1. Upload functionality
+2. Chunk creation
+3. Database clearing with notifications
+4. Toast notification system

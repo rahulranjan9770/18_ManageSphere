@@ -1,0 +1,33 @@
+2026-01-04 23:30:10,358 - multimodal_rag - INFO - __init__:26 - Connected to collection: multimodal_knowledge
+2026-01-04 23:32:03,991 - multimodal_rag - INFO - _process_pdf:64 - Processed PDF 73047762-e3aa-4828-9c04-7f2d5f236ad5_PS4_Multimodal_RAG_System_Challenge.pdf: 2 chunks
+2026-01-04 23:32:03,993 - multimodal_rag - INFO - _load_model:20 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-04 23:32:28,464 - multimodal_rag - INFO - embed_chunks:61 - Embedded 2 chunks: 2 text, 0 image, 0 audio
+2026-01-04 23:32:28,465 - multimodal_rag - ERROR - upload_file:137 - Upload error: 'str' object has no attribute 'value'
+2026-01-04 23:32:28,478 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is this document about? | Modalities: ['text'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Complex query detected, using k=20
+2026-01-04 23:32:28,578 - multimodal_rag - DEBUG - query:95 - Query returned 0 results (modality: Modality.TEXT, k: 20)
+2026-01-04 23:32:28,578 - multimodal_rag - INFO - retrieve:87 - Retrieved 0 results across 0 modalities
+2026-01-04 23:32:28,578 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: What is this document about? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-04 23:33:01,601 - multimodal_rag - INFO - _process_pdf:64 - Processed PDF 68bf9158-6315-49b8-95eb-e98089c76c33_rajkishore chapter 2.pdf: 2 chunks
+2026-01-04 23:33:01,900 - multimodal_rag - INFO - embed_chunks:61 - Embedded 2 chunks: 2 text, 0 image, 0 audio
+2026-01-04 23:33:01,903 - multimodal_rag - ERROR - upload_file:137 - Upload error: 'str' object has no attribute 'value'
+2026-01-04 23:33:18,770 - multimodal_rag - INFO - process_file:58 - Processed image 18b125a6-8732-4a46-82bc-196f5aed03e3_AI IMAGE.jpeg
+2026-01-04 23:33:18,770 - multimodal_rag - INFO - _load_model:23 - Loading image embedding model: openai/clip-vit-base-patch32
+2026-01-04 23:35:03,492 - multimodal_rag - INFO - embed_chunks:61 - Embedded 1 chunks: 0 text, 1 image, 0 audio
+2026-01-04 23:35:03,492 - multimodal_rag - ERROR - upload_file:137 - Upload error: 'str' object has no attribute 'value'
+2026-01-04 23:35:03,496 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is this document about? | Modalities: ['text'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Complex query detected, using k=20
+2026-01-04 23:35:03,546 - multimodal_rag - DEBUG - query:95 - Query returned 0 results (modality: Modality.TEXT, k: 20)
+2026-01-04 23:35:03,547 - multimodal_rag - INFO - retrieve:87 - Retrieved 0 results across 0 modalities
+2026-01-04 23:35:03,548 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: What is this document about? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-04 23:36:11,205 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: show me | Modalities: ['image'] | Top-K: 10 | Reason: Image keywords detected; Simple query, using k=10
+2026-01-04 23:36:11,578 - multimodal_rag - DEBUG - query:95 - Query returned 0 results (modality: Modality.IMAGE, k: 10)
+2026-01-04 23:36:11,579 - multimodal_rag - INFO - retrieve:87 - Retrieved 0 results across 0 modalities
+2026-01-04 23:36:11,579 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: show me | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-04 23:38:02,630 - multimodal_rag - INFO - _process_pdf:64 - Processed PDF 51edc384-d2c9-4607-80d4-833987f843f5_AICTE_Internship_Abstract_Mood_Generator.pdf: 1 chunks
+2026-01-04 23:38:02,827 - multimodal_rag - INFO - embed_chunks:61 - Embedded 1 chunks: 1 text, 0 image, 0 audio
+2026-01-04 23:38:02,827 - multimodal_rag - ERROR - upload_file:137 - Upload error: 'str' object has no attribute 'value'
+2026-01-04 23:39:06,545 - multimodal_rag - INFO - __init__:26 - Connected to collection: multimodal_knowledge
+2026-01-04 23:39:21,894 - multimodal_rag - INFO - __init__:26 - Connected to collection: multimodal_knowledge
+2026-01-04 23:40:43,500 - multimodal_rag - INFO - _process_pdf:64 - Processed PDF bb556dc6-d461-435e-90ad-25948f92ee71_rajkishore chapter 2.pdf: 2 chunks
+2026-01-04 23:40:43,501 - multimodal_rag - INFO - _load_model:20 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-04 23:40:52,120 - multimodal_rag - INFO - embed_chunks:61 - Embedded 2 chunks: 2 text, 0 image, 0 audio
+2026-01-04 23:40:52,121 - multimodal_rag - ERROR - upload_file:137 - Upload error: 'str' object has no attribute 'value'

@@ -1,0 +1,8 @@
+.notification-status {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-radius: 0.25rem;
+    white-space: nowrap;
+    color: white;
+}

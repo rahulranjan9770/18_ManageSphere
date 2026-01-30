@@ -1,0 +1,486 @@
+2026-01-07 05:52:57,368 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-07 05:52:57,369 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-07 05:53:32,283 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-07 05:53:32,284 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-07 05:54:26,982 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-07 05:54:26,983 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-07 05:54:57,492 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-07 05:54:57,492 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-07 05:55:59,362 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-07 05:55:59,362 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-07 05:56:31,972 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-07 05:56:31,973 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-07 05:56:51,632 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-07 05:56:51,632 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-07 05:57:20,553 - multimodal_rag - INFO - _process_txt:113 - Processed TXT 51f85513-b930-41cd-91f7-537da8a9fcd6_test_document.txt: 1 chunks
+2026-01-07 05:57:20,823 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-07 05:57:20,824 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed test_document.txt: 1 chunks in 0.30s
+2026-01-07 05:57:23,903 - multimodal_rag - INFO - _load_model:21 - Loading Whisper tiny model...
+2026-01-07 05:57:24,643 - multimodal_rag - INFO - _load_model:23 - Whisper model loaded successfully
+2026-01-07 05:57:24,644 - multimodal_rag - INFO - process_file:30 - Transcribing 972ea092-82c1-4932-ab35-4ff70b32eb54_Recording.m4a...
+2026-01-07 05:57:24,702 - multimodal_rag - WARNING - process_file:53 - Enhanced transcription failed, using fallback: [WinError 2] The system cannot find the file specified
+2026-01-07 05:57:24,727 - multimodal_rag - ERROR - process_file:140 - Failed to process audio data\uploads\972ea092-82c1-4932-ab35-4ff70b32eb54_Recording.m4a: [WinError 2] The system cannot find the file specified
+2026-01-07 05:57:24,728 - multimodal_rag - WARNING - add_chunks:42 - No chunks with embeddings to add
+2026-01-07 05:57:24,728 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed Recording.m4a: 0 chunks in 0.83s
+2026-01-07 05:57:29,798 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is photosynthesis? | Modalities: ['image'] | Top-K: 20 | Reason: Image keywords detected; Complex query detected, using k=20
+2026-01-07 05:57:29,842 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.IMAGE, k: 20)
+2026-01-07 05:57:29,842 - multimodal_rag - INFO - retrieve:89 - Retrieved 0 results across 0 modalities
+2026-01-07 05:57:29,842 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: What is photosynthesis? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-07 05:57:31,915 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What does the audio talk about? | Modalities: ['audio'] | Top-K: 20 | Reason: Audio keywords detected; Complex query detected, using k=20
+2026-01-07 05:57:31,920 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.AUDIO, k: 20)
+2026-01-07 05:57:31,920 - multimodal_rag - INFO - retrieve:89 - Retrieved 0 results across 0 modalities
+2026-01-07 05:57:31,921 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: What does the audio talk about? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-07 05:58:42,772 - multimodal_rag - INFO - _process_txt:113 - Processed TXT e73e6900-e1fe-4c5b-9f4a-e1d390e2a445_test_document.txt: 1 chunks
+2026-01-07 05:58:42,875 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-07 05:58:42,876 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed test_document.txt: 1 chunks in 0.11s
+2026-01-07 05:58:44,919 - multimodal_rag - INFO - process_file:30 - Transcribing db1bdc80-256a-417c-97e1-c774771322e0_Recording.m4a...
+2026-01-07 05:58:44,937 - multimodal_rag - WARNING - process_file:53 - Enhanced transcription failed, using fallback: [WinError 2] The system cannot find the file specified
+2026-01-07 05:58:44,953 - multimodal_rag - ERROR - process_file:140 - Failed to process audio data\uploads\db1bdc80-256a-417c-97e1-c774771322e0_Recording.m4a: [WinError 2] The system cannot find the file specified
+2026-01-07 05:58:44,953 - multimodal_rag - WARNING - add_chunks:42 - No chunks with embeddings to add
+2026-01-07 05:58:44,954 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed Recording.m4a: 0 chunks in 0.04s
+2026-01-07 05:58:46,990 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is photosynthesis? | Modalities: ['image'] | Top-K: 20 | Reason: Image keywords detected; Complex query detected, using k=20
+2026-01-07 05:58:47,002 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.IMAGE, k: 20)
+2026-01-07 05:58:47,002 - multimodal_rag - INFO - retrieve:89 - Retrieved 0 results across 0 modalities
+2026-01-07 05:58:47,003 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: What is photosynthesis? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-07 05:58:49,025 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What does the recording say? | Modalities: ['audio'] | Top-K: 20 | Reason: Audio keywords detected; Complex query detected, using k=20
+2026-01-07 05:58:49,028 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.AUDIO, k: 20)
+2026-01-07 05:58:49,028 - multimodal_rag - INFO - retrieve:89 - Retrieved 0 results across 0 modalities
+2026-01-07 05:58:49,029 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: What does the recording say? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-07 05:59:10,212 - multimodal_rag - INFO - _process_txt:113 - Processed TXT 62ac2d61-e6e6-49d6-9059-c4c6d9ead5c7_test_document.txt: 1 chunks
+2026-01-07 05:59:10,303 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-07 05:59:10,303 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed test_document.txt: 1 chunks in 0.10s
+2026-01-07 05:59:12,344 - multimodal_rag - INFO - process_file:30 - Transcribing 0c543a6e-e351-4b8d-92ae-8df41b1a9a75_Recording.m4a...
+2026-01-07 05:59:12,361 - multimodal_rag - WARNING - process_file:53 - Enhanced transcription failed, using fallback: [WinError 2] The system cannot find the file specified
+2026-01-07 05:59:12,379 - multimodal_rag - ERROR - process_file:140 - Failed to process audio data\uploads\0c543a6e-e351-4b8d-92ae-8df41b1a9a75_Recording.m4a: [WinError 2] The system cannot find the file specified
+2026-01-07 05:59:12,380 - multimodal_rag - WARNING - add_chunks:42 - No chunks with embeddings to add
+2026-01-07 05:59:12,380 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed Recording.m4a: 0 chunks in 0.04s
+2026-01-07 05:59:14,421 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is photosynthesis? | Modalities: ['image'] | Top-K: 20 | Reason: Image keywords detected; Complex query detected, using k=20
+2026-01-07 05:59:14,425 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.IMAGE, k: 20)
+2026-01-07 05:59:14,425 - multimodal_rag - INFO - retrieve:89 - Retrieved 0 results across 0 modalities
+2026-01-07 05:59:14,425 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: What is photosynthesis? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-07 05:59:16,451 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What does the recording say? | Modalities: ['audio'] | Top-K: 20 | Reason: Audio keywords detected; Complex query detected, using k=20
+2026-01-07 05:59:16,455 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.AUDIO, k: 20)
+2026-01-07 05:59:16,455 - multimodal_rag - INFO - retrieve:89 - Retrieved 0 results across 0 modalities
+2026-01-07 05:59:16,455 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: What does the recording say? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-07 06:00:25,635 - multimodal_rag - WARNING - reset:134 - Vector store reset
+2026-01-07 06:00:29,676 - multimodal_rag - INFO - _process_txt:113 - Processed TXT ecf4e825-d85b-412e-b86d-2d911cd6e80d_test_document.txt: 1 chunks
+2026-01-07 06:00:29,831 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-07 06:00:29,832 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed test_document.txt: 1 chunks in 0.16s
+2026-01-07 06:00:31,870 - multimodal_rag - INFO - process_file:30 - Transcribing 038f05b6-13ab-4fcc-adc4-bbda02ba7683_Recording.m4a...
+2026-01-07 06:00:31,881 - multimodal_rag - WARNING - process_file:53 - Enhanced transcription failed, using fallback: [WinError 2] The system cannot find the file specified
+2026-01-07 06:00:31,893 - multimodal_rag - ERROR - process_file:140 - Failed to process audio data\uploads\038f05b6-13ab-4fcc-adc4-bbda02ba7683_Recording.m4a: [WinError 2] The system cannot find the file specified
+2026-01-07 06:00:31,893 - multimodal_rag - WARNING - add_chunks:42 - No chunks with embeddings to add
+2026-01-07 06:00:31,894 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed Recording.m4a: 0 chunks in 0.02s
+2026-01-07 06:00:35,972 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is photosynthesis and why is it important? | Modalities: ['image'] | Top-K: 20 | Reason: Image keywords detected; Complex query detected, using k=20
+2026-01-07 06:00:35,990 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.IMAGE, k: 20)
+2026-01-07 06:00:35,990 - multimodal_rag - INFO - retrieve:89 - Retrieved 0 results across 0 modalities
+2026-01-07 06:00:35,990 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: What is photosynthesis and why is it important? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-07 06:00:38,028 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is discussed in the audio recording? | Modalities: ['audio'] | Top-K: 20 | Reason: Audio keywords detected; Complex query detected, using k=20
+2026-01-07 06:00:38,032 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.AUDIO, k: 20)
+2026-01-07 06:00:38,032 - multimodal_rag - INFO - retrieve:89 - Retrieved 0 results across 0 modalities
+2026-01-07 06:00:38,032 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: What is discussed in the audio recording? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-07 06:00:51,627 - multimodal_rag - WARNING - reset:134 - Vector store reset
+2026-01-07 06:01:21,452 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is photosynthesis? | Modalities: ['image'] | Top-K: 20 | Reason: Image keywords detected; Complex query detected, using k=20
+2026-01-07 06:01:21,474 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.IMAGE, k: 20)
+2026-01-07 06:01:21,475 - multimodal_rag - INFO - retrieve:89 - Retrieved 0 results across 0 modalities
+2026-01-07 06:01:21,475 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: What is photosynthesis? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-07 06:01:23,501 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What does the recording discuss? | Modalities: ['audio'] | Top-K: 20 | Reason: Audio keywords detected; Complex query detected, using k=20
+2026-01-07 06:01:23,504 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.AUDIO, k: 20)
+2026-01-07 06:01:23,504 - multimodal_rag - INFO - retrieve:89 - Retrieved 0 results across 0 modalities
+2026-01-07 06:01:23,504 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: What does the recording discuss? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-07 06:01:55,967 - multimodal_rag - INFO - _process_txt:113 - Processed TXT 15b3a1f5-1016-49e3-ba44-31f5716fa836_test_document.txt: 1 chunks
+2026-01-07 06:01:56,100 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-07 06:01:56,101 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed test_document.txt: 1 chunks in 0.14s
+2026-01-07 06:02:12,525 - multimodal_rag - INFO - process_file:30 - Transcribing 2413586f-596f-4b5c-990c-8669c85327ec_Recording.m4a...
+2026-01-07 06:02:12,538 - multimodal_rag - WARNING - process_file:53 - Enhanced transcription failed, using fallback: [WinError 2] The system cannot find the file specified
+2026-01-07 06:02:12,556 - multimodal_rag - ERROR - process_file:140 - Failed to process audio data\uploads\2413586f-596f-4b5c-990c-8669c85327ec_Recording.m4a: [WinError 2] The system cannot find the file specified
+2026-01-07 06:02:12,557 - multimodal_rag - WARNING - add_chunks:42 - No chunks with embeddings to add
+2026-01-07 06:02:12,558 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed Recording.m4a: 0 chunks in 0.03s
+2026-01-07 06:03:08,101 - multimodal_rag - INFO - _load_model:21 - Loading Whisper tiny model...
+2026-01-07 06:03:08,642 - multimodal_rag - INFO - _load_model:23 - Whisper model loaded successfully
+2026-01-07 06:03:08,642 - multimodal_rag - INFO - process_file:30 - Transcribing Recording.m4a...
+2026-01-07 06:03:08,668 - multimodal_rag - WARNING - process_file:53 - Enhanced transcription failed, using fallback: [WinError 2] The system cannot find the file specified
+2026-01-07 06:03:08,680 - multimodal_rag - ERROR - process_file:140 - Failed to process audio Recording.m4a: [WinError 2] The system cannot find the file specified
+2026-01-07 06:03:21,585 - multimodal_rag - INFO - _load_model:21 - Loading Whisper tiny model...
+2026-01-07 06:03:21,994 - multimodal_rag - INFO - _load_model:23 - Whisper model loaded successfully
+2026-01-07 06:03:21,994 - multimodal_rag - INFO - process_file:30 - Transcribing Recording.m4a...
+2026-01-07 06:03:22,007 - multimodal_rag - WARNING - process_file:53 - Enhanced transcription failed, using fallback: [WinError 2] The system cannot find the file specified
+2026-01-07 06:03:22,020 - multimodal_rag - ERROR - process_file:140 - Failed to process audio Recording.m4a: [WinError 2] The system cannot find the file specified
+2026-01-07 06:03:33,734 - multimodal_rag - INFO - _load_model:21 - Loading Whisper tiny model...
+2026-01-07 06:03:34,161 - multimodal_rag - INFO - _load_model:23 - Whisper model loaded successfully
+2026-01-07 06:03:34,161 - multimodal_rag - INFO - process_file:30 - Transcribing Recording.m4a...
+2026-01-07 06:03:34,178 - multimodal_rag - WARNING - process_file:53 - Enhanced transcription failed, using fallback: [WinError 2] The system cannot find the file specified
+2026-01-07 06:03:34,194 - multimodal_rag - ERROR - process_file:140 - Failed to process audio Recording.m4a: [WinError 2] The system cannot find the file specified
+2026-01-07 06:03:57,607 - multimodal_rag - INFO - _load_model:21 - Loading Whisper tiny model...
+2026-01-07 06:03:58,021 - multimodal_rag - INFO - _load_model:23 - Whisper model loaded successfully
+2026-01-07 06:03:58,021 - multimodal_rag - INFO - process_file:30 - Transcribing Recording.m4a...
+2026-01-07 06:03:58,035 - multimodal_rag - WARNING - process_file:53 - Enhanced transcription failed, using fallback: [WinError 2] The system cannot find the file specified
+2026-01-07 06:03:58,053 - multimodal_rag - ERROR - process_file:140 - Failed to process audio Recording.m4a: [WinError 2] The system cannot find the file specified
+2026-01-07 06:10:05,361 - multimodal_rag - INFO - _load_model:21 - Loading Whisper tiny model...
+2026-01-07 06:10:05,853 - multimodal_rag - INFO - _load_model:23 - Whisper model loaded successfully
+2026-01-07 06:10:05,853 - multimodal_rag - INFO - process_file:30 - Transcribing Recording.m4a...
+2026-01-07 06:10:09,298 - multimodal_rag - INFO - process_file:132 - Transcribed Recording.m4a: 2 segments, 177 chars, confidence: 0.50
+2026-01-07 06:10:29,353 - multimodal_rag - INFO - _load_model:21 - Loading Whisper tiny model...
+2026-01-07 06:10:29,764 - multimodal_rag - INFO - _load_model:23 - Whisper model loaded successfully
+2026-01-07 06:10:29,764 - multimodal_rag - INFO - process_file:30 - Transcribing Recording.m4a...
+2026-01-07 06:10:32,786 - multimodal_rag - INFO - process_file:132 - Transcribed Recording.m4a: 2 segments, 177 chars, confidence: 0.50
+2026-01-07 06:11:19,620 - multimodal_rag - WARNING - reset:134 - Vector store reset
+2026-01-07 06:11:21,657 - multimodal_rag - INFO - _process_txt:113 - Processed TXT 8ec0bc52-19a6-4ced-8b01-07bf6e9c89d7_test_document.txt: 1 chunks
+2026-01-07 06:11:21,828 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-07 06:11:21,828 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed test_document.txt: 1 chunks in 0.18s
+2026-01-07 06:11:23,905 - multimodal_rag - INFO - process_file:30 - Transcribing 2b3564ca-5488-4d81-8364-1af5a68b2fbe_Recording.m4a...
+2026-01-07 06:11:23,921 - multimodal_rag - WARNING - process_file:53 - Enhanced transcription failed, using fallback: [WinError 2] The system cannot find the file specified
+2026-01-07 06:11:23,936 - multimodal_rag - ERROR - process_file:140 - Failed to process audio data\uploads\2b3564ca-5488-4d81-8364-1af5a68b2fbe_Recording.m4a: [WinError 2] The system cannot find the file specified
+2026-01-07 06:11:23,936 - multimodal_rag - WARNING - add_chunks:42 - No chunks with embeddings to add
+2026-01-07 06:11:23,937 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed Recording.m4a: 0 chunks in 0.03s
+2026-01-07 06:11:28,018 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is photosynthesis? | Modalities: ['image'] | Top-K: 20 | Reason: Image keywords detected; Complex query detected, using k=20
+2026-01-07 06:11:28,049 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.IMAGE, k: 20)
+2026-01-07 06:11:28,049 - multimodal_rag - INFO - retrieve:89 - Retrieved 0 results across 0 modalities
+2026-01-07 06:11:28,050 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: What is photosynthesis? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-07 06:11:30,064 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What does the audio recording say? | Modalities: ['audio'] | Top-K: 20 | Reason: Audio keywords detected; Complex query detected, using k=20
+2026-01-07 06:11:30,068 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.AUDIO, k: 20)
+2026-01-07 06:11:30,068 - multimodal_rag - INFO - retrieve:89 - Retrieved 0 results across 0 modalities
+2026-01-07 06:11:30,069 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: What does the audio recording say? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-07 06:12:04,410 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-07 06:12:04,410 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-07 06:12:33,646 - multimodal_rag - WARNING - reset:134 - Vector store reset
+2026-01-07 06:12:35,705 - multimodal_rag - INFO - _process_txt:113 - Processed TXT 922ca96f-4f91-44bc-94bf-34fb0d276d8b_test_document.txt: 1 chunks
+2026-01-07 06:12:35,874 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-07 06:12:35,875 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed test_document.txt: 1 chunks in 0.19s
+2026-01-07 06:12:37,905 - multimodal_rag - INFO - _load_model:21 - Loading Whisper tiny model...
+2026-01-07 06:12:38,488 - multimodal_rag - INFO - _load_model:23 - Whisper model loaded successfully
+2026-01-07 06:12:38,489 - multimodal_rag - INFO - process_file:30 - Transcribing f1acf981-da12-4cf5-bc27-857367e9534d_Recording.m4a...
+2026-01-07 06:12:42,092 - multimodal_rag - INFO - process_file:132 - Transcribed f1acf981-da12-4cf5-bc27-857367e9534d_Recording.m4a: 2 segments, 177 chars, confidence: 0.50
+2026-01-07 06:12:42,092 - multimodal_rag - WARNING - add_chunks:42 - No chunks with embeddings to add
+2026-01-07 06:12:42,093 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed Recording.m4a: 0 chunks in 4.19s
+2026-01-07 06:12:46,218 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is photosynthesis? | Modalities: ['image'] | Top-K: 20 | Reason: Image keywords detected; Complex query detected, using k=20
+2026-01-07 06:12:46,243 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.IMAGE, k: 20)
+2026-01-07 06:12:46,243 - multimodal_rag - INFO - retrieve:89 - Retrieved 0 results across 0 modalities
+2026-01-07 06:12:46,243 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: What is photosynthesis? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-07 06:12:48,286 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What does the audio recording say? | Modalities: ['audio'] | Top-K: 20 | Reason: Audio keywords detected; Complex query detected, using k=20
+2026-01-07 06:12:48,290 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.AUDIO, k: 20)
+2026-01-07 06:12:48,290 - multimodal_rag - INFO - retrieve:89 - Retrieved 0 results across 0 modalities
+2026-01-07 06:12:48,291 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: What does the audio recording say? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-07 06:13:03,256 - multimodal_rag - WARNING - reset:134 - Vector store reset
+2026-01-07 06:13:05,298 - multimodal_rag - INFO - _process_txt:113 - Processed TXT daf13b1e-c35f-4bfd-8e32-c8783da15685_test_document.txt: 1 chunks
+2026-01-07 06:13:05,457 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-07 06:13:05,457 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed test_document.txt: 1 chunks in 0.16s
+2026-01-07 06:13:07,517 - multimodal_rag - INFO - process_file:30 - Transcribing 6ecabe8c-e569-472d-84f0-2a049af13e4a_Recording.m4a...
+2026-01-07 06:13:10,893 - multimodal_rag - INFO - process_file:132 - Transcribed 6ecabe8c-e569-472d-84f0-2a049af13e4a_Recording.m4a: 2 segments, 177 chars, confidence: 0.50
+2026-01-07 06:13:10,894 - multimodal_rag - WARNING - add_chunks:42 - No chunks with embeddings to add
+2026-01-07 06:13:10,894 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed Recording.m4a: 0 chunks in 3.38s
+2026-01-07 06:13:14,968 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is photosynthesis? | Modalities: ['image'] | Top-K: 20 | Reason: Image keywords detected; Complex query detected, using k=20
+2026-01-07 06:13:14,998 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.IMAGE, k: 20)
+2026-01-07 06:13:14,999 - multimodal_rag - INFO - retrieve:89 - Retrieved 0 results across 0 modalities
+2026-01-07 06:13:15,000 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: What is photosynthesis? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-07 06:13:17,047 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What does the audio recording say? | Modalities: ['audio'] | Top-K: 20 | Reason: Audio keywords detected; Complex query detected, using k=20
+2026-01-07 06:13:17,056 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.AUDIO, k: 20)
+2026-01-07 06:13:17,056 - multimodal_rag - INFO - retrieve:89 - Retrieved 0 results across 0 modalities
+2026-01-07 06:13:17,058 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: What does the audio recording say? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-07 06:14:13,726 - multimodal_rag - INFO - process_file:30 - Transcribing ab1ed101-35af-4c83-840e-2d051fd90b9f_Recording.m4a...
+2026-01-07 06:14:16,999 - multimodal_rag - INFO - process_file:132 - Transcribed ab1ed101-35af-4c83-840e-2d051fd90b9f_Recording.m4a: 2 segments, 177 chars, confidence: 0.50
+2026-01-07 06:14:17,000 - multimodal_rag - WARNING - add_chunks:42 - No chunks with embeddings to add
+2026-01-07 06:14:17,000 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed Recording.m4a: 0 chunks in 3.28s
+2026-01-07 06:14:34,270 - multimodal_rag - INFO - process_file:30 - Transcribing dd369456-5e96-4f36-8d00-df61562ef0a8_Recording.m4a...
+2026-01-07 06:14:37,288 - multimodal_rag - INFO - process_file:132 - Transcribed dd369456-5e96-4f36-8d00-df61562ef0a8_Recording.m4a: 2 segments, 177 chars, confidence: 0.50
+2026-01-07 06:14:37,288 - multimodal_rag - WARNING - add_chunks:42 - No chunks with embeddings to add
+2026-01-07 06:14:37,288 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed Recording.m4a: 0 chunks in 3.02s
+2026-01-07 06:15:56,115 - multimodal_rag - WARNING - reset:134 - Vector store reset
+2026-01-07 06:15:58,147 - multimodal_rag - INFO - process_file:30 - Transcribing 9d221efe-f8e5-46be-aa7a-c6b7c24f301a_Recording.m4a...
+2026-01-07 06:16:01,410 - multimodal_rag - INFO - process_file:132 - Transcribed 9d221efe-f8e5-46be-aa7a-c6b7c24f301a_Recording.m4a: 2 segments, 177 chars, confidence: 0.50
+2026-01-07 06:16:01,411 - multimodal_rag - WARNING - add_chunks:42 - No chunks with embeddings to add
+2026-01-07 06:16:01,411 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed Recording.m4a: 0 chunks in 3.27s
+2026-01-07 06:17:22,128 - multimodal_rag - WARNING - reset:134 - Vector store reset
+2026-01-07 06:17:24,165 - multimodal_rag - INFO - process_file:30 - Transcribing 41e77a2b-f84c-4ccc-805c-4626d2f38257_Recording.m4a...
+2026-01-07 06:17:27,311 - multimodal_rag - INFO - process_file:132 - Transcribed 41e77a2b-f84c-4ccc-805c-4626d2f38257_Recording.m4a: 2 segments, 177 chars, confidence: 0.50
+2026-01-07 06:17:27,312 - multimodal_rag - WARNING - add_chunks:42 - No chunks with embeddings to add
+2026-01-07 06:17:27,312 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed Recording.m4a: 0 chunks in 3.15s
+2026-01-07 06:18:03,499 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-07 06:18:03,500 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-07 06:18:28,571 - multimodal_rag - WARNING - reset:134 - Vector store reset
+2026-01-07 06:18:30,608 - multimodal_rag - INFO - _load_model:21 - Loading Whisper tiny model...
+2026-01-07 06:18:31,316 - multimodal_rag - INFO - _load_model:23 - Whisper model loaded successfully
+2026-01-07 06:18:31,317 - multimodal_rag - INFO - process_file:30 - Transcribing 5a166d2d-3c4f-4da3-bc5f-b72a35198299_Recording.m4a...
+2026-01-07 06:18:34,599 - multimodal_rag - INFO - process_file:132 - Transcribed 5a166d2d-3c4f-4da3-bc5f-b72a35198299_Recording.m4a: 2 segments, 177 chars, confidence: 0.50
+2026-01-07 06:18:34,732 - multimodal_rag - INFO - add_chunks:67 - Added 2 chunks to vector store
+2026-01-07 06:18:34,732 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed Recording.m4a: 2 chunks in 4.13s
+2026-01-07 06:18:48,011 - multimodal_rag - WARNING - reset:134 - Vector store reset
+2026-01-07 06:18:50,061 - multimodal_rag - INFO - _process_txt:113 - Processed TXT ea9f1a06-8817-493b-82a5-e3956c1563f3_test_document.txt: 1 chunks
+2026-01-07 06:18:50,200 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-07 06:18:50,201 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed test_document.txt: 1 chunks in 0.16s
+2026-01-07 06:18:52,234 - multimodal_rag - INFO - process_file:30 - Transcribing ac3e67ab-6091-4716-9e4a-fc391a8e4df7_Recording.m4a...
+2026-01-07 06:18:55,532 - multimodal_rag - INFO - process_file:132 - Transcribed ac3e67ab-6091-4716-9e4a-fc391a8e4df7_Recording.m4a: 2 segments, 177 chars, confidence: 0.50
+2026-01-07 06:18:55,584 - multimodal_rag - INFO - add_chunks:67 - Added 2 chunks to vector store
+2026-01-07 06:18:55,585 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed Recording.m4a: 2 chunks in 3.35s
+2026-01-07 06:18:59,647 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is photosynthesis? | Modalities: ['image'] | Top-K: 20 | Reason: Image keywords detected; Complex query detected, using k=20
+2026-01-07 06:18:59,671 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.IMAGE, k: 20)
+2026-01-07 06:18:59,671 - multimodal_rag - INFO - retrieve:89 - Retrieved 0 results across 0 modalities
+2026-01-07 06:18:59,671 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: What is photosynthesis? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-07 06:19:01,711 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What does the audio recording say? | Modalities: ['audio'] | Top-K: 20 | Reason: Audio keywords detected; Complex query detected, using k=20
+2026-01-07 06:19:01,732 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.AUDIO, k: 20)
+2026-01-07 06:19:01,733 - multimodal_rag - INFO - retrieve:89 - Retrieved 2 results across 1 modalities
+2026-01-07 06:19:01,733 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.548 | Sources: 2 | Reason: Avg relevance: 0.50; Avg source quality: 0.50; Unique sources: 1; Modalities: 1
+2026-01-07 06:20:08,317 - multimodal_rag - WARNING - reset:134 - Vector store reset
+2026-01-07 06:20:10,400 - multimodal_rag - INFO - _process_txt:113 - Processed TXT 2be32fd5-74b4-4669-8b6f-1844558abad3_test_document.txt: 1 chunks
+2026-01-07 06:20:10,824 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-07 06:20:10,825 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed test_document.txt: 1 chunks in 0.45s
+2026-01-07 06:20:12,902 - multimodal_rag - INFO - process_file:30 - Transcribing 1fe158a3-2050-44e8-a765-72e2149808fc_Recording.m4a...
+2026-01-07 06:20:17,703 - multimodal_rag - INFO - process_file:132 - Transcribed 1fe158a3-2050-44e8-a765-72e2149808fc_Recording.m4a: 2 segments, 177 chars, confidence: 0.50
+2026-01-07 06:20:17,761 - multimodal_rag - INFO - add_chunks:67 - Added 2 chunks to vector store
+2026-01-07 06:20:17,762 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed Recording.m4a: 2 chunks in 4.87s
+2026-01-07 06:20:21,854 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is photosynthesis? | Modalities: ['image'] | Top-K: 20 | Reason: Image keywords detected; Complex query detected, using k=20
+2026-01-07 06:20:21,900 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.IMAGE, k: 20)
+2026-01-07 06:20:21,901 - multimodal_rag - INFO - retrieve:89 - Retrieved 0 results across 0 modalities
+2026-01-07 06:20:21,904 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: What is photosynthesis? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-07 06:20:23,955 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What was said in the recording? | Modalities: ['audio'] | Top-K: 20 | Reason: Audio keywords detected; Complex query detected, using k=20
+2026-01-07 06:20:23,964 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.AUDIO, k: 20)
+2026-01-07 06:20:23,965 - multimodal_rag - INFO - retrieve:89 - Retrieved 2 results across 1 modalities
+2026-01-07 06:20:23,971 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.548 | Sources: 2 | Reason: Avg relevance: 0.50; Avg source quality: 0.50; Unique sources: 1; Modalities: 1
+2026-01-07 06:26:31,744 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what was discussed in the meeting? | Modalities: ['text'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Complex query detected, using k=20
+2026-01-07 06:26:32,144 - multimodal_rag - DEBUG - query:97 - Query returned 1 results (modality: Modality.TEXT, k: 20)
+2026-01-07 06:26:32,146 - multimodal_rag - INFO - retrieve:89 - Retrieved 1 results across 1 modalities
+2026-01-07 06:26:32,150 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.723 | Sources: 1 | Reason: Avg relevance: 0.35; Avg source quality: 1.00; Unique sources: 1; Modalities: 1
+2026-01-07 06:28:00,611 - multimodal_rag - INFO - process_file:30 - Transcribing 3002b8c0-28d5-499d-aa26-2dab988bfac9_Recording.m4a...
+2026-01-07 06:28:05,399 - multimodal_rag - INFO - process_file:132 - Transcribed 3002b8c0-28d5-499d-aa26-2dab988bfac9_Recording.m4a: 2 segments, 177 chars, confidence: 0.50
+2026-01-07 06:28:05,579 - multimodal_rag - INFO - add_chunks:67 - Added 2 chunks to vector store
+2026-01-07 06:28:05,579 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed Recording.m4a: 2 chunks in 4.98s
+2026-01-07 06:28:08,871 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what was discussed in the meeting? | Modalities: ['text'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Complex query detected, using k=20
+2026-01-07 06:28:08,928 - multimodal_rag - DEBUG - query:97 - Query returned 1 results (modality: Modality.TEXT, k: 20)
+2026-01-07 06:28:08,928 - multimodal_rag - INFO - retrieve:89 - Retrieved 1 results across 1 modalities
+2026-01-07 06:28:08,929 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.723 | Sources: 1 | Reason: Avg relevance: 0.35; Avg source quality: 1.00; Unique sources: 1; Modalities: 1
+2026-01-07 06:33:45,231 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What are the voltage limits for machine operation? | Modalities: ['text'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Complex query detected, using k=20
+2026-01-07 06:33:45,666 - multimodal_rag - DEBUG - query:97 - Query returned 1 results (modality: Modality.TEXT, k: 20)
+2026-01-07 06:33:45,669 - multimodal_rag - INFO - retrieve:89 - Retrieved 1 results across 1 modalities
+2026-01-07 06:33:45,674 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.718 | Sources: 1 | Reason: Avg relevance: 0.34; Avg source quality: 1.00; Unique sources: 1; Modalities: 1
+2026-01-07 06:34:31,316 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: recording audio transcript | Modalities: ['audio'] | Top-K: 10 | Reason: Audio keywords detected; Simple query, using k=10
+2026-01-07 06:34:31,383 - multimodal_rag - DEBUG - query:97 - Query returned 4 results (modality: Modality.AUDIO, k: 10)
+2026-01-07 06:34:31,384 - multimodal_rag - INFO - retrieve:89 - Retrieved 2 results across 1 modalities
+2026-01-07 06:34:31,387 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.548 | Sources: 2 | Reason: Avg relevance: 0.50; Avg source quality: 0.50; Unique sources: 1; Modalities: 1
+2026-01-07 06:37:14,464 - multimodal_rag - INFO - _load_ocr:25 - Loading EasyOCR reader for English...
+2026-01-07 06:37:17,517 - multimodal_rag - INFO - _load_ocr:27 - EasyOCR loaded successfully
+2026-01-07 06:37:24,071 - multimodal_rag - INFO - _extract_text_ocr:141 - OCR extracted 46 characters from e2ddcbed-03b7-4f00-b0e7-3d880d6e751e_label.png
+2026-01-07 06:37:24,077 - multimodal_rag - INFO - process_file:114 - Created OCR text chunk for e2ddcbed-03b7-4f00-b0e7-3d880d6e751e_label.png (46 chars)
+2026-01-07 06:37:24,356 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-07 06:37:24,357 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed label.png: 1 chunks in 11.71s
+2026-01-07 06:37:35,641 - multimodal_rag - INFO - _process_txt:113 - Processed TXT 0b271d4a-e4fa-4855-9d94-c0578f89c0e2_New Text Document.txt: 1 chunks
+2026-01-07 06:37:35,730 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-07 06:37:35,731 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed New Text Document.txt: 1 chunks in 0.13s
+2026-01-07 06:37:40,072 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what was discussed in the meeting? | Modalities: ['text'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Complex query detected, using k=20
+2026-01-07 06:37:40,154 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.TEXT, k: 20)
+2026-01-07 06:37:40,154 - multimodal_rag - INFO - retrieve:89 - Retrieved 3 results across 1 modalities
+2026-01-07 06:37:40,155 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.811 | Sources: 3 | Reason: Avg relevance: 0.34; Avg source quality: 0.98; Unique sources: 3; Modalities: 1
+2026-01-07 06:37:40,407 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['e40d6828-a541-4d82-9a76-ba0fede5e0b4', 'e5c3d0d3-3fb6-4801-9252-f8c4dac8036c'] | Details: 1 contradiction(s) detected between sources
+2026-01-07 06:39:53,247 - multimodal_rag - INFO - process_file:30 - Transcribing 8b7e3486-497e-4d8e-8e8c-b9034e6c0bd2_Recording.m4a...
+2026-01-07 06:39:57,963 - multimodal_rag - INFO - process_file:132 - Transcribed 8b7e3486-497e-4d8e-8e8c-b9034e6c0bd2_Recording.m4a: 2 segments, 177 chars, confidence: 0.50
+2026-01-07 06:39:58,028 - multimodal_rag - INFO - add_chunks:67 - Added 2 chunks to vector store
+2026-01-07 06:39:58,029 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed Recording.m4a: 2 chunks in 4.79s
+2026-01-07 06:40:04,575 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what was discussed in the meeting? | Modalities: ['text'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Complex query detected, using k=20
+2026-01-07 06:40:04,627 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.TEXT, k: 20)
+2026-01-07 06:40:04,628 - multimodal_rag - INFO - retrieve:89 - Retrieved 3 results across 1 modalities
+2026-01-07 06:40:04,630 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.811 | Sources: 3 | Reason: Avg relevance: 0.34; Avg source quality: 0.98; Unique sources: 3; Modalities: 1
+2026-01-07 06:40:04,927 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['e40d6828-a541-4d82-9a76-ba0fede5e0b4', 'e5c3d0d3-3fb6-4801-9252-f8c4dac8036c'] | Details: 1 contradiction(s) detected between sources
+2026-01-07 06:43:34,654 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: everything in the database audio recording meeting machine voltage | Modalities: ['audio'] | Top-K: 10 | Reason: Audio keywords detected; Simple query, using k=10
+2026-01-07 06:43:34,660 - multimodal_rag - DEBUG - query:97 - Query returned 6 results (modality: Modality.AUDIO, k: 10)
+2026-01-07 06:43:34,661 - multimodal_rag - INFO - retrieve:89 - Retrieved 2 results across 1 modalities
+2026-01-07 06:43:34,661 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.548 | Sources: 2 | Reason: Avg relevance: 0.50; Avg source quality: 0.50; Unique sources: 1; Modalities: 1
+2026-01-07 06:46:26,524 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-07 06:46:26,524 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-07 06:49:23,508 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-07 06:49:23,509 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-07 06:49:43,590 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what was discussed in the meeting regarding machine safety? | Modalities: ['audio'] | Top-K: 20 | Reason: Audio keywords detected; Complex query detected, using k=20
+2026-01-07 06:49:43,877 - multimodal_rag - DEBUG - query:97 - Query returned 6 results (modality: Modality.AUDIO, k: 20)
+2026-01-07 06:49:43,877 - multimodal_rag - INFO - retrieve:89 - Retrieved 2 results across 1 modalities
+2026-01-07 06:49:43,878 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.555 | Sources: 2 | Reason: Avg relevance: 0.51; Avg source quality: 0.50; Unique sources: 1; Modalities: 1
+2026-01-07 06:51:27,896 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-07 06:51:27,897 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-07 06:51:31,414 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what was discussed in the meeting regarding machine safety? | Modalities: ['audio'] | Top-K: 20 | Reason: Audio keywords detected; Complex query detected, using k=20
+2026-01-07 06:51:31,894 - multimodal_rag - DEBUG - query:97 - Query returned 6 results (modality: Modality.AUDIO, k: 20)
+2026-01-07 06:51:31,898 - multimodal_rag - INFO - retrieve:89 - Retrieved 2 results across 1 modalities
+2026-01-07 06:51:31,907 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.555 | Sources: 2 | Reason: Avg relevance: 0.51; Avg source quality: 0.50; Unique sources: 1; Modalities: 1
+2026-01-07 06:52:59,309 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-07 06:52:59,309 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-07 06:53:05,686 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='meeting discussion m...' modality=Modality.TEXT
+2026-01-07 06:54:13,761 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what was discussed in the meeting regarding machine safety? | Modalities: ['audio'] | Top-K: 20 | Reason: Audio keywords detected; Complex query detected, using k=20
+2026-01-07 06:54:13,864 - multimodal_rag - DEBUG - query:97 - Query returned 6 results (modality: Modality.AUDIO, k: 20)
+2026-01-07 06:54:13,865 - multimodal_rag - INFO - retrieve:89 - Retrieved 2 results across 1 modalities
+2026-01-07 06:54:13,867 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.555 | Sources: 2 | Reason: Avg relevance: 0.51; Avg source quality: 0.50; Unique sources: 1; Modalities: 1
+2026-01-07 06:54:50,758 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what was discussed in the meeting regarding machine safety? | Modalities: ['audio'] | Top-K: 20 | Reason: Audio keywords detected; Complex query detected, using k=20
+2026-01-07 06:54:50,802 - multimodal_rag - DEBUG - query:97 - Query returned 6 results (modality: Modality.AUDIO, k: 20)
+2026-01-07 06:54:50,802 - multimodal_rag - INFO - retrieve:89 - Retrieved 2 results across 1 modalities
+2026-01-07 06:54:50,803 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.555 | Sources: 2 | Reason: Avg relevance: 0.51; Avg source quality: 0.50; Unique sources: 1; Modalities: 1
+2026-01-07 06:56:31,627 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what was discussed in the meeting regarding machine safety? | Modalities: ['audio'] | Top-K: 20 | Reason: Audio keywords detected; Complex query detected, using k=20
+2026-01-07 06:56:31,658 - multimodal_rag - DEBUG - query:97 - Query returned 6 results (modality: Modality.AUDIO, k: 20)
+2026-01-07 06:56:31,659 - multimodal_rag - INFO - retrieve:89 - Retrieved 2 results across 1 modalities
+2026-01-07 06:56:31,660 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.555 | Sources: 2 | Reason: Avg relevance: 0.51; Avg source quality: 0.50; Unique sources: 1; Modalities: 1
+2026-01-07 07:00:29,001 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what was discussed in the meeting? | Modalities: ['audio'] | Top-K: 20 | Reason: Audio keywords detected; Complex query detected, using k=20
+2026-01-07 07:00:29,081 - multimodal_rag - DEBUG - query:97 - Query returned 6 results (modality: Modality.AUDIO, k: 20)
+2026-01-07 07:00:29,081 - multimodal_rag - INFO - retrieve:89 - Retrieved 2 results across 1 modalities
+2026-01-07 07:00:29,083 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.512 | Sources: 2 | Reason: Avg relevance: 0.43; Avg source quality: 0.50; Unique sources: 1; Modalities: 1
+2026-01-07 07:05:33,784 - multimodal_rag - WARNING - reset:134 - Vector store reset
+2026-01-07 07:06:40,066 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-07 07:06:40,066 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-07 07:07:51,843 - multimodal_rag - INFO - _process_txt:113 - Processed TXT 6b0ccb80-329f-4061-8bff-0a54fe8514f1_test_file.txt: 1 chunks
+2026-01-07 07:07:52,174 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-07 07:07:52,175 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed test_file.txt: 1 chunks in 0.38s
+2026-01-07 07:08:02,850 - multimodal_rag - WARNING - reset:134 - Vector store reset: 1 items deleted
+2026-01-07 07:10:23,710 - multimodal_rag - INFO - _load_model:21 - Loading Whisper tiny model...
+2026-01-07 07:10:24,247 - multimodal_rag - INFO - _load_model:23 - Whisper model loaded successfully
+2026-01-07 07:10:24,247 - multimodal_rag - INFO - process_file:30 - Transcribing 7636d39f-930a-40fe-a9dd-998b2e73d704_Recording.m4a...
+2026-01-07 07:10:28,285 - multimodal_rag - INFO - process_file:132 - Transcribed 7636d39f-930a-40fe-a9dd-998b2e73d704_Recording.m4a: 2 segments, 177 chars, confidence: 0.50
+2026-01-07 07:10:28,327 - multimodal_rag - INFO - add_chunks:67 - Added 2 chunks to vector store
+2026-01-07 07:10:28,328 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed Recording.m4a: 2 chunks in 4.62s
+2026-01-07 07:10:56,067 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what was discussed in the meeting? | Modalities: ['audio'] | Top-K: 20 | Reason: Audio keywords detected; Complex query detected, using k=20
+2026-01-07 07:10:56,068 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what was discussed i...' modality=Modality.AUDIO
+2026-01-07 07:10:56,142 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.AUDIO, k: 20)
+2026-01-07 07:10:56,143 - multimodal_rag - INFO - retrieve:89 - Retrieved 2 results across 1 modalities
+2026-01-07 07:10:56,144 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.512 | Sources: 2 | Reason: Avg relevance: 0.43; Avg source quality: 0.50; Unique sources: 1; Modalities: 1
+2026-01-07 10:47:15,745 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-07 10:47:15,746 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-07 10:59:22,039 - multimodal_rag - INFO - _load_model:21 - Loading Whisper tiny model...
+2026-01-07 10:59:23,911 - multimodal_rag - INFO - _load_model:23 - Whisper model loaded successfully
+2026-01-07 10:59:23,914 - multimodal_rag - INFO - process_file:30 - Transcribing f97c696f-01ea-4ece-8880-9b0de2be55f9_Recording.m4a...
+2026-01-07 10:59:32,714 - multimodal_rag - INFO - process_file:132 - Transcribed f97c696f-01ea-4ece-8880-9b0de2be55f9_Recording.m4a: 2 segments, 177 chars, confidence: 0.50
+2026-01-07 10:59:33,171 - multimodal_rag - INFO - add_chunks:67 - Added 2 chunks to vector store
+2026-01-07 10:59:33,172 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed Recording.m4a: 2 chunks in 11.15s
+2026-01-07 11:01:14,697 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what was discussed in the meeting? | Modalities: ['audio'] | Top-K: 20 | Reason: Audio keywords detected; Complex query detected, using k=20
+2026-01-07 11:01:14,700 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what was discussed i...' modality=Modality.AUDIO
+2026-01-07 11:01:14,883 - multimodal_rag - DEBUG - query:97 - Query returned 4 results (modality: Modality.AUDIO, k: 20)
+2026-01-07 11:01:14,885 - multimodal_rag - INFO - retrieve:89 - Retrieved 2 results across 1 modalities
+2026-01-07 11:01:14,889 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.512 | Sources: 2 | Reason: Avg relevance: 0.43; Avg source quality: 0.50; Unique sources: 1; Modalities: 1
+2026-01-07 11:09:27,268 - multimodal_rag - WARNING - reset:134 - Vector store reset: 4 items deleted
+2026-01-07 11:10:07,048 - multimodal_rag - WARNING - reset:136 - Vector store already empty
+2026-01-07 11:15:45,804 - multimodal_rag - WARNING - reset:136 - Vector store already empty
+2026-01-07 11:19:59,200 - multimodal_rag - INFO - process_file:30 - Transcribing ad69beb0-4ce2-48f2-91c3-65efa8c9cd58_Recording.m4a...
+2026-01-07 11:20:04,832 - multimodal_rag - INFO - process_file:132 - Transcribed ad69beb0-4ce2-48f2-91c3-65efa8c9cd58_Recording.m4a: 2 segments, 177 chars, confidence: 0.50
+2026-01-07 11:20:05,176 - multimodal_rag - INFO - add_chunks:67 - Added 2 chunks to vector store
+2026-01-07 11:20:05,177 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed Recording.m4a: 2 chunks in 5.99s
+2026-01-07 11:20:30,549 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what was discussed in the meeting? | Modalities: ['audio'] | Top-K: 20 | Reason: Audio keywords detected; Complex query detected, using k=20
+2026-01-07 11:20:30,550 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what was discussed i...' modality=Modality.AUDIO
+2026-01-07 11:20:30,597 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.AUDIO, k: 20)
+2026-01-07 11:20:30,598 - multimodal_rag - INFO - retrieve:89 - Retrieved 2 results across 1 modalities
+2026-01-07 11:20:30,604 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.512 | Sources: 2 | Reason: Avg relevance: 0.43; Avg source quality: 0.50; Unique sources: 1; Modalities: 1
+2026-01-07 11:28:12,929 - multimodal_rag - WARNING - reset:134 - Vector store reset: 2 items deleted
+2026-01-07 11:28:38,866 - multimodal_rag - WARNING - reset:136 - Vector store already empty
+2026-01-07 11:30:34,849 - multimodal_rag - INFO - _process_txt:113 - Processed TXT 7c5cb2c5-38b6-474f-88fc-e8be44be7e7e_test.txt: 1 chunks
+2026-01-07 11:30:35,393 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-07 11:30:35,394 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed test.txt: 1 chunks in 0.67s
+2026-01-07 11:34:18,509 - multimodal_rag - WARNING - reset:134 - Vector store reset: 1 items deleted
+2026-01-07 11:37:14,431 - multimodal_rag - INFO - process_file:30 - Transcribing 006e1003-ba04-4e54-9bbe-b3438024ba6e_Recording.m4a...
+2026-01-07 11:37:18,978 - multimodal_rag - INFO - process_file:132 - Transcribed 006e1003-ba04-4e54-9bbe-b3438024ba6e_Recording.m4a: 2 segments, 177 chars, confidence: 0.50
+2026-01-07 11:37:19,062 - multimodal_rag - INFO - add_chunks:67 - Added 2 chunks to vector store
+2026-01-07 11:37:19,062 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed Recording.m4a: 2 chunks in 4.64s
+2026-01-07 11:37:28,870 - multimodal_rag - INFO - _process_txt:113 - Processed TXT a124b69d-d259-4de7-b5d6-646bacebb85f_New Text Document.txt: 1 chunks
+2026-01-07 11:37:28,924 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-07 11:37:28,924 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed New Text Document.txt: 1 chunks in 0.06s
+2026-01-07 11:37:41,045 - multimodal_rag - INFO - _load_ocr:25 - Loading EasyOCR reader for English...
+2026-01-07 11:37:43,812 - multimodal_rag - INFO - _load_ocr:27 - EasyOCR loaded successfully
+2026-01-07 11:37:50,147 - multimodal_rag - INFO - _extract_text_ocr:141 - OCR extracted 46 characters from c0a983b0-1212-4790-a7a3-07175f0e9356_label.png
+2026-01-07 11:37:50,150 - multimodal_rag - INFO - process_file:114 - Created OCR text chunk for c0a983b0-1212-4790-a7a3-07175f0e9356_label.png (46 chars)
+2026-01-07 11:37:50,290 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-07 11:37:50,290 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed label.png: 1 chunks in 10.37s
+2026-01-07 11:38:03,283 - multimodal_rag - INFO - _process_pdf:64 - Processed PDF 1ebb9c3f-df67-478d-8d55-7db226103dc6_gita.pdf: 32 chunks
+2026-01-07 11:38:05,463 - multimodal_rag - INFO - add_chunks:67 - Added 32 chunks to vector store
+2026-01-07 11:38:05,464 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed gita.pdf: 32 chunks in 3.48s
+2026-01-07 11:39:13,633 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: data sourcing | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-07 11:39:13,634 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='data sourcing...' modality=Modality.TEXT
+2026-01-07 11:39:13,675 - multimodal_rag - DEBUG - query:97 - Query returned 10 results (modality: Modality.TEXT, k: 10)
+2026-01-07 11:39:13,676 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='data sourcing...' modality=Modality.AUDIO
+2026-01-07 11:39:13,694 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.AUDIO, k: 10)
+2026-01-07 11:39:13,706 - multimodal_rag - INFO - retrieve:89 - Retrieved 10 results across 1 modalities
+2026-01-07 11:39:13,707 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.815 | Sources: 10 | Reason: Avg relevance: 0.43; Avg source quality: 0.99; Unique sources: 2; Modalities: 1
+2026-01-07 11:41:18,465 - multimodal_rag - ERROR - generate:55 - All LLM methods failed: 
+2026-01-07 11:42:15,252 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is operating voltage? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-07 11:42:15,256 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is operating vo...' modality=Modality.TEXT
+2026-01-07 11:42:15,585 - multimodal_rag - DEBUG - query:97 - Query returned 20 results (modality: Modality.TEXT, k: 20)
+2026-01-07 11:42:15,587 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is operating vo...' modality=Modality.AUDIO
+2026-01-07 11:42:15,608 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.AUDIO, k: 20)
+2026-01-07 11:42:15,645 - multimodal_rag - INFO - retrieve:89 - Retrieved 20 results across 1 modalities
+2026-01-07 11:42:15,647 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.838 | Sources: 20 | Reason: Avg relevance: 0.38; Avg source quality: 1.00; Unique sources: 3; Modalities: 1
+2026-01-07 11:42:33,193 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['953e6f27-5283-40c8-b490-679f8d3275ed', '4f01beee-6c4e-4fcf-82ba-3901fa9daeb3', '41664fbd-1a7a-475e-a7a7-3568986e60d1', '64ff5462-b84a-48de-9167-9619ee23727c', '72124503-ab1f-4932-9260-4678014b2d19', 'b7d887ed-5388-49be-a746-ce770a255239'] | Details: 3 contradiction(s) detected between sources
+2026-01-07 11:44:34,139 - multimodal_rag - ERROR - generate:55 - All LLM methods failed: 
+2026-01-07 11:52:44,593 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-07 11:52:44,595 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-07 11:53:16,383 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-07 11:53:16,384 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-07 11:53:52,805 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what was discussed in the meeting? | Modalities: ['audio'] | Top-K: 20 | Reason: Audio keywords detected; Complex query detected, using k=20
+2026-01-07 11:53:52,819 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what was discussed i...' modality=Modality.AUDIO
+2026-01-07 11:53:53,351 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.AUDIO, k: 20)
+2026-01-07 11:53:53,354 - multimodal_rag - INFO - retrieve:89 - Retrieved 2 results across 1 modalities
+2026-01-07 11:53:53,373 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.512 | Sources: 2 | Reason: Avg relevance: 0.43; Avg source quality: 0.50; Unique sources: 1; Modalities: 1
+2026-01-07 12:01:08,488 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is operating voltage? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-07 12:01:08,501 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is operating vo...' modality=Modality.TEXT
+2026-01-07 12:01:08,862 - multimodal_rag - DEBUG - query:97 - Query returned 20 results (modality: Modality.TEXT, k: 20)
+2026-01-07 12:01:08,864 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is operating vo...' modality=Modality.AUDIO
+2026-01-07 12:01:08,887 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.AUDIO, k: 20)
+2026-01-07 12:01:08,926 - multimodal_rag - INFO - retrieve:89 - Retrieved 20 results across 1 modalities
+2026-01-07 12:01:08,931 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.838 | Sources: 20 | Reason: Avg relevance: 0.38; Avg source quality: 1.00; Unique sources: 3; Modalities: 1
+2026-01-07 12:01:25,404 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['72124503-ab1f-4932-9260-4678014b2d19', '41664fbd-1a7a-475e-a7a7-3568986e60d1', '4f01beee-6c4e-4fcf-82ba-3901fa9daeb3', '64ff5462-b84a-48de-9167-9619ee23727c', 'b7d887ed-5388-49be-a746-ce770a255239', '953e6f27-5283-40c8-b490-679f8d3275ed'] | Details: 3 contradiction(s) detected between sources
+2026-01-07 12:02:02,827 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is operating voltage? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-07 12:02:02,829 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is operating vo...' modality=Modality.TEXT
+2026-01-07 12:02:02,894 - multimodal_rag - DEBUG - query:97 - Query returned 20 results (modality: Modality.TEXT, k: 20)
+2026-01-07 12:02:02,896 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is operating vo...' modality=Modality.AUDIO
+2026-01-07 12:02:02,927 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.AUDIO, k: 20)
+2026-01-07 12:02:02,971 - multimodal_rag - INFO - retrieve:89 - Retrieved 20 results across 1 modalities
+2026-01-07 12:02:02,973 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.838 | Sources: 20 | Reason: Avg relevance: 0.38; Avg source quality: 1.00; Unique sources: 3; Modalities: 1
+2026-01-07 12:02:28,159 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['72124503-ab1f-4932-9260-4678014b2d19', '41664fbd-1a7a-475e-a7a7-3568986e60d1', '4f01beee-6c4e-4fcf-82ba-3901fa9daeb3', '64ff5462-b84a-48de-9167-9619ee23727c', 'b7d887ed-5388-49be-a746-ce770a255239', '953e6f27-5283-40c8-b490-679f8d3275ed'] | Details: 3 contradiction(s) detected between sources
+2026-01-07 12:03:25,849 - multimodal_rag - ERROR - generate:69 - Ollama failed: 
+2026-01-07 12:03:25,850 - multimodal_rag - ERROR - generate:73 - All LLM methods failed: Ollama: 
+2026-01-07 12:04:28,685 - multimodal_rag - ERROR - generate:69 - Ollama failed: 
+2026-01-07 12:04:28,686 - multimodal_rag - ERROR - generate:73 - All LLM methods failed: Ollama: 
+2026-01-07 12:07:34,553 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-07 12:07:34,554 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-07 12:08:13,361 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is the operating voltage? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-07 12:08:13,366 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is the operatin...' modality=Modality.TEXT
+2026-01-07 12:08:13,909 - multimodal_rag - DEBUG - query:97 - Query returned 20 results (modality: Modality.TEXT, k: 20)
+2026-01-07 12:08:13,914 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is the operatin...' modality=Modality.AUDIO
+2026-01-07 12:08:13,985 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.AUDIO, k: 20)
+2026-01-07 12:08:14,045 - multimodal_rag - INFO - retrieve:89 - Retrieved 20 results across 1 modalities
+2026-01-07 12:08:14,049 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.838 | Sources: 20 | Reason: Avg relevance: 0.38; Avg source quality: 1.00; Unique sources: 3; Modalities: 1
+2026-01-07 12:08:42,111 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['41664fbd-1a7a-475e-a7a7-3568986e60d1', '35ebbcc6-66a5-4932-bc4c-4b622576ba55', 'fdc3614d-4a2d-438e-8173-14e0618a072b', '4f01beee-6c4e-4fcf-82ba-3901fa9daeb3', '64ff5462-b84a-48de-9167-9619ee23727c', 'b7d887ed-5388-49be-a746-ce770a255239'] | Details: 3 contradiction(s) detected between sources
+2026-01-07 12:10:42,907 - multimodal_rag - ERROR - generate:69 - Ollama failed: 
+2026-01-07 12:10:43,083 - multimodal_rag - ERROR - generate:73 - All LLM methods failed: Ollama: 
+2026-01-07 12:12:40,433 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is the operating voltage? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-07 12:12:40,637 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is the operatin...' modality=Modality.TEXT
+2026-01-07 12:12:43,367 - multimodal_rag - DEBUG - query:97 - Query returned 20 results (modality: Modality.TEXT, k: 20)
+2026-01-07 12:12:43,396 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is the operatin...' modality=Modality.AUDIO
+2026-01-07 12:12:44,605 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.AUDIO, k: 20)
+2026-01-07 12:12:44,719 - multimodal_rag - INFO - retrieve:89 - Retrieved 20 results across 1 modalities
+2026-01-07 12:12:44,731 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.838 | Sources: 20 | Reason: Avg relevance: 0.38; Avg source quality: 1.00; Unique sources: 3; Modalities: 1
+2026-01-07 12:15:01,070 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['41664fbd-1a7a-475e-a7a7-3568986e60d1', '35ebbcc6-66a5-4932-bc4c-4b622576ba55', 'fdc3614d-4a2d-438e-8173-14e0618a072b', '4f01beee-6c4e-4fcf-82ba-3901fa9daeb3', '64ff5462-b84a-48de-9167-9619ee23727c', 'b7d887ed-5388-49be-a746-ce770a255239'] | Details: 3 contradiction(s) detected between sources
+2026-01-07 12:17:02,521 - multimodal_rag - ERROR - generate:69 - Ollama failed: 
+2026-01-07 12:17:02,605 - multimodal_rag - ERROR - generate:73 - All LLM methods failed: Ollama: 
+2026-01-07 12:20:53,401 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-07 12:20:53,403 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-07 12:20:53,452 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-07 12:20:53,453 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-07 12:21:53,355 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-07 12:21:53,361 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-07 12:22:40,096 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is the operating voltage? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-07 12:22:40,113 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is the operatin...' modality=Modality.TEXT
+2026-01-07 12:22:41,166 - multimodal_rag - DEBUG - query:97 - Query returned 20 results (modality: Modality.TEXT, k: 20)
+2026-01-07 12:22:41,172 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is the operatin...' modality=Modality.AUDIO
+2026-01-07 12:22:41,297 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.AUDIO, k: 20)
+2026-01-07 12:22:41,373 - multimodal_rag - INFO - retrieve:89 - Retrieved 20 results across 1 modalities
+2026-01-07 12:22:41,391 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.838 | Sources: 20 | Reason: Avg relevance: 0.38; Avg source quality: 1.00; Unique sources: 3; Modalities: 1
+2026-01-07 12:23:23,155 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['fdc3614d-4a2d-438e-8173-14e0618a072b', '64ff5462-b84a-48de-9167-9619ee23727c', '4f01beee-6c4e-4fcf-82ba-3901fa9daeb3', '35ebbcc6-66a5-4932-bc4c-4b622576ba55', 'b7d887ed-5388-49be-a746-ce770a255239', '41664fbd-1a7a-475e-a7a7-3568986e60d1'] | Details: 3 contradiction(s) detected between sources
+2026-01-07 12:26:25,783 - multimodal_rag - ERROR - generate:69 - Ollama failed: Ollama: ReadTimeout: 
+2026-01-07 12:29:58,105 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-07 12:29:58,109 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-07 12:29:59,780 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-07 12:29:59,782 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-07 12:32:13,355 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-07 12:32:13,356 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-07 12:32:13,356 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-07 12:32:57,817 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-07 12:32:57,819 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-07 12:32:57,824 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-07 12:32:57,826 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-07 12:33:59,540 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is the operating voltage? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-07 12:33:59,548 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is the operatin...' modality=Modality.TEXT
+2026-01-07 12:34:00,452 - multimodal_rag - DEBUG - query:97 - Query returned 20 results (modality: Modality.TEXT, k: 20)
+2026-01-07 12:34:00,457 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is the operatin...' modality=Modality.AUDIO
+2026-01-07 12:34:00,535 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.AUDIO, k: 20)
+2026-01-07 12:34:00,613 - multimodal_rag - INFO - retrieve:89 - Retrieved 20 results across 1 modalities
+2026-01-07 12:34:00,621 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.838 | Sources: 20 | Reason: Avg relevance: 0.38; Avg source quality: 1.00; Unique sources: 3; Modalities: 1
+2026-01-07 12:34:38,412 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['fdc3614d-4a2d-438e-8173-14e0618a072b', '64ff5462-b84a-48de-9167-9619ee23727c', '4f01beee-6c4e-4fcf-82ba-3901fa9daeb3', 'b7d887ed-5388-49be-a746-ce770a255239', '35ebbcc6-66a5-4932-bc4c-4b622576ba55', '41664fbd-1a7a-475e-a7a7-3568986e60d1'] | Details: 3 contradiction(s) detected between sources
+2026-01-07 12:37:17,780 - multimodal_rag - WARNING - reset:134 - Vector store reset: 36 items deleted

@@ -1,0 +1,87 @@
+2026-01-29 10:23:03,300 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-29 10:24:14,023 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-29 10:24:14,498 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-29 10:24:14,498 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-29 10:26:40,942 - multimodal_rag - INFO - get_or_create_session:45 - Created new conversation session: sess_2kvwmgms
+2026-01-29 10:28:13,719 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is operating voltage | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-29 10:28:13,774 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (0.86)
+2026-01-29 10:28:13,785 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-29 10:28:13,801 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is operating vo...' modality=Modality.TEXT
+2026-01-29 10:28:14,447 - multimodal_rag - DEBUG - query:97 - Query returned 10 results (modality: Modality.TEXT, k: 10)
+2026-01-29 10:28:14,448 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is operating vo...' modality=Modality.AUDIO
+2026-01-29 10:28:14,478 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 10)
+2026-01-29 10:28:14,487 - multimodal_rag - INFO - retrieve:135 - Retrieved 10 results across 2 modalities, languages: en, unknown
+2026-01-29 10:28:15,683 - multimodal_rag - INFO - search:148 - Serper returned 3 results
+2026-01-29 10:28:15,698 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.959 | Sources: 10 | Reason: Avg relevance: 0.47; Avg source quality: 0.95; Unique sources: 8; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-29 10:28:19,309 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['80adee93-9495-49d8-9e3f-b4f5f9ea61cc', 'ee16a91c-0cb7-45eb-9338-252a3f290276'] | Details: 1 contradiction(s) detected between sources
+2026-01-29 10:30:30,917 - multimodal_rag - WARNING - translate:135 - Translator not available
+2026-01-29 10:30:30,918 - multimodal_rag - WARNING - generate_response:603 - Failed to translate response, returning in English
+2026-01-29 10:37:59,616 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: inform client about project delay | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-29 10:37:59,673 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (0.86)
+2026-01-29 10:37:59,674 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-29 10:37:59,676 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='inform client about ...' modality=Modality.TEXT
+2026-01-29 10:38:00,097 - multimodal_rag - DEBUG - query:97 - Query returned 10 results (modality: Modality.TEXT, k: 10)
+2026-01-29 10:38:00,098 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='inform client about ...' modality=Modality.AUDIO
+2026-01-29 10:38:00,117 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 10)
+2026-01-29 10:38:00,130 - multimodal_rag - INFO - retrieve:135 - Retrieved 10 results across 1 modalities, languages: en, unknown
+2026-01-29 10:39:35,635 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: inform client about project delay | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-29 10:39:35,657 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-29 10:39:35,658 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-29 10:39:35,658 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='inform client about ...' modality=Modality.TEXT
+2026-01-29 10:39:35,926 - multimodal_rag - DEBUG - query:97 - Query returned 10 results (modality: Modality.TEXT, k: 10)
+2026-01-29 10:39:35,928 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='inform client about ...' modality=Modality.AUDIO
+2026-01-29 10:39:35,956 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 10)
+2026-01-29 10:39:35,973 - multimodal_rag - INFO - retrieve:135 - Retrieved 10 results across 1 modalities, languages: en, unknown
+2026-01-29 10:42:24,411 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: project status | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-29 10:42:24,444 - multimodal_rag - INFO - retrieve:53 - Query language detected: hr (0.86)
+2026-01-29 10:42:24,444 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-29 10:42:24,445 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='project status...' modality=Modality.TEXT
+2026-01-29 10:42:24,498 - multimodal_rag - DEBUG - query:97 - Query returned 8 results (modality: Modality.TEXT, k: 8)
+2026-01-29 10:42:24,499 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='project status...' modality=Modality.AUDIO
+2026-01-29 10:42:24,523 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 8)
+2026-01-29 10:42:24,529 - multimodal_rag - INFO - retrieve:135 - Retrieved 8 results across 2 modalities, languages: en, unknown
+2026-01-29 10:44:02,812 - multimodal_rag - WARNING - _generate_slides_content:268 - Only 0 slides parsed, using fallback
+2026-01-29 10:46:58,932 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is discussed in the meeting? | Modalities: ['audio'] | Top-K: 20 | Reason: Audio keywords detected; Complex query detected, using k=20
+2026-01-29 10:46:58,958 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-29 10:46:58,959 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-29 10:46:58,964 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is discussed in...' modality=Modality.AUDIO
+2026-01-29 10:46:59,529 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 20)
+2026-01-29 10:46:59,530 - multimodal_rag - INFO - retrieve:135 - Retrieved 3 results across 1 modalities, languages: en
+2026-01-29 10:47:00,982 - multimodal_rag - INFO - search:148 - Serper returned 3 results
+2026-01-29 10:47:00,993 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.538 | Sources: 3 | Reason: Avg relevance: 0.41; Avg source quality: 0.56; Unique sources: 1; Modalities: 1
+2026-01-29 10:48:48,843 - multimodal_rag - WARNING - translate:135 - Translator not available
+2026-01-29 10:48:48,843 - multimodal_rag - WARNING - generate_response:603 - Failed to translate response, returning in English
+2026-01-29 12:51:00,054 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is operating voltage | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-29 12:51:00,090 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (0.89)
+2026-01-29 12:51:00,092 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-29 12:51:00,093 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is operating vo...' modality=Modality.TEXT
+2026-01-29 12:51:00,438 - multimodal_rag - DEBUG - query:97 - Query returned 10 results (modality: Modality.TEXT, k: 10)
+2026-01-29 12:51:00,439 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is operating vo...' modality=Modality.AUDIO
+2026-01-29 12:51:00,465 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 10)
+2026-01-29 12:51:00,475 - multimodal_rag - INFO - retrieve:135 - Retrieved 10 results across 2 modalities, languages: en, unknown
+2026-01-29 12:51:00,479 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.959 | Sources: 10 | Reason: Avg relevance: 0.47; Avg source quality: 0.95; Unique sources: 8; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-29 12:51:03,275 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['80adee93-9495-49d8-9e3f-b4f5f9ea61cc', 'ee16a91c-0cb7-45eb-9338-252a3f290276'] | Details: 1 contradiction(s) detected between sources
+2026-01-29 12:58:58,339 - multimodal_rag - INFO - get_or_create_session:45 - Created new conversation session: sess_3vzrqtle
+2026-01-29 12:59:22,622 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is operating voltage | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-29 12:59:22,680 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-29 12:59:22,681 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-29 12:59:22,683 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is operating vo...' modality=Modality.TEXT
+2026-01-29 12:59:23,158 - multimodal_rag - DEBUG - query:97 - Query returned 10 results (modality: Modality.TEXT, k: 10)
+2026-01-29 12:59:23,158 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is operating vo...' modality=Modality.AUDIO
+2026-01-29 12:59:23,188 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 10)
+2026-01-29 12:59:23,198 - multimodal_rag - INFO - retrieve:135 - Retrieved 10 results across 2 modalities, languages: en, unknown
+2026-01-29 12:59:24,796 - multimodal_rag - INFO - search:148 - Serper returned 3 results
+2026-01-29 12:59:24,803 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.959 | Sources: 10 | Reason: Avg relevance: 0.47; Avg source quality: 0.95; Unique sources: 8; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-29 12:59:27,345 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['80adee93-9495-49d8-9e3f-b4f5f9ea61cc', 'ee16a91c-0cb7-45eb-9338-252a3f290276'] | Details: 1 contradiction(s) detected between sources
+2026-01-29 13:01:32,154 - multimodal_rag - WARNING - translate:135 - Translator not available
+2026-01-29 13:01:32,155 - multimodal_rag - WARNING - generate_response:603 - Failed to translate response, returning in English
+2026-01-29 13:41:02,319 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: inform client about project delay | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-29 13:41:02,373 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (0.86)
+2026-01-29 13:41:02,374 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-29 13:41:02,376 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='inform client about ...' modality=Modality.TEXT
+2026-01-29 13:41:02,737 - multimodal_rag - DEBUG - query:97 - Query returned 10 results (modality: Modality.TEXT, k: 10)
+2026-01-29 13:41:02,739 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='inform client about ...' modality=Modality.AUDIO
+2026-01-29 13:41:02,762 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 10)
+2026-01-29 13:41:02,776 - multimodal_rag - INFO - retrieve:135 - Retrieved 10 results across 1 modalities, languages: en, unknown
+2026-01-29 13:41:42,828 - multimodal_rag - INFO - clear_session:251 - Cleared conversation session: sess_3vzrqtle
+2026-01-29 13:41:42,936 - multimodal_rag - INFO - get_or_create_session:45 - Created new conversation session: sess_5jxcye63

@@ -1,0 +1,598 @@
+2026-01-17 05:46:57,097 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 05:46:57,097 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 05:48:05,547 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What information is in the system? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-17 05:48:05,548 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What information is ...' modality=Modality.TEXT
+2026-01-17 05:48:05,833 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.TEXT, k: 20)
+2026-01-17 05:48:05,834 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What information is ...' modality=Modality.AUDIO
+2026-01-17 05:48:05,856 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 20)
+2026-01-17 05:48:05,857 - multimodal_rag - INFO - retrieve:89 - Retrieved 5 results across 2 modalities
+2026-01-17 05:48:05,860 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.800 | Sources: 5 | Reason: Avg relevance: 0.37; Avg source quality: 0.73; Unique sources: 3; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-17 05:48:06,353 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['4ec9a970-96d5-4b74-ba74-382243ebf88c', 'd1c9c3fb-9f79-4539-a176-dc49f143bf17'] | Details: 1 contradiction(s) detected between sources
+2026-01-17 06:01:32,184 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is the voltage of the machine? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-17 06:01:32,205 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is the voltage ...' modality=Modality.TEXT
+2026-01-17 06:01:32,884 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.TEXT, k: 20)
+2026-01-17 06:01:32,887 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is the voltage ...' modality=Modality.AUDIO
+2026-01-17 06:01:32,954 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 20)
+2026-01-17 06:01:32,960 - multimodal_rag - INFO - retrieve:89 - Retrieved 5 results across 2 modalities
+2026-01-17 06:01:32,971 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.880 | Sources: 5 | Reason: Avg relevance: 0.53; Avg source quality: 0.73; Unique sources: 3; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-17 06:01:33,747 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['4ec9a970-96d5-4b74-ba74-382243ebf88c', 'd1c9c3fb-9f79-4539-a176-dc49f143bf17'] | Details: 1 contradiction(s) detected between sources
+2026-01-17 06:04:37,707 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is the voltage? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-17 06:04:37,717 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is the voltage?...' modality=Modality.TEXT
+2026-01-17 06:04:38,106 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.TEXT, k: 20)
+2026-01-17 06:04:38,107 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is the voltage?...' modality=Modality.AUDIO
+2026-01-17 06:04:38,129 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 20)
+2026-01-17 06:04:38,131 - multimodal_rag - INFO - retrieve:89 - Retrieved 5 results across 2 modalities
+2026-01-17 06:04:38,136 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.851 | Sources: 5 | Reason: Avg relevance: 0.47; Avg source quality: 0.73; Unique sources: 3; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-17 06:04:38,594 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['4ec9a970-96d5-4b74-ba74-382243ebf88c', 'd1c9c3fb-9f79-4539-a176-dc49f143bf17'] | Details: 1 contradiction(s) detected between sources
+2026-01-17 06:14:33,208 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: Tell me about the machine | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-17 06:14:33,216 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='Tell me about the ma...' modality=Modality.TEXT
+2026-01-17 06:14:33,642 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.TEXT, k: 10)
+2026-01-17 06:14:33,643 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='Tell me about the ma...' modality=Modality.AUDIO
+2026-01-17 06:14:33,679 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 10)
+2026-01-17 06:14:33,681 - multimodal_rag - INFO - retrieve:89 - Retrieved 5 results across 2 modalities
+2026-01-17 06:14:33,688 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.821 | Sources: 5 | Reason: Avg relevance: 0.41; Avg source quality: 0.73; Unique sources: 3; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-17 06:14:34,413 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['4ec9a970-96d5-4b74-ba74-382243ebf88c', 'd1c9c3fb-9f79-4539-a176-dc49f143bf17'] | Details: 1 contradiction(s) detected between sources
+2026-01-17 06:26:48,658 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 06:26:48,660 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 06:27:15,037 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 06:27:15,037 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 06:27:42,612 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 06:27:42,613 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 06:30:45,047 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is the voltage rating? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-17 06:30:45,050 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is the voltage ...' modality=Modality.TEXT
+2026-01-17 06:30:45,477 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.TEXT, k: 20)
+2026-01-17 06:30:45,478 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is the voltage ...' modality=Modality.AUDIO
+2026-01-17 06:30:45,508 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 20)
+2026-01-17 06:30:45,510 - multimodal_rag - INFO - retrieve:89 - Retrieved 5 results across 2 modalities
+2026-01-17 06:30:45,513 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.878 | Sources: 5 | Reason: Avg relevance: 0.53; Avg source quality: 0.73; Unique sources: 3; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-17 06:30:46,146 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['d1c9c3fb-9f79-4539-a176-dc49f143bf17', '4ec9a970-96d5-4b74-ba74-382243ebf88c'] | Details: 1 contradiction(s) detected between sources
+2026-01-17 06:37:47,929 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 06:37:47,930 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 06:42:46,468 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 06:42:46,469 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 06:43:15,093 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 06:43:15,094 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 06:43:44,257 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 06:43:44,257 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 06:44:15,706 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 06:44:15,706 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 06:44:48,425 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 06:44:48,426 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 06:45:24,490 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 06:45:24,491 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 06:45:56,035 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 06:45:56,036 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 06:46:29,996 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 06:46:29,998 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 06:47:03,283 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 06:47:03,284 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 06:47:33,574 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 06:47:33,575 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 06:48:05,969 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 06:48:05,970 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 06:48:36,259 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 06:48:36,260 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 06:49:07,015 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 06:49:07,015 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 06:49:37,414 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 06:49:37,415 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 06:50:07,770 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 06:50:07,771 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 06:50:43,823 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 06:50:43,824 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 06:51:15,276 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 06:51:15,276 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 06:55:23,649 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 06:55:23,656 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 06:56:35,638 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 06:56:35,638 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 06:57:42,956 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is operating voltage? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-17 06:57:42,963 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is operating vo...' modality=Modality.TEXT
+2026-01-17 06:57:43,550 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.TEXT, k: 20)
+2026-01-17 06:57:43,552 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is operating vo...' modality=Modality.AUDIO
+2026-01-17 06:57:43,590 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 20)
+2026-01-17 06:57:43,594 - multimodal_rag - INFO - retrieve:89 - Retrieved 5 results across 2 modalities
+2026-01-17 06:57:43,603 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.857 | Sources: 5 | Reason: Avg relevance: 0.49; Avg source quality: 0.73; Unique sources: 3; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-17 06:57:44,054 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['d1c9c3fb-9f79-4539-a176-dc49f143bf17', '4ec9a970-96d5-4b74-ba74-382243ebf88c'] | Details: 1 contradiction(s) detected between sources
+2026-01-17 10:14:40,782 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 10:14:40,783 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 10:16:01,956 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is the voltage of the machine? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-17 10:16:01,959 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is the voltage ...' modality=Modality.TEXT
+2026-01-17 10:16:02,317 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.TEXT, k: 20)
+2026-01-17 10:16:02,318 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is the voltage ...' modality=Modality.AUDIO
+2026-01-17 10:16:02,387 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 20)
+2026-01-17 10:16:02,388 - multimodal_rag - INFO - retrieve:89 - Retrieved 5 results across 2 modalities
+2026-01-17 10:16:02,393 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.880 | Sources: 5 | Reason: Avg relevance: 0.53; Avg source quality: 0.73; Unique sources: 3; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-17 10:16:03,153 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['d1c9c3fb-9f79-4539-a176-dc49f143bf17', '4ec9a970-96d5-4b74-ba74-382243ebf88c'] | Details: 1 contradiction(s) detected between sources
+2026-01-17 10:21:39,806 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 10:21:39,807 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 10:37:12,710 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is the voltage? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-17 10:37:12,724 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is the voltage?...' modality=Modality.TEXT
+2026-01-17 10:37:13,384 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.TEXT, k: 20)
+2026-01-17 10:37:13,385 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is the voltage?...' modality=Modality.AUDIO
+2026-01-17 10:37:13,413 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 20)
+2026-01-17 10:37:13,414 - multimodal_rag - INFO - retrieve:89 - Retrieved 5 results across 2 modalities
+2026-01-17 10:37:13,421 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.851 | Sources: 5 | Reason: Avg relevance: 0.47; Avg source quality: 0.73; Unique sources: 3; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-17 10:37:14,169 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['4ec9a970-96d5-4b74-ba74-382243ebf88c', 'd1c9c3fb-9f79-4539-a176-dc49f143bf17'] | Details: 1 contradiction(s) detected between sources
+2026-01-17 10:46:44,236 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 10:46:44,237 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 10:47:15,006 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 10:47:15,007 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 10:48:01,349 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 10:48:01,349 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 10:48:44,989 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 10:48:44,989 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 10:51:58,688 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is the voltage? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-17 10:51:58,689 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is the voltage?...' modality=Modality.TEXT
+2026-01-17 10:51:59,088 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.TEXT, k: 20)
+2026-01-17 10:51:59,089 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is the voltage?...' modality=Modality.AUDIO
+2026-01-17 10:51:59,125 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 20)
+2026-01-17 10:51:59,127 - multimodal_rag - INFO - retrieve:89 - Retrieved 5 results across 2 modalities
+2026-01-17 10:51:59,135 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.851 | Sources: 5 | Reason: Avg relevance: 0.47; Avg source quality: 0.73; Unique sources: 3; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-17 10:51:59,688 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['d1c9c3fb-9f79-4539-a176-dc49f143bf17', '4ec9a970-96d5-4b74-ba74-382243ebf88c'] | Details: 1 contradiction(s) detected between sources
+2026-01-17 10:55:09,126 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is the voltage? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-17 10:55:09,143 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is the voltage?...' modality=Modality.TEXT
+2026-01-17 10:55:10,371 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.TEXT, k: 20)
+2026-01-17 10:55:10,378 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is the voltage?...' modality=Modality.AUDIO
+2026-01-17 10:55:10,564 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 20)
+2026-01-17 10:55:10,573 - multimodal_rag - INFO - retrieve:89 - Retrieved 5 results across 2 modalities
+2026-01-17 10:55:10,587 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.851 | Sources: 5 | Reason: Avg relevance: 0.47; Avg source quality: 0.73; Unique sources: 3; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-17 10:55:12,506 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['d1c9c3fb-9f79-4539-a176-dc49f143bf17', '4ec9a970-96d5-4b74-ba74-382243ebf88c'] | Details: 1 contradiction(s) detected between sources
+2026-01-17 11:06:05,891 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What does the label show about voltage? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-17 11:06:05,894 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What does the label ...' modality=Modality.TEXT
+2026-01-17 11:06:06,333 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.TEXT, k: 20)
+2026-01-17 11:06:06,334 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What does the label ...' modality=Modality.AUDIO
+2026-01-17 11:06:06,371 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 20)
+2026-01-17 11:06:06,373 - multimodal_rag - INFO - retrieve:89 - Retrieved 5 results across 2 modalities
+2026-01-17 11:06:06,380 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.858 | Sources: 5 | Reason: Avg relevance: 0.49; Avg source quality: 0.73; Unique sources: 3; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-17 11:06:06,965 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['4ec9a970-96d5-4b74-ba74-382243ebf88c', 'd1c9c3fb-9f79-4539-a176-dc49f143bf17'] | Details: 1 contradiction(s) detected between sources
+2026-01-17 11:08:48,432 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: Explain the contradiction between the sources regarding label show voltage? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-17 11:08:48,453 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='Explain the contradi...' modality=Modality.TEXT
+2026-01-17 11:08:49,166 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.TEXT, k: 20)
+2026-01-17 11:08:49,169 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='Explain the contradi...' modality=Modality.AUDIO
+2026-01-17 11:08:49,251 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 20)
+2026-01-17 11:08:49,255 - multimodal_rag - INFO - retrieve:89 - Retrieved 5 results across 2 modalities
+2026-01-17 11:08:49,268 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.838 | Sources: 5 | Reason: Avg relevance: 0.45; Avg source quality: 0.73; Unique sources: 3; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-17 11:08:50,167 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['4ec9a970-96d5-4b74-ba74-382243ebf88c', 'd1c9c3fb-9f79-4539-a176-dc49f143bf17'] | Details: 1 contradiction(s) detected between sources
+2026-01-17 11:20:49,724 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 11:20:49,726 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 11:22:19,776 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 11:22:19,777 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 11:22:45,712 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 11:22:45,712 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 11:23:23,276 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 11:23:23,276 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 11:23:54,094 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 11:23:54,095 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 11:24:32,987 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 11:24:32,987 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 11:25:02,149 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 11:25:02,150 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 11:25:33,915 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 11:25:33,915 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 11:26:09,456 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 11:26:09,458 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 11:26:35,680 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 11:26:35,680 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 11:30:32,708 - multimodal_rag - INFO - get_or_create_session:45 - Created new conversation session: sess_o7x509kc
+2026-01-17 11:31:04,818 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is the voltage of the machine? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-17 11:31:04,846 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is the voltage ...' modality=Modality.TEXT
+2026-01-17 11:31:06,136 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.TEXT, k: 20)
+2026-01-17 11:31:06,138 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is the voltage ...' modality=Modality.AUDIO
+2026-01-17 11:31:06,363 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 20)
+2026-01-17 11:31:06,371 - multimodal_rag - INFO - retrieve:89 - Retrieved 5 results across 2 modalities
+2026-01-17 11:31:06,404 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.880 | Sources: 5 | Reason: Avg relevance: 0.53; Avg source quality: 0.73; Unique sources: 3; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-17 11:31:07,437 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['4ec9a970-96d5-4b74-ba74-382243ebf88c', 'd1c9c3fb-9f79-4539-a176-dc49f143bf17'] | Details: 1 contradiction(s) detected between sources
+2026-01-17 11:40:29,193 - multimodal_rag - INFO - get_or_create_session:45 - Created new conversation session: sess_ykyaho1w
+2026-01-17 11:41:05,106 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is the voltage? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-17 11:41:05,112 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is the voltage?...' modality=Modality.TEXT
+2026-01-17 11:41:05,685 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.TEXT, k: 20)
+2026-01-17 11:41:05,686 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is the voltage?...' modality=Modality.AUDIO
+2026-01-17 11:41:05,718 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 20)
+2026-01-17 11:41:05,719 - multimodal_rag - INFO - retrieve:89 - Retrieved 5 results across 2 modalities
+2026-01-17 11:41:05,728 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.851 | Sources: 5 | Reason: Avg relevance: 0.47; Avg source quality: 0.73; Unique sources: 3; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-17 11:41:06,354 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['4ec9a970-96d5-4b74-ba74-382243ebf88c', 'd1c9c3fb-9f79-4539-a176-dc49f143bf17'] | Details: 1 contradiction(s) detected between sources
+2026-01-17 11:44:04,291 - multimodal_rag - INFO - clear_session:251 - Cleared conversation session: sess_ykyaho1w
+2026-01-17 11:44:04,358 - multimodal_rag - INFO - get_or_create_session:45 - Created new conversation session: sess_o2p8f2e9
+2026-01-17 15:50:55,888 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 15:50:55,889 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 15:51:45,716 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 15:51:45,717 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 15:52:32,608 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 15:52:32,608 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 15:53:03,363 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 15:53:03,364 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 15:53:31,683 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 15:53:31,684 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 16:08:50,518 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 16:08:50,519 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 16:09:38,905 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 16:09:38,906 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 16:12:12,809 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 16:12:12,810 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 16:13:26,619 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 16:13:26,619 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 16:14:27,328 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 16:14:27,329 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 16:15:09,929 - multimodal_rag - INFO - __init__:63 - Created watch folder: data\uploads\watch
+2026-01-17 16:16:03,159 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 16:16:03,160 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 16:22:10,466 - multimodal_rag - INFO - connect:75 - WebSocket connected. Active: 1
+2026-01-17 16:22:11,153 - multimodal_rag - INFO - start:194 - Started watching folder: data\uploads\watch
+2026-01-17 16:22:18,623 - multimodal_rag - INFO - stop:202 - Stopped folder watcher
+2026-01-17 16:22:36,151 - multimodal_rag - INFO - disconnect:80 - WebSocket disconnected. Active: 0
+2026-01-17 16:31:14,862 - multimodal_rag - INFO - get_or_create_session:45 - Created new conversation session: sess_r9rnekde
+2026-01-17 16:35:08,323 - multimodal_rag - INFO - _process_pdf:64 - Processed PDF a57134cf-7e40-4058-a029-3080b6ec1b4c_gita.pdf: 32 chunks
+2026-01-17 16:35:11,650 - multimodal_rag - INFO - add_chunks:67 - Added 32 chunks to vector store
+2026-01-17 16:35:11,651 - multimodal_rag - INFO - upload_file:181 - Uploaded and processed gita.pdf: 32 chunks in 5.17s
+2026-01-17 16:35:17,881 - multimodal_rag - INFO - connect:75 - WebSocket connected. Active: 1
+2026-01-17 16:35:18,561 - multimodal_rag - INFO - start:194 - Started watching folder: data\uploads\watch
+2026-01-17 16:35:37,841 - multimodal_rag - INFO - _process_pdf:64 - Processed PDF 0963d699-c34d-449e-b7b6-fca501908a4e_CHAKRAVYUH_Ticket_GITA26CV137.pdf: 1 chunks
+2026-01-17 16:35:37,936 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-17 16:35:37,937 - multimodal_rag - INFO - upload_file:181 - Uploaded and processed CHAKRAVYUH_Ticket_GITA26CV137.pdf: 1 chunks in 0.14s
+2026-01-17 16:35:50,188 - multimodal_rag - INFO - stop:202 - Stopped folder watcher
+2026-01-17 16:35:52,826 - multimodal_rag - INFO - start:194 - Started watching folder: data\uploads\watch
+2026-01-17 16:40:34,624 - multimodal_rag - INFO - connect:75 - WebSocket connected. Active: 2
+2026-01-17 16:40:41,327 - multimodal_rag - INFO - stop:202 - Stopped folder watcher
+2026-01-17 16:40:55,357 - multimodal_rag - INFO - start:194 - Started watching folder: data\uploads\watch
+2026-01-17 16:46:32,975 - multimodal_rag - INFO - _process_pdf:64 - Processed PDF fcd73b07-977d-4b04-b394-9bfd17f469ac_PS1_OSINT_Challenge (1).pdf: 3 chunks
+2026-01-17 16:46:33,830 - multimodal_rag - INFO - add_chunks:67 - Added 3 chunks to vector store
+2026-01-17 16:46:33,831 - multimodal_rag - INFO - upload_file:181 - Uploaded and processed PS1_OSINT_Challenge (1).pdf: 3 chunks in 1.18s
+2026-01-17 16:46:56,452 - multimodal_rag - INFO - stop:202 - Stopped folder watcher
+2026-01-17 16:47:23,068 - multimodal_rag - INFO - start:194 - Started watching folder: data\uploads\watch
+2026-01-17 16:49:45,776 - multimodal_rag - INFO - disconnect:80 - WebSocket disconnected. Active: 1
+2026-01-17 16:50:04,461 - multimodal_rag - INFO - _process_pdf:64 - Processed PDF 25951cf7-2576-4f3b-ae20-ebfa0c50232f_PS2_UNSEEN_Challenge.pdf: 4 chunks
+2026-01-17 16:50:04,950 - multimodal_rag - INFO - add_chunks:67 - Added 4 chunks to vector store
+2026-01-17 16:50:04,951 - multimodal_rag - INFO - upload_file:181 - Uploaded and processed PS2_UNSEEN_Challenge.pdf: 4 chunks in 3.12s
+2026-01-17 16:50:28,579 - multimodal_rag - INFO - connect:75 - WebSocket connected. Active: 2
+2026-01-17 16:50:35,647 - multimodal_rag - INFO - stop:202 - Stopped folder watcher
+2026-01-17 16:50:38,187 - multimodal_rag - INFO - start:194 - Started watching folder: data\uploads\watch
+2026-01-17 16:50:46,045 - multimodal_rag - WARNING - reset:145 - Vector store reset: 45 items deleted
+2026-01-17 16:51:03,799 - multimodal_rag - INFO - stop:202 - Stopped folder watcher
+2026-01-17 16:54:39,012 - multimodal_rag - INFO - disconnect:80 - WebSocket disconnected. Active: 1
+2026-01-17 16:54:39,026 - multimodal_rag - INFO - disconnect:80 - WebSocket disconnected. Active: 0
+2026-01-17 16:55:41,203 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 16:55:41,203 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 16:55:55,023 - multimodal_rag - INFO - connect:75 - WebSocket connected. Active: 1
+2026-01-17 16:57:08,217 - multimodal_rag - INFO - start:194 - Started watching folder: data\uploads\watch
+2026-01-17 17:01:02,690 - multimodal_rag - INFO - _process_txt:113 - Processed TXT 064fb5ff-f96a-4d2c-b266-00ac7cf2cb29_New Text Document.txt: 1 chunks
+2026-01-17 17:01:03,395 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-17 17:01:03,396 - multimodal_rag - INFO - upload_file:181 - Uploaded and processed New Text Document.txt: 1 chunks in 0.84s
+2026-01-17 17:01:11,865 - multimodal_rag - INFO - stop:202 - Stopped folder watcher
+2026-01-17 17:01:28,302 - multimodal_rag - INFO - start:194 - Started watching folder: data\uploads\watch
+2026-01-17 17:01:40,029 - multimodal_rag - INFO - _process_pdf:64 - Processed PDF 13eb7e0b-a96b-41a4-b474-d8a0fe378e90_gita generated.pdf: 1 chunks
+2026-01-17 17:01:40,077 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-17 17:01:40,077 - multimodal_rag - INFO - upload_file:181 - Uploaded and processed gita generated.pdf: 1 chunks in 2.74s
+2026-01-17 17:01:45,446 - multimodal_rag - INFO - stop:202 - Stopped folder watcher
+2026-01-17 17:03:02,071 - multimodal_rag - INFO - _process_txt:113 - Processed TXT 8d0796ba-f510-4ee6-9aa7-563409082a14_New Text Document.txt: 1 chunks
+2026-01-17 17:03:02,135 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-17 17:03:02,136 - multimodal_rag - INFO - upload_file:181 - Uploaded and processed New Text Document.txt: 1 chunks in 0.08s
+2026-01-17 17:03:08,710 - multimodal_rag - INFO - start:194 - Started watching folder: data\uploads\watch
+2026-01-17 17:03:21,287 - multimodal_rag - INFO - _load_ocr:25 - Loading EasyOCR reader for English...
+2026-01-17 17:03:24,024 - multimodal_rag - INFO - _load_ocr:27 - EasyOCR loaded successfully
+2026-01-17 17:03:30,895 - multimodal_rag - WARNING - add_chunks:42 - No chunks with embeddings to add
+2026-01-17 17:03:30,896 - multimodal_rag - INFO - upload_file:181 - Uploaded and processed anime-watch.jpg: 0 chunks in 10.51s
+2026-01-17 17:05:32,034 - multimodal_rag - INFO - stop:202 - Stopped folder watcher
+2026-01-17 17:05:45,462 - multimodal_rag - INFO - start:194 - Started watching folder: data\uploads\watch
+2026-01-17 17:08:05,215 - multimodal_rag - INFO - disconnect:80 - WebSocket disconnected. Active: 0
+2026-01-17 17:10:44,280 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 17:10:44,281 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 17:11:17,469 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 17:11:17,470 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 17:11:50,726 - multimodal_rag - INFO - start:194 - Started watching folder: data\uploads\watch
+2026-01-17 17:13:41,397 - multimodal_rag - INFO - on_created:124 - File created: sync_test_file.txt
+2026-01-17 17:15:17,480 - multimodal_rag - INFO - stop:202 - Stopped folder watcher
+2026-01-17 17:15:27,555 - multimodal_rag - INFO - start:194 - Started watching folder: data\uploads\watch
+2026-01-17 17:18:05,287 - multimodal_rag - INFO - on_created:124 - File created: fresh_sync_test.txt
+2026-01-17 17:18:43,097 - multimodal_rag - INFO - stop:202 - Stopped folder watcher
+2026-01-17 17:18:56,282 - multimodal_rag - INFO - start:194 - Started watching folder: data\uploads\watch
+2026-01-17 17:21:40,777 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 17:21:40,777 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 17:22:11,796 - multimodal_rag - INFO - start:194 - Started watching folder: data\uploads\watch
+2026-01-17 17:22:11,813 - multimodal_rag - INFO - get_sync_changes:427 - Sync: detected new file fresh_sync_test.txt
+2026-01-17 17:22:11,814 - multimodal_rag - INFO - get_sync_changes:427 - Sync: detected new file notification_test_172133.txt
+2026-01-17 17:22:11,814 - multimodal_rag - INFO - get_sync_changes:427 - Sync: detected new file sync_test_file.txt
+2026-01-17 17:22:16,654 - multimodal_rag - INFO - stop:202 - Stopped folder watcher
+2026-01-17 17:22:27,205 - multimodal_rag - INFO - start:194 - Started watching folder: data\uploads\watch
+2026-01-17 17:23:59,107 - multimodal_rag - INFO - stop:202 - Stopped folder watcher
+2026-01-17 17:24:01,141 - multimodal_rag - INFO - start:194 - Started watching folder: data\uploads\watch
+2026-01-17 17:26:12,293 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 17:26:12,296 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 17:26:57,705 - multimodal_rag - INFO - start:197 - Started watching folder: data\uploads\watch
+2026-01-17 17:26:57,751 - multimodal_rag - INFO - get_sync_changes:427 - Sync: detected new file fresh_sync_test.txt
+2026-01-17 17:26:57,752 - multimodal_rag - INFO - get_sync_changes:427 - Sync: detected new file notification_test_172133.txt
+2026-01-17 17:26:57,752 - multimodal_rag - INFO - get_sync_changes:427 - Sync: detected new file sync_test_file.txt
+2026-01-17 17:28:43,740 - multimodal_rag - INFO - stop:205 - Stopped folder watcher
+2026-01-17 17:28:57,390 - multimodal_rag - INFO - start:197 - Started watching folder: data\uploads\watch
+2026-01-17 17:28:57,419 - multimodal_rag - INFO - get_sync_changes:427 - Sync: detected new file fresh_sync_test.txt
+2026-01-17 17:28:57,421 - multimodal_rag - INFO - get_sync_changes:427 - Sync: detected new file notification_test_172133.txt
+2026-01-17 17:28:57,422 - multimodal_rag - INFO - get_sync_changes:427 - Sync: detected new file sync_test_file.txt
+2026-01-17 17:30:24,590 - multimodal_rag - INFO - _process_txt:113 - Processed TXT sync_test_file.txt: 1 chunks
+2026-01-17 17:30:25,481 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-17 17:30:45,211 - multimodal_rag - INFO - _process_txt:113 - Processed TXT sync_test_file.txt: 1 chunks
+2026-01-17 17:30:45,267 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-17 17:30:55,424 - multimodal_rag - INFO - _process_txt:113 - Processed TXT sync_test_file.txt: 1 chunks
+2026-01-17 17:30:55,469 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-17 17:30:58,107 - multimodal_rag - INFO - _process_txt:113 - Processed TXT notification_test_172133.txt: 1 chunks
+2026-01-17 17:30:58,157 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-17 17:31:09,476 - multimodal_rag - INFO - _process_txt:113 - Processed TXT sync_test_file.txt: 1 chunks
+2026-01-17 17:31:09,530 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-17 17:31:16,161 - multimodal_rag - INFO - _process_txt:113 - Processed TXT sync_test_file.txt: 1 chunks
+2026-01-17 17:31:16,207 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-17 17:31:18,977 - multimodal_rag - INFO - _process_txt:113 - Processed TXT notification_test_172133.txt: 1 chunks
+2026-01-17 17:31:19,018 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-17 17:31:39,601 - multimodal_rag - INFO - _load_ocr:25 - Loading EasyOCR reader for English...
+2026-01-17 17:31:42,879 - multimodal_rag - INFO - _load_ocr:27 - EasyOCR loaded successfully
+2026-01-17 17:31:49,501 - multimodal_rag - WARNING - add_chunks:42 - No chunks with embeddings to add
+2026-01-17 17:31:49,504 - multimodal_rag - INFO - upload_file:182 - Uploaded and processed anime-watch.jpg: 0 chunks in 11.09s
+2026-01-17 17:32:27,155 - multimodal_rag - INFO - _process_pdf:64 - Processed PDF 7d2f7905-ddf5-4431-85f4-6692df300231_studdy.pdf: 1 chunks
+2026-01-17 17:32:27,422 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-17 17:32:27,422 - multimodal_rag - INFO - upload_file:182 - Uploaded and processed studdy.pdf: 1 chunks in 0.40s
+2026-01-17 17:32:39,852 - multimodal_rag - INFO - stop:205 - Stopped folder watcher
+2026-01-17 17:32:48,167 - multimodal_rag - INFO - start:197 - Started watching folder: data\uploads\watch
+2026-01-17 17:32:48,180 - multimodal_rag - INFO - get_sync_changes:427 - Sync: detected new file fresh_sync_test.txt
+2026-01-17 17:32:48,181 - multimodal_rag - INFO - get_sync_changes:427 - Sync: detected new file notification_test_172133.txt
+2026-01-17 17:32:48,181 - multimodal_rag - INFO - get_sync_changes:427 - Sync: detected new file sync_test_file.txt
+2026-01-17 17:33:03,178 - multimodal_rag - INFO - stop:205 - Stopped folder watcher
+2026-01-17 17:33:28,031 - multimodal_rag - INFO - start:197 - Started watching folder: data\uploads\watch
+2026-01-17 17:33:28,043 - multimodal_rag - INFO - get_sync_changes:427 - Sync: detected new file fresh_sync_test.txt
+2026-01-17 17:33:28,044 - multimodal_rag - INFO - get_sync_changes:427 - Sync: detected new file notification_test_172133.txt
+2026-01-17 17:33:28,044 - multimodal_rag - INFO - get_sync_changes:427 - Sync: detected new file sync_test_file.txt
+2026-01-17 17:33:49,052 - multimodal_rag - INFO - _process_txt:113 - Processed TXT sync_test_file.txt: 1 chunks
+2026-01-17 17:33:49,213 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-17 17:33:56,363 - multimodal_rag - INFO - stop:205 - Stopped folder watcher
+2026-01-17 17:34:01,128 - multimodal_rag - INFO - start:197 - Started watching folder: data\uploads\watch
+2026-01-17 17:34:01,138 - multimodal_rag - INFO - get_sync_changes:427 - Sync: detected new file fresh_sync_test.txt
+2026-01-17 17:34:01,139 - multimodal_rag - INFO - get_sync_changes:427 - Sync: detected new file notification_test_172133.txt
+2026-01-17 17:34:01,139 - multimodal_rag - INFO - get_sync_changes:427 - Sync: detected new file sync_test_file.txt
+2026-01-17 17:34:58,276 - multimodal_rag - WARNING - add_chunks:42 - No chunks with embeddings to add
+2026-01-17 17:34:58,276 - multimodal_rag - INFO - upload_file:182 - Uploaded and processed images.jpg: 0 chunks in 0.85s
+2026-01-17 17:35:04,191 - multimodal_rag - INFO - stop:205 - Stopped folder watcher
+2026-01-17 17:35:12,881 - multimodal_rag - INFO - start:197 - Started watching folder: data\uploads\watch
+2026-01-17 17:35:12,892 - multimodal_rag - INFO - get_sync_changes:427 - Sync: detected new file fresh_sync_test.txt
+2026-01-17 17:35:12,892 - multimodal_rag - INFO - get_sync_changes:427 - Sync: detected new file notification_test_172133.txt
+2026-01-17 17:35:12,893 - multimodal_rag - INFO - get_sync_changes:427 - Sync: detected new file sync_test_file.txt
+2026-01-17 17:39:37,025 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 17:39:37,026 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 17:40:07,000 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 17:40:07,000 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 17:42:11,994 - multimodal_rag - INFO - start:197 - Started watching folder: data\uploads
+2026-01-17 17:42:12,176 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+2026-01-17 17:42:12,177 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file 1338d06d_anime-watch.jpg
+2026-01-17 17:42:12,179 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file fresh_sync_test.txt
+2026-01-17 17:42:12,183 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file notification_test_172133.txt
+2026-01-17 17:42:12,184 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file sync_test_file.txt
+2026-01-17 17:46:02,723 - multimodal_rag - INFO - _process_txt:113 - Processed TXT sync_test_file.txt: 1 chunks
+2026-01-17 17:46:03,645 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-17 17:46:21,165 - multimodal_rag - WARNING - reset:145 - Vector store reset: 13 items deleted
+2026-01-17 17:47:01,208 - multimodal_rag - INFO - on_file_change:115 - Sync: created - 7f0e54ed-d39c-4308-afa1-972c04c10425_New Text Document.txt
+2026-01-17 17:47:01,208 - multimodal_rag - INFO - on_created:124 - File created: 7f0e54ed-d39c-4308-afa1-972c04c10425_New Text Document.txt
+2026-01-17 17:47:01,217 - multimodal_rag - INFO - _process_txt:113 - Processed TXT 7f0e54ed-d39c-4308-afa1-972c04c10425_New Text Document.txt: 1 chunks
+2026-01-17 17:47:01,301 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-17 17:47:01,302 - multimodal_rag - INFO - upload_file:197 - Uploaded and processed New Text Document.txt: 1 chunks in 0.11s
+2026-01-17 17:47:01,303 - multimodal_rag - ERROR - upload_file:222 - Upload error: name 'output_path' is not defined
+2026-01-17 17:47:12,930 - multimodal_rag - WARNING - reset:145 - Vector store reset: 1 items deleted
+2026-01-17 17:47:22,251 - multimodal_rag - INFO - on_file_change:115 - Sync: created - a042df4b-68cf-4589-8546-b2290b57923c_gita generated.pdf
+2026-01-17 17:47:22,252 - multimodal_rag - INFO - on_created:124 - File created: a042df4b-68cf-4589-8546-b2290b57923c_gita generated.pdf
+2026-01-17 17:47:25,809 - multimodal_rag - INFO - _process_pdf:64 - Processed PDF a042df4b-68cf-4589-8546-b2290b57923c_gita generated.pdf: 1 chunks
+2026-01-17 17:47:25,848 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-17 17:47:25,848 - multimodal_rag - INFO - upload_file:197 - Uploaded and processed gita generated.pdf: 1 chunks in 3.66s
+2026-01-17 17:47:25,849 - multimodal_rag - ERROR - upload_file:222 - Upload error: name 'output_path' is not defined
+2026-01-17 17:47:25,850 - multimodal_rag - INFO - on_file_change:115 - Sync: deleted - a042df4b-68cf-4589-8546-b2290b57923c_gita generated.pdf
+2026-01-17 17:47:25,851 - multimodal_rag - INFO - on_deleted:166 - File deleted: a042df4b-68cf-4589-8546-b2290b57923c_gita generated.pdf
+2026-01-17 17:47:32,713 - multimodal_rag - INFO - stop:205 - Stopped folder watcher
+2026-01-17 17:47:35,034 - multimodal_rag - INFO - start:197 - Started watching folder: data\uploads
+2026-01-17 17:47:35,057 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+2026-01-17 17:47:35,058 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file 1338d06d_anime-watch.jpg
+2026-01-17 17:47:35,058 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file fresh_sync_test.txt
+2026-01-17 17:47:35,058 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file notification_test_172133.txt
+2026-01-17 17:47:35,059 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file sync_test_file.txt
+2026-01-17 17:48:11,429 - multimodal_rag - INFO - on_file_change:115 - Sync: created - a3fbdcb4-58d8-4456-967b-cd1a02dbca8e_New Text Document.txt
+2026-01-17 17:48:11,429 - multimodal_rag - INFO - on_created:124 - File created: a3fbdcb4-58d8-4456-967b-cd1a02dbca8e_New Text Document.txt
+2026-01-17 17:48:11,430 - multimodal_rag - INFO - _process_txt:113 - Processed TXT a3fbdcb4-58d8-4456-967b-cd1a02dbca8e_New Text Document.txt: 1 chunks
+2026-01-17 17:48:11,502 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-17 17:48:11,502 - multimodal_rag - INFO - upload_file:197 - Uploaded and processed New Text Document.txt: 1 chunks in 0.08s
+2026-01-17 17:48:11,503 - multimodal_rag - ERROR - upload_file:222 - Upload error: name 'output_path' is not defined
+2026-01-17 17:49:35,857 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 17:49:35,858 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 17:51:39,154 - multimodal_rag - INFO - _process_pdf:64 - Processed PDF 24d27864-ddae-44c1-845b-48e984c49d54_gita generated.pdf: 1 chunks
+2026-01-17 17:51:39,650 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-17 17:51:39,650 - multimodal_rag - INFO - upload_file:197 - Uploaded and processed gita generated.pdf: 1 chunks in 3.34s
+2026-01-17 17:51:49,171 - multimodal_rag - WARNING - reset:145 - Vector store reset: 3 items deleted
+2026-01-17 17:51:55,534 - multimodal_rag - INFO - start:197 - Started watching folder: data\uploads
+2026-01-17 17:51:55,574 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+2026-01-17 17:51:55,575 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file 1338d06d_anime-watch.jpg
+2026-01-17 17:51:55,575 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file fresh_sync_test.txt
+2026-01-17 17:51:55,576 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file notification_test_172133.txt
+2026-01-17 17:51:55,576 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file sync_test_file.txt
+2026-01-17 17:53:02,614 - multimodal_rag - INFO - stop:205 - Stopped folder watcher
+2026-01-17 17:53:29,546 - multimodal_rag - INFO - _process_pdf:64 - Processed PDF be082262-f4d8-4338-8a46-49a7b0957cbb_gita generated.pdf: 1 chunks
+2026-01-17 17:53:29,639 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-17 17:53:29,639 - multimodal_rag - INFO - upload_file:197 - Uploaded and processed gita generated.pdf: 1 chunks in 2.02s
+2026-01-17 17:53:37,900 - multimodal_rag - WARNING - reset:145 - Vector store reset: 1 items deleted
+2026-01-17 18:01:57,227 - multimodal_rag - INFO - start:197 - Started watching folder: data\uploads
+2026-01-17 18:01:57,300 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+2026-01-17 18:01:57,301 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file 1338d06d_anime-watch.jpg
+2026-01-17 18:01:57,302 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file fresh_sync_test.txt
+2026-01-17 18:01:57,302 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file notification_test_172133.txt
+2026-01-17 18:01:57,302 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file sync_test_file.txt
+2026-01-17 18:02:04,155 - multimodal_rag - INFO - stop:205 - Stopped folder watcher
+2026-01-17 18:02:08,891 - multimodal_rag - INFO - start:197 - Started watching folder: data\uploads
+2026-01-17 18:02:08,917 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+2026-01-17 18:02:08,918 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file 1338d06d_anime-watch.jpg
+2026-01-17 18:02:08,918 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file fresh_sync_test.txt
+2026-01-17 18:02:08,919 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file notification_test_172133.txt
+2026-01-17 18:02:08,919 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file sync_test_file.txt
+2026-01-17 18:03:41,660 - multimodal_rag - WARNING - reset:147 - Vector store already empty
+2026-01-17 18:06:19,988 - multimodal_rag - INFO - on_file_change:115 - Sync: created - d436b1bc-d4ce-42e7-bb36-086673a8a0a1_test_upload.txt
+2026-01-17 18:06:20,004 - multimodal_rag - INFO - on_created:124 - File created: d436b1bc-d4ce-42e7-bb36-086673a8a0a1_test_upload.txt
+2026-01-17 18:06:20,067 - multimodal_rag - INFO - _process_txt:113 - Processed TXT d436b1bc-d4ce-42e7-bb36-086673a8a0a1_test_upload.txt: 1 chunks
+2026-01-17 18:06:20,900 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-17 18:06:20,901 - multimodal_rag - INFO - upload_file:197 - Uploaded and processed test_upload.txt: 1 chunks in 1.00s
+2026-01-17 18:06:20,903 - multimodal_rag - INFO - trigger_upload_notification:130 - Sync: uploaded - test_upload.txt
+2026-01-17 18:07:32,979 - multimodal_rag - WARNING - reset:145 - Vector store reset: 1 items deleted
+2026-01-17 18:07:51,309 - multimodal_rag - INFO - on_file_change:115 - Sync: created - 394f82f8-d7a6-4947-b29e-01e34f2c22a4_test_upload.txt
+2026-01-17 18:07:51,316 - multimodal_rag - INFO - on_created:124 - File created: 394f82f8-d7a6-4947-b29e-01e34f2c22a4_test_upload.txt
+2026-01-17 18:07:51,324 - multimodal_rag - INFO - _process_txt:113 - Processed TXT 394f82f8-d7a6-4947-b29e-01e34f2c22a4_test_upload.txt: 1 chunks
+2026-01-17 18:07:51,483 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-17 18:07:51,484 - multimodal_rag - INFO - upload_file:197 - Uploaded and processed test_upload.txt: 1 chunks in 0.19s
+2026-01-17 18:07:51,487 - multimodal_rag - INFO - trigger_upload_notification:130 - Sync: uploaded - test_upload.txt
+2026-01-17 18:10:34,932 - multimodal_rag - WARNING - reset:145 - Vector store reset: 1 items deleted
+2026-01-17 18:10:57,405 - multimodal_rag - INFO - _process_txt:113 - Processed TXT 7b28cb7c-18af-4fda-9ea2-37043b295518_New Text Document.txt: 1 chunks
+2026-01-17 18:10:57,406 - multimodal_rag - INFO - on_file_change:115 - Sync: created - 7b28cb7c-18af-4fda-9ea2-37043b295518_New Text Document.txt
+2026-01-17 18:10:57,427 - multimodal_rag - INFO - on_created:124 - File created: 7b28cb7c-18af-4fda-9ea2-37043b295518_New Text Document.txt
+2026-01-17 18:10:57,690 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-17 18:10:57,691 - multimodal_rag - INFO - upload_file:197 - Uploaded and processed New Text Document.txt: 1 chunks in 0.30s
+2026-01-17 18:10:57,691 - multimodal_rag - INFO - trigger_upload_notification:130 - Sync: uploaded - New Text Document.txt
+2026-01-17 18:11:55,219 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is the operating voltage? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-17 18:11:55,222 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is the operatin...' modality=Modality.TEXT
+2026-01-17 18:11:55,325 - multimodal_rag - DEBUG - query:97 - Query returned 1 results (modality: Modality.TEXT, k: 20)
+2026-01-17 18:11:55,326 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is the operatin...' modality=Modality.AUDIO
+2026-01-17 18:11:55,346 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.AUDIO, k: 20)
+2026-01-17 18:11:55,352 - multimodal_rag - INFO - retrieve:89 - Retrieved 1 results across 1 modalities
+2026-01-17 18:11:55,364 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.851 | Sources: 1 | Reason: Avg relevance: 0.60; Avg source quality: 1.00; Unique sources: 1; Modalities: 1
+2026-01-17 18:14:08,089 - multimodal_rag - INFO - on_file_change:115 - Sync: created - f07c91cc-e1f2-43f7-9b66-4acdc8bdac02_label.png
+2026-01-17 18:14:08,093 - multimodal_rag - INFO - on_created:124 - File created: f07c91cc-e1f2-43f7-9b66-4acdc8bdac02_label.png
+2026-01-17 18:14:11,943 - multimodal_rag - INFO - _load_ocr:25 - Loading EasyOCR reader for English...
+2026-01-17 18:14:14,970 - multimodal_rag - INFO - _load_ocr:27 - EasyOCR loaded successfully
+2026-01-17 18:14:22,229 - multimodal_rag - INFO - _extract_text_ocr:141 - OCR extracted 46 characters from f07c91cc-e1f2-43f7-9b66-4acdc8bdac02_label.png
+2026-01-17 18:14:22,239 - multimodal_rag - INFO - process_file:114 - Created OCR text chunk for f07c91cc-e1f2-43f7-9b66-4acdc8bdac02_label.png (46 chars)
+2026-01-17 18:14:22,703 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-17 18:14:22,704 - multimodal_rag - INFO - upload_file:197 - Uploaded and processed label.png: 1 chunks in 14.66s
+2026-01-17 18:14:22,704 - multimodal_rag - INFO - trigger_upload_notification:130 - Sync: uploaded - label.png
+2026-01-17 18:14:22,720 - multimodal_rag - INFO - on_file_change:115 - Sync: deleted - f07c91cc-e1f2-43f7-9b66-4acdc8bdac02_label.png
+2026-01-17 18:14:22,727 - multimodal_rag - INFO - on_deleted:166 - File deleted: f07c91cc-e1f2-43f7-9b66-4acdc8bdac02_label.png
+2026-01-17 18:14:33,589 - multimodal_rag - INFO - stop:205 - Stopped folder watcher
+2026-01-17 18:14:39,354 - multimodal_rag - INFO - start:197 - Started watching folder: data\uploads
+2026-01-17 18:14:39,379 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+2026-01-17 18:14:39,379 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file 1338d06d_anime-watch.jpg
+2026-01-17 18:14:39,380 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file fresh_sync_test.txt
+2026-01-17 18:14:39,380 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file notification_test_172133.txt
+2026-01-17 18:14:39,380 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file sync_test_file.txt
+2026-01-17 18:15:27,293 - multimodal_rag - INFO - _process_txt:113 - Processed TXT sync_test_file.txt: 1 chunks
+2026-01-17 18:15:27,574 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-17 18:16:03,165 - multimodal_rag - WARNING - add_chunks:42 - No chunks with embeddings to add
+2026-01-17 18:16:29,830 - multimodal_rag - INFO - _process_txt:113 - Processed TXT sync_test_file.txt: 1 chunks
+2026-01-17 18:16:29,888 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-17 18:16:54,353 - multimodal_rag - INFO - _process_pdf:64 - Processed PDF 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf: 2 chunks
+2026-01-17 18:16:54,673 - multimodal_rag - INFO - add_chunks:67 - Added 2 chunks to vector store
+2026-01-17 18:18:09,337 - multimodal_rag - INFO - _load_model:21 - Loading Whisper tiny model...
+2026-01-17 18:18:09,366 - multimodal_rag - INFO - on_file_change:115 - Sync: created - 1ea8df4d-7ec7-4b62-ab49-287e8f6404a5_au.mp3.mp4
+2026-01-17 18:18:09,366 - multimodal_rag - INFO - on_created:124 - File created: 1ea8df4d-7ec7-4b62-ab49-287e8f6404a5_au.mp3.mp4
+2026-01-17 18:18:10,110 - multimodal_rag - INFO - _load_model:23 - Whisper model loaded successfully
+2026-01-17 18:18:10,111 - multimodal_rag - INFO - process_file:30 - Transcribing 1ea8df4d-7ec7-4b62-ab49-287e8f6404a5_au.mp3.mp4...
+2026-01-17 18:18:14,846 - multimodal_rag - INFO - process_file:132 - Transcribed 1ea8df4d-7ec7-4b62-ab49-287e8f6404a5_au.mp3.mp4: 3 segments, 167 chars, confidence: 0.50
+2026-01-17 18:18:14,917 - multimodal_rag - INFO - add_chunks:67 - Added 3 chunks to vector store
+2026-01-17 18:18:14,917 - multimodal_rag - INFO - upload_file:197 - Uploaded and processed au.mp3.mp4: 3 chunks in 5.59s
+2026-01-17 18:18:14,917 - multimodal_rag - INFO - trigger_upload_notification:130 - Sync: uploaded - au.mp3.mp4
+2026-01-17 18:18:14,925 - multimodal_rag - INFO - on_file_change:115 - Sync: deleted - 1ea8df4d-7ec7-4b62-ab49-287e8f6404a5_au.mp3.mp4
+2026-01-17 18:18:14,926 - multimodal_rag - INFO - on_deleted:166 - File deleted: 1ea8df4d-7ec7-4b62-ab49-287e8f6404a5_au.mp3.mp4
+2026-01-17 18:18:53,761 - multimodal_rag - INFO - stop:205 - Stopped folder watcher
+2026-01-17 18:19:09,029 - multimodal_rag - WARNING - reset:145 - Vector store reset: 9 items deleted
+2026-01-17 18:19:58,326 - multimodal_rag - INFO - _process_txt:113 - Processed TXT bb75c993-82e8-4acd-b13f-0c0f17dae0ff_New Text Document.txt: 1 chunks
+2026-01-17 18:19:58,700 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-17 18:19:58,701 - multimodal_rag - INFO - upload_file:197 - Uploaded and processed New Text Document.txt: 1 chunks in 0.40s
+2026-01-17 18:20:06,318 - multimodal_rag - WARNING - reset:145 - Vector store reset: 1 items deleted
+2026-01-17 18:20:08,403 - multimodal_rag - INFO - start:197 - Started watching folder: data\uploads
+2026-01-17 18:20:08,434 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+2026-01-17 18:20:08,435 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file 1338d06d_anime-watch.jpg
+2026-01-17 18:20:08,435 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file fresh_sync_test.txt
+2026-01-17 18:20:08,435 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file notification_test_172133.txt
+2026-01-17 18:20:08,436 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file sync_test_file.txt
+2026-01-17 18:20:24,028 - multimodal_rag - WARNING - reset:147 - Vector store already empty
+2026-01-17 18:20:37,153 - multimodal_rag - INFO - on_file_change:115 - Sync: created - b2af917f-d6cb-45b1-8ace-12daadbaf4f9_New Text Document.txt
+2026-01-17 18:20:37,154 - multimodal_rag - INFO - on_created:124 - File created: b2af917f-d6cb-45b1-8ace-12daadbaf4f9_New Text Document.txt
+2026-01-17 18:20:37,154 - multimodal_rag - INFO - _process_txt:113 - Processed TXT b2af917f-d6cb-45b1-8ace-12daadbaf4f9_New Text Document.txt: 1 chunks
+2026-01-17 18:20:37,218 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-17 18:20:37,218 - multimodal_rag - INFO - upload_file:197 - Uploaded and processed New Text Document.txt: 1 chunks in 0.07s
+2026-01-17 18:20:37,219 - multimodal_rag - INFO - trigger_upload_notification:130 - Sync: uploaded - New Text Document.txt
+2026-01-17 18:21:21,706 - multimodal_rag - INFO - on_file_change:115 - Sync: created - 9e5c0b7d-de20-46a4-abad-e6c47857cf54_label.png
+2026-01-17 18:21:21,707 - multimodal_rag - INFO - on_created:124 - File created: 9e5c0b7d-de20-46a4-abad-e6c47857cf54_label.png
+2026-01-17 18:21:30,662 - multimodal_rag - INFO - _extract_text_ocr:141 - OCR extracted 46 characters from 9e5c0b7d-de20-46a4-abad-e6c47857cf54_label.png
+2026-01-17 18:21:30,674 - multimodal_rag - INFO - process_file:114 - Created OCR text chunk for 9e5c0b7d-de20-46a4-abad-e6c47857cf54_label.png (46 chars)
+2026-01-17 18:21:31,038 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-17 18:21:31,039 - multimodal_rag - INFO - upload_file:197 - Uploaded and processed label.png: 1 chunks in 9.38s
+2026-01-17 18:21:31,040 - multimodal_rag - INFO - trigger_upload_notification:130 - Sync: uploaded - label.png
+2026-01-17 18:21:31,057 - multimodal_rag - INFO - on_file_change:115 - Sync: deleted - 9e5c0b7d-de20-46a4-abad-e6c47857cf54_label.png
+2026-01-17 18:21:31,066 - multimodal_rag - INFO - on_deleted:166 - File deleted: 9e5c0b7d-de20-46a4-abad-e6c47857cf54_label.png
+2026-01-17 18:21:50,551 - multimodal_rag - INFO - process_file:30 - Transcribing 4c771883-b582-4ada-8128-c6e774ee6f7c_au.mp3.mp4...
+2026-01-17 18:21:50,578 - multimodal_rag - INFO - on_file_change:115 - Sync: created - 4c771883-b582-4ada-8128-c6e774ee6f7c_au.mp3.mp4
+2026-01-17 18:21:50,579 - multimodal_rag - INFO - on_created:124 - File created: 4c771883-b582-4ada-8128-c6e774ee6f7c_au.mp3.mp4
+2026-01-17 18:21:55,501 - multimodal_rag - INFO - process_file:132 - Transcribed 4c771883-b582-4ada-8128-c6e774ee6f7c_au.mp3.mp4: 3 segments, 167 chars, confidence: 0.50
+2026-01-17 18:21:55,599 - multimodal_rag - INFO - add_chunks:67 - Added 3 chunks to vector store
+2026-01-17 18:21:55,599 - multimodal_rag - INFO - upload_file:197 - Uploaded and processed au.mp3.mp4: 3 chunks in 5.05s
+2026-01-17 18:21:55,600 - multimodal_rag - INFO - trigger_upload_notification:130 - Sync: uploaded - au.mp3.mp4
+2026-01-17 18:21:55,602 - multimodal_rag - INFO - on_file_change:115 - Sync: deleted - 4c771883-b582-4ada-8128-c6e774ee6f7c_au.mp3.mp4
+2026-01-17 18:21:55,606 - multimodal_rag - INFO - on_deleted:166 - File deleted: 4c771883-b582-4ada-8128-c6e774ee6f7c_au.mp3.mp4
+2026-01-17 18:26:54,192 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-17 18:26:54,193 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-17 18:34:17,198 - multimodal_rag - INFO - get_or_create_session:45 - Created new conversation session: sess_2w8cqgpo
+2026-01-17 18:36:45,894 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is the operating voltage | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-17 18:36:45,903 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is the operatin...' modality=Modality.TEXT
+2026-01-17 18:36:46,616 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.TEXT, k: 10)
+2026-01-17 18:36:46,618 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is the operatin...' modality=Modality.AUDIO
+2026-01-17 18:36:46,646 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 10)
+2026-01-17 18:36:46,650 - multimodal_rag - INFO - retrieve:89 - Retrieved 5 results across 2 modalities
+2026-01-17 18:36:46,661 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.880 | Sources: 5 | Reason: Avg relevance: 0.53; Avg source quality: 0.73; Unique sources: 3; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-17 18:36:47,236 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['35845754-53ff-4ce6-be4f-d63928db52c9', '18f5cb37-a1b4-4751-93a7-f2631e3a326d'] | Details: 1 contradiction(s) detected between sources
+2026-01-17 18:38:53,431 - multimodal_rag - INFO - start:197 - Started watching folder: data\uploads
+2026-01-17 18:38:53,538 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+2026-01-17 18:38:53,539 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file 1338d06d_anime-watch.jpg
+2026-01-17 18:38:53,540 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file fresh_sync_test.txt
+2026-01-17 18:38:53,540 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file notification_test_172133.txt
+2026-01-17 18:38:53,541 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file sync_test_file.txt
+2026-01-17 18:39:03,547 - multimodal_rag - INFO - stop:205 - Stopped folder watcher
+2026-01-17 18:40:32,510 - multimodal_rag - INFO - start:197 - Started watching folder: data\uploads
+2026-01-17 18:40:32,577 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+2026-01-17 18:40:32,577 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file 1338d06d_anime-watch.jpg
+2026-01-17 18:40:32,578 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file fresh_sync_test.txt
+2026-01-17 18:40:32,578 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file notification_test_172133.txt
+2026-01-17 18:40:32,578 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file sync_test_file.txt
+2026-01-17 18:40:45,871 - multimodal_rag - INFO - stop:205 - Stopped folder watcher
+2026-01-17 18:41:09,953 - multimodal_rag - INFO - start:197 - Started watching folder: data\uploads
+2026-01-17 18:41:09,985 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+2026-01-17 18:41:09,987 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file 1338d06d_anime-watch.jpg
+2026-01-17 18:41:09,988 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file fresh_sync_test.txt
+2026-01-17 18:41:09,989 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file notification_test_172133.txt
+2026-01-17 18:41:09,990 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file sync_test_file.txt
+2026-01-17 18:41:22,016 - multimodal_rag - INFO - on_file_change:115 - Sync: created - 7b3423af-ca9d-4fe1-8185-7a9878f9425a_gita.pdf
+2026-01-17 18:41:22,017 - multimodal_rag - INFO - on_created:124 - File created: 7b3423af-ca9d-4fe1-8185-7a9878f9425a_gita.pdf
+2026-01-17 18:41:23,687 - multimodal_rag - INFO - _process_pdf:64 - Processed PDF 7b3423af-ca9d-4fe1-8185-7a9878f9425a_gita.pdf: 32 chunks
+2026-01-17 18:41:26,919 - multimodal_rag - INFO - add_chunks:67 - Added 32 chunks to vector store
+2026-01-17 18:41:26,921 - multimodal_rag - INFO - upload_file:197 - Uploaded and processed gita.pdf: 32 chunks in 4.96s
+2026-01-17 18:41:26,921 - multimodal_rag - INFO - trigger_upload_notification:130 - Sync: uploaded - gita.pdf
+2026-01-17 18:41:26,928 - multimodal_rag - INFO - on_file_change:115 - Sync: deleted - 7b3423af-ca9d-4fe1-8185-7a9878f9425a_gita.pdf
+2026-01-17 18:41:26,929 - multimodal_rag - INFO - on_deleted:166 - File deleted: 7b3423af-ca9d-4fe1-8185-7a9878f9425a_gita.pdf
+2026-01-17 18:42:00,790 - multimodal_rag - INFO - _process_txt:113 - Processed TXT notification_test_172133.txt: 1 chunks
+2026-01-17 18:42:00,847 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-17 18:42:32,498 - multimodal_rag - INFO - _process_pdf:64 - Processed PDF 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf: 2 chunks
+2026-01-17 18:42:32,723 - multimodal_rag - INFO - add_chunks:67 - Added 2 chunks to vector store
+2026-01-17 18:44:54,625 - multimodal_rag - INFO - stop:205 - Stopped folder watcher
+2026-01-17 18:45:00,626 - multimodal_rag - WARNING - reset:145 - Vector store reset: 40 items deleted
+2026-01-17 18:45:13,905 - multimodal_rag - INFO - _process_txt:113 - Processed TXT 44e4bd59-ce07-49d0-b83b-a4cbc9ec0e96_New Text Document.txt: 1 chunks
+2026-01-17 18:45:14,273 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-17 18:45:14,274 - multimodal_rag - INFO - upload_file:197 - Uploaded and processed New Text Document.txt: 1 chunks in 0.42s
+2026-01-17 18:45:28,754 - multimodal_rag - INFO - _load_ocr:25 - Loading EasyOCR reader for English...
+2026-01-17 18:45:32,275 - multimodal_rag - INFO - _load_ocr:27 - EasyOCR loaded successfully
+2026-01-17 18:45:39,218 - multimodal_rag - INFO - _extract_text_ocr:141 - OCR extracted 46 characters from 365e7ca5-b918-4338-a5e3-724560ea79fd_label.png
+2026-01-17 18:45:39,220 - multimodal_rag - INFO - process_file:114 - Created OCR text chunk for 365e7ca5-b918-4338-a5e3-724560ea79fd_label.png (46 chars)
+2026-01-17 18:45:39,306 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-17 18:45:39,307 - multimodal_rag - INFO - upload_file:197 - Uploaded and processed label.png: 1 chunks in 11.70s
+2026-01-17 18:45:41,972 - multimodal_rag - INFO - start:197 - Started watching folder: data\uploads
+2026-01-17 18:45:42,008 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+2026-01-17 18:45:42,009 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file 1338d06d_anime-watch.jpg
+2026-01-17 18:45:42,009 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file fresh_sync_test.txt
+2026-01-17 18:45:42,009 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file notification_test_172133.txt
+2026-01-17 18:45:42,010 - multimodal_rag - INFO - get_sync_changes:450 - Sync: detected new file sync_test_file.txt
+2026-01-17 18:46:13,331 - multimodal_rag - INFO - _load_model:21 - Loading Whisper tiny model...
+2026-01-17 18:46:13,372 - multimodal_rag - INFO - on_file_change:115 - Sync: created - 424a9c1e-90df-4650-80e3-485a77fff844_au.mp3.mp4
+2026-01-17 18:46:13,373 - multimodal_rag - INFO - on_created:124 - File created: 424a9c1e-90df-4650-80e3-485a77fff844_au.mp3.mp4
+2026-01-17 18:46:14,070 - multimodal_rag - INFO - _load_model:23 - Whisper model loaded successfully
+2026-01-17 18:46:14,071 - multimodal_rag - INFO - process_file:30 - Transcribing 424a9c1e-90df-4650-80e3-485a77fff844_au.mp3.mp4...
+2026-01-17 18:46:19,199 - multimodal_rag - INFO - process_file:132 - Transcribed 424a9c1e-90df-4650-80e3-485a77fff844_au.mp3.mp4: 3 segments, 167 chars, confidence: 0.50
+2026-01-17 18:46:19,287 - multimodal_rag - INFO - add_chunks:67 - Added 3 chunks to vector store
+2026-01-17 18:46:19,288 - multimodal_rag - INFO - upload_file:197 - Uploaded and processed au.mp3.mp4: 3 chunks in 5.97s
+2026-01-17 18:46:19,289 - multimodal_rag - INFO - trigger_upload_notification:130 - Sync: uploaded - au.mp3.mp4
+2026-01-17 18:46:19,291 - multimodal_rag - INFO - on_file_change:115 - Sync: deleted - 424a9c1e-90df-4650-80e3-485a77fff844_au.mp3.mp4
+2026-01-17 18:46:19,292 - multimodal_rag - INFO - on_deleted:166 - File deleted: 424a9c1e-90df-4650-80e3-485a77fff844_au.mp3.mp4
+2026-01-17 18:47:46,230 - multimodal_rag - INFO - stop:205 - Stopped folder watcher

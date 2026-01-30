@@ -1,0 +1,348 @@
+2026-01-05 13:56:35,919 - multimodal_rag - INFO - __init__:26 - Connected to collection: multimodal_knowledge
+2026-01-05 13:58:32,865 - multimodal_rag - INFO - _process_pdf:64 - Processed PDF 45f0b628-ce2e-4653-8f7d-d1a824984e57_rajkishore chapter 2.pdf: 2 chunks
+2026-01-05 13:58:32,865 - multimodal_rag - INFO - _load_model:20 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-05 13:58:38,073 - multimodal_rag - INFO - embed_chunks:61 - Embedded 2 chunks: 2 text, 0 image, 0 audio
+2026-01-05 13:58:38,073 - multimodal_rag - ERROR - upload_file:137 - Upload error: 'str' object has no attribute 'value'
+2026-01-05 14:00:49,668 - multimodal_rag - INFO - _process_pdf:64 - Processed PDF 0c91aeb0-cf41-4dd2-a977-0362d130aee6_rajkishore chapter 2.pdf: 2 chunks
+2026-01-05 14:00:50,207 - multimodal_rag - INFO - embed_chunks:61 - Embedded 2 chunks: 2 text, 0 image, 0 audio
+2026-01-05 14:00:50,208 - multimodal_rag - ERROR - upload_file:137 - Upload error: 'str' object has no attribute 'value'
+2026-01-05 14:01:03,708 - multimodal_rag - INFO - _process_txt:113 - Processed TXT 31e4bab2-f68c-462b-b850-f54d159bc0ed_test_document.txt: 1 chunks
+2026-01-05 14:01:03,772 - multimodal_rag - INFO - embed_chunks:61 - Embedded 1 chunks: 1 text, 0 image, 0 audio
+2026-01-05 14:01:03,773 - multimodal_rag - ERROR - upload_file:137 - Upload error: 'str' object has no attribute 'value'
+2026-01-05 14:01:22,418 - multimodal_rag - INFO - _process_txt:113 - Processed TXT c7563722-76a3-4566-94d8-e8753c4082fc_test.txt: 1 chunks
+2026-01-05 14:01:22,445 - multimodal_rag - INFO - embed_chunks:61 - Embedded 1 chunks: 1 text, 0 image, 0 audio
+2026-01-05 14:01:22,447 - multimodal_rag - ERROR - upload_file:137 - Upload error: 'str' object has no attribute 'value'
+2026-01-05 14:01:57,995 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is photosynthesis? | Modalities: ['image'] | Top-K: 20 | Reason: Image keywords detected; Complex query detected, using k=20
+2026-01-05 14:01:57,996 - multimodal_rag - INFO - _load_model:23 - Loading image embedding model: openai/clip-vit-base-patch32
+2026-01-05 14:02:05,159 - multimodal_rag - DEBUG - query:95 - Query returned 0 results (modality: Modality.IMAGE, k: 20)
+2026-01-05 14:02:05,159 - multimodal_rag - INFO - retrieve:87 - Retrieved 0 results across 0 modalities
+2026-01-05 14:02:05,159 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: What is photosynthesis? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-05 14:04:08,482 - multimodal_rag - INFO - __init__:26 - Connected to collection: multimodal_knowledge
+2026-01-05 14:04:17,320 - multimodal_rag - INFO - _process_txt:113 - Processed TXT 7df7734a-ffce-4ef7-8914-4df884188ca1_test.txt: 1 chunks
+2026-01-05 14:04:17,320 - multimodal_rag - INFO - _load_model:20 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-05 14:04:22,882 - multimodal_rag - INFO - embed_chunks:61 - Embedded 1 chunks: 1 text, 0 image, 0 audio
+2026-01-05 14:04:22,934 - multimodal_rag - INFO - add_chunks:65 - Added 1 chunks to vector store
+2026-01-05 14:04:22,935 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed test.txt: 1 chunks in 5.66s
+2026-01-05 14:05:04,906 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is photosynthesis? | Modalities: ['image'] | Top-K: 20 | Reason: Image keywords detected; Complex query detected, using k=20
+2026-01-05 14:05:04,906 - multimodal_rag - INFO - _load_model:23 - Loading image embedding model: openai/clip-vit-base-patch32
+2026-01-05 14:05:13,667 - multimodal_rag - DEBUG - query:95 - Query returned 0 results (modality: Modality.IMAGE, k: 20)
+2026-01-05 14:05:13,667 - multimodal_rag - INFO - retrieve:87 - Retrieved 0 results across 0 modalities
+2026-01-05 14:05:13,668 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: What is photosynthesis? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-05 14:06:48,725 - multimodal_rag - INFO - _process_pdf:64 - Processed PDF aa6491d3-d98b-46b7-87eb-a15dc62e8c08_PS4_Multimodal_RAG_System_Challenge.pdf: 2 chunks
+2026-01-05 14:06:48,969 - multimodal_rag - INFO - embed_chunks:61 - Embedded 2 chunks: 2 text, 0 image, 0 audio
+2026-01-05 14:06:48,979 - multimodal_rag - INFO - add_chunks:65 - Added 2 chunks to vector store
+2026-01-05 14:06:48,981 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed PS4_Multimodal_RAG_System_Challenge.pdf: 2 chunks in 0.49s
+2026-01-05 14:07:04,592 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is aim? | Modalities: ['text'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Complex query detected, using k=20
+2026-01-05 14:07:04,620 - multimodal_rag - DEBUG - query:95 - Query returned 3 results (modality: Modality.TEXT, k: 20)
+2026-01-05 14:07:04,620 - multimodal_rag - INFO - retrieve:87 - Retrieved 3 results across 1 modalities
+2026-01-05 14:07:04,621 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.778 | Sources: 3 | Reason: Avg relevance: 0.36; Avg source quality: 1.00; Unique sources: 2; Modalities: 1
+2026-01-05 14:07:04,621 - multimodal_rag - INFO - _load_model:20 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-05 14:07:11,097 - multimodal_rag - WARNING - generate:39 - Ollama generation failed: Server error '500 Internal Server Error' for url 'http://localhost:11434/api/generate'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2026-01-05 14:11:12,886 - multimodal_rag - INFO - __init__:26 - Connected to collection: multimodal_knowledge
+2026-01-05 14:11:36,194 - multimodal_rag - INFO - __init__:26 - Connected to collection: multimodal_knowledge
+2026-01-05 14:12:35,961 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is the main topic of the uploaded documents? | Modalities: ['text'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Complex query detected, using k=20
+2026-01-05 14:12:35,962 - multimodal_rag - INFO - _load_model:20 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-05 14:12:41,710 - multimodal_rag - DEBUG - query:95 - Query returned 0 results (modality: Modality.TEXT, k: 20)
+2026-01-05 14:12:41,710 - multimodal_rag - INFO - retrieve:87 - Retrieved 0 results across 0 modalities
+2026-01-05 14:12:41,711 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: What is the main topic of the uploaded documents? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-05 14:13:49,445 - multimodal_rag - INFO - _process_txt:113 - Processed TXT cee4d584-b927-490f-aec5-ea91c5fbf468_photosynthesis.txt: 1 chunks
+2026-01-05 14:13:49,685 - multimodal_rag - INFO - embed_chunks:61 - Embedded 1 chunks: 1 text, 0 image, 0 audio
+2026-01-05 14:13:49,776 - multimodal_rag - INFO - add_chunks:65 - Added 1 chunks to vector store
+2026-01-05 14:13:49,776 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed photosynthesis.txt: 1 chunks in 0.40s
+2026-01-05 14:14:31,674 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is photosynthesis? | Modalities: ['image'] | Top-K: 20 | Reason: Image keywords detected; Complex query detected, using k=20
+2026-01-05 14:14:31,675 - multimodal_rag - INFO - _load_model:23 - Loading image embedding model: openai/clip-vit-base-patch32
+2026-01-05 14:14:38,689 - multimodal_rag - DEBUG - query:95 - Query returned 0 results (modality: Modality.IMAGE, k: 20)
+2026-01-05 14:14:38,689 - multimodal_rag - INFO - retrieve:87 - Retrieved 0 results across 0 modalities
+2026-01-05 14:14:38,689 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: What is photosynthesis? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-05 14:15:34,914 - multimodal_rag - INFO - _process_txt:113 - Processed TXT e6b73449-8982-4bbb-8f0e-e88bd9f5c214_photosynthesis.txt: 1 chunks
+2026-01-05 14:15:35,028 - multimodal_rag - INFO - embed_chunks:61 - Embedded 1 chunks: 1 text, 0 image, 0 audio
+2026-01-05 14:15:35,037 - multimodal_rag - INFO - add_chunks:65 - Added 1 chunks to vector store
+2026-01-05 14:15:35,037 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed photosynthesis.txt: 1 chunks in 0.17s
+2026-01-05 14:15:57,527 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is photosynthesis? | Modalities: ['image'] | Top-K: 20 | Reason: Image keywords detected; Complex query detected, using k=20
+2026-01-05 14:15:57,633 - multimodal_rag - DEBUG - query:95 - Query returned 0 results (modality: Modality.IMAGE, k: 20)
+2026-01-05 14:15:57,633 - multimodal_rag - INFO - retrieve:87 - Retrieved 0 results across 0 modalities
+2026-01-05 14:15:57,636 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: What is photosynthesis? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-05 14:16:40,995 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: chlorophyll | Modalities: ['text'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Simple query, using k=10
+2026-01-05 14:16:41,235 - multimodal_rag - DEBUG - query:95 - Query returned 2 results (modality: Modality.TEXT, k: 10)
+2026-01-05 14:16:41,236 - multimodal_rag - INFO - retrieve:87 - Retrieved 2 results across 1 modalities
+2026-01-05 14:16:41,238 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.853 | Sources: 2 | Reason: Avg relevance: 0.51; Avg source quality: 1.00; Unique sources: 2; Modalities: 1
+2026-01-05 14:16:41,241 - multimodal_rag - INFO - _load_model:20 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-05 14:17:15,203 - multimodal_rag - INFO - _process_txt:113 - Processed TXT 7515add8-e1d6-470a-ad81-8eb84bbaf8dd_photosynthesis_large.txt: 1 chunks
+2026-01-05 14:17:15,402 - multimodal_rag - INFO - embed_chunks:61 - Embedded 1 chunks: 1 text, 0 image, 0 audio
+2026-01-05 14:17:15,425 - multimodal_rag - INFO - add_chunks:65 - Added 1 chunks to vector store
+2026-01-05 14:17:15,428 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed photosynthesis_large.txt: 1 chunks in 0.26s
+2026-01-05 14:18:10,148 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is photosynthesis? | Modalities: ['image'] | Top-K: 20 | Reason: Image keywords detected; Complex query detected, using k=20
+2026-01-05 14:18:10,865 - multimodal_rag - DEBUG - query:95 - Query returned 0 results (modality: Modality.IMAGE, k: 20)
+2026-01-05 14:18:10,866 - multimodal_rag - INFO - retrieve:87 - Retrieved 0 results across 0 modalities
+2026-01-05 14:18:10,873 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: What is photosynthesis? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-05 14:18:56,757 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: photosynthesis | Modalities: ['image'] | Top-K: 10 | Reason: Image keywords detected; Simple query, using k=10
+2026-01-05 14:18:56,964 - multimodal_rag - DEBUG - query:95 - Query returned 0 results (modality: Modality.IMAGE, k: 10)
+2026-01-05 14:18:56,964 - multimodal_rag - INFO - retrieve:87 - Retrieved 0 results across 0 modalities
+2026-01-05 14:18:56,965 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: photosynthesis | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-05 14:20:52,132 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: chlorophyll | Modalities: ['text'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Simple query, using k=10
+2026-01-05 14:20:52,328 - multimodal_rag - DEBUG - query:95 - Query returned 3 results (modality: Modality.TEXT, k: 10)
+2026-01-05 14:20:52,332 - multimodal_rag - INFO - retrieve:87 - Retrieved 3 results across 1 modalities
+2026-01-05 14:20:52,338 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.903 | Sources: 3 | Reason: Avg relevance: 0.51; Avg source quality: 1.00; Unique sources: 3; Modalities: 1
+2026-01-05 14:24:48,581 - multimodal_rag - INFO - process_file:58 - Processed image 1212e245-5827-4ec5-abe3-3c6e5c4af195_IMG-20250906-WA0328[1].jpg
+2026-01-05 14:24:49,607 - multimodal_rag - INFO - embed_chunks:61 - Embedded 1 chunks: 0 text, 1 image, 0 audio
+2026-01-05 14:24:49,723 - multimodal_rag - INFO - add_chunks:65 - Added 1 chunks to vector store
+2026-01-05 14:24:49,724 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed IMG-20250906-WA0328[1].jpg: 1 chunks in 1.60s
+2026-01-05 14:25:59,878 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: inputs | Modalities: ['text'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Simple query, using k=10
+2026-01-05 14:26:00,069 - multimodal_rag - DEBUG - query:95 - Query returned 3 results (modality: Modality.TEXT, k: 10)
+2026-01-05 14:26:00,070 - multimodal_rag - INFO - retrieve:87 - Retrieved 3 results across 1 modalities
+2026-01-05 14:26:00,074 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.821 | Sources: 3 | Reason: Avg relevance: 0.34; Avg source quality: 1.00; Unique sources: 3; Modalities: 1
+2026-01-05 14:27:48,473 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: photosynthesis | Modalities: ['image'] | Top-K: 10 | Reason: Image keywords detected; Simple query, using k=10
+2026-01-05 14:27:48,714 - multimodal_rag - DEBUG - query:95 - Query returned 1 results (modality: Modality.IMAGE, k: 10)
+2026-01-05 14:27:48,714 - multimodal_rag - INFO - retrieve:87 - Retrieved 1 results across 1 modalities
+2026-01-05 14:27:48,715 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.662 | Sources: 1 | Reason: Avg relevance: 0.42; Avg source quality: 0.80; Unique sources: 1; Modalities: 1
+2026-01-05 14:30:58,620 - multimodal_rag - INFO - _process_pdf:64 - Processed PDF b1e7c8e1-dfc9-4391-b397-a51a99eca8c7_AIML notes(2025-26) (1).pdf: 92 chunks
+2026-01-05 14:31:04,966 - multimodal_rag - INFO - embed_chunks:61 - Embedded 92 chunks: 92 text, 0 image, 0 audio
+2026-01-05 14:31:05,171 - multimodal_rag - INFO - add_chunks:65 - Added 92 chunks to vector store
+2026-01-05 14:31:05,171 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed AIML notes(2025-26) (1).pdf: 92 chunks in 19.69s
+2026-01-05 14:31:19,802 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is ai | Modalities: ['text'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Simple query, using k=10
+2026-01-05 14:31:19,845 - multimodal_rag - DEBUG - query:95 - Query returned 10 results (modality: Modality.TEXT, k: 10)
+2026-01-05 14:31:19,856 - multimodal_rag - INFO - retrieve:87 - Retrieved 10 results across 1 modalities
+2026-01-05 14:31:19,859 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.810 | Sources: 10 | Reason: Avg relevance: 0.52; Avg source quality: 1.00; Unique sources: 1; Modalities: 1
+2026-01-05 14:33:23,095 - multimodal_rag - WARNING - generate:39 - Ollama generation failed: 
+2026-01-05 14:34:29,008 - multimodal_rag - INFO - process_file:58 - Processed image 8afe14b6-d076-47dd-8106-fa2cd4d47963_WhatsApp Image 2025-12-30 at 1.24.57 PM.jpeg
+2026-01-05 14:34:31,266 - multimodal_rag - INFO - embed_chunks:61 - Embedded 1 chunks: 0 text, 1 image, 0 audio
+2026-01-05 14:34:31,577 - multimodal_rag - INFO - add_chunks:65 - Added 1 chunks to vector store
+2026-01-05 14:34:31,581 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed WhatsApp Image 2025-12-30 at 1.24.57 PM.jpeg: 1 chunks in 2.81s
+2026-01-05 14:35:07,454 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: hackthon name | Modalities: ['text'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Simple query, using k=10
+2026-01-05 14:35:07,839 - multimodal_rag - DEBUG - query:95 - Query returned 10 results (modality: Modality.TEXT, k: 10)
+2026-01-05 14:35:07,863 - multimodal_rag - INFO - retrieve:87 - Retrieved 10 results across 1 modalities
+2026-01-05 14:35:07,871 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.727 | Sources: 10 | Reason: Avg relevance: 0.35; Avg source quality: 1.00; Unique sources: 1; Modalities: 1
+2026-01-05 14:37:15,718 - multimodal_rag - WARNING - generate:39 - Ollama generation failed: 
+2026-01-05 14:40:22,973 - multimodal_rag - INFO - __init__:26 - Connected to collection: multimodal_knowledge
+2026-01-05 14:40:56,408 - multimodal_rag - INFO - __init__:26 - Connected to collection: multimodal_knowledge
+2026-01-05 14:41:24,504 - multimodal_rag - INFO - __init__:26 - Connected to collection: multimodal_knowledge
+2026-01-05 14:43:30,283 - multimodal_rag - INFO - _process_txt:113 - Processed TXT a18343ad-e2c6-464c-aa0f-6a297aec1967_event.txt: 1 chunks
+2026-01-05 14:43:30,284 - multimodal_rag - INFO - _load_model:20 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-05 14:43:36,465 - multimodal_rag - INFO - embed_chunks:61 - Embedded 1 chunks: 1 text, 0 image, 0 audio
+2026-01-05 14:43:36,546 - multimodal_rag - INFO - add_chunks:65 - Added 1 chunks to vector store
+2026-01-05 14:43:36,547 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed event.txt: 1 chunks in 6.32s
+2026-01-05 14:44:22,602 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is CHAKRAVYUH? | Modalities: ['text'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Complex query detected, using k=20
+2026-01-05 14:44:22,685 - multimodal_rag - DEBUG - query:95 - Query returned 1 results (modality: Modality.TEXT, k: 20)
+2026-01-05 14:44:22,686 - multimodal_rag - INFO - retrieve:87 - Retrieved 1 results across 1 modalities
+2026-01-05 14:44:22,686 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.851 | Sources: 1 | Reason: Avg relevance: 0.60; Avg source quality: 1.00; Unique sources: 1; Modalities: 1
+2026-01-05 14:46:30,885 - multimodal_rag - INFO - process_file:58 - Processed image 1afce55f-7d82-444b-8189-7c1189376189_dummy_poster.png
+2026-01-05 14:46:30,898 - multimodal_rag - INFO - _load_model:23 - Loading image embedding model: openai/clip-vit-base-patch32
+2026-01-05 14:46:40,959 - multimodal_rag - INFO - embed_chunks:61 - Embedded 1 chunks: 0 text, 1 image, 0 audio
+2026-01-05 14:46:41,100 - multimodal_rag - INFO - add_chunks:65 - Added 1 chunks to vector store
+2026-01-05 14:46:41,101 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed dummy_poster.png: 1 chunks in 10.83s
+2026-01-05 14:46:41,118 - multimodal_rag - INFO - _load_model:21 - Loading Whisper tiny model...
+2026-01-05 14:46:59,733 - multimodal_rag - INFO - process_file:29 - Transcribing 98b90893-88e6-4a8c-b197-4100c51d2cde_dummy_audio.wav...
+2026-01-05 14:47:00,054 - multimodal_rag - ERROR - process_file:61 - Failed to process audio data\uploads\98b90893-88e6-4a8c-b197-4100c51d2cde_dummy_audio.wav: [WinError 2] The system cannot find the file specified
+2026-01-05 14:53:25,775 - multimodal_rag - INFO - process_file:58 - Processed image chakravyuh_poster.jpg
+2026-01-05 14:53:33,383 - multimodal_rag - INFO - _load_model:21 - Loading Whisper tiny model...
+2026-01-05 14:53:34,647 - multimodal_rag - INFO - process_file:29 - Transcribing test_audio.wav...
+2026-01-05 14:53:34,740 - multimodal_rag - ERROR - process_file:61 - Failed to process audio test_audio.wav: [WinError 2] The system cannot find the file specified
+2026-01-05 14:53:51,942 - multimodal_rag - INFO - __init__:26 - Connected to collection: multimodal_knowledge
+2026-01-05 14:54:30,223 - multimodal_rag - INFO - process_file:58 - Processed image 2c6664c5-a4b3-4683-9bd1-79a3ed0be5c8_test_img.png
+2026-01-05 14:54:30,224 - multimodal_rag - INFO - _load_model:23 - Loading image embedding model: openai/clip-vit-base-patch32
+2026-01-05 14:54:41,572 - multimodal_rag - INFO - embed_chunks:61 - Embedded 1 chunks: 0 text, 1 image, 0 audio
+2026-01-05 14:54:41,765 - multimodal_rag - INFO - add_chunks:65 - Added 1 chunks to vector store
+2026-01-05 14:54:41,766 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed test_img.png: 1 chunks in 11.65s
+2026-01-05 14:55:21,873 - multimodal_rag - INFO - _load_model:21 - Loading Whisper tiny model...
+2026-01-05 14:55:23,079 - multimodal_rag - INFO - process_file:29 - Transcribing bfbddd97-88a4-4b1a-8dda-65f4ce099d21_test_audio.wav...
+2026-01-05 14:55:23,162 - multimodal_rag - ERROR - process_file:61 - Failed to process audio data\uploads\bfbddd97-88a4-4b1a-8dda-65f4ce099d21_test_audio.wav: [WinError 2] The system cannot find the file specified
+2026-01-05 14:56:55,550 - multimodal_rag - INFO - __init__:26 - Connected to collection: multimodal_knowledge
+2026-01-05 14:57:06,614 - multimodal_rag - INFO - _load_model:21 - Loading Whisper tiny model...
+2026-01-05 14:57:08,009 - multimodal_rag - INFO - process_file:29 - Transcribing 90251e24-7ad2-456f-ab93-fd1d56db8541_test_fixed.wav...
+2026-01-05 14:57:08,034 - multimodal_rag - WARNING - process_file:40 - Word timestamps failed, retrying without: [WinError 2] The system cannot find the file specified
+2026-01-05 14:57:08,072 - multimodal_rag - ERROR - process_file:105 - Failed to process audio data\uploads\90251e24-7ad2-456f-ab93-fd1d56db8541_test_fixed.wav: [WinError 2] The system cannot find the file specified
+2026-01-05 14:57:08,073 - multimodal_rag - INFO - _load_model:20 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-05 14:57:14,750 - multimodal_rag - INFO - embed_chunks:61 - Embedded 1 chunks: 0 text, 0 image, 1 audio
+2026-01-05 14:57:14,899 - multimodal_rag - INFO - add_chunks:65 - Added 1 chunks to vector store
+2026-01-05 14:57:14,904 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed test_fixed.wav: 1 chunks in 8.29s
+2026-01-05 14:58:25,221 - multimodal_rag - INFO - _process_txt:113 - Processed TXT 0bd84557-c08d-44ca-9cf4-14c2df62b5b6_test.txt: 1 chunks
+2026-01-05 14:58:26,922 - multimodal_rag - INFO - embed_chunks:61 - Embedded 1 chunks: 1 text, 0 image, 0 audio
+2026-01-05 14:58:27,180 - multimodal_rag - INFO - add_chunks:65 - Added 1 chunks to vector store
+2026-01-05 14:58:27,181 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed test.txt: 1 chunks in 2.15s
+2026-01-05 14:58:44,997 - multimodal_rag - INFO - process_file:58 - Processed image 3f7b2ebc-b13a-424d-afc7-2bd102ddf5eb_test.png
+2026-01-05 14:58:45,000 - multimodal_rag - INFO - _load_model:23 - Loading image embedding model: openai/clip-vit-base-patch32
+2026-01-05 14:58:59,139 - multimodal_rag - INFO - embed_chunks:61 - Embedded 1 chunks: 0 text, 1 image, 0 audio
+2026-01-05 14:58:59,190 - multimodal_rag - INFO - add_chunks:65 - Added 1 chunks to vector store
+2026-01-05 14:58:59,192 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed test.png: 1 chunks in 14.75s
+2026-01-05 14:59:05,841 - multimodal_rag - INFO - process_file:29 - Transcribing f91efdf8-43b9-456a-aa15-0203d73452d4_test.wav...
+2026-01-05 14:59:05,937 - multimodal_rag - WARNING - process_file:40 - Word timestamps failed, retrying without: [WinError 2] The system cannot find the file specified
+2026-01-05 14:59:05,996 - multimodal_rag - ERROR - process_file:105 - Failed to process audio data\uploads\f91efdf8-43b9-456a-aa15-0203d73452d4_test.wav: [WinError 2] The system cannot find the file specified
+2026-01-05 14:59:06,213 - multimodal_rag - INFO - embed_chunks:61 - Embedded 1 chunks: 0 text, 0 image, 1 audio
+2026-01-05 14:59:06,246 - multimodal_rag - INFO - add_chunks:65 - Added 1 chunks to vector store
+2026-01-05 14:59:06,248 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed test.wav: 1 chunks in 0.42s
+2026-01-05 15:00:07,404 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What modalities are available? | Modalities: ['text'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Complex query detected, using k=20
+2026-01-05 15:00:08,336 - multimodal_rag - DEBUG - query:95 - Query returned 1 results (modality: Modality.TEXT, k: 20)
+2026-01-05 15:00:08,338 - multimodal_rag - INFO - retrieve:87 - Retrieved 1 results across 1 modalities
+2026-01-05 15:00:08,358 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.723 | Sources: 1 | Reason: Avg relevance: 0.35; Avg source quality: 1.00; Unique sources: 1; Modalities: 1
+2026-01-05 15:05:00,493 - multimodal_rag - INFO - process_file:58 - Processed image c7ef96a0-cf4f-4f38-8166-3d9612ef35fa_WhatsApp Image 2025-12-30 at 1.24.57 PM.jpeg
+2026-01-05 15:05:01,704 - multimodal_rag - INFO - embed_chunks:61 - Embedded 1 chunks: 0 text, 1 image, 0 audio
+2026-01-05 15:05:01,841 - multimodal_rag - INFO - add_chunks:65 - Added 1 chunks to vector store
+2026-01-05 15:05:01,842 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed WhatsApp Image 2025-12-30 at 1.24.57 PM.jpeg: 1 chunks in 1.49s
+2026-01-05 15:05:16,447 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: chakravayu | Modalities: ['text'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Simple query, using k=10
+2026-01-05 15:05:16,635 - multimodal_rag - DEBUG - query:95 - Query returned 1 results (modality: Modality.TEXT, k: 10)
+2026-01-05 15:05:16,636 - multimodal_rag - INFO - retrieve:87 - Retrieved 1 results across 1 modalities
+2026-01-05 15:05:16,638 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.726 | Sources: 1 | Reason: Avg relevance: 0.35; Avg source quality: 1.00; Unique sources: 1; Modalities: 1
+2026-01-05 15:06:08,493 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is chakravayu | Modalities: ['text'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Simple query, using k=10
+2026-01-05 15:06:08,679 - multimodal_rag - DEBUG - query:95 - Query returned 1 results (modality: Modality.TEXT, k: 10)
+2026-01-05 15:06:08,680 - multimodal_rag - INFO - retrieve:87 - Retrieved 1 results across 1 modalities
+2026-01-05 15:06:08,684 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.722 | Sources: 1 | Reason: Avg relevance: 0.34; Avg source quality: 1.00; Unique sources: 1; Modalities: 1
+2026-01-05 15:06:55,869 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is chakravyuh | Modalities: ['text'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Simple query, using k=10
+2026-01-05 15:06:55,893 - multimodal_rag - DEBUG - query:95 - Query returned 1 results (modality: Modality.TEXT, k: 10)
+2026-01-05 15:06:55,894 - multimodal_rag - INFO - retrieve:87 - Retrieved 1 results across 1 modalities
+2026-01-05 15:06:55,894 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.719 | Sources: 1 | Reason: Avg relevance: 0.34; Avg source quality: 1.00; Unique sources: 1; Modalities: 1
+2026-01-05 15:13:51,383 - multimodal_rag - INFO - __init__:26 - Connected to collection: multimodal_knowledge
+2026-01-05 15:14:01,695 - multimodal_rag - ERROR - process_file:97 - Failed to process image data\uploads\0bda8e02-d6b0-427b-b2d7-c23625293338_chakravyuh.jpg: cannot identify image file 'data\\uploads\\0bda8e02-d6b0-427b-b2d7-c23625293338_chakravyuh.jpg'
+2026-01-05 15:15:47,295 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is chakravyuh | Modalities: ['text'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Simple query, using k=10
+2026-01-05 15:15:47,299 - multimodal_rag - INFO - _load_model:20 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-05 15:15:56,926 - multimodal_rag - DEBUG - query:95 - Query returned 0 results (modality: Modality.TEXT, k: 10)
+2026-01-05 15:15:56,926 - multimodal_rag - INFO - retrieve:87 - Retrieved 0 results across 0 modalities
+2026-01-05 15:15:56,929 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: what is chakravyuh | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-05 15:16:09,019 - multimodal_rag - INFO - _process_txt:113 - Processed TXT 1f27e444-4170-4bcd-a6e5-26b8cb7f7b5f_test.txt: 1 chunks
+2026-01-05 15:16:09,111 - multimodal_rag - INFO - embed_chunks:61 - Embedded 1 chunks: 1 text, 0 image, 0 audio
+2026-01-05 15:16:09,257 - multimodal_rag - INFO - add_chunks:65 - Added 1 chunks to vector store
+2026-01-05 15:16:09,261 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed test.txt: 1 chunks in 0.36s
+2026-01-05 15:18:48,998 - multimodal_rag - INFO - _load_ocr:24 - Loading EasyOCR reader for English...
+2026-01-05 15:19:21,436 - multimodal_rag - INFO - _load_ocr:26 - EasyOCR loaded successfully
+2026-01-05 15:19:43,520 - multimodal_rag - DEBUG - _extract_text_ocr:120 - OCR extracted 280 characters from 7d738dd6-8925-47eb-90f0-11753cee06a7_WhatsApp Image 2025-12-30 at 1.24.57 PM.jpeg
+2026-01-05 15:19:43,576 - multimodal_rag - INFO - process_file:90 - Processed image 7d738dd6-8925-47eb-90f0-11753cee06a7_WhatsApp Image 2025-12-30 at 1.24.57 PM.jpeg: with OCR text
+2026-01-05 15:19:43,599 - multimodal_rag - INFO - _load_model:23 - Loading image embedding model: openai/clip-vit-base-patch32
+2026-01-05 15:19:56,575 - multimodal_rag - INFO - embed_chunks:61 - Embedded 1 chunks: 0 text, 1 image, 0 audio
+2026-01-05 15:19:56,736 - multimodal_rag - INFO - add_chunks:65 - Added 1 chunks to vector store
+2026-01-05 15:19:56,738 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed WhatsApp Image 2025-12-30 at 1.24.57 PM.jpeg: 1 chunks in 72.89s
+2026-01-05 15:20:35,057 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is chakravyuh | Modalities: ['text'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Simple query, using k=10
+2026-01-05 15:20:35,540 - multimodal_rag - DEBUG - query:95 - Query returned 1 results (modality: Modality.TEXT, k: 10)
+2026-01-05 15:20:35,546 - multimodal_rag - INFO - retrieve:87 - Retrieved 1 results across 1 modalities
+2026-01-05 15:20:35,558 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.864 | Sources: 1 | Reason: Avg relevance: 0.63; Avg source quality: 1.00; Unique sources: 1; Modalities: 1
+2026-01-05 15:21:22,854 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is chakravyuh | Modalities: ['text'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Simple query, using k=10
+2026-01-05 15:21:23,239 - multimodal_rag - DEBUG - query:95 - Query returned 1 results (modality: Modality.TEXT, k: 10)
+2026-01-05 15:21:23,241 - multimodal_rag - INFO - retrieve:87 - Retrieved 1 results across 1 modalities
+2026-01-05 15:21:23,247 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.864 | Sources: 1 | Reason: Avg relevance: 0.63; Avg source quality: 1.00; Unique sources: 1; Modalities: 1
+2026-01-05 15:22:13,689 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: expected date to held | Modalities: ['text'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Simple query, using k=10
+2026-01-05 15:22:13,730 - multimodal_rag - DEBUG - query:95 - Query returned 1 results (modality: Modality.TEXT, k: 10)
+2026-01-05 15:22:13,730 - multimodal_rag - INFO - retrieve:87 - Retrieved 1 results across 1 modalities
+2026-01-05 15:22:13,731 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.722 | Sources: 1 | Reason: Avg relevance: 0.34; Avg source quality: 1.00; Unique sources: 1; Modalities: 1
+2026-01-05 15:23:13,437 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: registration date upto | Modalities: ['text'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Simple query, using k=10
+2026-01-05 15:23:13,798 - multimodal_rag - DEBUG - query:95 - Query returned 1 results (modality: Modality.TEXT, k: 10)
+2026-01-05 15:23:13,801 - multimodal_rag - INFO - retrieve:87 - Retrieved 1 results across 1 modalities
+2026-01-05 15:23:13,806 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.729 | Sources: 1 | Reason: Avg relevance: 0.36; Avg source quality: 1.00; Unique sources: 1; Modalities: 1
+2026-01-05 15:24:18,515 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: how many hours of hackthon | Modalities: ['text'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Simple query, using k=10
+2026-01-05 15:24:18,890 - multimodal_rag - DEBUG - query:95 - Query returned 1 results (modality: Modality.TEXT, k: 10)
+2026-01-05 15:24:18,893 - multimodal_rag - INFO - retrieve:87 - Retrieved 1 results across 1 modalities
+2026-01-05 15:24:18,897 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.740 | Sources: 1 | Reason: Avg relevance: 0.38; Avg source quality: 1.00; Unique sources: 1; Modalities: 1
+2026-01-05 15:26:14,244 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: prize pool | Modalities: ['text'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Simple query, using k=10
+2026-01-05 15:26:14,599 - multimodal_rag - DEBUG - query:95 - Query returned 1 results (modality: Modality.TEXT, k: 10)
+2026-01-05 15:26:14,602 - multimodal_rag - INFO - retrieve:87 - Retrieved 1 results across 1 modalities
+2026-01-05 15:26:14,607 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.733 | Sources: 1 | Reason: Avg relevance: 0.37; Avg source quality: 1.00; Unique sources: 1; Modalities: 1
+2026-01-05 15:36:17,306 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: prize pool | Modalities: ['text'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Simple query, using k=10
+2026-01-05 15:36:17,641 - multimodal_rag - DEBUG - query:95 - Query returned 1 results (modality: Modality.TEXT, k: 10)
+2026-01-05 15:36:17,646 - multimodal_rag - INFO - retrieve:87 - Retrieved 1 results across 1 modalities
+2026-01-05 15:36:17,651 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.733 | Sources: 1 | Reason: Avg relevance: 0.37; Avg source quality: 1.00; Unique sources: 1; Modalities: 1
+2026-01-05 15:37:32,335 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: prize pool | Modalities: ['text'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Simple query, using k=10
+2026-01-05 15:37:32,772 - multimodal_rag - DEBUG - query:95 - Query returned 1 results (modality: Modality.TEXT, k: 10)
+2026-01-05 15:37:32,775 - multimodal_rag - INFO - retrieve:87 - Retrieved 1 results across 1 modalities
+2026-01-05 15:37:32,781 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.733 | Sources: 1 | Reason: Avg relevance: 0.37; Avg source quality: 1.00; Unique sources: 1; Modalities: 1
+2026-01-05 15:39:30,356 - multimodal_rag - INFO - _process_pdf:64 - Processed PDF 8b8e31ac-813c-4403-9957-d16416f4dbd8_PS2_UNSEEN_Challenge.pdf: 4 chunks
+2026-01-05 15:39:31,064 - multimodal_rag - INFO - embed_chunks:61 - Embedded 4 chunks: 4 text, 0 image, 0 audio
+2026-01-05 15:39:31,168 - multimodal_rag - INFO - add_chunks:65 - Added 4 chunks to vector store
+2026-01-05 15:39:31,169 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed PS2_UNSEEN_Challenge.pdf: 4 chunks in 1.75s
+2026-01-05 15:42:03,707 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: UNSEEN Track Special Challenge | Modalities: ['text'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Simple query, using k=10
+2026-01-05 15:42:03,957 - multimodal_rag - DEBUG - query:95 - Query returned 5 results (modality: Modality.TEXT, k: 10)
+2026-01-05 15:42:03,966 - multimodal_rag - INFO - retrieve:87 - Retrieved 5 results across 1 modalities
+2026-01-05 15:42:03,974 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.794 | Sources: 5 | Reason: Avg relevance: 0.39; Avg source quality: 1.00; Unique sources: 2; Modalities: 1
+2026-01-05 15:42:03,985 - multimodal_rag - INFO - _load_model:20 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-05 15:44:11,125 - multimodal_rag - WARNING - generate:39 - Ollama generation failed: 
+2026-01-05 15:58:25,313 - multimodal_rag - INFO - _load_ocr:24 - Loading EasyOCR reader for English...
+2026-01-05 15:58:28,694 - multimodal_rag - INFO - _load_ocr:26 - EasyOCR loaded successfully
+2026-01-05 15:58:42,144 - multimodal_rag - DEBUG - _extract_text_ocr:120 - OCR extracted 268 characters from chakravyuh_poster.jpg
+2026-01-05 15:58:42,155 - multimodal_rag - INFO - process_file:90 - Processed image chakravyuh_poster.jpg: with OCR text
+2026-01-05 15:58:43,057 - multimodal_rag - INFO - __init__:26 - Connected to collection: multimodal_knowledge
+2026-01-05 15:58:49,426 - multimodal_rag - INFO - __init__:26 - Connected to collection: multimodal_knowledge
+2026-01-05 15:59:40,853 - multimodal_rag - INFO - _load_ocr:24 - Loading EasyOCR reader for English...
+2026-01-05 15:59:44,111 - multimodal_rag - INFO - _load_ocr:26 - EasyOCR loaded successfully
+2026-01-05 15:59:45,586 - multimodal_rag - INFO - __init__:26 - Connected to collection: multimodal_knowledge
+2026-01-05 15:59:56,135 - multimodal_rag - DEBUG - _extract_text_ocr:120 - OCR extracted 268 characters from chakravyuh_poster.jpg
+2026-01-05 15:59:56,139 - multimodal_rag - INFO - process_file:90 - Processed image chakravyuh_poster.jpg: with OCR text
+2026-01-05 15:59:56,741 - multimodal_rag - INFO - __init__:26 - Connected to collection: multimodal_knowledge
+2026-01-05 16:01:21,706 - multimodal_rag - INFO - __init__:26 - Connected to collection: multimodal_knowledge
+2026-01-05 16:01:54,035 - multimodal_rag - INFO - __init__:26 - Connected to collection: multimodal_knowledge
+2026-01-05 16:02:21,686 - multimodal_rag - INFO - __init__:26 - Connected to collection: multimodal_knowledge
+2026-01-05 16:04:56,433 - multimodal_rag - INFO - __init__:26 - Connected to collection: multimodal_knowledge
+2026-01-05 16:06:10,302 - multimodal_rag - INFO - _load_ocr:24 - Loading EasyOCR reader for English...
+2026-01-05 16:06:13,295 - multimodal_rag - INFO - _load_ocr:26 - EasyOCR loaded successfully
+2026-01-05 16:06:25,215 - multimodal_rag - DEBUG - _extract_text_ocr:120 - OCR extracted 280 characters from b90e21fd-9e86-47cd-993a-da22054ce7a4_WhatsApp Image 2025-12-30 at 1.24.57 PM.jpeg
+2026-01-05 16:06:25,223 - multimodal_rag - INFO - process_file:90 - Processed image b90e21fd-9e86-47cd-993a-da22054ce7a4_WhatsApp Image 2025-12-30 at 1.24.57 PM.jpeg: with OCR text
+2026-01-05 16:06:25,226 - multimodal_rag - INFO - _load_model:23 - Loading image embedding model: openai/clip-vit-base-patch32
+2026-01-05 16:06:33,523 - multimodal_rag - INFO - embed_chunks:61 - Embedded 1 chunks: 0 text, 1 image, 0 audio
+2026-01-05 16:06:33,717 - multimodal_rag - INFO - add_chunks:65 - Added 1 chunks to vector store
+2026-01-05 16:06:33,718 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed WhatsApp Image 2025-12-30 at 1.24.57 PM.jpeg: 1 chunks in 25.32s
+2026-01-05 16:07:01,621 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: prize pool | Modalities: ['text'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Simple query, using k=10
+2026-01-05 16:07:01,623 - multimodal_rag - INFO - _load_model:20 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-05 16:07:08,425 - multimodal_rag - DEBUG - query:95 - Query returned 0 results (modality: Modality.TEXT, k: 10)
+2026-01-05 16:07:08,425 - multimodal_rag - INFO - retrieve:89 - Retrieved 0 results across 0 modalities
+2026-01-05 16:07:08,428 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: prize pool | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-05 16:07:26,000 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: chakravyuh | Modalities: ['text'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Simple query, using k=10
+2026-01-05 16:07:26,036 - multimodal_rag - DEBUG - query:95 - Query returned 0 results (modality: Modality.TEXT, k: 10)
+2026-01-05 16:07:26,036 - multimodal_rag - INFO - retrieve:89 - Retrieved 0 results across 0 modalities
+2026-01-05 16:07:26,037 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: chakravyuh | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-05 16:07:42,632 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is chakravyuh | Modalities: ['text'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Simple query, using k=10
+2026-01-05 16:07:42,657 - multimodal_rag - DEBUG - query:95 - Query returned 0 results (modality: Modality.TEXT, k: 10)
+2026-01-05 16:07:42,657 - multimodal_rag - INFO - retrieve:89 - Retrieved 0 results across 0 modalities
+2026-01-05 16:07:42,658 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: what is chakravyuh | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-05 16:07:46,400 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is chakravyuh | Modalities: ['text'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Simple query, using k=10
+2026-01-05 16:07:46,430 - multimodal_rag - DEBUG - query:95 - Query returned 0 results (modality: Modality.TEXT, k: 10)
+2026-01-05 16:07:46,430 - multimodal_rag - INFO - retrieve:89 - Retrieved 0 results across 0 modalities
+2026-01-05 16:07:46,431 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: what is chakravyuh | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-05 16:08:05,306 - multimodal_rag - INFO - _process_pdf:64 - Processed PDF 482a6fed-fc85-47a8-b8ca-36cea14dfb0f_rajkishore chapter 2.pdf: 2 chunks
+2026-01-05 16:08:05,671 - multimodal_rag - INFO - embed_chunks:61 - Embedded 2 chunks: 2 text, 0 image, 0 audio
+2026-01-05 16:08:05,692 - multimodal_rag - INFO - add_chunks:65 - Added 2 chunks to vector store
+2026-01-05 16:08:05,693 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed rajkishore chapter 2.pdf: 2 chunks in 0.72s
+2026-01-05 16:08:24,280 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: technical implementation | Modalities: ['text'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Simple query, using k=10
+2026-01-05 16:08:24,321 - multimodal_rag - DEBUG - query:95 - Query returned 2 results (modality: Modality.TEXT, k: 10)
+2026-01-05 16:08:24,324 - multimodal_rag - INFO - retrieve:89 - Retrieved 2 results across 1 modalities
+2026-01-05 16:08:24,334 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.753 | Sources: 2 | Reason: Avg relevance: 0.41; Avg source quality: 1.00; Unique sources: 1; Modalities: 1
+2026-01-05 16:08:24,338 - multimodal_rag - INFO - _load_model:20 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-05 16:10:32,262 - multimodal_rag - WARNING - generate:39 - Ollama generation failed: 
+2026-01-05 16:13:33,142 - multimodal_rag - INFO - __init__:26 - Connected to collection: multimodal_knowledge
+2026-01-05 16:13:59,191 - multimodal_rag - INFO - __init__:26 - Connected to collection: multimodal_knowledge
+2026-01-05 16:14:54,807 - multimodal_rag - INFO - __init__:26 - Connected to collection: multimodal_knowledge
+2026-01-05 16:14:54,809 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: test query for speed | Modalities: ['text'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Simple query, using k=10
+2026-01-05 16:14:54,810 - multimodal_rag - INFO - _load_model:20 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-05 16:14:57,130 - multimodal_rag - INFO - __init__:26 - Connected to collection: multimodal_knowledge
+2026-01-05 16:15:02,212 - multimodal_rag - DEBUG - query:95 - Query returned 0 results (modality: Modality.TEXT, k: 3)
+2026-01-05 16:15:02,212 - multimodal_rag - INFO - retrieve:89 - Retrieved 0 results across 0 modalities
+2026-01-05 16:15:02,212 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: test query for speed | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-05 16:17:31,378 - multimodal_rag - INFO - _load_ocr:24 - Loading EasyOCR reader for English...
+2026-01-05 16:17:34,140 - multimodal_rag - INFO - _load_ocr:26 - EasyOCR loaded successfully
+2026-01-05 16:17:46,439 - multimodal_rag - DEBUG - _extract_text_ocr:120 - OCR extracted 280 characters from f857130a-76e3-492f-9ae8-57e7e1ef94f0_WhatsApp Image 2025-12-30 at 1.24.57 PM.jpeg
+2026-01-05 16:17:46,451 - multimodal_rag - INFO - process_file:90 - Processed image f857130a-76e3-492f-9ae8-57e7e1ef94f0_WhatsApp Image 2025-12-30 at 1.24.57 PM.jpeg: with OCR text
+2026-01-05 16:17:46,457 - multimodal_rag - INFO - _load_model:23 - Loading image embedding model: openai/clip-vit-base-patch32
+2026-01-05 16:17:53,774 - multimodal_rag - INFO - embed_chunks:61 - Embedded 1 chunks: 0 text, 1 image, 0 audio
+2026-01-05 16:17:53,964 - multimodal_rag - INFO - add_chunks:65 - Added 1 chunks to vector store
+2026-01-05 16:17:53,964 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed WhatsApp Image 2025-12-30 at 1.24.57 PM.jpeg: 1 chunks in 24.05s
+2026-01-05 16:18:09,997 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is prize pool? | Modalities: ['text'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Complex query detected, using k=20
+2026-01-05 16:18:10,000 - multimodal_rag - INFO - _load_model:20 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-05 16:18:16,495 - multimodal_rag - DEBUG - query:95 - Query returned 0 results (modality: Modality.TEXT, k: 20)
+2026-01-05 16:18:16,496 - multimodal_rag - INFO - retrieve:89 - Retrieved 0 results across 0 modalities
+2026-01-05 16:18:16,497 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: what is prize pool? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-05 16:19:29,268 - multimodal_rag - INFO - __init__:26 - Connected to collection: multimodal_knowledge
+2026-01-05 16:20:03,225 - multimodal_rag - INFO - __init__:26 - Connected to collection: multimodal_knowledge
+2026-01-05 16:20:56,013 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is prize pool? | Modalities: ['text'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Complex query detected, using k=20
+2026-01-05 16:20:56,022 - multimodal_rag - INFO - _load_model:20 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-05 16:21:03,126 - multimodal_rag - DEBUG - query:95 - Query returned 0 results (modality: Modality.TEXT, k: 20)
+2026-01-05 16:21:03,127 - multimodal_rag - INFO - retrieve:89 - Retrieved 0 results across 0 modalities
+2026-01-05 16:21:03,128 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: what is prize pool? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-05 16:22:59,328 - multimodal_rag - INFO - __init__:26 - Connected to collection: multimodal_knowledge
+2026-01-05 16:24:53,203 - multimodal_rag - INFO - _load_ocr:24 - Loading EasyOCR reader for English...
+2026-01-05 16:24:55,898 - multimodal_rag - INFO - _load_ocr:26 - EasyOCR loaded successfully
+2026-01-05 16:25:07,717 - multimodal_rag - DEBUG - _extract_text_ocr:136 - OCR extracted 280 characters from d7a5c913-eb1f-418a-befa-6035ad2404db_WhatsApp Image 2025-12-30 at 1.24.57 PM.jpeg
+2026-01-05 16:25:07,731 - multimodal_rag - INFO - process_file:108 - Created OCR text chunk for d7a5c913-eb1f-418a-befa-6035ad2404db_WhatsApp Image 2025-12-30 at 1.24.57 PM.jpeg
+2026-01-05 16:25:07,736 - multimodal_rag - INFO - _load_model:20 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-05 16:25:13,690 - multimodal_rag - INFO - _load_model:23 - Loading image embedding model: openai/clip-vit-base-patch32
+2026-01-05 16:25:21,267 - multimodal_rag - INFO - embed_chunks:61 - Embedded 2 chunks: 1 text, 1 image, 0 audio
+2026-01-05 16:25:21,498 - multimodal_rag - INFO - add_chunks:65 - Added 2 chunks to vector store
+2026-01-05 16:25:21,500 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed WhatsApp Image 2025-12-30 at 1.24.57 PM.jpeg: 2 chunks in 29.86s
+2026-01-05 16:25:43,660 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is prize pool? | Modalities: ['text'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Complex query detected, using k=20
+2026-01-05 16:25:43,722 - multimodal_rag - DEBUG - query:95 - Query returned 1 results (modality: Modality.TEXT, k: 20)
+2026-01-05 16:25:43,724 - multimodal_rag - INFO - retrieve:89 - Retrieved 1 results across 1 modalities
+2026-01-05 16:25:43,726 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.715 | Sources: 1 | Reason: Avg relevance: 0.38; Avg source quality: 0.95; Unique sources: 1; Modalities: 1

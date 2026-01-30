@@ -1,0 +1,389 @@
+/* ===================================
+   PWA Specific Styles
+   =================================== */
+
+/* Install Button */
+.pwa-install-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 20px;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 20px rgba(99, 102, 241, 0.4);
+    transition: all 0.3s ease;
+    z-index: 9999;
+    animation: slideInUp 0.5s ease-out;
+}
+
+.pwa-install-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 25px rgba(99, 102, 241, 0.6);
+}
+
+.pwa-install-btn:active {
+    transform: translateY(0);
+}
+
+.pwa-install-btn .install-icon {
+    font-size: 1.2em;
+}
+
+/* Online/Offline Status Indicator */
+.pwa-online-status {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    background: rgba(15, 15, 35, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    font-size: 0.85rem;
+    color: white;
+    z-index: 10000;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+.pwa-online-status .status-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #10b981;
+    box-shadow: 0 0 8px rgba(16, 185, 129, 0.6);
+    animation: pulse 2s ease-in-out infinite;
+}
+
+.pwa-online-status.offline .status-dot {
+    background: #ef4444;
+    box-shadow: 0 0 8px rgba(239, 68, 68, 0.6);
+    animation: none;
+}
+
+.pwa-online-status.online {
+    background: rgba(16, 185, 129, 0.15);
+    border-color: rgba(16, 185, 129, 0.3);
+}
+
+.pwa-online-status.offline {
+    background: rgba(239, 68, 68, 0.15);
+    border-color: rgba(239, 68, 68, 0.3);
+}
+
+/* Update Notification */
+.pwa-update-notification {
+    position: fixed;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+    border: 2px solid rgba(99, 102, 241, 0.5);
+    border-radius: 12px;
+    padding: 16px 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    z-index: 10001;
+    transition: bottom 0.4s ease-out;
+    min-width: 320px;
+    max-width: 90%;
+}
+
+.pwa-update-notification.show {
+    bottom: 20px;
+}
+
+.pwa-update-notification .update-content {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.pwa-update-notification .update-icon {
+    font-size: 1.5em;
+    animation: spin 2s linear infinite;
+}
+
+.pwa-update-notification .update-text {
+    color: white;
+    font-weight: 500;
+    flex: 1;
+}
+
+.pwa-update-notification .update-btn {
+    padding: 8px 16px;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.pwa-update-notification .update-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
+}
+
+.pwa-update-notification .dismiss-btn {
+    padding: 8px 16px;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.pwa-update-notification .dismiss-btn:hover {
+    color: white;
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+/* Toast Notifications */
+.pwa-toast {
+    position: fixed;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(15, 15, 35, 0.95);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    z-index: 10002;
+    transition: top 0.3s ease-out;
+    max-width: 90%;
+    text-align: center;
+}
+
+.pwa-toast.show {
+    top: 70px;
+}
+
+.pwa-toast-success {
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.9) 0%, rgba(5, 150, 105, 0.9) 100%);
+    border: 1px solid rgba(16, 185, 129, 0.5);
+}
+
+.pwa-toast-error {
+    background: linear-gradient(135deg, rgba(239, 68, 68, 0.9) 0%, rgba(220, 38, 38, 0.9) 100%);
+    border: 1px solid rgba(239, 68, 68, 0.5);
+}
+
+.pwa-toast-warning {
+    background: linear-gradient(135deg, rgba(245, 158, 11, 0.9) 0%, rgba(217, 119, 6, 0.9) 100%);
+    border: 1px solid rgba(245, 158, 11, 0.5);
+}
+
+.pwa-toast-info {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.9) 0%, rgba(37, 99, 235, 0.9) 100%);
+    border: 1px solid rgba(59, 130, 246, 0.5);
+}
+
+/* iOS Install Instructions */
+.ios-install-instructions {
+    position: fixed;
+    bottom: -400px;
+    left: 0;
+    right: 0;
+    background: rgba(15, 15, 35, 0.98);
+    backdrop-filter: blur(20px);
+    border-top: 2px solid rgba(99, 102, 241, 0.5);
+    padding: 24px;
+    z-index: 10001;
+    transition: bottom 0.4s ease-out;
+}
+
+.ios-install-instructions.show {
+    bottom: 0;
+}
+
+.ios-install-instructions .ios-install-content {
+    max-width: 500px;
+    margin: 0 auto;
+    color: white;
+}
+
+.ios-install-instructions h3 {
+    margin: 0 0 16px 0;
+    font-size: 1.3rem;
+    color: #6366f1;
+}
+
+.ios-install-instructions ol {
+    margin: 16px 0;
+    padding-left: 24px;
+}
+
+.ios-install-instructions li {
+    margin: 8px 0;
+    line-height: 1.6;
+}
+
+.ios-install-instructions .ios-close-btn {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+/* Animations */
+@keyframes slideInUp {
+    from {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.7;
+        transform: scale(1.1);
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Responsive adjustments for PWA elements */
+@media (max-width: 768px) {
+    .pwa-install-btn {
+        bottom: 10px;
+        right: 10px;
+        padding: 10px 16px;
+        font-size: 0.85rem;
+    }
+
+    .pwa-online-status {
+        top: 5px;
+        right: 5px;
+        padding: 5px 10px;
+        font-size: 0.75rem;
+    }
+
+    .pwa-update-notification {
+        min-width: 280px;
+        padding: 12px 16px;
+    }
+
+    .pwa-toast {
+        font-size: 0.85rem;
+        padding: 10px 16px;
+    }
+
+    .pwa-toast.show {
+        top: 60px;
+    }
+}
+
+/* Standalone mode specific styles */
+@media (display-mode: standalone) {
+
+    /* Add extra padding at top for status bar on mobile */
+    body {
+        padding-top: env(safe-area-inset-top);
+        padding-bottom: env(safe-area-inset-bottom);
+    }
+
+    /* Hide install button when in standalone mode */
+    .pwa-install-btn {
+        display: none !important;
+    }
+
+    /* Add a subtle indicator that app is in standalone mode */
+    header::before {
+        content: '📱';
+        margin-right: 8px;
+        opacity: 0.7;
+    }
+}
+
+/* Dark mode support for PWA */
+@media (prefers-color-scheme: dark) {
+    .pwa-toast {
+        background: rgba(30, 30, 45, 0.95);
+    }
+
+    .ios-install-instructions {
+        background: rgba(20, 20, 35, 0.98);
+    }
+}
+
+/* Loading states for offline content */
+.offline-indicator {
+    position: relative;
+    padding: 12px;
+    background: rgba(239, 68, 68, 0.1);
+    border: 1px solid rgba(239, 68, 68, 0.3);
+    border-radius: 8px;
+    color: #ef4444;
+    margin: 12px 0;
+    font-size: 0.9rem;
+}
+
+.offline-indicator::before {
+    content: '⚠️ ';
+    margin-right: 8px;
+}
+
+/* Cache status badge */
+.cache-badge {
+    display: inline-block;
+    padding: 4px 8px;
+    background: rgba(99, 102, 241, 0.2);
+    border: 1px solid rgba(99, 102, 241, 0.4);
+    border-radius: 4px;
+    font-size: 0.75rem;
+    color: #6366f1;
+    margin-left: 8px;
+}
+
+.cache-badge.cached {
+    background: rgba(16, 185, 129, 0.2);
+    border-color: rgba(16, 185, 129, 0.4);
+    color: #10b981;
+}
+
+.cache-badge.cached::before {
+    content: '📦 ';
+}

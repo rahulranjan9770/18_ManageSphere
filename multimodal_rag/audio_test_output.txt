@@ -1,0 +1,26 @@
+======================================================================
+TESTING AUDIO PROCESSOR DIRECTLY
+======================================================================
+
+Processing: Recording.m4a
+File size: 420.17 KB
+
+Result: 2 chunks created
+
+Chunk 1:
+  ID: bd84c393-099d-4342-b06d-b8cc20450e5f
+  Source: Recording.m4a
+  Modality: audio
+  Confidence: 0.4969235127177546
+  Content length: 83 chars
+  Content: During the meeting, it was discussed, discussed that the machines would be operated
+  Metadata: {'start_time': 0.0, 'end_time': 6.8, 'segment_id': 0, 'audio_path': 'C:\\Users\\Rahul kumar\\gita\\multimodal_rag\\Recording.m4a', 'compression_ratio': 1.416, 'language': 'en'}
+
+Chunk 2:
+  ID: c0866ce3-965a-44a1-b441-bdaf60f488e9
+  Source: Recording.m4a
+  Modality: audio
+  Confidence: 0.4969235127177546
+  Content length: 93 chars
+  Content: only between safe voltage limits, however, the exact voltage value was not clearly specified.
+  Metadata: {'start_time': 6.8, 'end_time': 15.0, 'segment_id': 1, 'audio_path': 'C:\\Users\\Rahul kumar\\gita\\multimodal_rag\\Recording.m4a', 'compression_ratio': 1.416, 'language': 'en'}

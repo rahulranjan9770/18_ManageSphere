@@ -1,0 +1,131 @@
+2026-01-19 12:04:00,023 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-19 12:04:14,046 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-19 12:04:26,572 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-19 12:04:26,944 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-19 12:04:26,944 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-19 12:06:07,843 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-19 12:06:18,673 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-19 12:06:18,902 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-19 12:06:18,902 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-19 12:13:31,203 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-19 12:13:46,211 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-19 12:13:46,497 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-19 12:13:46,498 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-19 12:16:50,252 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: Communication Goal: "Inform client about project delay due to resource constraints"
+Document Type: E | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-19 12:16:51,497 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (0.86)
+2026-01-19 12:16:51,497 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-19 12:16:51,499 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='Communication Goal: ...' modality=Modality.TEXT
+2026-01-19 12:16:51,777 - multimodal_rag - DEBUG - query:97 - Query returned 10 results (modality: Modality.TEXT, k: 10)
+2026-01-19 12:16:51,779 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='Communication Goal: ...' modality=Modality.AUDIO
+2026-01-19 12:16:51,805 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 10)
+2026-01-19 12:16:51,816 - multimodal_rag - INFO - retrieve:135 - Retrieved 10 results across 2 modalities, languages: unknown, en
+2026-01-19 12:34:05,920 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-19 12:34:23,033 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-19 12:34:23,341 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-19 12:34:23,342 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-19 12:50:17,673 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-19 12:50:28,371 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-19 12:50:39,961 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-19 12:50:40,190 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-19 12:50:40,190 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-19 13:03:45,687 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: Can you explain theAdvantages of machine learning | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-19 13:03:45,696 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-19 13:03:45,697 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-19 13:03:45,697 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='Can you explain theA...' modality=Modality.TEXT
+2026-01-19 13:03:45,945 - multimodal_rag - DEBUG - query:97 - Query returned 20 results (modality: Modality.TEXT, k: 20)
+2026-01-19 13:03:45,946 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='Can you explain theA...' modality=Modality.AUDIO
+2026-01-19 13:03:45,967 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 20)
+2026-01-19 13:03:46,006 - multimodal_rag - INFO - retrieve:135 - Retrieved 20 results across 1 modalities, languages: en, unknown
+2026-01-19 13:03:46,008 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.821 | Sources: 20 | Reason: Avg relevance: 0.44; Avg source quality: 1.00; Unique sources: 2; Modalities: 1
+2026-01-19 13:04:03,938 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['9139baed-d71e-411a-8414-9849abb0b658', '9a465823-cdfe-493e-8257-3dc322059443'] | Details: 1 contradiction(s) detected between sources
+2026-01-19 13:06:47,232 - multimodal_rag - WARNING - translate:135 - Translator not available
+2026-01-19 13:06:47,232 - multimodal_rag - WARNING - generate_response:603 - Failed to translate response, returning in English
+2026-01-19 13:14:00,534 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-19 13:14:16,659 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-19 13:14:16,968 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-19 13:14:16,969 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-19 13:15:48,931 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-19 13:16:00,219 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-19 13:16:00,432 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-19 13:16:00,433 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-19 13:18:21,189 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: Advantages of machine learning | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-19 13:18:21,774 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-19 13:18:21,774 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-19 13:18:21,775 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='Advantages of machin...' modality=Modality.TEXT
+2026-01-19 13:18:22,108 - multimodal_rag - DEBUG - query:97 - Query returned 15 results (modality: Modality.TEXT, k: 15)
+2026-01-19 13:18:22,109 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='Advantages of machin...' modality=Modality.AUDIO
+2026-01-19 13:18:22,127 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 15)
+2026-01-19 13:18:22,149 - multimodal_rag - INFO - retrieve:135 - Retrieved 15 results across 1 modalities, languages: en, unknown
+2026-01-19 13:29:02,079 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-19 13:29:17,134 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-19 13:29:17,416 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-19 13:29:17,416 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-19 13:33:16,322 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: Machine learning | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-19 13:33:16,812 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-19 13:33:16,813 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-19 13:33:16,813 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='Machine learning...' modality=Modality.TEXT
+2026-01-19 13:33:17,044 - multimodal_rag - DEBUG - query:97 - Query returned 8 results (modality: Modality.TEXT, k: 8)
+2026-01-19 13:33:17,044 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='Machine learning...' modality=Modality.AUDIO
+2026-01-19 13:33:17,063 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 8)
+2026-01-19 13:33:17,067 - multimodal_rag - INFO - retrieve:135 - Retrieved 8 results across 1 modalities, languages: unknown, hi
+2026-01-19 13:34:31,512 - multimodal_rag - WARNING - _generate_slides_content:256 - LLM parsing failed, using enhanced fallback
+2026-01-19 13:41:07,531 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-19 13:41:22,898 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-19 13:41:23,159 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-19 13:41:23,159 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-19 13:43:04,997 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: multi-modal rag system | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-19 13:43:05,454 - multimodal_rag - INFO - retrieve:53 - Query language detected: da (1.00)
+2026-01-19 13:43:05,455 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-19 13:43:05,455 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='multi-modal rag syst...' modality=Modality.TEXT
+2026-01-19 13:43:05,784 - multimodal_rag - DEBUG - query:97 - Query returned 8 results (modality: Modality.TEXT, k: 8)
+2026-01-19 13:43:05,785 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='multi-modal rag syst...' modality=Modality.AUDIO
+2026-01-19 13:43:05,803 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 8)
+2026-01-19 13:43:05,812 - multimodal_rag - INFO - retrieve:135 - Retrieved 8 results across 1 modalities, languages: unknown
+2026-01-19 13:45:05,628 - multimodal_rag - WARNING - _generate_slides_content:268 - Only 0 slides parsed, using fallback
+2026-01-19 17:05:07,009 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-19 17:05:59,095 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-19 17:05:59,418 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-19 17:05:59,418 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-19 17:06:42,111 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-19 17:06:53,833 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-19 17:06:54,017 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-19 17:06:54,017 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-19 17:12:10,011 - multimodal_rag - INFO - get_or_create_session:45 - Created new conversation session: sess_cmfsdlqs
+2026-01-19 17:12:28,894 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is machine learning | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-19 17:12:28,911 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-19 17:12:28,915 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-19 17:12:28,920 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is machine lear...' modality=Modality.TEXT
+2026-01-19 17:12:29,283 - multimodal_rag - DEBUG - query:97 - Query returned 10 results (modality: Modality.TEXT, k: 10)
+2026-01-19 17:12:29,284 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is machine lear...' modality=Modality.AUDIO
+2026-01-19 17:12:29,307 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 10)
+2026-01-19 17:12:29,317 - multimodal_rag - INFO - retrieve:135 - Retrieved 10 results across 2 modalities, languages: unknown, en
+2026-01-19 17:12:30,519 - multimodal_rag - INFO - search:148 - Serper returned 3 results
+2026-01-19 17:12:30,525 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.945 | Sources: 10 | Reason: Avg relevance: 0.43; Avg source quality: 0.96; Unique sources: 5; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-19 17:16:51,264 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is machine learning | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-19 17:16:51,269 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-19 17:16:51,270 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-19 17:16:51,273 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is machine lear...' modality=Modality.TEXT
+2026-01-19 17:16:51,681 - multimodal_rag - DEBUG - query:97 - Query returned 10 results (modality: Modality.TEXT, k: 10)
+2026-01-19 17:16:51,682 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is machine lear...' modality=Modality.AUDIO
+2026-01-19 17:16:51,704 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 10)
+2026-01-19 17:16:51,715 - multimodal_rag - INFO - retrieve:135 - Retrieved 10 results across 2 modalities, languages: unknown, en
+2026-01-19 17:16:51,721 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.945 | Sources: 10 | Reason: Avg relevance: 0.43; Avg source quality: 0.96; Unique sources: 5; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-19 17:18:39,697 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: artificial intelligence | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-19 17:18:39,718 - multimodal_rag - INFO - retrieve:53 - Query language detected: it (1.00)
+2026-01-19 17:18:39,719 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-19 17:18:39,719 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='artificial intellige...' modality=Modality.TEXT
+2026-01-19 17:18:39,773 - multimodal_rag - DEBUG - query:97 - Query returned 8 results (modality: Modality.TEXT, k: 8)
+2026-01-19 17:18:39,773 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='artificial intellige...' modality=Modality.AUDIO
+2026-01-19 17:18:39,801 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 8)
+2026-01-19 17:18:39,806 - multimodal_rag - INFO - retrieve:135 - Retrieved 8 results across 1 modalities, languages: hi, unknown, en
+2026-01-19 17:20:18,957 - multimodal_rag - WARNING - _generate_slides_content:268 - Only 0 slides parsed, using fallback
+2026-01-19 17:28:06,334 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: Test Presentation | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-19 17:28:06,445 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-19 17:28:06,446 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-19 17:28:06,452 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='Test Presentation...' modality=Modality.TEXT
+2026-01-19 17:28:07,264 - multimodal_rag - DEBUG - query:97 - Query returned 8 results (modality: Modality.TEXT, k: 8)
+2026-01-19 17:28:07,271 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='Test Presentation...' modality=Modality.AUDIO
+2026-01-19 17:28:07,457 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 8)
+2026-01-19 17:28:07,472 - multimodal_rag - INFO - retrieve:135 - Retrieved 8 results across 1 modalities, languages: unknown
+2026-01-19 17:30:30,891 - multimodal_rag - WARNING - _generate_slides_content:268 - Only 2 slides parsed, using fallback

@@ -1,0 +1,313 @@
+2026-01-06 04:35:35,136 - multimodal_rag - INFO - __init__:26 - Connected to collection: multimodal_knowledge
+2026-01-06 04:35:35,137 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-06 04:38:20,362 - multimodal_rag - INFO - _load_ocr:24 - Loading EasyOCR reader for English...
+2026-01-06 04:38:23,157 - multimodal_rag - INFO - _load_ocr:26 - EasyOCR loaded successfully
+2026-01-06 04:38:29,462 - multimodal_rag - DEBUG - _extract_text_ocr:136 - OCR extracted 46 characters from bc355072-ba66-40ea-b799-d2cf45503351_label.png
+2026-01-06 04:38:29,467 - multimodal_rag - INFO - process_file:108 - Created OCR text chunk for bc355072-ba66-40ea-b799-d2cf45503351_label.png
+2026-01-06 04:38:29,770 - multimodal_rag - INFO - add_chunks:65 - Added 1 chunks to vector store
+2026-01-06 04:38:29,771 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed label.png: 1 chunks in 10.48s
+2026-01-06 04:38:44,142 - multimodal_rag - INFO - _process_txt:113 - Processed TXT b402b31f-7a99-4650-a435-861dd1ff08ec_New Text Document.txt: 1 chunks
+2026-01-06 04:38:44,162 - multimodal_rag - INFO - add_chunks:65 - Added 1 chunks to vector store
+2026-01-06 04:38:44,163 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed New Text Document.txt: 1 chunks in 0.02s
+2026-01-06 04:39:32,106 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is the operating voltage of the machine? | Modalities: ['text'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Complex query detected, using k=20
+2026-01-06 04:39:32,188 - multimodal_rag - DEBUG - query:95 - Query returned 2 results (modality: Modality.TEXT, k: 20)
+2026-01-06 04:39:32,189 - multimodal_rag - INFO - retrieve:89 - Retrieved 2 results across 1 modalities
+2026-01-06 04:39:32,190 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.790 | Sources: 2 | Reason: Avg relevance: 0.40; Avg source quality: 0.97; Unique sources: 2; Modalities: 1
+2026-01-06 04:46:07,403 - multimodal_rag - INFO - __init__:26 - Connected to collection: multimodal_knowledge
+2026-01-06 04:46:07,403 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-06 04:51:33,652 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['2', '1'] | Details: 1 contradiction(s) detected between sources
+2026-01-06 04:52:10,623 - multimodal_rag - INFO - __init__:26 - Connected to collection: multimodal_knowledge
+2026-01-06 04:52:10,623 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-06 04:56:31,731 - multimodal_rag - INFO - _process_txt:113 - Processed TXT f3f7e611-b747-468b-9a61-55d99e468f5f_New Text Document.txt: 1 chunks
+2026-01-06 04:56:32,031 - multimodal_rag - INFO - add_chunks:65 - Added 1 chunks to vector store
+2026-01-06 04:56:32,032 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed New Text Document.txt: 1 chunks in 0.31s
+2026-01-06 04:56:47,765 - multimodal_rag - INFO - _load_ocr:24 - Loading EasyOCR reader for English...
+2026-01-06 04:56:50,265 - multimodal_rag - INFO - _load_ocr:26 - EasyOCR loaded successfully
+2026-01-06 04:56:56,281 - multimodal_rag - DEBUG - _extract_text_ocr:136 - OCR extracted 46 characters from d750f2e3-ac89-45e6-a1d3-d5c8d3ef401e_label.png
+2026-01-06 04:56:56,282 - multimodal_rag - INFO - process_file:108 - Created OCR text chunk for d750f2e3-ac89-45e6-a1d3-d5c8d3ef401e_label.png
+2026-01-06 04:56:56,372 - multimodal_rag - INFO - add_chunks:65 - Added 1 chunks to vector store
+2026-01-06 04:56:56,372 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed label.png: 1 chunks in 9.16s
+2026-01-06 04:57:14,894 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is the operating voltage of the machine? | Modalities: ['text'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Complex query detected, using k=20
+2026-01-06 04:57:14,981 - multimodal_rag - DEBUG - query:95 - Query returned 2 results (modality: Modality.TEXT, k: 20)
+2026-01-06 04:57:14,982 - multimodal_rag - INFO - retrieve:89 - Retrieved 2 results across 1 modalities
+2026-01-06 04:57:14,983 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.791 | Sources: 2 | Reason: Avg relevance: 0.41; Avg source quality: 0.97; Unique sources: 2; Modalities: 1
+2026-01-06 05:06:15,857 - multimodal_rag - INFO - __init__:26 - Connected to collection: multimodal_knowledge
+2026-01-06 05:06:15,857 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-06 05:06:22,735 - multimodal_rag - DEBUG - query:95 - Query returned 0 results (modality: Modality.TEXT, k: 5)
+2026-01-06 05:06:22,736 - multimodal_rag - DEBUG - query:95 - Query returned 0 results (modality: Modality.IMAGE, k: 5)
+2026-01-06 05:06:22,737 - multimodal_rag - INFO - retrieve:89 - Retrieved 0 results across 0 modalities
+2026-01-06 05:07:18,653 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-06 05:07:18,653 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-06 05:07:56,464 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-06 05:07:56,464 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-06 05:08:02,657 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.TEXT, k: 5)
+2026-01-06 05:08:02,659 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.IMAGE, k: 5)
+2026-01-06 05:08:02,659 - multimodal_rag - INFO - retrieve:89 - Retrieved 0 results across 0 modalities
+2026-01-06 05:08:53,301 - multimodal_rag - WARNING - reset:134 - Vector store reset
+2026-01-06 05:09:35,654 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-06 05:09:35,655 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-06 05:11:13,371 - multimodal_rag - INFO - _load_ocr:24 - Loading EasyOCR reader for English...
+2026-01-06 05:11:15,676 - multimodal_rag - INFO - _load_ocr:26 - EasyOCR loaded successfully
+2026-01-06 05:11:21,857 - multimodal_rag - DEBUG - _extract_text_ocr:136 - OCR extracted 46 characters from ecbd115b-6e55-479c-a542-794b5a19fdef_label.png
+2026-01-06 05:11:21,858 - multimodal_rag - INFO - process_file:108 - Created OCR text chunk for ecbd115b-6e55-479c-a542-794b5a19fdef_label.png
+2026-01-06 05:11:22,138 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-06 05:11:22,139 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed label.png: 1 chunks in 9.18s
+2026-01-06 05:11:32,899 - multimodal_rag - INFO - _process_txt:113 - Processed TXT 90faedeb-e016-4ff3-9205-0a0099424b22_New Text Document.txt: 1 chunks
+2026-01-06 05:11:32,955 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-06 05:11:32,956 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed New Text Document.txt: 1 chunks in 0.06s
+2026-01-06 05:12:15,544 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is the operating voltage of the machine? | Modalities: ['text'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Complex query detected, using k=20
+2026-01-06 05:12:15,619 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.TEXT, k: 20)
+2026-01-06 05:12:15,619 - multimodal_rag - INFO - retrieve:89 - Retrieved 2 results across 1 modalities
+2026-01-06 05:12:15,620 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.792 | Sources: 2 | Reason: Avg relevance: 0.41; Avg source quality: 0.97; Unique sources: 2; Modalities: 1
+2026-01-06 05:17:49,064 - multimodal_rag - INFO - _process_txt:113 - Processed TXT 35761943-3858-4016-ae1e-2bed3379b986_New Text Document.txt: 1 chunks
+2026-01-06 05:17:49,698 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-06 05:17:49,700 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed New Text Document.txt: 1 chunks in 0.86s
+2026-01-06 05:18:12,274 - multimodal_rag - DEBUG - _extract_text_ocr:136 - OCR extracted 46 characters from 8104f852-efcb-4a6f-8b17-8a41cfdcf22d_label.png
+2026-01-06 05:18:12,275 - multimodal_rag - INFO - process_file:108 - Created OCR text chunk for 8104f852-efcb-4a6f-8b17-8a41cfdcf22d_label.png
+2026-01-06 05:18:12,329 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-06 05:18:12,329 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed label.png: 1 chunks in 7.06s
+2026-01-06 05:18:29,302 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is the operating voltage of the machine? | Modalities: ['text'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Complex query detected, using k=20
+2026-01-06 05:18:29,378 - multimodal_rag - DEBUG - query:97 - Query returned 4 results (modality: Modality.TEXT, k: 20)
+2026-01-06 05:18:29,379 - multimodal_rag - INFO - retrieve:89 - Retrieved 4 results across 1 modalities
+2026-01-06 05:18:29,381 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.879 | Sources: 4 | Reason: Avg relevance: 0.48; Avg source quality: 0.97; Unique sources: 4; Modalities: 1
+2026-01-06 05:18:29,797 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['b12bbf49-af67-4338-8de0-1f7d61b921b2', '51f32c6f-5b30-4dae-841d-16e0d4b92522', '1543e4b3-0b6d-468a-9a54-e9cca8bcb670'] | Details: 2 contradiction(s) detected between sources
+2026-01-06 05:26:51,352 - multimodal_rag - DEBUG - _extract_text_ocr:136 - OCR extracted 46 characters from d1740cd2-6363-439d-bc35-65ec4b4727ad_label.png
+2026-01-06 05:26:51,357 - multimodal_rag - INFO - process_file:108 - Created OCR text chunk for d1740cd2-6363-439d-bc35-65ec4b4727ad_label.png
+2026-01-06 05:26:51,784 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-06 05:26:51,785 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed label.png: 1 chunks in 7.29s
+2026-01-06 05:27:00,935 - multimodal_rag - INFO - _process_txt:113 - Processed TXT 7e926a3c-a172-4297-9289-b4db0fca4a16_New Text Document.txt: 1 chunks
+2026-01-06 05:27:01,002 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-06 05:27:01,002 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed New Text Document.txt: 1 chunks in 0.09s
+2026-01-06 05:27:30,598 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is the operating voltage? | Modalities: ['text'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Complex query detected, using k=20
+2026-01-06 05:27:30,646 - multimodal_rag - DEBUG - query:97 - Query returned 6 results (modality: Modality.TEXT, k: 20)
+2026-01-06 05:27:30,646 - multimodal_rag - INFO - retrieve:89 - Retrieved 5 results across 1 modalities
+2026-01-06 05:27:30,647 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.870 | Sources: 5 | Reason: Avg relevance: 0.47; Avg source quality: 0.97; Unique sources: 5; Modalities: 1
+2026-01-06 05:27:31,013 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['9db6279d-e62c-4311-9bda-95f78eb655c7', 'b12bbf49-af67-4338-8de0-1f7d61b921b2', '51f32c6f-5b30-4dae-841d-16e0d4b92522', '1543e4b3-0b6d-468a-9a54-e9cca8bcb670'] | Details: 3 contradiction(s) detected between sources
+2026-01-06 16:22:24,365 - multimodal_rag - DEBUG - _extract_text_ocr:136 - OCR extracted 452 characters from 548f8b60-fc8d-4935-88d1-ccdb0d5bd08f_Screenshot 2026-01-06 162003.png
+2026-01-06 16:22:24,376 - multimodal_rag - INFO - process_file:108 - Created OCR text chunk for 548f8b60-fc8d-4935-88d1-ccdb0d5bd08f_Screenshot 2026-01-06 162003.png
+2026-01-06 16:22:24,690 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-06 16:22:24,691 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed Screenshot 2026-01-06 162003.png: 1 chunks in 6.24s
+2026-01-06 16:22:55,186 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: photons | Modalities: ['image'] | Top-K: 10 | Reason: Image keywords detected; Simple query, using k=10
+2026-01-06 16:22:55,206 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.IMAGE, k: 10)
+2026-01-06 16:22:55,206 - multimodal_rag - INFO - retrieve:89 - Retrieved 0 results across 0 modalities
+2026-01-06 16:22:55,209 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: photons | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-06 16:23:29,165 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: operating voltage | Modalities: ['text'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Simple query, using k=10
+2026-01-06 16:23:29,225 - multimodal_rag - DEBUG - query:97 - Query returned 7 results (modality: Modality.TEXT, k: 10)
+2026-01-06 16:23:29,226 - multimodal_rag - INFO - retrieve:89 - Retrieved 6 results across 1 modalities
+2026-01-06 16:23:29,227 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.851 | Sources: 6 | Reason: Avg relevance: 0.43; Avg source quality: 0.97; Unique sources: 6; Modalities: 1
+2026-01-06 16:23:29,923 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['b12bbf49-af67-4338-8de0-1f7d61b921b2', '1543e4b3-0b6d-468a-9a54-e9cca8bcb670', 'fcf1ae6b-b75d-4c46-a0fb-e1a11821e385', '51f32c6f-5b30-4dae-841d-16e0d4b92522', '9db6279d-e62c-4311-9bda-95f78eb655c7'] | Details: 6 contradiction(s) detected between sources
+2026-01-06 16:39:28,654 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-06 16:39:28,656 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-06 16:42:27,136 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: most abundant element in the universe | Modalities: ['text'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Simple query, using k=10
+2026-01-06 16:42:27,402 - multimodal_rag - DEBUG - query:97 - Query returned 7 results (modality: Modality.TEXT, k: 10)
+2026-01-06 16:42:27,403 - multimodal_rag - INFO - retrieve:89 - Retrieved 6 results across 1 modalities
+2026-01-06 16:42:27,404 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.816 | Sources: 6 | Reason: Avg relevance: 0.36; Avg source quality: 0.97; Unique sources: 6; Modalities: 1
+2026-01-06 16:42:28,092 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['fcf1ae6b-b75d-4c46-a0fb-e1a11821e385', 'b12bbf49-af67-4338-8de0-1f7d61b921b2', '1543e4b3-0b6d-468a-9a54-e9cca8bcb670', '9db6279d-e62c-4311-9bda-95f78eb655c7', '51f32c6f-5b30-4dae-841d-16e0d4b92522'] | Details: 6 contradiction(s) detected between sources
+2026-01-06 16:47:00,750 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is photons | Modalities: ['image'] | Top-K: 10 | Reason: Image keywords detected; Simple query, using k=10
+2026-01-06 16:47:00,866 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.IMAGE, k: 10)
+2026-01-06 16:47:00,867 - multimodal_rag - INFO - retrieve:89 - Retrieved 0 results across 0 modalities
+2026-01-06 16:47:00,870 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: what is photons | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-06 16:47:06,963 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is photons | Modalities: ['image'] | Top-K: 10 | Reason: Image keywords detected; Simple query, using k=10
+2026-01-06 16:47:06,978 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.IMAGE, k: 10)
+2026-01-06 16:47:06,979 - multimodal_rag - INFO - retrieve:89 - Retrieved 0 results across 0 modalities
+2026-01-06 16:47:06,979 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: what is photons | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-06 16:47:23,968 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is operating voltage? | Modalities: ['text'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Complex query detected, using k=20
+2026-01-06 16:47:24,310 - multimodal_rag - DEBUG - query:97 - Query returned 7 results (modality: Modality.TEXT, k: 20)
+2026-01-06 16:47:24,312 - multimodal_rag - INFO - retrieve:89 - Retrieved 6 results across 1 modalities
+2026-01-06 16:47:24,317 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.852 | Sources: 6 | Reason: Avg relevance: 0.44; Avg source quality: 0.97; Unique sources: 6; Modalities: 1
+2026-01-06 16:47:25,065 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['fcf1ae6b-b75d-4c46-a0fb-e1a11821e385', 'b12bbf49-af67-4338-8de0-1f7d61b921b2', '1543e4b3-0b6d-468a-9a54-e9cca8bcb670', '9db6279d-e62c-4311-9bda-95f78eb655c7', '51f32c6f-5b30-4dae-841d-16e0d4b92522'] | Details: 6 contradiction(s) detected between sources
+2026-01-06 16:55:39,554 - multimodal_rag - WARNING - reset:134 - Vector store reset
+2026-01-06 16:58:35,723 - multimodal_rag - WARNING - reset:134 - Vector store reset
+2026-01-06 16:58:45,982 - multimodal_rag - INFO - _load_ocr:25 - Loading EasyOCR reader for English...
+2026-01-06 16:58:48,686 - multimodal_rag - INFO - _load_ocr:27 - EasyOCR loaded successfully
+2026-01-06 16:58:49,391 - multimodal_rag - DEBUG - _preprocess_for_ocr:89 - Created 7 preprocessed variants
+2026-01-06 16:58:59,301 - multimodal_rag - DEBUG - _extract_text_ocr:212 - Variant 0: 1069 chars, conf=0.88, score=9.44
+2026-01-06 16:59:08,434 - multimodal_rag - DEBUG - _extract_text_ocr:212 - Variant 1: 1071 chars, conf=0.89, score=9.48
+2026-01-06 16:59:38,526 - multimodal_rag - DEBUG - _extract_text_ocr:212 - Variant 4: 1069 chars, conf=0.90, score=9.59
+2026-01-06 16:59:49,595 - multimodal_rag - DEBUG - _extract_text_ocr:212 - Variant 5: 1066 chars, conf=0.90, score=9.63
+2026-01-06 16:59:58,786 - multimodal_rag - INFO - _extract_text_ocr:222 - OCR extracted 1066 characters from 32460509-51e3-43d3-abbb-a75931eff8fb_drcc.png (confidence: 9.63)
+2026-01-06 16:59:58,803 - multimodal_rag - INFO - process_file:168 - Created OCR text chunk for 32460509-51e3-43d3-abbb-a75931eff8fb_drcc.png (1066 chars)
+2026-01-06 16:59:59,314 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-06 16:59:59,314 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed drcc.png: 1 chunks in 75.23s
+2026-01-06 17:00:13,553 - multimodal_rag - WARNING - reset:134 - Vector store reset
+2026-01-06 17:00:40,646 - multimodal_rag - DEBUG - _preprocess_for_ocr:89 - Created 7 preprocessed variants
+2026-01-06 17:00:46,207 - multimodal_rag - DEBUG - _extract_text_ocr:212 - Variant 0: 46 chars, conf=0.90, score=0.42
+2026-01-06 17:01:04,829 - multimodal_rag - DEBUG - _extract_text_ocr:212 - Variant 3: 46 chars, conf=0.94, score=0.43
+2026-01-06 17:01:11,047 - multimodal_rag - DEBUG - _extract_text_ocr:212 - Variant 4: 46 chars, conf=0.97, score=0.45
+2026-01-06 17:01:22,711 - multimodal_rag - INFO - _extract_text_ocr:222 - OCR extracted 46 characters from b5d03c43-8d8a-4c96-b759-e37b1f53b2fb_label.png (confidence: 0.45)
+2026-01-06 17:01:22,714 - multimodal_rag - INFO - process_file:168 - Created OCR text chunk for b5d03c43-8d8a-4c96-b759-e37b1f53b2fb_label.png (46 chars)
+2026-01-06 17:01:22,877 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-06 17:01:22,877 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed label.png: 1 chunks in 42.96s
+2026-01-06 17:07:52,409 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-06 17:07:52,410 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-06 17:10:03,574 - multimodal_rag - WARNING - reset:134 - Vector store reset
+2026-01-06 17:10:10,410 - multimodal_rag - INFO - _load_ocr:25 - Loading EasyOCR reader for English...
+2026-01-06 17:10:12,715 - multimodal_rag - INFO - _load_ocr:27 - EasyOCR loaded successfully
+2026-01-06 17:10:13,063 - multimodal_rag - DEBUG - _preprocess_for_ocr:66 - Created 3 preprocessed variants (speed-optimized)
+2026-01-06 17:10:18,750 - multimodal_rag - DEBUG - _extract_text_ocr:189 - Variant 0: 46 chars, conf=0.90, score=0.42
+2026-01-06 17:10:29,158 - multimodal_rag - INFO - _extract_text_ocr:199 - OCR extracted 46 characters from fa3649f0-35d5-433f-84de-9c3c50300c52_label.png (confidence: 0.42)
+2026-01-06 17:10:29,162 - multimodal_rag - INFO - process_file:145 - Created OCR text chunk for fa3649f0-35d5-433f-84de-9c3c50300c52_label.png (46 chars)
+2026-01-06 17:10:29,475 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-06 17:10:29,476 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed label.png: 1 chunks in 19.40s
+2026-01-06 17:11:06,524 - multimodal_rag - INFO - _process_txt:113 - Processed TXT fbfc8874-e13f-45f7-916f-6240058a4b09_New Text Document.txt: 1 chunks
+2026-01-06 17:11:06,586 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-06 17:11:06,586 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed New Text Document.txt: 1 chunks in 0.17s
+2026-01-06 17:11:17,613 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is operating voltage? | Modalities: ['text'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Complex query detected, using k=20
+2026-01-06 17:11:17,703 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.TEXT, k: 20)
+2026-01-06 17:11:17,706 - multimodal_rag - INFO - retrieve:89 - Retrieved 2 results across 1 modalities
+2026-01-06 17:11:17,707 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.839 | Sources: 2 | Reason: Avg relevance: 0.50; Avg source quality: 0.97; Unique sources: 2; Modalities: 1
+2026-01-06 17:11:17,822 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['1419b278-f90b-4ee3-a681-c3fdf6e57f82', '1a793a87-7763-48d3-ad5b-5f9fec041abc'] | Details: 1 contradiction(s) detected between sources
+2026-01-06 17:16:20,787 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-06 17:16:20,788 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-06 17:19:05,358 - multimodal_rag - INFO - _load_ocr:25 - Loading EasyOCR reader for English...
+2026-01-06 17:19:08,149 - multimodal_rag - INFO - _load_ocr:27 - EasyOCR loaded successfully
+2026-01-06 17:19:19,300 - multimodal_rag - INFO - _extract_text_ocr:141 - OCR extracted 280 characters from 4f8d11f1-afee-4b60-bbd6-cb596f3a695d_WhatsApp Image 2025-12-30 at 1.24.57 PM.jpeg
+2026-01-06 17:19:19,307 - multimodal_rag - INFO - process_file:114 - Created OCR text chunk for 4f8d11f1-afee-4b60-bbd6-cb596f3a695d_WhatsApp Image 2025-12-30 at 1.24.57 PM.jpeg (280 chars)
+2026-01-06 17:19:19,782 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-06 17:19:19,783 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed WhatsApp Image 2025-12-30 at 1.24.57 PM.jpeg: 1 chunks in 15.08s
+2026-01-06 17:20:03,088 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is the operating voltage? | Modalities: ['text'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Complex query detected, using k=20
+2026-01-06 17:20:03,161 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.TEXT, k: 20)
+2026-01-06 17:20:03,162 - multimodal_rag - INFO - retrieve:89 - Retrieved 3 results across 1 modalities
+2026-01-06 17:20:03,163 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.862 | Sources: 3 | Reason: Avg relevance: 0.46; Avg source quality: 0.97; Unique sources: 3; Modalities: 1
+2026-01-06 17:20:03,429 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['5ce22949-b859-486b-a5fc-942e4069302d', '1a793a87-7763-48d3-ad5b-5f9fec041abc', '1419b278-f90b-4ee3-a681-c3fdf6e57f82'] | Details: 2 contradiction(s) detected between sources
+2026-01-06 17:22:53,368 - multimodal_rag - INFO - _process_txt:113 - Processed TXT b69d1a0b-ec03-428e-8a62-96c0fbb4e93f_machine_manual.txt: 1 chunks
+2026-01-06 17:22:53,880 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-06 17:22:53,881 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed machine_manual.txt: 1 chunks in 0.58s
+2026-01-06 17:25:14,794 - multimodal_rag - WARNING - add_chunks:42 - No chunks with embeddings to add
+2026-01-06 17:25:14,795 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed 1338d06d_anime-watch.jpg: 0 chunks in 7.79s
+2026-01-06 17:26:09,367 - multimodal_rag - INFO - _process_txt:113 - Processed TXT ced82ed1-a43c-46ed-984d-77aa2e56a28c_machine_manual.txt: 1 chunks
+2026-01-06 17:26:09,535 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-06 17:26:09,536 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed machine_manual.txt: 1 chunks in 0.18s
+2026-01-06 17:26:11,999 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is the operating voltage? | Modalities: ['text'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Complex query detected, using k=20
+2026-01-06 17:26:12,057 - multimodal_rag - DEBUG - query:97 - Query returned 5 results (modality: Modality.TEXT, k: 20)
+2026-01-06 17:26:12,059 - multimodal_rag - INFO - retrieve:89 - Retrieved 3 results across 1 modalities
+2026-01-06 17:26:12,062 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.862 | Sources: 3 | Reason: Avg relevance: 0.46; Avg source quality: 0.97; Unique sources: 3; Modalities: 1
+2026-01-06 17:26:12,375 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['5ce22949-b859-486b-a5fc-942e4069302d', '1a793a87-7763-48d3-ad5b-5f9fec041abc', '1419b278-f90b-4ee3-a681-c3fdf6e57f82'] | Details: 2 contradiction(s) detected between sources
+2026-01-06 17:36:42,458 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-06 17:36:42,459 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-06 17:37:39,833 - multimodal_rag - INFO - _process_txt:113 - Processed TXT 41ce123b-a667-48aa-ab34-868c7b83ea14_machine_manual.txt: 1 chunks
+2026-01-06 17:37:40,166 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-06 17:37:40,167 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed machine_manual.txt: 1 chunks in 0.34s
+2026-01-06 17:37:42,545 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is the operating voltage? | Modalities: ['text'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Complex query detected, using k=20
+2026-01-06 17:37:42,643 - multimodal_rag - DEBUG - query:97 - Query returned 6 results (modality: Modality.TEXT, k: 20)
+2026-01-06 17:37:42,643 - multimodal_rag - INFO - retrieve:89 - Retrieved 3 results across 1 modalities
+2026-01-06 17:37:42,644 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.862 | Sources: 3 | Reason: Avg relevance: 0.46; Avg source quality: 0.97; Unique sources: 3; Modalities: 1
+2026-01-06 17:37:43,005 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['5ce22949-b859-486b-a5fc-942e4069302d', '1419b278-f90b-4ee3-a681-c3fdf6e57f82', '1a793a87-7763-48d3-ad5b-5f9fec041abc'] | Details: 2 contradiction(s) detected between sources
+2026-01-06 17:51:57,811 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is the voltage? | Modalities: ['text'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Complex query detected, using k=20
+2026-01-06 17:51:58,254 - multimodal_rag - DEBUG - query:97 - Query returned 6 results (modality: Modality.TEXT, k: 20)
+2026-01-06 17:51:58,258 - multimodal_rag - INFO - retrieve:89 - Retrieved 3 results across 1 modalities
+2026-01-06 17:51:58,264 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.851 | Sources: 3 | Reason: Avg relevance: 0.44; Avg source quality: 0.97; Unique sources: 3; Modalities: 1
+2026-01-06 17:51:58,595 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['5ce22949-b859-486b-a5fc-942e4069302d', '1419b278-f90b-4ee3-a681-c3fdf6e57f82', '1a793a87-7763-48d3-ad5b-5f9fec041abc'] | Details: 2 contradiction(s) detected between sources
+2026-01-06 18:00:23,545 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-06 18:00:23,546 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-06 18:05:08,037 - multimodal_rag - WARNING - reset:134 - Vector store reset
+2026-01-06 18:05:36,601 - multimodal_rag - INFO - _load_ocr:25 - Loading EasyOCR reader for English...
+2026-01-06 18:05:39,195 - multimodal_rag - INFO - _load_ocr:27 - EasyOCR loaded successfully
+2026-01-06 18:05:45,257 - multimodal_rag - INFO - _extract_text_ocr:141 - OCR extracted 46 characters from a4a7cf22-9481-497f-aace-636c8325d573_label.png
+2026-01-06 18:05:45,262 - multimodal_rag - INFO - process_file:114 - Created OCR text chunk for a4a7cf22-9481-497f-aace-636c8325d573_label.png (46 chars)
+2026-01-06 18:05:45,674 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-06 18:05:45,675 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed label.png: 1 chunks in 10.41s
+2026-01-06 18:05:58,796 - multimodal_rag - INFO - _process_txt:113 - Processed TXT 311fcba4-edad-487e-b36b-ff7a5600e332_New Text Document.txt: 1 chunks
+2026-01-06 18:05:58,859 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-06 18:05:58,860 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed New Text Document.txt: 1 chunks in 0.09s
+2026-01-06 18:06:31,200 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is safety guidlines? | Modalities: ['text'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Complex query detected, using k=20
+2026-01-06 18:06:31,291 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.TEXT, k: 20)
+2026-01-06 18:06:31,292 - multimodal_rag - INFO - retrieve:89 - Retrieved 2 results across 1 modalities
+2026-01-06 18:06:31,294 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.783 | Sources: 2 | Reason: Avg relevance: 0.39; Avg source quality: 0.97; Unique sources: 2; Modalities: 1
+2026-01-06 18:06:31,434 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['f37977d1-b55b-402a-81a8-a74a38f544ef', '23de9c08-ae82-4366-852a-fd4e6ef29b22'] | Details: 1 contradiction(s) detected between sources
+2026-01-06 18:15:51,440 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-06 18:15:51,441 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-06 18:21:01,920 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-06 18:21:01,921 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-06 18:25:20,885 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-06 18:25:20,886 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-06 18:27:04,265 - multimodal_rag - INFO - _load_model:21 - Loading Whisper tiny model...
+2026-01-06 18:27:05,482 - multimodal_rag - INFO - _load_model:23 - Whisper model loaded successfully
+2026-01-06 18:27:05,483 - multimodal_rag - INFO - process_file:30 - Transcribing a6cb92fe-1a9c-4aaa-bc0c-c0891295582a_au.mp3.mp4...
+2026-01-06 18:27:05,539 - multimodal_rag - WARNING - process_file:53 - Enhanced transcription failed, using fallback: [WinError 2] The system cannot find the file specified
+2026-01-06 18:27:05,557 - multimodal_rag - ERROR - process_file:140 - Failed to process audio data\uploads\a6cb92fe-1a9c-4aaa-bc0c-c0891295582a_au.mp3.mp4: [WinError 2] The system cannot find the file specified
+2026-01-06 18:27:05,560 - multimodal_rag - WARNING - add_chunks:42 - No chunks with embeddings to add
+2026-01-06 18:27:05,561 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed au.mp3.mp4: 0 chunks in 1.31s
+2026-01-06 18:27:21,678 - multimodal_rag - WARNING - reset:134 - Vector store reset
+2026-01-06 18:27:52,538 - multimodal_rag - INFO - _process_pdf:64 - Processed PDF fdd35ef7-1cdd-45b6-80e6-1b79f7379c70_PS1_OSINT_Challenge (1).pdf: 3 chunks
+2026-01-06 18:27:53,239 - multimodal_rag - INFO - add_chunks:67 - Added 3 chunks to vector store
+2026-01-06 18:27:53,240 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed PS1_OSINT_Challenge (1).pdf: 3 chunks in 1.20s
+2026-01-06 18:28:07,136 - multimodal_rag - INFO - process_file:30 - Transcribing a90a534a-3c50-46d8-91fb-709e2fb29afe_au.mp3.mp4...
+2026-01-06 18:28:07,156 - multimodal_rag - WARNING - process_file:53 - Enhanced transcription failed, using fallback: [WinError 2] The system cannot find the file specified
+2026-01-06 18:28:07,171 - multimodal_rag - ERROR - process_file:140 - Failed to process audio data\uploads\a90a534a-3c50-46d8-91fb-709e2fb29afe_au.mp3.mp4: [WinError 2] The system cannot find the file specified
+2026-01-06 18:28:07,172 - multimodal_rag - WARNING - add_chunks:42 - No chunks with embeddings to add
+2026-01-06 18:28:07,172 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed au.mp3.mp4: 0 chunks in 0.04s
+2026-01-06 18:28:12,452 - multimodal_rag - WARNING - reset:134 - Vector store reset
+2026-01-06 18:28:24,761 - multimodal_rag - INFO - _process_txt:113 - Processed TXT 21d0956b-9ea7-4121-9bd7-340e58fcea3e_New Text Document.txt: 1 chunks
+2026-01-06 18:28:24,944 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-06 18:28:24,945 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed New Text Document.txt: 1 chunks in 0.25s
+2026-01-06 18:28:37,861 - multimodal_rag - INFO - _load_ocr:25 - Loading EasyOCR reader for English...
+2026-01-06 18:28:40,663 - multimodal_rag - INFO - _load_ocr:27 - EasyOCR loaded successfully
+2026-01-06 18:28:46,554 - multimodal_rag - INFO - _extract_text_ocr:141 - OCR extracted 46 characters from d0558fcc-f358-47fe-992b-0bbbc11aaa33_label.png
+2026-01-06 18:28:46,556 - multimodal_rag - INFO - process_file:114 - Created OCR text chunk for d0558fcc-f358-47fe-992b-0bbbc11aaa33_label.png (46 chars)
+2026-01-06 18:28:46,609 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-06 18:28:46,610 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed label.png: 1 chunks in 10.11s
+2026-01-06 18:28:58,365 - multimodal_rag - INFO - process_file:30 - Transcribing 11694d89-48f3-4d2c-84ac-2cb45f3a19d1_au.mp3.mp4...
+2026-01-06 18:28:58,392 - multimodal_rag - WARNING - process_file:53 - Enhanced transcription failed, using fallback: [WinError 2] The system cannot find the file specified
+2026-01-06 18:28:58,413 - multimodal_rag - ERROR - process_file:140 - Failed to process audio data\uploads\11694d89-48f3-4d2c-84ac-2cb45f3a19d1_au.mp3.mp4: [WinError 2] The system cannot find the file specified
+2026-01-06 18:28:58,413 - multimodal_rag - WARNING - add_chunks:42 - No chunks with embeddings to add
+2026-01-06 18:28:58,414 - multimodal_rag - INFO - upload_file:120 - Uploaded and processed au.mp3.mp4: 0 chunks in 0.05s
+2026-01-06 18:30:10,988 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what was discussed in the meeting? | Modalities: ['text'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Complex query detected, using k=20
+2026-01-06 18:30:11,077 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.TEXT, k: 20)
+2026-01-06 18:30:11,079 - multimodal_rag - INFO - retrieve:89 - Retrieved 2 results across 1 modalities
+2026-01-06 18:30:11,081 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.755 | Sources: 2 | Reason: Avg relevance: 0.34; Avg source quality: 0.97; Unique sources: 2; Modalities: 1
+2026-01-06 18:30:11,225 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['db48057d-c190-4e9d-91c2-46e7df729291', 'd5911b62-e001-4ed4-b698-a0780587f3f6'] | Details: 1 contradiction(s) detected between sources
+2026-01-06 18:38:03,759 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-06 18:38:03,760 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-06 18:39:33,011 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-06 18:39:33,012 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-06 18:40:38,059 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-06 18:40:38,059 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-06 18:41:39,881 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-06 18:41:39,881 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-06 18:42:32,405 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-06 18:42:32,405 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-06 18:43:46,096 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-06 18:43:46,097 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-06 18:45:26,481 - multimodal_rag - WARNING - reset:134 - Vector store reset
+2026-01-06 18:45:45,155 - multimodal_rag - INFO - _process_txt:113 - Processed TXT f20db625-d937-4ed8-8c12-8c9f33c837ca_New Text Document.txt: 1 chunks
+2026-01-06 18:45:45,540 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-06 18:45:45,540 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed New Text Document.txt: 1 chunks in 0.40s
+2026-01-06 18:45:59,983 - multimodal_rag - INFO - _load_ocr:25 - Loading EasyOCR reader for English...
+2026-01-06 18:46:02,841 - multimodal_rag - INFO - _load_ocr:27 - EasyOCR loaded successfully
+2026-01-06 18:46:09,105 - multimodal_rag - INFO - _extract_text_ocr:141 - OCR extracted 46 characters from 9e3a9a2c-ee61-4d5e-84fb-77c0ae45e936_label.png
+2026-01-06 18:46:09,106 - multimodal_rag - INFO - process_file:114 - Created OCR text chunk for 9e3a9a2c-ee61-4d5e-84fb-77c0ae45e936_label.png (46 chars)
+2026-01-06 18:46:09,183 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-06 18:46:09,184 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed label.png: 1 chunks in 9.70s
+2026-01-06 18:46:20,043 - multimodal_rag - INFO - _load_model:21 - Loading Whisper tiny model...
+2026-01-06 18:46:20,791 - multimodal_rag - INFO - _load_model:23 - Whisper model loaded successfully
+2026-01-06 18:46:20,792 - multimodal_rag - INFO - process_file:30 - Transcribing b25aeb97-76e7-4ced-8301-532d789353d5_au.mp3.mp4...
+2026-01-06 18:46:25,620 - multimodal_rag - INFO - process_file:132 - Transcribed b25aeb97-76e7-4ced-8301-532d789353d5_au.mp3.mp4: 3 segments, 167 chars, confidence: 0.50
+2026-01-06 18:46:25,621 - multimodal_rag - WARNING - add_chunks:42 - No chunks with embeddings to add
+2026-01-06 18:46:25,621 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed au.mp3.mp4: 0 chunks in 5.58s
+2026-01-06 18:48:08,189 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is operating voltage? | Modalities: ['text'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Complex query detected, using k=20
+2026-01-06 18:48:08,355 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.TEXT, k: 20)
+2026-01-06 18:48:08,356 - multimodal_rag - INFO - retrieve:89 - Retrieved 2 results across 1 modalities
+2026-01-06 18:48:08,358 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.844 | Sources: 2 | Reason: Avg relevance: 0.51; Avg source quality: 0.97; Unique sources: 2; Modalities: 1
+2026-01-06 18:48:08,493 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['9bb6fd2d-d1cb-45f7-8560-60aa819790d8', 'fd0ef638-a799-4400-8232-fe760e21e078'] | Details: 1 contradiction(s) detected between sources
+2026-01-06 18:49:50,562 - multimodal_rag - WARNING - reset:134 - Vector store reset
+2026-01-06 18:58:32,553 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-06 18:58:32,554 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-06 18:59:28,700 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-06 18:59:28,701 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-06 19:02:21,735 - multimodal_rag - INFO - _process_txt:113 - Processed TXT 12c8eae6-5b10-43b3-8314-9c39dc5100c9_New Text Document.txt: 1 chunks
+2026-01-06 19:02:22,092 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-06 19:02:22,092 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed New Text Document.txt: 1 chunks in 0.36s
+2026-01-06 19:03:04,990 - multimodal_rag - INFO - _load_ocr:25 - Loading EasyOCR reader for English...
+2026-01-06 19:03:07,326 - multimodal_rag - INFO - _load_ocr:27 - EasyOCR loaded successfully
+2026-01-06 19:03:13,794 - multimodal_rag - INFO - _extract_text_ocr:141 - OCR extracted 46 characters from 0bb98977-c466-4fb0-8a73-9c1bd481a508_label.png
+2026-01-06 19:03:13,796 - multimodal_rag - INFO - process_file:114 - Created OCR text chunk for 0bb98977-c466-4fb0-8a73-9c1bd481a508_label.png (46 chars)
+2026-01-06 19:03:13,869 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-06 19:03:13,869 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed label.png: 1 chunks in 9.21s
+2026-01-06 19:06:12,577 - multimodal_rag - INFO - _load_model:21 - Loading Whisper tiny model...
+2026-01-06 19:06:13,356 - multimodal_rag - INFO - _load_model:23 - Whisper model loaded successfully
+2026-01-06 19:06:13,357 - multimodal_rag - INFO - process_file:30 - Transcribing 041fd0e7-b6fc-44d5-bbea-386d9a1a850e_Recording.m4a...
+2026-01-06 19:06:13,382 - multimodal_rag - WARNING - process_file:53 - Enhanced transcription failed, using fallback: [WinError 2] The system cannot find the file specified
+2026-01-06 19:06:13,401 - multimodal_rag - ERROR - process_file:140 - Failed to process audio data\uploads\041fd0e7-b6fc-44d5-bbea-386d9a1a850e_Recording.m4a: [WinError 2] The system cannot find the file specified
+2026-01-06 19:06:13,402 - multimodal_rag - WARNING - add_chunks:42 - No chunks with embeddings to add
+2026-01-06 19:06:13,403 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed Recording.m4a: 0 chunks in 0.83s

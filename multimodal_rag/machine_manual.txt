@@ -1,0 +1,11 @@
+MACHINE SAFETY MANUAL
+
+This document describes the operational guidelines of the industrial machine.
+
+Operating Voltage:
+The standard operating voltage of the machine is 220V.
+
+Safety Instructions:
+- Always wear safety gloves while operating the machine.
+- Do not operate the machine in wet conditions.
+- Disconnect power supply before maintenance.

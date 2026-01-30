@@ -1,0 +1,79 @@
+2026-01-12 11:43:03,396 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-12 11:43:03,398 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-12 11:43:03,406 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-12 11:43:03,407 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-12 11:44:52,754 - multimodal_rag - INFO - _process_txt:113 - Processed TXT 81e49289-ca94-4546-9fca-eecd635e9360_test_document.txt: 1 chunks
+2026-01-12 11:44:53,190 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-12 11:44:53,190 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed test_document.txt: 1 chunks in 0.50s
+2026-01-12 11:45:22,933 - multimodal_rag - INFO - _process_txt:113 - Processed TXT 5e422ec5-3069-465f-9612-efab58c070e8_test_document.txt: 1 chunks
+2026-01-12 11:45:22,994 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-12 11:45:22,997 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed test_document.txt: 1 chunks in 0.07s
+2026-01-12 11:45:51,076 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What does the test document contain information about? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-12 11:45:51,077 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What does the test d...' modality=Modality.TEXT
+2026-01-12 11:45:51,192 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.TEXT, k: 20)
+2026-01-12 11:45:51,192 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What does the test d...' modality=Modality.AUDIO
+2026-01-12 11:45:51,330 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.AUDIO, k: 20)
+2026-01-12 11:45:51,331 - multimodal_rag - INFO - retrieve:89 - Retrieved 1 results across 1 modalities
+2026-01-12 11:45:51,344 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.866 | Sources: 1 | Reason: Avg relevance: 0.63; Avg source quality: 1.00; Unique sources: 1; Modalities: 1
+2026-01-12 11:51:15,364 - multimodal_rag - WARNING - reset:134 - Vector store reset: 2 items deleted
+2026-01-12 11:52:06,315 - multimodal_rag - INFO - _process_txt:113 - Processed TXT 403a2831-fbb3-40ca-b1ac-cae5722ac0cc_New Text Document.txt: 1 chunks
+2026-01-12 11:52:06,652 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-12 11:52:06,653 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed New Text Document.txt: 1 chunks in 0.36s
+2026-01-12 11:52:28,830 - multimodal_rag - INFO - _load_ocr:25 - Loading EasyOCR reader for English...
+2026-01-12 11:52:31,414 - multimodal_rag - INFO - _load_ocr:27 - EasyOCR loaded successfully
+2026-01-12 11:52:38,093 - multimodal_rag - INFO - _extract_text_ocr:141 - OCR extracted 46 characters from 0d8022c1-431d-4ef2-b5d3-ee2ef4d8d71a_label.png
+2026-01-12 11:52:38,095 - multimodal_rag - INFO - process_file:114 - Created OCR text chunk for 0d8022c1-431d-4ef2-b5d3-ee2ef4d8d71a_label.png (46 chars)
+2026-01-12 11:52:38,152 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-12 11:52:38,153 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed label.png: 1 chunks in 10.43s
+2026-01-12 11:53:17,298 - multimodal_rag - INFO - _load_model:21 - Loading Whisper tiny model...
+2026-01-12 11:53:18,029 - multimodal_rag - INFO - _load_model:23 - Whisper model loaded successfully
+2026-01-12 11:53:18,030 - multimodal_rag - INFO - process_file:30 - Transcribing e2a8c0a7-9e53-4e32-be60-a1f13b5f8438_au.mp3.mp4...
+2026-01-12 11:53:22,477 - multimodal_rag - INFO - process_file:132 - Transcribed e2a8c0a7-9e53-4e32-be60-a1f13b5f8438_au.mp3.mp4: 3 segments, 167 chars, confidence: 0.50
+2026-01-12 11:53:22,560 - multimodal_rag - INFO - add_chunks:67 - Added 3 chunks to vector store
+2026-01-12 11:53:22,561 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed au.mp3.mp4: 3 chunks in 5.27s
+2026-01-12 11:57:58,240 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is the operating voltage? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-12 11:57:58,242 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is the operatin...' modality=Modality.TEXT
+2026-01-12 11:57:58,281 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.TEXT, k: 20)
+2026-01-12 11:57:58,281 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is the operatin...' modality=Modality.AUDIO
+2026-01-12 11:57:58,301 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 20)
+2026-01-12 11:57:58,303 - multimodal_rag - INFO - retrieve:89 - Retrieved 5 results across 2 modalities
+2026-01-12 11:57:58,304 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.862 | Sources: 5 | Reason: Avg relevance: 0.50; Avg source quality: 0.73; Unique sources: 3; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-12 11:57:58,713 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['5a4f20f3-00e3-464e-ba36-070ccfda9e4d', '22e6000c-25ba-4981-aff3-df777e7f9154'] | Details: 1 contradiction(s) detected between sources
+2026-01-12 13:07:25,935 - multimodal_rag - WARNING - reset:134 - Vector store reset: 5 items deleted
+2026-01-12 13:23:31,983 - multimodal_rag - WARNING - reset:136 - Vector store already empty
+2026-01-12 14:30:25,062 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-12 14:30:25,063 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-12 14:32:02,940 - multimodal_rag - INFO - _process_pdf:64 - Processed PDF 000853ba-59c9-4066-b729-cca68fc73069_gita.pdf: 32 chunks
+2026-01-12 14:32:05,734 - multimodal_rag - INFO - add_chunks:67 - Added 32 chunks to vector store
+2026-01-12 14:32:05,734 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed gita.pdf: 32 chunks in 4.53s
+2026-01-12 14:59:00,166 - multimodal_rag - WARNING - reset:134 - Vector store reset: 32 items deleted
+2026-01-12 14:59:21,044 - multimodal_rag - INFO - _process_txt:113 - Processed TXT d3517c18-cae6-4d51-bfce-ce300d4bd235_New Text Document.txt: 1 chunks
+2026-01-12 14:59:21,898 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-12 14:59:21,899 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed New Text Document.txt: 1 chunks in 1.05s
+2026-01-12 15:00:07,179 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is the safety instructions? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-12 15:00:07,183 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is the safety i...' modality=Modality.TEXT
+2026-01-12 15:00:07,270 - multimodal_rag - DEBUG - query:97 - Query returned 1 results (modality: Modality.TEXT, k: 20)
+2026-01-12 15:00:07,272 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is the safety i...' modality=Modality.AUDIO
+2026-01-12 15:00:07,300 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.AUDIO, k: 20)
+2026-01-12 15:00:07,305 - multimodal_rag - INFO - retrieve:89 - Retrieved 1 results across 1 modalities
+2026-01-12 15:00:07,319 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.813 | Sources: 1 | Reason: Avg relevance: 0.53; Avg source quality: 1.00; Unique sources: 1; Modalities: 1
+2026-01-12 15:01:44,137 - multimodal_rag - INFO - _load_ocr:25 - Loading EasyOCR reader for English...
+2026-01-12 15:01:48,641 - multimodal_rag - INFO - _load_ocr:27 - EasyOCR loaded successfully
+2026-01-12 15:01:56,695 - multimodal_rag - INFO - _extract_text_ocr:141 - OCR extracted 46 characters from 50ecb260-48d9-4cbf-9931-b3f96667def2_label.png
+2026-01-12 15:01:56,708 - multimodal_rag - INFO - process_file:114 - Created OCR text chunk for 50ecb260-48d9-4cbf-9931-b3f96667def2_label.png (46 chars)
+2026-01-12 15:01:57,279 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-12 15:01:57,281 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed label.png: 1 chunks in 15.47s
+2026-01-12 15:02:48,748 - multimodal_rag - INFO - _load_model:21 - Loading Whisper tiny model...
+2026-01-12 15:02:49,785 - multimodal_rag - INFO - _load_model:23 - Whisper model loaded successfully
+2026-01-12 15:02:49,787 - multimodal_rag - INFO - process_file:30 - Transcribing 25f4a360-0338-4045-a1ff-904bfbf4f049_au.mp3.mp4...
+2026-01-12 15:02:56,232 - multimodal_rag - INFO - process_file:132 - Transcribed 25f4a360-0338-4045-a1ff-904bfbf4f049_au.mp3.mp4: 3 segments, 167 chars, confidence: 0.50
+2026-01-12 15:02:56,359 - multimodal_rag - INFO - add_chunks:67 - Added 3 chunks to vector store
+2026-01-12 15:02:56,360 - multimodal_rag - INFO - upload_file:125 - Uploaded and processed au.mp3.mp4: 3 chunks in 7.62s
+2026-01-12 15:03:24,576 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is the operating system? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-12 15:03:24,578 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is the operatin...' modality=Modality.TEXT
+2026-01-12 15:03:24,640 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.TEXT, k: 20)
+2026-01-12 15:03:24,641 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is the operatin...' modality=Modality.AUDIO
+2026-01-12 15:03:24,664 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 20)
+2026-01-12 15:03:24,667 - multimodal_rag - INFO - retrieve:89 - Retrieved 5 results across 2 modalities
+2026-01-12 15:03:24,670 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.795 | Sources: 5 | Reason: Avg relevance: 0.36; Avg source quality: 0.73; Unique sources: 3; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-12 15:03:25,219 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['d1c9c3fb-9f79-4539-a176-dc49f143bf17', '4ec9a970-96d5-4b74-ba74-382243ebf88c'] | Details: 1 contradiction(s) detected between sources

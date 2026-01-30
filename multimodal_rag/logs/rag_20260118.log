@@ -1,0 +1,647 @@
+2026-01-18 05:59:01,941 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 05:59:01,942 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 05:59:45,255 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 05:59:45,256 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 06:01:07,562 - multimodal_rag - INFO - toggle_auto_index:522 - Auto-index enabled
+2026-01-18 06:02:32,665 - multimodal_rag - INFO - start:197 - Started watching folder: data\uploads
+2026-01-18 06:02:32,883 - multimodal_rag - INFO - get_sync_changes:462 - Sync: detected new file 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+2026-01-18 06:02:32,885 - multimodal_rag - INFO - get_sync_changes:462 - Sync: detected new file fresh_sync_test.txt
+2026-01-18 06:02:32,885 - multimodal_rag - INFO - get_sync_changes:462 - Sync: detected new file notification_test_172133.txt
+2026-01-18 06:02:32,885 - multimodal_rag - INFO - get_sync_changes:462 - Sync: detected new file sync_test_file.txt
+2026-01-18 06:02:32,886 - multimodal_rag - INFO - get_sync_changes:462 - Sync: detected new file 1338d06d_anime-watch.jpg
+2026-01-18 06:02:52,318 - multimodal_rag - INFO - on_file_change:120 - Sync: created - b86f26bd-4433-4084-b535-f8d2007efaab_gita.pdf
+2026-01-18 06:02:52,319 - multimodal_rag - INFO - on_file_change:125 - Auto-index queued: b86f26bd-4433-4084-b535-f8d2007efaab_gita.pdf
+2026-01-18 06:02:52,319 - multimodal_rag - INFO - on_created:124 - File created: b86f26bd-4433-4084-b535-f8d2007efaab_gita.pdf
+2026-01-18 06:02:53,756 - multimodal_rag - INFO - _process_pdf:64 - Processed PDF b86f26bd-4433-4084-b535-f8d2007efaab_gita.pdf: 32 chunks
+2026-01-18 06:02:56,864 - multimodal_rag - INFO - add_chunks:67 - Added 32 chunks to vector store
+2026-01-18 06:02:56,865 - multimodal_rag - INFO - upload_file:207 - Uploaded and processed gita.pdf: 32 chunks in 4.59s
+2026-01-18 06:02:56,865 - multimodal_rag - INFO - trigger_upload_notification:140 - Sync: uploaded - gita.pdf
+2026-01-18 06:02:56,874 - multimodal_rag - INFO - on_file_change:120 - Sync: deleted - b86f26bd-4433-4084-b535-f8d2007efaab_gita.pdf
+2026-01-18 06:02:56,875 - multimodal_rag - INFO - on_deleted:166 - File deleted: b86f26bd-4433-4084-b535-f8d2007efaab_gita.pdf
+2026-01-18 06:09:46,919 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 06:09:46,920 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 06:10:15,508 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 06:10:15,508 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 06:12:16,064 - multimodal_rag - INFO - toggle_auto_index:535 - Auto-index enabled
+2026-01-18 06:12:25,882 - multimodal_rag - INFO - start:197 - Started watching folder: data\uploads
+2026-01-18 06:12:25,958 - multimodal_rag - INFO - get_sync_changes:475 - Sync: detected new file 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+2026-01-18 06:12:25,958 - multimodal_rag - INFO - get_sync_changes:475 - Sync: detected new file fresh_sync_test.txt
+2026-01-18 06:12:25,959 - multimodal_rag - INFO - get_sync_changes:475 - Sync: detected new file notification_test_172133.txt
+2026-01-18 06:12:25,959 - multimodal_rag - INFO - get_sync_changes:475 - Sync: detected new file sync_test_file.txt
+2026-01-18 06:12:25,960 - multimodal_rag - INFO - get_sync_changes:475 - Sync: detected new file 1338d06d_anime-watch.jpg
+2026-01-18 06:12:47,820 - multimodal_rag - INFO - on_file_change:120 - Sync: created - 50f3d2ef-240d-43d7-b533-7453e4f86deb_test_auto_index.txt
+2026-01-18 06:12:47,820 - multimodal_rag - INFO - on_file_change:131 - Auto-index queued: 50f3d2ef-240d-43d7-b533-7453e4f86deb_test_auto_index.txt
+2026-01-18 06:12:47,821 - multimodal_rag - INFO - on_created:124 - File created: 50f3d2ef-240d-43d7-b533-7453e4f86deb_test_auto_index.txt
+2026-01-18 06:12:47,861 - multimodal_rag - INFO - _process_txt:113 - Processed TXT 50f3d2ef-240d-43d7-b533-7453e4f86deb_test_auto_index.txt: 1 chunks
+2026-01-18 06:12:48,419 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-18 06:12:48,420 - multimodal_rag - INFO - upload_file:220 - Uploaded and processed test_auto_index.txt: 1 chunks in 0.63s
+2026-01-18 06:12:48,421 - multimodal_rag - INFO - trigger_upload_notification:147 - Sync: uploaded - test_auto_index.txt
+2026-01-18 06:12:48,422 - multimodal_rag - INFO - trigger_upload_notification:152 - Auto-index queued (uploaded): test_auto_index.txt
+2026-01-18 06:14:19,454 - multimodal_rag - INFO - toggle_auto_index:535 - Auto-index disabled
+2026-01-18 06:14:20,447 - multimodal_rag - INFO - toggle_auto_index:535 - Auto-index enabled
+2026-01-18 06:14:28,521 - multimodal_rag - INFO - on_file_change:120 - Sync: created - 95574797-6182-4d66-84b5-3ff1e8bce81c_check_auto.pdf
+2026-01-18 06:14:28,523 - multimodal_rag - ERROR - _process_pdf:68 - Failed to process PDF data\uploads\95574797-6182-4d66-84b5-3ff1e8bce81c_check_auto.pdf: Stream has ended unexpectedly
+2026-01-18 06:14:28,523 - multimodal_rag - INFO - on_file_change:131 - Auto-index queued: 95574797-6182-4d66-84b5-3ff1e8bce81c_check_auto.pdf
+2026-01-18 06:14:28,524 - multimodal_rag - INFO - on_created:124 - File created: 95574797-6182-4d66-84b5-3ff1e8bce81c_check_auto.pdf
+2026-01-18 06:15:05,067 - multimodal_rag - INFO - on_file_change:120 - Sync: created - 7aa6bbca-529d-455c-8a03-21066acd2e32_real_test.txt
+2026-01-18 06:15:05,067 - multimodal_rag - INFO - on_file_change:131 - Auto-index queued: 7aa6bbca-529d-455c-8a03-21066acd2e32_real_test.txt
+2026-01-18 06:15:05,068 - multimodal_rag - INFO - _process_txt:113 - Processed TXT 7aa6bbca-529d-455c-8a03-21066acd2e32_real_test.txt: 1 chunks
+2026-01-18 06:15:05,068 - multimodal_rag - INFO - on_created:124 - File created: 7aa6bbca-529d-455c-8a03-21066acd2e32_real_test.txt
+2026-01-18 06:15:05,158 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-18 06:15:05,159 - multimodal_rag - INFO - upload_file:220 - Uploaded and processed real_test.txt: 1 chunks in 0.12s
+2026-01-18 06:15:05,161 - multimodal_rag - INFO - trigger_upload_notification:147 - Sync: uploaded - real_test.txt
+2026-01-18 06:15:05,163 - multimodal_rag - INFO - trigger_upload_notification:152 - Auto-index queued (uploaded): real_test.txt
+2026-01-18 06:16:56,854 - multimodal_rag - INFO - on_file_change:120 - Sync: created - beda659a-8acd-4a34-98da-89a4399002c3_test_auto.txt
+2026-01-18 06:16:56,855 - multimodal_rag - INFO - _process_txt:113 - Processed TXT beda659a-8acd-4a34-98da-89a4399002c3_test_auto.txt: 1 chunks
+2026-01-18 06:16:56,856 - multimodal_rag - INFO - on_file_change:131 - Auto-index queued: beda659a-8acd-4a34-98da-89a4399002c3_test_auto.txt
+2026-01-18 06:16:56,863 - multimodal_rag - INFO - on_created:124 - File created: beda659a-8acd-4a34-98da-89a4399002c3_test_auto.txt
+2026-01-18 06:16:57,036 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-18 06:16:57,037 - multimodal_rag - INFO - upload_file:220 - Uploaded and processed test_auto.txt: 1 chunks in 0.23s
+2026-01-18 06:16:57,037 - multimodal_rag - INFO - trigger_upload_notification:147 - Sync: uploaded - test_auto.txt
+2026-01-18 06:16:57,037 - multimodal_rag - INFO - trigger_upload_notification:152 - Auto-index queued (uploaded): test_auto.txt
+2026-01-18 06:44:44,363 - multimodal_rag - WARNING - _init_translator:77 - Translation service unavailable: No module named 'cgi'
+2026-01-18 06:52:06,735 - multimodal_rag - WARNING - _init_translator:77 - Translation service unavailable: No module named 'cgi'
+2026-01-18 06:56:35,585 - multimodal_rag - WARNING - _init_translator:77 - Translation service unavailable: No module named 'cgi'
+2026-01-18 06:57:27,520 - multimodal_rag - WARNING - _init_translator:77 - Translation service unavailable: No module named 'cgi'
+2026-01-18 06:59:05,847 - multimodal_rag - WARNING - _init_translator:78 - Translation service unavailable (googletrans not compatible): No module named 'cgi'
+2026-01-18 06:59:05,848 - multimodal_rag - INFO - _init_translator:79 - Cross-lingual search will work with embedding-based semantic matching only
+2026-01-18 06:59:28,239 - multimodal_rag - WARNING - _init_translator:78 - Translation service unavailable (googletrans not compatible): No module named 'cgi'
+2026-01-18 06:59:28,240 - multimodal_rag - INFO - _init_translator:79 - Cross-lingual search will work with embedding-based semantic matching only
+2026-01-18 06:59:28,240 - multimodal_rag - INFO - _init_translator:79 - Cross-lingual search will work with embedding-based semantic matching only
+2026-01-18 06:59:47,110 - multimodal_rag - WARNING - _init_translator:78 - Translation service unavailable (googletrans not compatible): No module named 'cgi'
+2026-01-18 06:59:47,111 - multimodal_rag - INFO - _init_translator:79 - Cross-lingual search will work with embedding-based semantic matching only
+2026-01-18 07:00:54,626 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 07:01:06,722 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 07:01:06,722 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 07:01:35,587 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 07:01:46,877 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 07:01:46,877 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 07:02:13,158 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 07:02:25,366 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 07:02:25,366 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 07:04:38,149 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-18 07:04:38,150 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-18 07:04:38,717 - multimodal_rag - DEBUG - query:97 - Query returned 10 results (modality: Modality.TEXT, k: 10)
+2026-01-18 07:04:38,770 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 10)
+2026-01-18 07:04:38,784 - multimodal_rag - INFO - retrieve:135 - Retrieved 10 results across 1 modalities, languages: unknown
+2026-01-18 07:04:38,790 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.876 | Sources: 10 | Reason: Avg relevance: 0.46; Avg source quality: 0.99; Unique sources: 3; Modalities: 1
+2026-01-18 07:08:40,303 - multimodal_rag - INFO - _create_chunks:134 - Detected language: Hindi (hi) with confidence 1.00
+2026-01-18 07:08:40,318 - multimodal_rag - INFO - _process_txt:114 - Processed TXT hindi_test.txt: 1 chunks
+2026-01-18 07:08:41,405 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-18 07:17:25,593 - multimodal_rag - INFO - _load_ocr:25 - Loading EasyOCR reader for English...
+2026-01-18 07:17:29,501 - multimodal_rag - INFO - _load_ocr:27 - EasyOCR loaded successfully
+2026-01-18 07:17:30,327 - multimodal_rag - WARNING - add_chunks:42 - No chunks with embeddings to add
+2026-01-18 07:17:30,329 - multimodal_rag - INFO - upload_file:221 - Uploaded and processed images.jpg: 0 chunks in 6.61s
+2026-01-18 07:18:07,438 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: test file | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-18 07:18:07,439 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (0.00)
+2026-01-18 07:18:07,440 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-18 07:18:07,441 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='test file...' modality=Modality.TEXT
+2026-01-18 07:18:07,689 - multimodal_rag - DEBUG - query:97 - Query returned 10 results (modality: Modality.TEXT, k: 10)
+2026-01-18 07:18:07,690 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='test file...' modality=Modality.AUDIO
+2026-01-18 07:18:07,730 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 10)
+2026-01-18 07:18:07,744 - multimodal_rag - INFO - retrieve:135 - Retrieved 10 results across 1 modalities, languages: unknown, hi
+2026-01-18 07:18:07,751 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.893 | Sources: 10 | Reason: Avg relevance: 0.49; Avg source quality: 1.00; Unique sources: 5; Modalities: 1
+2026-01-18 07:24:37,998 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: artificial intelligence se Hamen kya fayda hai | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-18 07:24:38,066 - multimodal_rag - INFO - retrieve:53 - Query language detected: es (0.43)
+2026-01-18 07:24:38,067 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-18 07:24:38,069 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='artificial intellige...' modality=Modality.TEXT
+2026-01-18 07:24:38,426 - multimodal_rag - DEBUG - query:97 - Query returned 10 results (modality: Modality.TEXT, k: 10)
+2026-01-18 07:24:38,427 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='artificial intellige...' modality=Modality.AUDIO
+2026-01-18 07:24:38,474 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 10)
+2026-01-18 07:24:38,489 - multimodal_rag - INFO - retrieve:135 - Retrieved 10 results across 1 modalities, languages: unknown, hi
+2026-01-18 07:24:38,494 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.807 | Sources: 10 | Reason: Avg relevance: 0.41; Avg source quality: 1.00; Unique sources: 2; Modalities: 1
+2026-01-18 07:24:42,649 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['2889e92c-68d6-4554-bf38-6b7bcdb6ed8e', '11db9b5b-198c-4bdd-a3c4-a94eaeeb09ca'] | Details: 1 contradiction(s) detected between sources
+2026-01-18 07:34:27,659 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 07:34:33,851 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 07:35:14,103 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 07:35:14,104 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 07:35:14,106 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 07:35:14,107 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 07:35:14,121 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 07:35:14,122 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 07:36:47,045 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 07:36:49,958 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 07:38:11,853 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 07:38:11,858 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 07:38:11,855 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 07:38:11,859 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 07:38:11,871 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 07:38:11,876 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 07:39:29,502 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: artificial intelligence se Hamen kya fayda hai | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-18 07:39:31,366 - multimodal_rag - INFO - retrieve:53 - Query language detected: es (0.43)
+2026-01-18 07:39:31,367 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-18 07:39:31,367 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='artificial intellige...' modality=Modality.TEXT
+2026-01-18 07:39:31,930 - multimodal_rag - DEBUG - query:97 - Query returned 10 results (modality: Modality.TEXT, k: 10)
+2026-01-18 07:39:31,930 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='artificial intellige...' modality=Modality.AUDIO
+2026-01-18 07:39:31,976 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 10)
+2026-01-18 07:39:31,992 - multimodal_rag - INFO - retrieve:135 - Retrieved 10 results across 1 modalities, languages: hi, unknown
+2026-01-18 07:39:31,997 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.807 | Sources: 10 | Reason: Avg relevance: 0.41; Avg source quality: 1.00; Unique sources: 2; Modalities: 1
+2026-01-18 07:39:37,650 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['2889e92c-68d6-4554-bf38-6b7bcdb6ed8e', '11db9b5b-198c-4bdd-a3c4-a94eaeeb09ca'] | Details: 1 contradiction(s) detected between sources
+2026-01-18 07:42:39,333 - multimodal_rag - ERROR - generate:69 - Ollama failed: Ollama: ReadTimeout: 
+2026-01-18 07:44:40,938 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: machine learning kya hai | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-18 07:44:40,992 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (0.57)
+2026-01-18 07:44:40,992 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-18 07:44:40,995 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='machine learning kya...' modality=Modality.TEXT
+2026-01-18 07:44:41,379 - multimodal_rag - DEBUG - query:97 - Query returned 10 results (modality: Modality.TEXT, k: 10)
+2026-01-18 07:44:41,381 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='machine learning kya...' modality=Modality.AUDIO
+2026-01-18 07:44:41,405 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 10)
+2026-01-18 07:44:41,416 - multimodal_rag - INFO - retrieve:135 - Retrieved 10 results across 1 modalities, languages: hi, unknown
+2026-01-18 07:44:41,424 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.876 | Sources: 10 | Reason: Avg relevance: 0.46; Avg source quality: 0.99; Unique sources: 4; Modalities: 1
+2026-01-18 07:45:37,135 - multimodal_rag - INFO - get_or_create_session:45 - Created new conversation session: sess_7yslzbkn
+2026-01-18 08:04:00,234 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 08:04:00,244 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 08:04:00,288 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 08:05:15,565 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 08:05:15,568 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 08:05:15,567 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 08:05:15,569 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 08:05:15,578 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 08:05:15,579 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 08:06:38,826 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 08:06:39,200 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 08:06:39,749 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 08:07:04,932 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 08:07:04,933 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 08:07:04,933 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 08:07:04,947 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 08:07:04,948 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 08:13:34,162 - multimodal_rag - INFO - start:197 - Started watching folder: data\uploads
+2026-01-18 08:13:34,312 - multimodal_rag - INFO - get_sync_changes:541 - Sync: detected new file 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+2026-01-18 08:13:34,313 - multimodal_rag - INFO - get_sync_changes:541 - Sync: detected new file fresh_sync_test.txt
+2026-01-18 08:13:34,313 - multimodal_rag - INFO - get_sync_changes:541 - Sync: detected new file notification_test_172133.txt
+2026-01-18 08:13:34,313 - multimodal_rag - INFO - get_sync_changes:541 - Sync: detected new file sync_test_file.txt
+2026-01-18 08:13:34,314 - multimodal_rag - INFO - get_sync_changes:541 - Sync: detected new file 1338d06d_anime-watch.jpg
+2026-01-18 08:13:35,421 - multimodal_rag - INFO - stop:205 - Stopped folder watcher
+2026-01-18 08:22:08,786 - multimodal_rag - INFO - start:197 - Started watching folder: data\uploads
+2026-01-18 08:22:08,806 - multimodal_rag - INFO - get_sync_changes:541 - Sync: detected new file 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+2026-01-18 08:22:08,807 - multimodal_rag - INFO - get_sync_changes:541 - Sync: detected new file fresh_sync_test.txt
+2026-01-18 08:22:08,807 - multimodal_rag - INFO - get_sync_changes:541 - Sync: detected new file notification_test_172133.txt
+2026-01-18 08:22:08,808 - multimodal_rag - INFO - get_sync_changes:541 - Sync: detected new file sync_test_file.txt
+2026-01-18 08:22:08,809 - multimodal_rag - INFO - get_sync_changes:541 - Sync: detected new file 1338d06d_anime-watch.jpg
+2026-01-18 08:25:56,905 - multimodal_rag - INFO - on_file_change:121 - Sync: created - 8c02bb61-6f0e-4739-a6cc-f9df9078d04d_images.jpg
+2026-01-18 08:25:56,906 - multimodal_rag - INFO - on_created:124 - File created: 8c02bb61-6f0e-4739-a6cc-f9df9078d04d_images.jpg
+2026-01-18 08:25:58,171 - multimodal_rag - INFO - _load_ocr:25 - Loading EasyOCR reader for English...
+2026-01-18 08:26:00,876 - multimodal_rag - INFO - _load_ocr:27 - EasyOCR loaded successfully
+2026-01-18 08:26:01,479 - multimodal_rag - WARNING - add_chunks:42 - No chunks with embeddings to add
+2026-01-18 08:26:01,480 - multimodal_rag - INFO - upload_file:221 - Uploaded and processed images.jpg: 0 chunks in 4.58s
+2026-01-18 08:26:01,481 - multimodal_rag - INFO - trigger_upload_notification:148 - Sync: uploaded - images.jpg
+2026-01-18 08:26:01,487 - multimodal_rag - INFO - on_file_change:121 - Sync: deleted - 8c02bb61-6f0e-4739-a6cc-f9df9078d04d_images.jpg
+2026-01-18 08:26:01,488 - multimodal_rag - INFO - on_deleted:166 - File deleted: 8c02bb61-6f0e-4739-a6cc-f9df9078d04d_images.jpg
+2026-01-18 08:26:50,530 - multimodal_rag - INFO - toggle_auto_index:601 - Auto-index enabled
+2026-01-18 08:26:53,674 - multimodal_rag - INFO - toggle_auto_index:601 - Auto-index disabled
+2026-01-18 08:26:58,839 - multimodal_rag - INFO - toggle_auto_index:601 - Auto-index enabled
+2026-01-18 08:27:30,312 - multimodal_rag - INFO - on_file_change:121 - Sync: created - b59c616c-167c-441e-9e8e-66425b97c449_PS2_UNSEEN_Challenge.pdf
+2026-01-18 08:27:30,312 - multimodal_rag - INFO - on_file_change:132 - Auto-index queued: b59c616c-167c-441e-9e8e-66425b97c449_PS2_UNSEEN_Challenge.pdf
+2026-01-18 08:27:30,313 - multimodal_rag - INFO - on_created:124 - File created: b59c616c-167c-441e-9e8e-66425b97c449_PS2_UNSEEN_Challenge.pdf
+2026-01-18 08:27:31,989 - multimodal_rag - INFO - _create_chunks:134 - Detected language: English (en) with confidence 1.00
+2026-01-18 08:27:31,991 - multimodal_rag - INFO - _process_pdf:65 - Processed PDF b59c616c-167c-441e-9e8e-66425b97c449_PS2_UNSEEN_Challenge.pdf: 4 chunks
+2026-01-18 08:27:32,620 - multimodal_rag - INFO - add_chunks:67 - Added 4 chunks to vector store
+2026-01-18 08:27:32,621 - multimodal_rag - INFO - upload_file:221 - Uploaded and processed PS2_UNSEEN_Challenge.pdf: 4 chunks in 2.31s
+2026-01-18 08:27:32,621 - multimodal_rag - INFO - trigger_upload_notification:148 - Sync: uploaded - PS2_UNSEEN_Challenge.pdf
+2026-01-18 08:27:32,621 - multimodal_rag - INFO - trigger_upload_notification:153 - Auto-index queued (uploaded): PS2_UNSEEN_Challenge.pdf
+2026-01-18 08:27:32,623 - multimodal_rag - INFO - on_file_change:121 - Sync: deleted - b59c616c-167c-441e-9e8e-66425b97c449_PS2_UNSEEN_Challenge.pdf
+2026-01-18 08:27:32,624 - multimodal_rag - INFO - on_file_change:127 - Removed deleted file from auto-index queue: b59c616c-167c-441e-9e8e-66425b97c449_PS2_UNSEEN_Challenge.pdf
+2026-01-18 08:27:32,624 - multimodal_rag - INFO - on_deleted:166 - File deleted: b59c616c-167c-441e-9e8e-66425b97c449_PS2_UNSEEN_Challenge.pdf
+2026-01-18 08:31:56,587 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is machine learning? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-18 08:31:56,590 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-18 08:31:56,591 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-18 08:31:56,591 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is machine lear...' modality=Modality.TEXT
+2026-01-18 08:31:56,651 - multimodal_rag - DEBUG - query:97 - Query returned 20 results (modality: Modality.TEXT, k: 20)
+2026-01-18 08:31:56,652 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is machine lear...' modality=Modality.AUDIO
+2026-01-18 08:31:56,670 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 20)
+2026-01-18 08:31:56,704 - multimodal_rag - INFO - retrieve:135 - Retrieved 20 results across 1 modalities, languages: unknown, hi, en
+2026-01-18 08:31:56,706 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.860 | Sources: 20 | Reason: Avg relevance: 0.42; Avg source quality: 1.00; Unique sources: 5; Modalities: 1
+2026-01-18 08:32:14,078 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['9a465823-cdfe-493e-8257-3dc322059443', '9139baed-d71e-411a-8414-9849abb0b658'] | Details: 1 contradiction(s) detected between sources
+2026-01-18 08:49:53,553 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 08:50:18,205 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 08:50:18,205 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 08:50:18,209 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 08:50:18,209 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 08:50:18,217 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 08:50:18,217 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 08:50:33,541 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 08:50:33,812 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 08:50:33,836 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 08:50:47,889 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 08:50:47,889 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 08:50:47,913 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 08:50:47,914 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 08:50:47,938 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 08:50:47,938 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 08:51:02,210 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 08:51:02,735 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 08:51:02,861 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 08:51:15,033 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 08:51:15,033 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 08:51:15,302 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 08:51:15,302 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 08:51:15,473 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 08:51:15,473 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 09:22:47,225 - multimodal_rag - ERROR - connect_cloud_provider:1022 - Cloud connect error: 'RAGLogger' object has no attribute 'error'
+2026-01-18 09:28:02,028 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 09:28:02,028 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 09:28:58,365 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 09:28:58,366 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 09:28:58,370 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 09:28:58,371 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 09:28:58,377 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 09:28:58,377 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 09:30:03,750 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 09:30:23,176 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 09:30:23,177 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 09:30:23,206 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 09:30:23,206 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 09:30:23,224 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 09:30:23,225 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 09:30:50,068 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 09:30:54,437 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 09:31:09,829 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 09:31:09,831 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 09:31:09,833 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 09:31:09,834 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 09:31:11,977 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 09:31:11,977 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 09:33:58,784 - multimodal_rag - ERROR - connect_cloud_provider:1022 - Cloud connect error: 'RAGLogger' object has no attribute 'error'
+2026-01-18 09:34:01,731 - multimodal_rag - ERROR - connect_cloud_provider:1022 - Cloud connect error: 'RAGLogger' object has no attribute 'error'
+2026-01-18 09:34:04,145 - multimodal_rag - ERROR - connect_cloud_provider:1022 - Cloud connect error: 'RAGLogger' object has no attribute 'error'
+2026-01-18 09:34:05,916 - multimodal_rag - ERROR - connect_cloud_provider:1022 - Cloud connect error: 'RAGLogger' object has no attribute 'error'
+2026-01-18 09:34:07,215 - multimodal_rag - ERROR - connect_cloud_provider:1022 - Cloud connect error: 'RAGLogger' object has no attribute 'error'
+2026-01-18 09:34:08,115 - multimodal_rag - ERROR - connect_cloud_provider:1022 - Cloud connect error: 'RAGLogger' object has no attribute 'error'
+2026-01-18 09:34:09,683 - multimodal_rag - ERROR - connect_cloud_provider:1022 - Cloud connect error: 'RAGLogger' object has no attribute 'error'
+2026-01-18 09:34:10,060 - multimodal_rag - ERROR - connect_cloud_provider:1022 - Cloud connect error: 'RAGLogger' object has no attribute 'error'
+2026-01-18 09:34:10,281 - multimodal_rag - ERROR - connect_cloud_provider:1022 - Cloud connect error: 'RAGLogger' object has no attribute 'error'
+2026-01-18 09:34:12,565 - multimodal_rag - ERROR - connect_cloud_provider:1022 - Cloud connect error: 'RAGLogger' object has no attribute 'error'
+2026-01-18 09:34:13,929 - multimodal_rag - ERROR - connect_cloud_provider:1022 - Cloud connect error: 'RAGLogger' object has no attribute 'error'
+2026-01-18 09:34:14,382 - multimodal_rag - ERROR - connect_cloud_provider:1022 - Cloud connect error: 'RAGLogger' object has no attribute 'error'
+2026-01-18 09:34:15,514 - multimodal_rag - ERROR - connect_cloud_provider:1022 - Cloud connect error: 'RAGLogger' object has no attribute 'error'
+2026-01-18 09:34:16,994 - multimodal_rag - ERROR - connect_cloud_provider:1022 - Cloud connect error: 'RAGLogger' object has no attribute 'error'
+2026-01-18 09:34:17,965 - multimodal_rag - ERROR - connect_cloud_provider:1022 - Cloud connect error: 'RAGLogger' object has no attribute 'error'
+2026-01-18 09:34:29,550 - multimodal_rag - ERROR - connect_cloud_provider:1022 - Cloud connect error: 'RAGLogger' object has no attribute 'error'
+2026-01-18 09:34:35,995 - multimodal_rag - ERROR - connect_cloud_provider:1022 - Cloud connect error: 'RAGLogger' object has no attribute 'error'
+2026-01-18 09:36:02,910 - multimodal_rag - ERROR - connect_cloud_provider:1022 - Cloud connect error: 'RAGLogger' object has no attribute 'error'
+2026-01-18 09:36:49,698 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 09:37:12,090 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 09:37:12,092 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 09:37:12,092 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 09:37:12,093 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 09:37:12,103 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 09:37:12,103 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 09:37:29,491 - multimodal_rag - INFO - info:72 - Connecting to google_drive in DEMO mode
+2026-01-18 09:44:29,762 - multimodal_rag - INFO - get_or_create_session:45 - Created new conversation session: sess_z0eyujl7
+2026-01-18 09:44:39,958 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: machine learning kya hai | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-18 09:44:41,317 - multimodal_rag - INFO - retrieve:53 - Query language detected: sw (0.57)
+2026-01-18 09:44:41,318 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-18 09:44:41,322 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='machine learning kya...' modality=Modality.TEXT
+2026-01-18 09:44:41,768 - multimodal_rag - DEBUG - query:97 - Query returned 10 results (modality: Modality.TEXT, k: 10)
+2026-01-18 09:44:41,768 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='machine learning kya...' modality=Modality.AUDIO
+2026-01-18 09:44:41,790 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 10)
+2026-01-18 09:44:41,799 - multimodal_rag - INFO - retrieve:135 - Retrieved 10 results across 1 modalities, languages: unknown, en, hi
+2026-01-18 09:44:41,804 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.858 | Sources: 10 | Reason: Avg relevance: 0.42; Avg source quality: 0.99; Unique sources: 5; Modalities: 1
+2026-01-18 09:46:02,863 - multimodal_rag - INFO - info:72 - Connecting to onedrive in DEMO mode
+2026-01-18 09:57:32,774 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 09:57:54,092 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 09:57:54,093 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 09:57:54,093 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 09:57:54,100 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 09:57:54,100 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 10:11:07,342 - multimodal_rag - INFO - info:72 - Connecting to google_drive in DEMO mode
+2026-01-18 10:11:25,484 - multimodal_rag - INFO - info:72 - Connecting to onedrive in DEMO mode
+2026-01-18 10:11:31,771 - multimodal_rag - INFO - _create_chunks:134 - Detected language: English (en) with confidence 1.00
+2026-01-18 10:11:31,779 - multimodal_rag - INFO - _process_pdf:65 - Processed PDF Multimodal_RAG_Guide.pdf: 1 chunks
+2026-01-18 10:11:32,424 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-18 10:15:46,732 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 10:16:41,669 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 10:16:41,670 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 10:16:41,672 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 10:16:41,672 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 10:17:06,198 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 10:17:06,198 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 10:17:06,200 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 10:17:25,694 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 10:17:25,695 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 10:17:25,719 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 10:17:25,720 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 10:17:25,739 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 10:17:25,739 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 10:22:48,613 - multimodal_rag - INFO - info:72 - Connecting to google_drive in DEMO mode
+2026-01-18 10:23:01,943 - multimodal_rag - ERROR - _process_pdf:69 - Failed to process PDF data\cloud_imports\Financial_Report_Q1.pdf: Stream has ended unexpectedly
+2026-01-18 10:23:41,191 - multimodal_rag - INFO - _create_chunks:134 - Detected language: English (en) with confidence 1.00
+2026-01-18 10:23:41,194 - multimodal_rag - INFO - _process_pdf:65 - Processed PDF Multimodal_RAG_Guide.pdf: 1 chunks
+2026-01-18 10:23:41,533 - multimodal_rag - INFO - add_chunks:67 - Added 1 chunks to vector store
+2026-01-18 13:46:02,278 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 13:46:32,023 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 13:46:44,763 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 13:46:44,764 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 13:47:51,020 - multimodal_rag - WARNING - _search_duckduckgo:111 - DuckDuckGo returned status 202
+2026-01-18 13:47:51,023 - multimodal_rag - WARNING - search:86 - No web results found for: AI news 2024
+2026-01-18 13:56:31,990 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is machine learning after and before | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-18 13:56:33,427 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-18 13:56:33,428 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-18 13:56:33,431 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is machine lear...' modality=Modality.TEXT
+2026-01-18 13:56:33,850 - multimodal_rag - DEBUG - query:97 - Query returned 10 results (modality: Modality.TEXT, k: 10)
+2026-01-18 13:56:33,851 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is machine lear...' modality=Modality.AUDIO
+2026-01-18 13:56:33,870 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 10)
+2026-01-18 13:56:33,883 - multimodal_rag - INFO - retrieve:135 - Retrieved 10 results across 1 modalities, languages: unknown
+2026-01-18 13:56:33,888 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.819 | Sources: 10 | Reason: Avg relevance: 0.44; Avg source quality: 1.00; Unique sources: 2; Modalities: 1
+2026-01-18 13:59:37,872 - multimodal_rag - ERROR - generate:69 - Ollama failed: Ollama: ReadTimeout: 
+2026-01-18 14:01:26,152 - multimodal_rag - INFO - get_or_create_session:45 - Created new conversation session: sess_j6zh0fwn
+2026-01-18 14:02:10,128 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is artificial intelligence after and before 2020? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-18 14:02:10,245 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-18 14:02:10,246 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-18 14:02:10,251 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is artificial i...' modality=Modality.TEXT
+2026-01-18 14:02:10,725 - multimodal_rag - DEBUG - query:97 - Query returned 20 results (modality: Modality.TEXT, k: 20)
+2026-01-18 14:02:10,727 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is artificial i...' modality=Modality.AUDIO
+2026-01-18 14:02:10,803 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 20)
+2026-01-18 14:02:10,848 - multimodal_rag - INFO - retrieve:135 - Retrieved 20 results across 1 modalities, languages: en, hi, unknown
+2026-01-18 14:02:12,570 - multimodal_rag - INFO - search:83 - Web search returned 3 results for: What is artificial intelligence after and before 2020?
+2026-01-18 14:02:12,578 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.865 | Sources: 20 | Reason: Avg relevance: 0.43; Avg source quality: 1.00; Unique sources: 5; Modalities: 1
+2026-01-18 14:02:29,433 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['e1782fdb-ac24-4e51-a70b-3ebe600ad9ae', 'ffe9fa02-980c-4b99-a5e2-5a1da1291cc0'] | Details: 1 contradiction(s) detected between sources
+2026-01-18 14:15:01,617 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 14:15:18,032 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 14:15:18,032 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 14:19:48,650 - multimodal_rag - INFO - get_or_create_session:45 - Created new conversation session: sess_nftxaje4
+2026-01-18 14:20:34,546 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is machine learning | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-18 14:20:35,196 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-18 14:20:35,197 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-18 14:20:35,197 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is machine lear...' modality=Modality.TEXT
+2026-01-18 14:20:35,455 - multimodal_rag - DEBUG - query:97 - Query returned 10 results (modality: Modality.TEXT, k: 10)
+2026-01-18 14:20:35,456 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is machine lear...' modality=Modality.AUDIO
+2026-01-18 14:20:35,473 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 10)
+2026-01-18 14:20:35,480 - multimodal_rag - INFO - retrieve:135 - Retrieved 10 results across 2 modalities, languages: unknown, en
+2026-01-18 14:20:37,464 - multimodal_rag - INFO - search:130 - Web search returned 3 results for: What is machine learning
+2026-01-18 14:20:37,465 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.945 | Sources: 10 | Reason: Avg relevance: 0.43; Avg source quality: 0.96; Unique sources: 5; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-18 14:23:41,357 - multimodal_rag - ERROR - generate:69 - Ollama failed: Ollama: ReadTimeout: 
+2026-01-18 14:30:07,922 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 14:30:23,566 - multimodal_rag - INFO - __init__:116 - Web search using DuckDuckGo (fallback)
+2026-01-18 14:30:23,930 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 14:30:23,931 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 14:43:56,248 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 14:44:11,479 - multimodal_rag - INFO - __init__:116 - Web search using DuckDuckGo (fallback)
+2026-01-18 14:44:11,808 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 14:44:11,808 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 14:46:02,972 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 14:46:14,201 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-18 14:46:14,418 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 14:46:14,419 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 14:48:05,252 - multimodal_rag - INFO - get_or_create_session:45 - Created new conversation session: sess_58o0hjj3
+2026-01-18 14:48:21,737 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is machine learning | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-18 14:48:22,397 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-18 14:48:22,398 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-18 14:48:22,398 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is machine lear...' modality=Modality.TEXT
+2026-01-18 14:48:22,632 - multimodal_rag - DEBUG - query:97 - Query returned 10 results (modality: Modality.TEXT, k: 10)
+2026-01-18 14:48:22,633 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is machine lear...' modality=Modality.AUDIO
+2026-01-18 14:48:22,653 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 10)
+2026-01-18 14:48:22,663 - multimodal_rag - INFO - retrieve:135 - Retrieved 10 results across 2 modalities, languages: unknown, en
+2026-01-18 14:48:24,384 - multimodal_rag - INFO - search:148 - Serper returned 3 results
+2026-01-18 14:48:24,387 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.945 | Sources: 10 | Reason: Avg relevance: 0.43; Avg source quality: 0.96; Unique sources: 5; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-18 15:26:50,797 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 15:27:08,007 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-18 15:27:08,313 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 15:27:08,314 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 15:40:34,242 - multimodal_rag - INFO - get_or_create_session:45 - Created new conversation session: sess_nzg8o0e2
+2026-01-18 15:41:05,417 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is artificial intelligence ? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-18 15:41:06,637 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-18 15:41:06,638 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-18 15:41:06,642 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is artificial i...' modality=Modality.TEXT
+2026-01-18 15:41:07,125 - multimodal_rag - DEBUG - query:97 - Query returned 20 results (modality: Modality.TEXT, k: 20)
+2026-01-18 15:41:07,127 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is artificial i...' modality=Modality.AUDIO
+2026-01-18 15:41:07,153 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 20)
+2026-01-18 15:41:07,193 - multimodal_rag - INFO - retrieve:135 - Retrieved 20 results across 2 modalities, languages: en, hi, unknown
+2026-01-18 15:41:09,024 - multimodal_rag - INFO - search:148 - Serper returned 3 results
+2026-01-18 15:41:09,033 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.948 | Sources: 20 | Reason: Avg relevance: 0.42; Avg source quality: 0.98; Unique sources: 7; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-18 15:41:25,048 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['b011c061-0175-42be-af95-61bd52188d01', '11db9b5b-198c-4bdd-a3c4-a94eaeeb09ca'] | Details: 1 contradiction(s) detected between sources
+2026-01-18 15:44:59,501 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: Which source is more reliable regarding artificial intelligence? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-18 15:44:59,565 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-18 15:44:59,565 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-18 15:44:59,568 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='Which source is more...' modality=Modality.TEXT
+2026-01-18 15:45:00,073 - multimodal_rag - DEBUG - query:97 - Query returned 20 results (modality: Modality.TEXT, k: 20)
+2026-01-18 15:45:00,075 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='Which source is more...' modality=Modality.AUDIO
+2026-01-18 15:45:00,109 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 20)
+2026-01-18 15:45:00,165 - multimodal_rag - INFO - retrieve:135 - Retrieved 20 results across 1 modalities, languages: en, hi, unknown
+2026-01-18 15:45:02,030 - multimodal_rag - INFO - search:148 - Serper returned 3 results
+2026-01-18 15:45:02,033 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.895 | Sources: 20 | Reason: Avg relevance: 0.49; Avg source quality: 1.00; Unique sources: 3; Modalities: 1
+2026-01-18 15:45:20,453 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['e1782fdb-ac24-4e51-a70b-3ebe600ad9ae', '11db9b5b-198c-4bdd-a3c4-a94eaeeb09ca', '2889e92c-68d6-4554-bf38-6b7bcdb6ed8e', 'ffe9fa02-980c-4b99-a5e2-5a1da1291cc0'] | Details: 2 contradiction(s) detected between sources
+2026-01-18 15:56:41,909 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 15:57:22,303 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-18 15:57:22,734 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 15:57:22,734 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 16:00:16,840 - multimodal_rag - INFO - get_or_create_session:45 - Created new conversation session: sess_wolrnhi7
+2026-01-18 16:00:38,341 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is machine learning? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-18 16:00:38,816 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-18 16:00:38,819 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-18 16:00:38,824 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is machine lear...' modality=Modality.TEXT
+2026-01-18 16:00:39,082 - multimodal_rag - DEBUG - query:97 - Query returned 20 results (modality: Modality.TEXT, k: 20)
+2026-01-18 16:00:39,082 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is machine lear...' modality=Modality.AUDIO
+2026-01-18 16:00:39,107 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 20)
+2026-01-18 16:00:39,139 - multimodal_rag - INFO - retrieve:135 - Retrieved 20 results across 2 modalities, languages: en, unknown, hi
+2026-01-18 16:00:40,022 - multimodal_rag - INFO - search:148 - Serper returned 3 results
+2026-01-18 16:00:40,024 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.951 | Sources: 20 | Reason: Avg relevance: 0.43; Avg source quality: 0.98; Unique sources: 7; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-18 16:00:56,286 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['9139baed-d71e-411a-8414-9849abb0b658', '9a465823-cdfe-493e-8257-3dc322059443'] | Details: 1 contradiction(s) detected between sources
+2026-01-18 16:10:39,464 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: artificial intelligence kya hai | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-18 16:10:39,540 - multimodal_rag - INFO - retrieve:53 - Query language detected: it (0.57)
+2026-01-18 16:10:39,541 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-18 16:10:39,544 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='artificial intellige...' modality=Modality.TEXT
+2026-01-18 16:10:39,907 - multimodal_rag - DEBUG - query:97 - Query returned 10 results (modality: Modality.TEXT, k: 10)
+2026-01-18 16:10:39,908 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='artificial intellige...' modality=Modality.AUDIO
+2026-01-18 16:10:39,931 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 10)
+2026-01-18 16:10:39,938 - multimodal_rag - INFO - retrieve:135 - Retrieved 10 results across 1 modalities, languages: en, unknown, hi
+2026-01-18 16:10:41,961 - multimodal_rag - INFO - search:148 - Serper returned 3 results
+2026-01-18 16:10:41,967 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.856 | Sources: 10 | Reason: Avg relevance: 0.42; Avg source quality: 0.99; Unique sources: 6; Modalities: 1
+2026-01-18 16:21:04,992 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is machine learning | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-18 16:21:05,028 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-18 16:21:05,029 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-18 16:21:05,031 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is machine lear...' modality=Modality.TEXT
+2026-01-18 16:21:05,449 - multimodal_rag - DEBUG - query:97 - Query returned 10 results (modality: Modality.TEXT, k: 10)
+2026-01-18 16:21:05,451 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is machine lear...' modality=Modality.AUDIO
+2026-01-18 16:21:05,472 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 10)
+2026-01-18 16:21:05,483 - multimodal_rag - INFO - retrieve:135 - Retrieved 10 results across 2 modalities, languages: en, unknown
+2026-01-18 16:21:05,491 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.945 | Sources: 10 | Reason: Avg relevance: 0.43; Avg source quality: 0.96; Unique sources: 5; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-18 16:24:07,301 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is operating voltage | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-18 16:24:07,356 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-18 16:24:07,356 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-18 16:24:07,359 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is operating vo...' modality=Modality.TEXT
+2026-01-18 16:24:07,906 - multimodal_rag - DEBUG - query:97 - Query returned 10 results (modality: Modality.TEXT, k: 10)
+2026-01-18 16:24:07,909 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is operating vo...' modality=Modality.AUDIO
+2026-01-18 16:24:07,978 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 10)
+2026-01-18 16:24:07,991 - multimodal_rag - INFO - retrieve:135 - Retrieved 10 results across 2 modalities, languages: en, unknown
+2026-01-18 16:24:08,000 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.959 | Sources: 10 | Reason: Avg relevance: 0.47; Avg source quality: 0.95; Unique sources: 8; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-18 16:24:11,168 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['80adee93-9495-49d8-9e3f-b4f5f9ea61cc', 'ee16a91c-0cb7-45eb-9338-252a3f290276'] | Details: 1 contradiction(s) detected between sources
+2026-01-18 16:28:00,826 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: machine learning kya hai | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-18 16:28:00,868 - multimodal_rag - INFO - retrieve:53 - Query language detected: sw (0.57)
+2026-01-18 16:28:00,868 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-18 16:28:00,870 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='machine learning kya...' modality=Modality.TEXT
+2026-01-18 16:28:01,421 - multimodal_rag - DEBUG - query:97 - Query returned 10 results (modality: Modality.TEXT, k: 10)
+2026-01-18 16:28:01,423 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='machine learning kya...' modality=Modality.AUDIO
+2026-01-18 16:28:01,452 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 10)
+2026-01-18 16:28:01,467 - multimodal_rag - INFO - retrieve:135 - Retrieved 10 results across 1 modalities, languages: en, unknown, hi
+2026-01-18 16:28:01,477 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.858 | Sources: 10 | Reason: Avg relevance: 0.42; Avg source quality: 0.99; Unique sources: 5; Modalities: 1
+2026-01-18 16:49:01,856 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: machine learning kya hai | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-18 16:49:01,883 - multimodal_rag - INFO - retrieve:53 - Query language detected: sw (0.43)
+2026-01-18 16:49:01,884 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-18 16:49:01,890 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='machine learning kya...' modality=Modality.TEXT
+2026-01-18 16:49:02,423 - multimodal_rag - DEBUG - query:97 - Query returned 10 results (modality: Modality.TEXT, k: 10)
+2026-01-18 16:49:02,425 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='machine learning kya...' modality=Modality.AUDIO
+2026-01-18 16:49:02,452 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 10)
+2026-01-18 16:49:02,469 - multimodal_rag - INFO - retrieve:135 - Retrieved 10 results across 1 modalities, languages: en, unknown, hi
+2026-01-18 16:49:02,482 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.858 | Sources: 10 | Reason: Avg relevance: 0.42; Avg source quality: 0.99; Unique sources: 5; Modalities: 1
+2026-01-18 17:05:47,914 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: machine learning kya hai | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-18 17:05:47,980 - multimodal_rag - INFO - retrieve:53 - Query language detected: tl (0.57)
+2026-01-18 17:05:47,981 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-18 17:05:47,987 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='machine learning kya...' modality=Modality.TEXT
+2026-01-18 17:05:48,439 - multimodal_rag - DEBUG - query:97 - Query returned 10 results (modality: Modality.TEXT, k: 10)
+2026-01-18 17:05:48,440 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='machine learning kya...' modality=Modality.AUDIO
+2026-01-18 17:05:48,463 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 10)
+2026-01-18 17:05:48,478 - multimodal_rag - INFO - retrieve:135 - Retrieved 10 results across 1 modalities, languages: en, unknown, hi
+2026-01-18 17:05:48,487 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.858 | Sources: 10 | Reason: Avg relevance: 0.42; Avg source quality: 0.99; Unique sources: 5; Modalities: 1
+2026-01-18 17:12:41,500 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: machine learning kya hai | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-18 17:12:41,562 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (0.57)
+2026-01-18 17:12:41,562 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-18 17:12:41,565 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='machine learning kya...' modality=Modality.TEXT
+2026-01-18 17:12:42,023 - multimodal_rag - DEBUG - query:97 - Query returned 10 results (modality: Modality.TEXT, k: 10)
+2026-01-18 17:12:42,025 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='machine learning kya...' modality=Modality.AUDIO
+2026-01-18 17:12:42,046 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 10)
+2026-01-18 17:12:42,060 - multimodal_rag - INFO - retrieve:135 - Retrieved 10 results across 1 modalities, languages: en, unknown, hi
+2026-01-18 17:12:42,069 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.877 | Sources: 10 | Reason: Avg relevance: 0.46; Avg source quality: 0.99; Unique sources: 5; Modalities: 1
+2026-01-18 17:26:35,194 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 17:27:53,362 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-18 17:27:53,945 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 17:27:53,946 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 17:31:01,527 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 17:31:16,020 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-18 17:31:16,313 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 17:31:16,313 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 17:31:31,151 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is machine learning? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-18 17:31:31,211 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-18 17:31:31,211 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-18 17:31:31,214 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is machine lear...' modality=Modality.TEXT
+2026-01-18 17:31:31,608 - multimodal_rag - DEBUG - query:97 - Query returned 20 results (modality: Modality.TEXT, k: 20)
+2026-01-18 17:31:31,610 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is machine lear...' modality=Modality.AUDIO
+2026-01-18 17:31:31,636 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 20)
+2026-01-18 17:31:31,673 - multimodal_rag - INFO - retrieve:135 - Retrieved 20 results across 2 modalities, languages: en, unknown, hi
+2026-01-18 17:31:31,680 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.951 | Sources: 20 | Reason: Avg relevance: 0.43; Avg source quality: 0.98; Unique sources: 7; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-18 17:31:51,290 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['9139baed-d71e-411a-8414-9849abb0b658', '9a465823-cdfe-493e-8257-3dc322059443'] | Details: 1 contradiction(s) detected between sources
+2026-01-18 17:33:50,123 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 17:34:03,713 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is AI? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-18 17:34:03,737 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-18 17:34:03,737 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-18 17:34:03,740 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is AI?...' modality=Modality.TEXT
+2026-01-18 17:34:04,128 - multimodal_rag - DEBUG - query:97 - Query returned 20 results (modality: Modality.TEXT, k: 20)
+2026-01-18 17:34:04,130 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is AI?...' modality=Modality.AUDIO
+2026-01-18 17:34:04,152 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 20)
+2026-01-18 17:34:04,199 - multimodal_rag - INFO - retrieve:135 - Retrieved 20 results across 2 modalities, languages: en, unknown, hi
+2026-01-18 17:34:04,208 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.948 | Sources: 20 | Reason: Avg relevance: 0.42; Avg source quality: 0.98; Unique sources: 7; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-18 17:34:18,329 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-18 17:34:18,865 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 17:34:18,865 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 17:34:23,111 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['9139baed-d71e-411a-8414-9849abb0b658', '9a465823-cdfe-493e-8257-3dc322059443'] | Details: 1 contradiction(s) detected between sources
+2026-01-18 17:35:04,025 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is machine learning? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-18 17:35:04,042 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-18 17:35:04,044 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-18 17:35:04,059 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is machine lear...' modality=Modality.TEXT
+2026-01-18 17:35:09,269 - multimodal_rag - DEBUG - query:97 - Query returned 20 results (modality: Modality.TEXT, k: 20)
+2026-01-18 17:35:09,271 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is machine lear...' modality=Modality.AUDIO
+2026-01-18 17:35:09,358 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 20)
+2026-01-18 17:35:09,473 - multimodal_rag - INFO - retrieve:135 - Retrieved 20 results across 2 modalities, languages: en, hi, unknown
+2026-01-18 17:35:09,495 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.951 | Sources: 20 | Reason: Avg relevance: 0.43; Avg source quality: 0.98; Unique sources: 7; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-18 17:35:44,872 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['9139baed-d71e-411a-8414-9849abb0b658', '9a465823-cdfe-493e-8257-3dc322059443'] | Details: 1 contradiction(s) detected between sources
+2026-01-18 17:38:45,935 - multimodal_rag - ERROR - generate:69 - Ollama failed: Ollama: ReadTimeout: 
+2026-01-18 17:38:46,521 - multimodal_rag - WARNING - translate:135 - Translator not available
+2026-01-18 17:38:46,522 - multimodal_rag - WARNING - generate_response:603 - Failed to translate response, returning in English
+2026-01-18 17:38:48,913 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is AI? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-18 17:38:48,922 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-18 17:38:48,923 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-18 17:38:48,929 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is AI?...' modality=Modality.TEXT
+2026-01-18 17:38:49,523 - multimodal_rag - DEBUG - query:97 - Query returned 20 results (modality: Modality.TEXT, k: 20)
+2026-01-18 17:38:49,524 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is AI?...' modality=Modality.AUDIO
+2026-01-18 17:38:49,553 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 20)
+2026-01-18 17:38:49,601 - multimodal_rag - INFO - retrieve:135 - Retrieved 20 results across 2 modalities, languages: en, hi, unknown
+2026-01-18 17:38:49,610 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.948 | Sources: 20 | Reason: Avg relevance: 0.42; Avg source quality: 0.98; Unique sources: 7; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-18 17:39:08,563 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['9139baed-d71e-411a-8414-9849abb0b658', '9a465823-cdfe-493e-8257-3dc322059443'] | Details: 1 contradiction(s) detected between sources
+2026-01-18 17:50:18,092 - multimodal_rag - WARNING - _init_translator:78 - Translation service unavailable (googletrans not compatible): No module named 'cgi'
+2026-01-18 17:50:18,093 - multimodal_rag - INFO - _init_translator:79 - Cross-lingual search will work with embedding-based semantic matching only
+2026-01-18 18:05:30,746 - multimodal_rag - WARNING - _init_translator:78 - Translation service unavailable (googletrans not compatible): No module named 'cgi'
+2026-01-18 18:05:30,747 - multimodal_rag - INFO - _init_translator:79 - Cross-lingual search will work with embedding-based semantic matching only
+2026-01-18 18:11:20,431 - multimodal_rag - WARNING - _init_translator:78 - Translation service unavailable (googletrans not compatible): No module named 'cgi'
+2026-01-18 18:11:20,432 - multimodal_rag - INFO - _init_translator:79 - Cross-lingual search will work with embedding-based semantic matching only
+2026-01-18 18:15:00,796 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is machine learning? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-18 18:15:00,856 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-18 18:15:00,857 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-18 18:15:00,859 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is machine lear...' modality=Modality.TEXT
+2026-01-18 18:15:01,965 - multimodal_rag - DEBUG - query:97 - Query returned 20 results (modality: Modality.TEXT, k: 20)
+2026-01-18 18:15:01,967 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is machine lear...' modality=Modality.AUDIO
+2026-01-18 18:15:01,991 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 20)
+2026-01-18 18:15:02,031 - multimodal_rag - INFO - retrieve:135 - Retrieved 20 results across 2 modalities, languages: en, unknown, hi
+2026-01-18 18:15:02,046 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.951 | Sources: 20 | Reason: Avg relevance: 0.43; Avg source quality: 0.98; Unique sources: 7; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-18 18:15:17,142 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['9139baed-d71e-411a-8414-9849abb0b658', '9a465823-cdfe-493e-8257-3dc322059443'] | Details: 1 contradiction(s) detected between sources
+2026-01-18 18:16:03,093 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is artificial intelligence? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-18 18:16:03,157 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-18 18:16:03,157 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-18 18:16:03,168 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is artificial i...' modality=Modality.TEXT
+2026-01-18 18:16:04,007 - multimodal_rag - DEBUG - query:97 - Query returned 20 results (modality: Modality.TEXT, k: 20)
+2026-01-18 18:16:04,010 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is artificial i...' modality=Modality.AUDIO
+2026-01-18 18:16:04,394 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 20)
+2026-01-18 18:16:04,443 - multimodal_rag - INFO - retrieve:135 - Retrieved 20 results across 2 modalities, languages: en, unknown, hi
+2026-01-18 18:16:04,459 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.946 | Sources: 20 | Reason: Avg relevance: 0.41; Avg source quality: 0.98; Unique sources: 7; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-18 18:17:22,483 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['b011c061-0175-42be-af95-61bd52188d01', '11db9b5b-198c-4bdd-a3c4-a94eaeeb09ca'] | Details: 1 contradiction(s) detected between sources
+2026-01-18 18:18:17,752 - multimodal_rag - ERROR - generate:69 - Ollama failed: Ollama: ReadTimeout: 
+2026-01-18 18:25:55,177 - multimodal_rag - INFO - get_or_create_session:45 - Created new conversation session: sess_u4irr6vg
+2026-01-18 18:29:08,200 - multimodal_rag - WARNING - _init_translator:78 - Translation service unavailable (googletrans not compatible): No module named 'cgi'
+2026-01-18 18:29:08,201 - multimodal_rag - INFO - _init_translator:79 - Cross-lingual search will work with embedding-based semantic matching only
+2026-01-18 18:36:41,877 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 18:37:01,744 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-18 18:37:02,210 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 18:37:02,211 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 18:43:03,350 - multimodal_rag - INFO - get_or_create_session:45 - Created new conversation session: sess_vzulijjz
+2026-01-18 18:43:21,294 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is machine learning | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-18 18:43:21,321 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-18 18:43:21,325 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-18 18:43:21,330 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is machine lear...' modality=Modality.TEXT
+2026-01-18 18:43:21,909 - multimodal_rag - DEBUG - query:97 - Query returned 10 results (modality: Modality.TEXT, k: 10)
+2026-01-18 18:43:21,910 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is machine lear...' modality=Modality.AUDIO
+2026-01-18 18:43:21,933 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 10)
+2026-01-18 18:43:21,944 - multimodal_rag - INFO - retrieve:135 - Retrieved 10 results across 2 modalities, languages: en, unknown
+2026-01-18 18:43:23,459 - multimodal_rag - INFO - search:148 - Serper returned 3 results
+2026-01-18 18:43:23,472 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.945 | Sources: 10 | Reason: Avg relevance: 0.43; Avg source quality: 0.96; Unique sources: 5; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-18 18:46:21,335 - multimodal_rag - WARNING - translate:135 - Translator not available
+2026-01-18 18:46:21,338 - multimodal_rag - WARNING - generate_response:603 - Failed to translate response, returning in English
+2026-01-18 18:59:24,195 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is machine learning? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-18 18:59:24,219 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-18 18:59:24,238 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-18 18:59:24,260 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is machine lear...' modality=Modality.TEXT
+2026-01-18 18:59:24,782 - multimodal_rag - DEBUG - query:97 - Query returned 20 results (modality: Modality.TEXT, k: 20)
+2026-01-18 18:59:24,783 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is machine lear...' modality=Modality.AUDIO
+2026-01-18 18:59:24,811 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 20)
+2026-01-18 18:59:24,845 - multimodal_rag - INFO - retrieve:135 - Retrieved 20 results across 2 modalities, languages: hi, en, unknown
+2026-01-18 18:59:26,865 - multimodal_rag - INFO - search:148 - Serper returned 3 results
+2026-01-18 18:59:26,876 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.951 | Sources: 20 | Reason: Avg relevance: 0.43; Avg source quality: 0.98; Unique sources: 7; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-18 18:59:42,675 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['9139baed-d71e-411a-8414-9849abb0b658', '9a465823-cdfe-493e-8257-3dc322059443'] | Details: 1 contradiction(s) detected between sources
+2026-01-18 19:02:43,206 - multimodal_rag - ERROR - generate:69 - Ollama failed: Ollama: ReadTimeout: 
+2026-01-18 19:02:43,383 - multimodal_rag - WARNING - translate:135 - Translator not available
+2026-01-18 19:02:43,383 - multimodal_rag - WARNING - generate_response:603 - Failed to translate response, returning in English
+2026-01-18 19:13:15,994 - multimodal_rag - INFO - get_or_create_session:45 - Created new conversation session: sess_m05765w0
+2026-01-18 19:13:20,327 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is machine learning | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-18 19:13:20,383 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-18 19:13:20,387 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-18 19:13:20,392 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is machine lear...' modality=Modality.TEXT
+2026-01-18 19:13:20,814 - multimodal_rag - DEBUG - query:97 - Query returned 10 results (modality: Modality.TEXT, k: 10)
+2026-01-18 19:13:20,815 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is machine lear...' modality=Modality.AUDIO
+2026-01-18 19:13:20,847 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 10)
+2026-01-18 19:13:20,859 - multimodal_rag - INFO - retrieve:135 - Retrieved 10 results across 2 modalities, languages: en, unknown
+2026-01-18 19:13:22,415 - multimodal_rag - INFO - search:148 - Serper returned 3 results
+2026-01-18 19:13:22,421 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.945 | Sources: 10 | Reason: Avg relevance: 0.43; Avg source quality: 0.96; Unique sources: 5; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-18 19:16:26,380 - multimodal_rag - ERROR - generate:69 - Ollama failed: Ollama: ReadTimeout: 
+2026-01-18 19:16:26,532 - multimodal_rag - WARNING - translate:135 - Translator not available
+2026-01-18 19:16:26,534 - multimodal_rag - WARNING - generate_response:603 - Failed to translate response, returning in English
+2026-01-18 19:22:48,590 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-18 19:23:30,560 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-18 19:23:30,876 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-18 19:23:30,876 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-18 19:24:37,575 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is machine learning | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-18 19:24:37,587 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-18 19:24:37,588 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-18 19:24:37,592 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is machine lear...' modality=Modality.TEXT
+2026-01-18 19:24:38,159 - multimodal_rag - DEBUG - query:97 - Query returned 10 results (modality: Modality.TEXT, k: 10)
+2026-01-18 19:24:38,160 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is machine lear...' modality=Modality.AUDIO
+2026-01-18 19:24:38,231 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 10)
+2026-01-18 19:24:38,251 - multimodal_rag - INFO - retrieve:135 - Retrieved 10 results across 2 modalities, languages: en, unknown
+2026-01-18 19:24:38,256 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.945 | Sources: 10 | Reason: Avg relevance: 0.43; Avg source quality: 0.96; Unique sources: 5; Modalities: 2; Cross-modal bonus: +0.10
