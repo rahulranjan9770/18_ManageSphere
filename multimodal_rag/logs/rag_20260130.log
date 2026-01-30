@@ -1,0 +1,20 @@
+2026-01-30 13:19:53,893 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-30 13:20:49,285 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-30 13:20:49,691 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-30 13:20:49,692 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-30 13:23:24,217 - multimodal_rag - WARNING - generate:47 - Gemini API failed: Gemini: Exception: All Gemini models failed after retries
+2026-01-30 13:23:25,705 - multimodal_rag - WARNING - generate:60 - OpenRouter API failed: OpenRouter: HTTPStatusError: Client error '401 Unauthorized' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-U
+2026-01-30 13:25:59,895 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is operating voltage | Modalities: ['text', 'audio'] | Top-K: 10 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Simple query, using k=10
+2026-01-30 13:25:59,912 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-30 13:25:59,912 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-30 13:25:59,925 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is operating vo...' modality=Modality.TEXT
+2026-01-30 13:26:00,746 - multimodal_rag - DEBUG - query:97 - Query returned 10 results (modality: Modality.TEXT, k: 10)
+2026-01-30 13:26:00,747 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is operating vo...' modality=Modality.AUDIO
+2026-01-30 13:26:00,772 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 10)
+2026-01-30 13:26:00,782 - multimodal_rag - INFO - retrieve:135 - Retrieved 10 results across 2 modalities, languages: unknown, en
+2026-01-30 13:26:00,794 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.959 | Sources: 10 | Reason: Avg relevance: 0.47; Avg source quality: 0.95; Unique sources: 8; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-30 13:26:03,776 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['80adee93-9495-49d8-9e3f-b4f5f9ea61cc', 'ee16a91c-0cb7-45eb-9338-252a3f290276'] | Details: 1 contradiction(s) detected between sources
+2026-01-30 13:26:13,057 - multimodal_rag - WARNING - generate:47 - Gemini API failed: Gemini: Exception: All Gemini models failed after retries
+2026-01-30 13:26:14,364 - multimodal_rag - WARNING - generate:60 - OpenRouter API failed: OpenRouter: HTTPStatusError: Client error '401 Unauthorized' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-U

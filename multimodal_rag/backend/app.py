@@ -7,6 +7,10 @@ import os
 import asyncio
 import json
 
+# ⚡ Load environment variables FIRST for ultra-fast Gemini API
+from dotenv import load_dotenv
+load_dotenv()  # Loads GEMINI_API_KEY and all other settings
+
 from fastapi import FastAPI, UploadFile, File, HTTPException, Form, WebSocket, WebSocketDisconnect
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
