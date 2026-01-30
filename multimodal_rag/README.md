@@ -6,6 +6,12 @@
 > 
 > A production-ready system for ingesting, retrieving, and reasoning across text, images, and audio with explicit uncertainty handling and conflict detection.
 
+---
+
+**📍 GitHub Repository:** [https://github.com/rahulranjan9770/multimodel](https://github.com/rahulranjan9770/multimodel)
+
+---
+
 ## 🎯 Features
 
 ### Core Capabilities
@@ -319,7 +325,9 @@ A: [Unable to Answer] No evidence found. Please upload financial documents or
 
 Built for the **Multimodal RAG System Hackathon**.
 
-GitHub: [rahulranjan9770](https://github.com/rahulranjan9770)
+**GitHub Repository:** [https://github.com/rahulranjan9770/multimodel](https://github.com/rahulranjan9770/multimodel)
+
+**Team Lead:** [rahulranjan9770](https://github.com/rahulranjan9770)
 
 ## 📄 License
 
