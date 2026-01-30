@@ -1,5 +1,7 @@
 # 🧠 Multimodal RAG System
 
+> **Table No. 18 | Team: ManageSphere**
+>
 > **Evidence-Based Multimodal Retrieval-Augmented Generation**
 > 
 > A production-ready system for ingesting, retrieving, and reasoning across text, images, and audio with explicit uncertainty handling and conflict detection.
@@ -313,7 +315,11 @@ A: [Unable to Answer] No evidence found. Please upload financial documents or
 
 ## 🤝 Contributing
 
+**Team ManageSphere | Table No. 18**
+
 Built for the **Multimodal RAG System Hackathon**.
+
+GitHub: [rahulranjan9770](https://github.com/rahulranjan9770)
 
 ## 📄 License
 

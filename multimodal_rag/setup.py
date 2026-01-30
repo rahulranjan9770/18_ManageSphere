@@ -34,6 +34,8 @@ def main():
     ║                                                        ║
     ║  Evidence-Based Multimodal Retrieval & Generation     ║
     ║                                                        ║
+    ║          Team: ManageSphere | Table No. 18            ║
+    ║                                                        ║
     ╚════════════════════════════════════════════════════════╝
     """)
     
