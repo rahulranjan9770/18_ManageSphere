@@ -10,6 +10,7 @@ import chardet
 from backend.models.document import DocumentChunk, Modality
 from backend.utils.logger import logger
 from backend.utils.language_service import detect_language, get_language_info
+from backend.ingestion.pdf_multimodal_processor import MultimodalPDFProcessor
 
 
 class TextProcessor:
@@ -18,6 +19,12 @@ class TextProcessor:
     def __init__(self, chunk_size: int = 500, chunk_overlap: int = 50):
         self.chunk_size = chunk_size
         self.chunk_overlap = chunk_overlap
+        # Initialize multimodal PDF processor for comprehensive PDF handling
+        self.pdf_processor = MultimodalPDFProcessor(
+            chunk_size=chunk_size,
+            chunk_overlap=chunk_overlap,
+            extract_images=True  # Enable image extraction from PDFs
+        )
     
     def process_file(self, file_path: Path) -> List[DocumentChunk]:
         """Process a file based on its extension."""
@@ -37,20 +44,53 @@ class TextProcessor:
             return []
     
     def _process_pdf(self, file_path: Path) -> List[DocumentChunk]:
-        """Extract text from PDF with page attribution."""
+        """
+        Extract text AND embedded images from PDF.
+        
+        This method now treats PDFs as multimodal containers:
+        - Text content with page-level metadata
+        - Embedded images as first-class knowledge units
+        - OCR text from images for better retrieval
+        
+        Uses the MultimodalPDFProcessor for comprehensive extraction.
+        """
+        try:
+            logger.logger.info(f"Processing PDF with multimodal extraction: {file_path.name}")
+            
+            # Use the multimodal processor for comprehensive PDF handling
+            chunks = self.pdf_processor.process_pdf(file_path)
+            
+            logger.logger.info(
+                f"Multimodal PDF processing complete for {file_path.name}: "
+                f"{len(chunks)} total chunks "
+                f"({len([c for c in chunks if c.modality == Modality.TEXT])} text, "
+                f"{len([c for c in chunks if c.modality == Modality.IMAGE])} image)"
+            )
+            
+            return chunks
+            
+        except Exception as e:
+            logger.logger.error(f"Failed to process PDF {file_path}: {e}")
+            # Fallback to text-only processing if multimodal fails
+            logger.logger.warning("Falling back to text-only PDF processing")
+            return self._process_pdf_text_only(file_path)
+    
+    def _process_pdf_text_only(self, file_path: Path) -> List[DocumentChunk]:
+        """
+        Fallback text-only PDF processing (legacy mode).
+        Used when multimodal processing fails.
+        """
         chunks = []
         
         try:
             reader = PdfReader(str(file_path))
             full_text = []
-            page_mapping = []
             
             for page_num, page in enumerate(reader.pages, 1):
                 try:
                     text = page.extract_text()
                     if text.strip():
                         full_text.append(text)
-                        page_mapping.extend([page_num] * len(text.split()))
                 except Exception as e:
                     logger.logger.warning(f"Error extracting page {page_num}: {e}")
                     continue
@@ -59,14 +99,14 @@ class TextProcessor:
             chunks = self._create_chunks(
                 combined_text,
                 file_path.name,
-                {"total_pages": len(reader.pages)}
+                {"total_pages": len(reader.pages), "processing_mode": "text_only_fallback"}
             )
             
-            logger.logger.info(f"Processed PDF {file_path.name}: {len(chunks)} chunks")
+            logger.logger.info(f"Processed PDF (text-only) {file_path.name}: {len(chunks)} chunks")
             return chunks
             
         except Exception as e:
-            logger.logger.error(f"Failed to process PDF {file_path}: {e}")
+            logger.logger.error(f"Failed text-only PDF processing {file_path}: {e}")
             return []
     
     def _process_docx(self, file_path: Path) -> List[DocumentChunk]:

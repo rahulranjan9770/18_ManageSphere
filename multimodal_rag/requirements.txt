@@ -20,6 +20,8 @@ pytesseract>=0.3.10
 opencv-python>=4.8.0
 easyocr>=1.7.0
 python-pptx>=0.6.21
+PyMuPDF>=1.23.0  # For extracting images from PDFs
+pdf2image>=1.16.0  # Alternative PDF to image conversion
 
 # Audio Processing
 openai-whisper>=20231117

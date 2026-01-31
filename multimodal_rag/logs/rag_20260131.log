@@ -1,0 +1,626 @@
+2026-01-31 00:48:05,059 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 00:49:00,825 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 00:49:01,214 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 00:49:01,214 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 00:52:37,813 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 00:52:51,363 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 00:52:51,589 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 00:52:51,590 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 00:55:57,786 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 00:56:11,312 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 00:56:11,542 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 00:56:11,542 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 00:56:55,478 - multimodal_rag - WARNING - generate:47 - Gemini API failed: Gemini: Exception: All Gemini models failed after retries
+2026-01-31 00:57:01,529 - multimodal_rag - WARNING - generate:60 - OpenRouter API failed: OpenRouter: HTTPStatusError: Client error '401 Unauthorized' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-U
+2026-01-31 01:37:56,386 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 01:38:50,266 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 01:38:50,624 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 01:38:50,625 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 01:39:11,129 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 01:40:43,735 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 01:41:31,102 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 01:41:58,497 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 01:49:50,441 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 01:50:06,467 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 01:50:06,784 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 01:50:06,784 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 01:51:16,646 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 01:51:28,182 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 01:51:28,393 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 01:51:28,394 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 01:51:48,148 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 01:52:34,354 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 01:52:36,133 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 01:52:43,520 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 01:52:48,400 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 01:52:48,620 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 01:52:48,621 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 01:52:49,786 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 01:52:50,060 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 01:52:50,061 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 01:52:57,596 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 01:53:11,376 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 01:57:13,989 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what is operating voltage? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-31 01:57:13,998 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-31 01:57:13,999 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-31 01:57:13,999 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is operating vo...' modality=Modality.TEXT
+2026-01-31 01:57:14,248 - multimodal_rag - DEBUG - query:97 - Query returned 20 results (modality: Modality.TEXT, k: 20)
+2026-01-31 01:57:14,249 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what is operating vo...' modality=Modality.AUDIO
+2026-01-31 01:57:14,271 - multimodal_rag - DEBUG - query:97 - Query returned 3 results (modality: Modality.AUDIO, k: 20)
+2026-01-31 01:57:14,303 - multimodal_rag - INFO - retrieve:135 - Retrieved 20 results across 2 modalities, languages: en, unknown
+2026-01-31 01:57:15,718 - multimodal_rag - INFO - search:148 - Serper returned 3 results
+2026-01-31 01:57:15,720 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.951 | Sources: 20 | Reason: Avg relevance: 0.43; Avg source quality: 0.98; Unique sources: 8; Modalities: 2; Cross-modal bonus: +0.10
+2026-01-31 01:57:33,098 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['80adee93-9495-49d8-9e3f-b4f5f9ea61cc', 'ee16a91c-0cb7-45eb-9338-252a3f290276'] | Details: 1 contradiction(s) detected between sources
+2026-01-31 01:57:52,475 - multimodal_rag - WARNING - generate:47 - Gemini API failed: Gemini: Exception: All Gemini models failed after retries
+2026-01-31 01:57:59,316 - multimodal_rag - WARNING - generate:60 - OpenRouter API failed: OpenRouter: HTTPStatusError: Client error '401 Unauthorized' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-U
+2026-01-31 02:12:46,887 - multimodal_rag - WARNING - generate:47 - Gemini API failed: Gemini: Exception: All Gemini models failed after retries
+2026-01-31 02:12:48,080 - multimodal_rag - WARNING - generate:60 - OpenRouter API failed: OpenRouter: HTTPStatusError: Client error '401 Unauthorized' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-U
+2026-01-31 02:53:03,237 - multimodal_rag - WARNING - reset:145 - Vector store reset: 47 items deleted
+2026-01-31 02:53:31,801 - multimodal_rag - INFO - _process_pdf:58 - Processing PDF with multimodal extraction: db3f63bb-74e8-433c-bfc3-be5a96b9b2ce_gita.pdf file.pdf
+2026-01-31 02:53:31,909 - multimodal_rag - INFO - process_pdf:80 - Processing PDF 'db3f63bb-74e8-433c-bfc3-be5a96b9b2ce_gita.pdf file.pdf': 1 pages, extract_images=True
+2026-01-31 02:53:33,708 - multimodal_rag - INFO - _load_ocr:57 - Loading EasyOCR reader for embedded images...
+2026-01-31 02:53:36,912 - multimodal_rag - INFO - _load_ocr:59 - EasyOCR loaded successfully
+2026-01-31 02:53:39,703 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: db3f63bb-74e8-433c-bfc3-be5a96b9b2ce_gita.pdf file.pdf page 1 (156 chars)
+2026-01-31 02:53:39,710 - multimodal_rag - INFO - process_pdf:93 - Extracted 2 images from db3f63bb-74e8-433c-bfc3-be5a96b9b2ce_gita.pdf file.pdf
+2026-01-31 02:53:39,849 - multimodal_rag - INFO - process_pdf:117 - Detected language: English (en) with confidence 1.00
+2026-01-31 02:53:39,855 - multimodal_rag - INFO - process_pdf:138 - Processed PDF db3f63bb-74e8-433c-bfc3-be5a96b9b2ce_gita.pdf file.pdf: 1 text chunks, 1 image chunks
+2026-01-31 02:53:39,859 - multimodal_rag - INFO - _process_pdf:63 - Multimodal PDF processing complete for db3f63bb-74e8-433c-bfc3-be5a96b9b2ce_gita.pdf file.pdf: 3 total chunks (2 text, 1 image)
+2026-01-31 02:53:40,439 - multimodal_rag - INFO - add_chunks:67 - Added 2 chunks to vector store
+2026-01-31 02:53:40,440 - multimodal_rag - INFO - upload_file:228 - Uploaded and processed gita.pdf file.pdf: 2 chunks in 8.66s
+2026-01-31 02:55:55,172 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what figure 1 tells? | Modalities: ['image'] | Top-K: 20 | Reason: Image keywords detected; Complex query detected, using k=20
+2026-01-31 02:55:55,189 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-31 02:55:55,190 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-31 02:55:55,192 - multimodal_rag - WARNING - embed_query:40 - Using dummy embedding for modality=Modality.IMAGE
+2026-01-31 02:55:55,213 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.IMAGE, k: 20)
+2026-01-31 02:55:55,214 - multimodal_rag - INFO - retrieve:135 - Retrieved 0 results across 0 modalities, languages: 
+2026-01-31 02:55:56,676 - multimodal_rag - INFO - search:148 - Serper returned 3 results
+2026-01-31 02:55:56,681 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: what figure 1 tells? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-31 02:57:08,028 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what says in the introduction part of the pdf? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-31 02:57:08,032 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-31 02:57:08,032 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-31 02:57:08,034 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what says in the int...' modality=Modality.TEXT
+2026-01-31 02:57:08,078 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.TEXT, k: 20)
+2026-01-31 02:57:08,079 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='what says in the int...' modality=Modality.AUDIO
+2026-01-31 02:57:08,101 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.AUDIO, k: 20)
+2026-01-31 02:57:08,103 - multimodal_rag - INFO - retrieve:135 - Retrieved 2 results across 1 modalities, languages: en, unknown
+2026-01-31 02:57:09,918 - multimodal_rag - INFO - search:148 - Serper returned 3 results
+2026-01-31 02:57:09,922 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.736 | Sources: 2 | Reason: Avg relevance: 0.45; Avg source quality: 0.93; Unique sources: 1; Modalities: 1
+2026-01-31 02:57:12,504 - multimodal_rag - WARNING - generate:47 - Gemini API failed: Gemini: Exception: All Gemini models failed after retries
+2026-01-31 02:57:14,288 - multimodal_rag - WARNING - generate:60 - OpenRouter API failed: OpenRouter: HTTPStatusError: Client error '401 Unauthorized' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-U
+2026-01-31 03:16:28,167 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What does the diagram on page X show? | Modalities: ['image'] | Top-K: 20 | Reason: Image keywords detected; Complex query detected, using k=20
+2026-01-31 03:16:28,193 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-31 03:16:28,197 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-31 03:16:28,201 - multimodal_rag - WARNING - embed_query:40 - Using dummy embedding for modality=Modality.IMAGE
+2026-01-31 03:16:28,355 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.IMAGE, k: 20)
+2026-01-31 03:16:28,356 - multimodal_rag - INFO - retrieve:135 - Retrieved 0 results across 0 modalities, languages: 
+2026-01-31 03:16:30,591 - multimodal_rag - INFO - search:148 - Serper returned 3 results
+2026-01-31 03:16:30,595 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: What does the diagram on page X show? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-31 03:19:31,174 - multimodal_rag - WARNING - reset:145 - Vector store reset: 2 items deleted
+2026-01-31 03:19:53,393 - multimodal_rag - INFO - _process_pdf:58 - Processing PDF with multimodal extraction: 714084a9-e796-4bd3-aa13-5ca5b7f0f70e_gita.pdf
+2026-01-31 03:19:53,481 - multimodal_rag - INFO - process_pdf:80 - Processing PDF '714084a9-e796-4bd3-aa13-5ca5b7f0f70e_gita.pdf': 22 pages, extract_images=True
+2026-01-31 03:20:36,546 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 714084a9-e796-4bd3-aa13-5ca5b7f0f70e_gita.pdf page 1 (4787 chars)
+2026-01-31 03:20:55,124 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 714084a9-e796-4bd3-aa13-5ca5b7f0f70e_gita.pdf page 1 (2891 chars)
+2026-01-31 03:21:15,826 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 714084a9-e796-4bd3-aa13-5ca5b7f0f70e_gita.pdf page 1 (3683 chars)
+2026-01-31 03:21:51,062 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 714084a9-e796-4bd3-aa13-5ca5b7f0f70e_gita.pdf page 1 (3144 chars)
+2026-01-31 03:22:15,928 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 714084a9-e796-4bd3-aa13-5ca5b7f0f70e_gita.pdf page 1 (3710 chars)
+2026-01-31 03:22:18,126 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 714084a9-e796-4bd3-aa13-5ca5b7f0f70e_gita.pdf page 1 (178 chars)
+2026-01-31 03:22:29,562 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 714084a9-e796-4bd3-aa13-5ca5b7f0f70e_gita.pdf page 1 (1309 chars)
+2026-01-31 03:23:11,531 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 714084a9-e796-4bd3-aa13-5ca5b7f0f70e_gita.pdf page 5 (3144 chars)
+2026-01-31 03:23:23,350 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 714084a9-e796-4bd3-aa13-5ca5b7f0f70e_gita.pdf page 5 (1309 chars)
+2026-01-31 03:24:07,063 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 714084a9-e796-4bd3-aa13-5ca5b7f0f70e_gita.pdf page 5 (3905 chars)
+2026-01-31 03:24:38,011 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 714084a9-e796-4bd3-aa13-5ca5b7f0f70e_gita.pdf page 5 (4787 chars)
+2026-01-31 03:25:06,728 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 714084a9-e796-4bd3-aa13-5ca5b7f0f70e_gita.pdf page 5 (3961 chars)
+2026-01-31 03:25:10,354 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 714084a9-e796-4bd3-aa13-5ca5b7f0f70e_gita.pdf page 8 (397 chars)
+2026-01-31 03:25:14,185 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 714084a9-e796-4bd3-aa13-5ca5b7f0f70e_gita.pdf page 13 (36 chars)
+2026-01-31 03:25:18,075 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 714084a9-e796-4bd3-aa13-5ca5b7f0f70e_gita.pdf page 14 (36 chars)
+2026-01-31 03:25:21,737 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 03:25:22,064 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 714084a9-e796-4bd3-aa13-5ca5b7f0f70e_gita.pdf page 14 (43 chars)
+2026-01-31 03:25:26,234 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 714084a9-e796-4bd3-aa13-5ca5b7f0f70e_gita.pdf page 14 (44 chars)
+2026-01-31 03:25:30,733 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 714084a9-e796-4bd3-aa13-5ca5b7f0f70e_gita.pdf page 14 (40 chars)
+2026-01-31 03:25:34,787 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 714084a9-e796-4bd3-aa13-5ca5b7f0f70e_gita.pdf page 16 (397 chars)
+2026-01-31 03:25:46,961 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 03:25:47,357 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 03:25:47,357 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 03:25:51,202 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 714084a9-e796-4bd3-aa13-5ca5b7f0f70e_gita.pdf page 17 (1218 chars)
+2026-01-31 03:25:55,161 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 714084a9-e796-4bd3-aa13-5ca5b7f0f70e_gita.pdf page 18 (184 chars)
+2026-01-31 03:25:58,700 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 714084a9-e796-4bd3-aa13-5ca5b7f0f70e_gita.pdf page 19 (206 chars)
+2026-01-31 03:26:06,856 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 714084a9-e796-4bd3-aa13-5ca5b7f0f70e_gita.pdf page 20 (116 chars)
+2026-01-31 03:26:33,948 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 714084a9-e796-4bd3-aa13-5ca5b7f0f70e_gita.pdf page 20 (3716 chars)
+2026-01-31 03:26:33,955 - multimodal_rag - INFO - process_pdf:93 - Extracted 56 images from 714084a9-e796-4bd3-aa13-5ca5b7f0f70e_gita.pdf
+2026-01-31 03:26:34,268 - multimodal_rag - INFO - process_pdf:117 - Detected language: English (en) with confidence 1.00
+2026-01-31 03:26:34,283 - multimodal_rag - INFO - process_pdf:138 - Processed PDF 714084a9-e796-4bd3-aa13-5ca5b7f0f70e_gita.pdf: 33 text chunks, 32 image chunks
+2026-01-31 03:26:34,291 - multimodal_rag - INFO - _process_pdf:63 - Multimodal PDF processing complete for 714084a9-e796-4bd3-aa13-5ca5b7f0f70e_gita.pdf: 89 total chunks (57 text, 32 image)
+2026-01-31 03:26:38,765 - multimodal_rag - INFO - add_chunks:67 - Added 57 chunks to vector store
+2026-01-31 03:26:38,766 - multimodal_rag - INFO - upload_file:228 - Uploaded and processed gita.pdf: 57 chunks in 405.40s
+2026-01-31 03:26:38,968 - multimodal_rag - WARNING - reset:145 - Vector store reset: 57 items deleted
+2026-01-31 03:30:49,483 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 03:30:51,220 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 03:30:52,093 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 03:30:55,314 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 03:31:09,884 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 03:31:09,884 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 03:31:09,885 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 03:31:10,238 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 03:31:10,239 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 03:31:10,239 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 03:31:10,241 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 03:31:10,241 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 03:31:10,467 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 03:31:10,473 - multimodal_rag - INFO - _process_pdf:58 - Processing PDF with multimodal extraction: Multimodal_RAG_Guide.pdf
+2026-01-31 03:31:10,531 - multimodal_rag - INFO - process_pdf:80 - Processing PDF 'Multimodal_RAG_Guide.pdf': 1 pages, extract_images=True
+2026-01-31 03:31:10,535 - multimodal_rag - INFO - process_pdf:93 - Extracted 0 images from Multimodal_RAG_Guide.pdf
+2026-01-31 03:31:10,980 - multimodal_rag - INFO - process_pdf:117 - Detected language: English (en) with confidence 1.00
+2026-01-31 03:31:10,981 - multimodal_rag - INFO - process_pdf:138 - Processed PDF Multimodal_RAG_Guide.pdf: 1 text chunks, 0 image chunks
+2026-01-31 03:31:10,981 - multimodal_rag - INFO - _process_pdf:63 - Multimodal PDF processing complete for Multimodal_RAG_Guide.pdf: 1 total chunks (1 text, 0 image)
+2026-01-31 03:31:10,984 - multimodal_rag - INFO - _process_pdf:58 - Processing PDF with multimodal extraction: Financial_Report_Q1.pdf
+2026-01-31 03:31:11,004 - multimodal_rag - ERROR - process_pdf:148 - Failed to process PDF data\cloud_imports\Financial_Report_Q1.pdf: Failed to open file 'data\\cloud_imports\\Financial_Report_Q1.pdf'.
+2026-01-31 03:31:11,005 - multimodal_rag - INFO - _process_pdf:63 - Multimodal PDF processing complete for Financial_Report_Q1.pdf: 0 total chunks (0 text, 0 image)
+2026-01-31 03:31:11,006 - multimodal_rag - INFO - _process_pdf:58 - Processing PDF with multimodal extraction: Multimodal_RAG_Guide.pdf
+2026-01-31 03:31:11,010 - multimodal_rag - INFO - process_pdf:80 - Processing PDF 'Multimodal_RAG_Guide.pdf': 1 pages, extract_images=True
+2026-01-31 03:31:11,011 - multimodal_rag - INFO - process_pdf:93 - Extracted 0 images from Multimodal_RAG_Guide.pdf
+2026-01-31 03:31:11,018 - multimodal_rag - INFO - process_pdf:117 - Detected language: English (en) with confidence 1.00
+2026-01-31 03:31:11,019 - multimodal_rag - INFO - process_pdf:138 - Processed PDF Multimodal_RAG_Guide.pdf: 1 text chunks, 0 image chunks
+2026-01-31 03:31:11,020 - multimodal_rag - INFO - _process_pdf:63 - Multimodal PDF processing complete for Multimodal_RAG_Guide.pdf: 1 total chunks (1 text, 0 image)
+2026-01-31 03:31:11,022 - multimodal_rag - INFO - _process_pdf:58 - Processing PDF with multimodal extraction: 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+2026-01-31 03:31:11,056 - multimodal_rag - INFO - process_pdf:80 - Processing PDF '588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf': 3 pages, extract_images=True
+2026-01-31 03:31:11,289 - multimodal_rag - INFO - _load_ocr:57 - Loading EasyOCR reader for embedded images...
+2026-01-31 03:31:13,931 - multimodal_rag - INFO - _load_ocr:59 - EasyOCR loaded successfully
+2026-01-31 03:31:19,270 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf page 1 (71 chars)
+2026-01-31 03:31:24,963 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf page 2 (71 chars)
+2026-01-31 03:31:29,928 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf page 3 (71 chars)
+2026-01-31 03:31:29,929 - multimodal_rag - INFO - process_pdf:93 - Extracted 8 images from 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+2026-01-31 03:31:30,080 - multimodal_rag - INFO - process_pdf:117 - Detected language: English (en) with confidence 1.00
+2026-01-31 03:31:30,081 - multimodal_rag - INFO - process_pdf:138 - Processed PDF 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf: 2 text chunks, 5 image chunks
+2026-01-31 03:31:30,084 - multimodal_rag - INFO - _process_pdf:63 - Multimodal PDF processing complete for 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf: 10 total chunks (5 text, 5 image)
+2026-01-31 03:31:56,481 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 03:31:56,833 - multimodal_rag - INFO - _process_pdf:58 - Processing PDF with multimodal extraction: 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+2026-01-31 03:31:56,840 - multimodal_rag - INFO - process_pdf:80 - Processing PDF '588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf': 3 pages, extract_images=True
+2026-01-31 03:32:03,326 - multimodal_rag - INFO - _load_ocr:57 - Loading EasyOCR reader for embedded images...
+2026-01-31 03:32:05,485 - multimodal_rag - INFO - _load_ocr:59 - EasyOCR loaded successfully
+2026-01-31 03:32:10,561 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf page 1 (71 chars)
+2026-01-31 03:32:16,104 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf page 2 (71 chars)
+2026-01-31 03:32:20,884 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf page 3 (71 chars)
+2026-01-31 03:32:20,885 - multimodal_rag - INFO - process_pdf:93 - Extracted 8 images from 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+2026-01-31 03:32:21,365 - multimodal_rag - INFO - process_pdf:117 - Detected language: English (en) with confidence 1.00
+2026-01-31 03:32:21,367 - multimodal_rag - INFO - process_pdf:138 - Processed PDF 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf: 2 text chunks, 5 image chunks
+2026-01-31 03:32:21,369 - multimodal_rag - INFO - _process_pdf:63 - Multimodal PDF processing complete for 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf: 10 total chunks (5 text, 5 image)
+2026-01-31 03:32:36,454 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 03:32:36,738 - multimodal_rag - INFO - _process_pdf:58 - Processing PDF with multimodal extraction: 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+2026-01-31 03:32:36,740 - multimodal_rag - INFO - process_pdf:80 - Processing PDF '588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf': 3 pages, extract_images=True
+2026-01-31 03:32:42,839 - multimodal_rag - INFO - _load_ocr:57 - Loading EasyOCR reader for embedded images...
+2026-01-31 03:32:44,825 - multimodal_rag - INFO - _load_ocr:59 - EasyOCR loaded successfully
+2026-01-31 03:32:49,799 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf page 1 (71 chars)
+2026-01-31 03:32:55,412 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf page 2 (71 chars)
+2026-01-31 03:33:00,179 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf page 3 (71 chars)
+2026-01-31 03:33:00,180 - multimodal_rag - INFO - process_pdf:93 - Extracted 8 images from 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+2026-01-31 03:33:00,606 - multimodal_rag - INFO - process_pdf:117 - Detected language: English (en) with confidence 1.00
+2026-01-31 03:33:00,608 - multimodal_rag - INFO - process_pdf:138 - Processed PDF 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf: 2 text chunks, 5 image chunks
+2026-01-31 03:33:00,611 - multimodal_rag - INFO - _process_pdf:63 - Multimodal PDF processing complete for 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf: 10 total chunks (5 text, 5 image)
+2026-01-31 03:35:04,365 - multimodal_rag - INFO - _process_pdf:58 - Processing PDF with multimodal extraction: d7c00ce5-e021-4a18-93e6-66a2ea440bc8_gita.pdf
+2026-01-31 03:35:04,401 - multimodal_rag - INFO - process_pdf:80 - Processing PDF 'd7c00ce5-e021-4a18-93e6-66a2ea440bc8_gita.pdf': 22 pages, extract_images=True
+2026-01-31 03:35:04,821 - multimodal_rag - INFO - _load_ocr:57 - Loading EasyOCR reader for embedded images...
+2026-01-31 03:35:07,330 - multimodal_rag - INFO - _load_ocr:59 - EasyOCR loaded successfully
+2026-01-31 03:35:49,427 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: d7c00ce5-e021-4a18-93e6-66a2ea440bc8_gita.pdf page 1 (4787 chars)
+2026-01-31 03:36:09,865 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: d7c00ce5-e021-4a18-93e6-66a2ea440bc8_gita.pdf page 1 (2891 chars)
+2026-01-31 03:36:32,000 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: d7c00ce5-e021-4a18-93e6-66a2ea440bc8_gita.pdf page 1 (3683 chars)
+2026-01-31 03:37:02,858 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: d7c00ce5-e021-4a18-93e6-66a2ea440bc8_gita.pdf page 1 (3144 chars)
+2026-01-31 03:37:25,446 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: d7c00ce5-e021-4a18-93e6-66a2ea440bc8_gita.pdf page 1 (3710 chars)
+2026-01-31 03:37:27,495 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: d7c00ce5-e021-4a18-93e6-66a2ea440bc8_gita.pdf page 1 (178 chars)
+2026-01-31 03:37:38,047 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: d7c00ce5-e021-4a18-93e6-66a2ea440bc8_gita.pdf page 1 (1309 chars)
+2026-01-31 03:38:17,584 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: d7c00ce5-e021-4a18-93e6-66a2ea440bc8_gita.pdf page 5 (3144 chars)
+2026-01-31 03:38:28,615 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: d7c00ce5-e021-4a18-93e6-66a2ea440bc8_gita.pdf page 5 (1309 chars)
+2026-01-31 03:39:09,710 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: d7c00ce5-e021-4a18-93e6-66a2ea440bc8_gita.pdf page 5 (3905 chars)
+2026-01-31 03:39:38,260 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: d7c00ce5-e021-4a18-93e6-66a2ea440bc8_gita.pdf page 5 (4787 chars)
+2026-01-31 03:39:53,881 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 03:40:13,096 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: d7c00ce5-e021-4a18-93e6-66a2ea440bc8_gita.pdf page 5 (3961 chars)
+2026-01-31 03:40:18,369 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: d7c00ce5-e021-4a18-93e6-66a2ea440bc8_gita.pdf page 8 (397 chars)
+2026-01-31 03:40:18,884 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 03:40:18,884 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 03:40:19,504 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 03:40:19,504 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 03:40:19,508 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 03:40:19,509 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 03:40:23,195 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: d7c00ce5-e021-4a18-93e6-66a2ea440bc8_gita.pdf page 13 (36 chars)
+2026-01-31 03:40:27,560 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: d7c00ce5-e021-4a18-93e6-66a2ea440bc8_gita.pdf page 14 (36 chars)
+2026-01-31 03:40:32,246 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: d7c00ce5-e021-4a18-93e6-66a2ea440bc8_gita.pdf page 14 (43 chars)
+2026-01-31 03:40:35,592 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 03:40:37,007 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: d7c00ce5-e021-4a18-93e6-66a2ea440bc8_gita.pdf page 14 (44 chars)
+2026-01-31 03:40:41,780 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: d7c00ce5-e021-4a18-93e6-66a2ea440bc8_gita.pdf page 14 (40 chars)
+2026-01-31 03:40:45,852 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: d7c00ce5-e021-4a18-93e6-66a2ea440bc8_gita.pdf page 16 (397 chars)
+2026-01-31 03:40:55,161 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 03:40:55,467 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 03:40:55,468 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 03:41:01,568 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 03:41:04,149 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: d7c00ce5-e021-4a18-93e6-66a2ea440bc8_gita.pdf page 17 (1218 chars)
+2026-01-31 03:41:08,424 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: d7c00ce5-e021-4a18-93e6-66a2ea440bc8_gita.pdf page 18 (184 chars)
+2026-01-31 03:41:12,094 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: d7c00ce5-e021-4a18-93e6-66a2ea440bc8_gita.pdf page 19 (206 chars)
+2026-01-31 03:41:19,205 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 03:41:19,497 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 03:41:19,497 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 03:41:21,185 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: d7c00ce5-e021-4a18-93e6-66a2ea440bc8_gita.pdf page 20 (116 chars)
+2026-01-31 03:41:50,901 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: d7c00ce5-e021-4a18-93e6-66a2ea440bc8_gita.pdf page 20 (3716 chars)
+2026-01-31 03:41:50,908 - multimodal_rag - INFO - process_pdf:93 - Extracted 56 images from d7c00ce5-e021-4a18-93e6-66a2ea440bc8_gita.pdf
+2026-01-31 03:41:51,586 - multimodal_rag - INFO - process_pdf:117 - Detected language: English (en) with confidence 1.00
+2026-01-31 03:41:51,604 - multimodal_rag - INFO - process_pdf:138 - Processed PDF d7c00ce5-e021-4a18-93e6-66a2ea440bc8_gita.pdf: 33 text chunks, 32 image chunks
+2026-01-31 03:41:51,619 - multimodal_rag - INFO - _process_pdf:63 - Multimodal PDF processing complete for d7c00ce5-e021-4a18-93e6-66a2ea440bc8_gita.pdf: 89 total chunks (57 text, 32 image)
+2026-01-31 03:41:56,997 - multimodal_rag - INFO - add_chunks:67 - Added 57 chunks to vector store
+2026-01-31 03:41:57,000 - multimodal_rag - INFO - upload_file:228 - Uploaded and processed gita.pdf: 57 chunks in 412.65s
+2026-01-31 03:42:05,939 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 03:42:21,044 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 03:42:21,281 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 03:42:21,282 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 03:45:56,913 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: what images are in the pdf? | Modalities: ['image'] | Top-K: 20 | Reason: Image keywords detected; Complex query detected, using k=20
+2026-01-31 03:45:56,916 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-31 03:45:56,916 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-31 03:45:56,917 - multimodal_rag - WARNING - embed_query:40 - Using dummy embedding for modality=Modality.IMAGE
+2026-01-31 03:45:56,961 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.IMAGE, k: 20)
+2026-01-31 03:45:56,961 - multimodal_rag - INFO - retrieve:135 - Retrieved 0 results across 0 modalities, languages: 
+2026-01-31 03:45:56,962 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: what images are in the pdf? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-31 03:48:59,062 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 03:49:00,746 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 03:49:00,763 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 03:49:16,896 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 03:49:17,266 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 03:49:17,266 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 03:49:17,279 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 03:49:17,279 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 03:49:17,290 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 03:49:17,291 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 03:49:30,337 - multimodal_rag - INFO - _process_pdf:58 - Processing PDF with multimodal extraction: 0de8a14f-7f63-4dd2-9182-67c19f4962ee_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+2026-01-31 03:49:30,416 - multimodal_rag - INFO - process_pdf:80 - Processing PDF '0de8a14f-7f63-4dd2-9182-67c19f4962ee_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf': 3 pages, extract_images=True
+2026-01-31 03:49:30,682 - multimodal_rag - INFO - _load_ocr:57 - Loading EasyOCR reader for embedded images...
+2026-01-31 03:49:33,166 - multimodal_rag - INFO - _load_ocr:59 - EasyOCR loaded successfully
+2026-01-31 03:49:38,285 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 0de8a14f-7f63-4dd2-9182-67c19f4962ee_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf page 1 (71 chars)
+2026-01-31 03:49:43,491 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 0de8a14f-7f63-4dd2-9182-67c19f4962ee_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf page 2 (71 chars)
+2026-01-31 03:49:48,490 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 0de8a14f-7f63-4dd2-9182-67c19f4962ee_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf page 3 (71 chars)
+2026-01-31 03:49:48,491 - multimodal_rag - INFO - process_pdf:93 - Extracted 8 images from 0de8a14f-7f63-4dd2-9182-67c19f4962ee_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+2026-01-31 03:49:48,994 - multimodal_rag - INFO - process_pdf:117 - Detected language: English (en) with confidence 1.00
+2026-01-31 03:49:48,995 - multimodal_rag - INFO - process_pdf:138 - Processed PDF 0de8a14f-7f63-4dd2-9182-67c19f4962ee_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf: 2 text chunks, 5 image chunks
+2026-01-31 03:49:48,998 - multimodal_rag - INFO - _process_pdf:63 - Multimodal PDF processing complete for 0de8a14f-7f63-4dd2-9182-67c19f4962ee_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf: 10 total chunks (5 text, 5 image)
+2026-01-31 03:49:49,700 - multimodal_rag - INFO - add_chunks:67 - Added 5 chunks to vector store
+2026-01-31 03:49:49,701 - multimodal_rag - INFO - upload_file:228 - Uploaded and processed 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf: 5 chunks in 19.38s
+2026-01-31 03:49:53,797 - multimodal_rag - INFO - get_or_create_session:45 - Created new conversation session: live_test
+2026-01-31 03:49:53,803 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What images are in the document? | Modalities: ['image'] | Top-K: 20 | Reason: Image keywords detected; Complex query detected, using k=20
+2026-01-31 03:49:53,809 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-31 03:49:53,810 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-31 03:49:53,812 - multimodal_rag - WARNING - embed_query:40 - Using dummy embedding for modality=Modality.IMAGE
+2026-01-31 03:49:53,850 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.IMAGE, k: 20)
+2026-01-31 03:49:53,850 - multimodal_rag - INFO - retrieve:135 - Retrieved 0 results across 0 modalities, languages: 
+2026-01-31 03:49:53,852 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: What images are in the document? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-31 03:49:55,910 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What does the diagram show? | Modalities: ['image'] | Top-K: 20 | Reason: Image keywords detected; Complex query detected, using k=20
+2026-01-31 03:49:55,912 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-31 03:49:55,913 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-31 03:49:55,913 - multimodal_rag - WARNING - embed_query:40 - Using dummy embedding for modality=Modality.IMAGE
+2026-01-31 03:49:55,916 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.IMAGE, k: 20)
+2026-01-31 03:49:55,916 - multimodal_rag - INFO - retrieve:135 - Retrieved 0 results across 0 modalities, languages: 
+2026-01-31 03:49:55,917 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: What does the diagram show? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-31 03:50:34,242 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 03:50:36,202 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 03:50:54,829 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 03:50:54,829 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 03:50:54,831 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 03:50:55,216 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 03:50:55,216 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 03:50:55,216 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 03:50:55,216 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 03:50:55,217 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 03:50:55,218 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 03:51:52,688 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 03:52:06,855 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 03:52:06,873 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 03:52:07,080 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 03:52:07,080 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 03:52:07,108 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 03:52:07,109 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 03:52:07,132 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 03:52:07,132 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 03:52:19,832 - multimodal_rag - INFO - _process_pdf:58 - Processing PDF with multimodal extraction: 3cca2aa9-90e6-4184-b34d-29bb1e3b27b7_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+2026-01-31 03:52:19,925 - multimodal_rag - INFO - process_pdf:80 - Processing PDF '3cca2aa9-90e6-4184-b34d-29bb1e3b27b7_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf': 3 pages, extract_images=True
+2026-01-31 03:52:20,106 - multimodal_rag - INFO - _load_ocr:57 - Loading EasyOCR reader for embedded images...
+2026-01-31 03:52:22,581 - multimodal_rag - INFO - _load_ocr:59 - EasyOCR loaded successfully
+2026-01-31 03:52:28,134 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 3cca2aa9-90e6-4184-b34d-29bb1e3b27b7_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf page 1 (71 chars)
+2026-01-31 03:52:34,080 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 3cca2aa9-90e6-4184-b34d-29bb1e3b27b7_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf page 2 (71 chars)
+2026-01-31 03:52:39,167 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 3cca2aa9-90e6-4184-b34d-29bb1e3b27b7_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf page 3 (71 chars)
+2026-01-31 03:52:39,168 - multimodal_rag - INFO - process_pdf:93 - Extracted 8 images from 3cca2aa9-90e6-4184-b34d-29bb1e3b27b7_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+2026-01-31 03:52:39,645 - multimodal_rag - INFO - process_pdf:117 - Detected language: English (en) with confidence 1.00
+2026-01-31 03:52:39,647 - multimodal_rag - INFO - process_pdf:138 - Processed PDF 3cca2aa9-90e6-4184-b34d-29bb1e3b27b7_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf: 2 text chunks, 5 image chunks
+2026-01-31 03:52:39,650 - multimodal_rag - INFO - _process_pdf:63 - Multimodal PDF processing complete for 3cca2aa9-90e6-4184-b34d-29bb1e3b27b7_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf: 10 total chunks (5 text, 5 image)
+2026-01-31 03:52:40,373 - multimodal_rag - INFO - add_chunks:67 - Added 5 chunks to vector store
+2026-01-31 03:52:40,373 - multimodal_rag - INFO - upload_file:228 - Uploaded and processed 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf: 5 chunks in 20.56s
+2026-01-31 03:52:44,484 - multimodal_rag - INFO - get_or_create_session:45 - Created new conversation session: live_test_session
+2026-01-31 03:52:44,488 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is this document about? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-31 03:52:44,491 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-31 03:52:44,492 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-31 03:52:44,492 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is this documen...' modality=Modality.TEXT
+2026-01-31 03:52:44,574 - multimodal_rag - DEBUG - query:97 - Query returned 20 results (modality: Modality.TEXT, k: 20)
+2026-01-31 03:52:44,575 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is this documen...' modality=Modality.AUDIO
+2026-01-31 03:52:44,598 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.AUDIO, k: 20)
+2026-01-31 03:52:44,614 - multimodal_rag - INFO - retrieve:135 - Retrieved 16 results across 1 modalities, languages: unknown, en
+2026-01-31 03:52:44,615 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.871 | Sources: 16 | Reason: Avg relevance: 0.52; Avg source quality: 0.93; Unique sources: 3; Modalities: 1
+2026-01-31 03:52:53,830 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['ea18a933-0bb3-4051-b0b6-c9a959c09c1f', '28f18b95-9d22-4155-ad1d-cc0aa5044de8', '0e2d2fd8-f797-41e4-a2fe-60c20239d5c7', 'd800087a-3b62-47f5-8f49-e7b5299bd1dd', '161c01df-5e98-4392-ae9f-be5fda022fbc', 'ae5a1810-0825-40f0-afd8-757c808c1f13', '11c7582e-3662-4198-b7e2-892c52d12c38', '7a728b4f-e372-4ad1-b63c-943eab8335d5', 'c7704cb1-7182-4e1f-8455-89fd540117de'] | Details: 24 contradiction(s) detected between sources
+2026-01-31 03:52:54,831 - multimodal_rag - WARNING - generate:47 - Gemini API failed: Gemini: Exception: All Gemini models failed after retries
+2026-01-31 03:52:56,380 - multimodal_rag - WARNING - generate:60 - OpenRouter API failed: OpenRouter: HTTPStatusError: Client error '401 Unauthorized' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-U
+2026-01-31 03:52:57,931 - multimodal_rag - WARNING - generate:72 - Ollama failed: Ollama: HTTPStatusError: Server error '500 Internal Server Error' for url 'http://localhost:11434/api/generate'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2026-01-31 03:53:00,008 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What images or diagrams are in the document? | Modalities: ['image'] | Top-K: 20 | Reason: Image keywords detected; Complex query detected, using k=20
+2026-01-31 03:53:00,011 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-31 03:53:00,012 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-31 03:53:00,012 - multimodal_rag - WARNING - embed_query:40 - Using dummy embedding for modality=Modality.IMAGE
+2026-01-31 03:53:00,016 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.IMAGE, k: 20)
+2026-01-31 03:53:00,017 - multimodal_rag - INFO - retrieve:135 - Retrieved 0 results across 0 modalities, languages: 
+2026-01-31 03:53:00,018 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: What images or diagrams are in the document? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-31 03:53:57,699 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 03:54:11,969 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 03:54:12,191 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 03:54:12,191 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 03:54:43,546 - multimodal_rag - INFO - _process_pdf:58 - Processing PDF with multimodal extraction: 6c69c4d8-75be-45e2-8ad0-eb97aae818f7_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+2026-01-31 03:54:43,631 - multimodal_rag - INFO - process_pdf:80 - Processing PDF '6c69c4d8-75be-45e2-8ad0-eb97aae818f7_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf': 3 pages, extract_images=True
+2026-01-31 03:54:49,047 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 6c69c4d8-75be-45e2-8ad0-eb97aae818f7_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf page 1 (71 chars)
+2026-01-31 03:54:55,197 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 6c69c4d8-75be-45e2-8ad0-eb97aae818f7_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf page 2 (71 chars)
+2026-01-31 03:55:01,678 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 6c69c4d8-75be-45e2-8ad0-eb97aae818f7_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf page 3 (71 chars)
+2026-01-31 03:55:01,678 - multimodal_rag - INFO - process_pdf:93 - Extracted 8 images from 6c69c4d8-75be-45e2-8ad0-eb97aae818f7_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+2026-01-31 03:55:01,878 - multimodal_rag - INFO - process_pdf:117 - Detected language: English (en) with confidence 1.00
+2026-01-31 03:55:01,881 - multimodal_rag - INFO - process_pdf:138 - Processed PDF 6c69c4d8-75be-45e2-8ad0-eb97aae818f7_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf: 2 text chunks, 5 image chunks
+2026-01-31 03:55:01,886 - multimodal_rag - INFO - _process_pdf:63 - Multimodal PDF processing complete for 6c69c4d8-75be-45e2-8ad0-eb97aae818f7_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf: 10 total chunks (5 text, 5 image)
+2026-01-31 03:55:02,509 - multimodal_rag - INFO - add_chunks:67 - Added 5 chunks to vector store
+2026-01-31 03:55:02,510 - multimodal_rag - INFO - upload_file:228 - Uploaded and processed 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf: 5 chunks in 18.98s
+2026-01-31 03:55:06,626 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is this document about? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-31 03:55:06,629 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-31 03:55:06,630 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-31 03:55:06,630 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is this documen...' modality=Modality.TEXT
+2026-01-31 03:55:06,678 - multimodal_rag - DEBUG - query:97 - Query returned 20 results (modality: Modality.TEXT, k: 20)
+2026-01-31 03:55:06,679 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is this documen...' modality=Modality.AUDIO
+2026-01-31 03:55:06,707 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.AUDIO, k: 20)
+2026-01-31 03:55:06,718 - multimodal_rag - INFO - retrieve:135 - Retrieved 14 results across 1 modalities, languages: unknown, en
+2026-01-31 03:55:06,720 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.857 | Sources: 14 | Reason: Avg relevance: 0.51; Avg source quality: 0.90; Unique sources: 4; Modalities: 1
+2026-01-31 03:55:13,848 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['ea18a933-0bb3-4051-b0b6-c9a959c09c1f', '28f18b95-9d22-4155-ad1d-cc0aa5044de8', '0e2d2fd8-f797-41e4-a2fe-60c20239d5c7', 'fa5c98f5-41b3-4fcc-8ce4-d7131f8dc2e6', '161c01df-5e98-4392-ae9f-be5fda022fbc', 'ae5a1810-0825-40f0-afd8-757c808c1f13', '11c7582e-3662-4198-b7e2-892c52d12c38', '3480d650-53d7-4da4-9c36-c6454a92c62c', '7a728b4f-e372-4ad1-b63c-943eab8335d5', 'c7704cb1-7182-4e1f-8455-89fd540117de'] | Details: 30 contradiction(s) detected between sources
+2026-01-31 03:55:14,942 - multimodal_rag - WARNING - generate:47 - Gemini API failed: Gemini: Exception: All Gemini models failed after retries
+2026-01-31 03:55:15,971 - multimodal_rag - WARNING - generate:60 - OpenRouter API failed: OpenRouter: HTTPStatusError: Client error '401 Unauthorized' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-U
+2026-01-31 03:55:17,162 - multimodal_rag - WARNING - generate:72 - Ollama failed: Ollama: HTTPStatusError: Server error '500 Internal Server Error' for url 'http://localhost:11434/api/generate'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2026-01-31 03:55:19,235 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What images or diagrams are in the document? | Modalities: ['image'] | Top-K: 20 | Reason: Image keywords detected; Complex query detected, using k=20
+2026-01-31 03:55:19,238 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-31 03:55:19,239 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-31 03:55:19,239 - multimodal_rag - WARNING - embed_query:40 - Using dummy embedding for modality=Modality.IMAGE
+2026-01-31 03:55:19,241 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.IMAGE, k: 20)
+2026-01-31 03:55:19,241 - multimodal_rag - INFO - retrieve:135 - Retrieved 0 results across 0 modalities, languages: 
+2026-01-31 03:55:19,242 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: What images or diagrams are in the document? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-31 03:55:59,886 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 03:55:59,889 - multimodal_rag - INFO - process_pdf:80 - Processing PDF '588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf': 3 pages, extract_images=True
+2026-01-31 03:56:06,743 - multimodal_rag - INFO - _load_ocr:57 - Loading EasyOCR reader for embedded images...
+2026-01-31 03:56:09,158 - multimodal_rag - INFO - _load_ocr:59 - EasyOCR loaded successfully
+2026-01-31 03:56:15,587 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf page 1 (71 chars)
+2026-01-31 03:56:23,459 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf page 2 (71 chars)
+2026-01-31 03:56:29,413 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf page 3 (71 chars)
+2026-01-31 03:56:29,414 - multimodal_rag - INFO - process_pdf:93 - Extracted 8 images from 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+2026-01-31 03:56:30,444 - multimodal_rag - INFO - process_pdf:117 - Detected language: English (en) with confidence 1.00
+2026-01-31 03:56:30,446 - multimodal_rag - INFO - process_pdf:138 - Processed PDF 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf: 2 text chunks, 5 image chunks
+2026-01-31 03:57:31,048 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 03:57:31,382 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 03:57:32,258 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 03:57:53,093 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 03:57:53,094 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 03:57:53,094 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 03:57:53,473 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 03:57:53,474 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 03:57:53,479 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 03:57:53,479 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 03:57:53,487 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 03:57:53,487 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 03:58:49,602 - multimodal_rag - INFO - _process_pdf:58 - Processing PDF with multimodal extraction: 8180398c-b4f6-488a-ae3b-1ec611585bf3_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+2026-01-31 03:58:49,655 - multimodal_rag - INFO - process_pdf:80 - Processing PDF '8180398c-b4f6-488a-ae3b-1ec611585bf3_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf': 3 pages, extract_images=True
+2026-01-31 03:58:49,875 - multimodal_rag - INFO - _load_ocr:57 - Loading EasyOCR reader for embedded images...
+2026-01-31 03:58:52,497 - multimodal_rag - INFO - _load_ocr:59 - EasyOCR loaded successfully
+2026-01-31 03:58:58,376 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 8180398c-b4f6-488a-ae3b-1ec611585bf3_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf page 1 (71 chars)
+2026-01-31 03:59:04,258 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 8180398c-b4f6-488a-ae3b-1ec611585bf3_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf page 2 (71 chars)
+2026-01-31 03:59:09,189 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 8180398c-b4f6-488a-ae3b-1ec611585bf3_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf page 3 (71 chars)
+2026-01-31 03:59:09,190 - multimodal_rag - INFO - process_pdf:93 - Extracted 8 images from 8180398c-b4f6-488a-ae3b-1ec611585bf3_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+2026-01-31 03:59:09,702 - multimodal_rag - INFO - process_pdf:117 - Detected language: English (en) with confidence 1.00
+2026-01-31 03:59:09,704 - multimodal_rag - INFO - process_pdf:138 - Processed PDF 8180398c-b4f6-488a-ae3b-1ec611585bf3_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf: 2 text chunks, 5 image chunks
+2026-01-31 03:59:09,707 - multimodal_rag - INFO - _process_pdf:63 - Multimodal PDF processing complete for 8180398c-b4f6-488a-ae3b-1ec611585bf3_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf: 10 total chunks (5 text, 5 image)
+2026-01-31 03:59:10,379 - multimodal_rag - INFO - add_chunks:67 - Added 5 chunks to vector store
+2026-01-31 03:59:10,379 - multimodal_rag - INFO - upload_file:228 - Uploaded and processed 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf: 5 chunks in 20.79s
+2026-01-31 03:59:14,503 - multimodal_rag - INFO - get_or_create_session:45 - Created new conversation session: live_comprehensive_test
+2026-01-31 03:59:14,508 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is this document about? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-31 03:59:14,511 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-31 03:59:14,512 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-31 03:59:14,513 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is this documen...' modality=Modality.TEXT
+2026-01-31 03:59:14,587 - multimodal_rag - DEBUG - query:97 - Query returned 20 results (modality: Modality.TEXT, k: 20)
+2026-01-31 03:59:14,588 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is this documen...' modality=Modality.AUDIO
+2026-01-31 03:59:14,615 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.AUDIO, k: 20)
+2026-01-31 03:59:14,627 - multimodal_rag - INFO - retrieve:135 - Retrieved 14 results across 1 modalities, languages: en, unknown
+2026-01-31 03:59:14,630 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.858 | Sources: 14 | Reason: Avg relevance: 0.51; Avg source quality: 0.90; Unique sources: 4; Modalities: 1
+2026-01-31 03:59:21,682 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['ea18a933-0bb3-4051-b0b6-c9a959c09c1f', 'c7704cb1-7182-4e1f-8455-89fd540117de', '489ca604-ed82-4a0f-93f4-ae361b18c6fc', '28f18b95-9d22-4155-ad1d-cc0aa5044de8', '0e2d2fd8-f797-41e4-a2fe-60c20239d5c7', 'ae5a1810-0825-40f0-afd8-757c808c1f13', '161c01df-5e98-4392-ae9f-be5fda022fbc', '7a728b4f-e372-4ad1-b63c-943eab8335d5', 'eeef4396-06b3-4777-a8cf-f7245740e9ba', 'dbfb59d0-5b9e-4ab9-acf5-dfa3b429986b'] | Details: 30 contradiction(s) detected between sources
+2026-01-31 03:59:23,101 - multimodal_rag - WARNING - generate:47 - Gemini API failed: Gemini: Exception: All Gemini models failed after retries
+2026-01-31 03:59:24,317 - multimodal_rag - WARNING - generate:60 - OpenRouter API failed: OpenRouter: HTTPStatusError: Client error '401 Unauthorized' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-U
+2026-01-31 04:00:16,794 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What images or diagrams are in this document? | Modalities: ['image'] | Top-K: 20 | Reason: Image keywords detected; Complex query detected, using k=20
+2026-01-31 04:00:16,811 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-31 04:00:16,812 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-31 04:00:16,814 - multimodal_rag - WARNING - embed_query:40 - Using dummy embedding for modality=Modality.IMAGE
+2026-01-31 04:00:16,918 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.IMAGE, k: 20)
+2026-01-31 04:00:16,919 - multimodal_rag - INFO - retrieve:135 - Retrieved 0 results across 0 modalities, languages: 
+2026-01-31 04:00:16,927 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: What images or diagrams are in this document? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-31 04:00:19,066 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: Describe the visual content in the PDF | Modalities: ['image'] | Top-K: 10 | Reason: Image keywords detected; Simple query, using k=10
+2026-01-31 04:00:19,070 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-31 04:00:19,071 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-31 04:00:19,071 - multimodal_rag - WARNING - embed_query:40 - Using dummy embedding for modality=Modality.IMAGE
+2026-01-31 04:00:19,080 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.IMAGE, k: 10)
+2026-01-31 04:00:19,080 - multimodal_rag - INFO - retrieve:135 - Retrieved 0 results across 0 modalities, languages: 
+2026-01-31 04:00:19,081 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: Describe the visual content in the PDF | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-31 04:01:49,354 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 04:02:07,254 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 04:02:07,583 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 04:02:07,583 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 04:03:02,035 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 04:03:04,185 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 04:03:05,023 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 04:03:05,352 - multimodal_rag - INFO - _process_pdf:58 - Processing PDF with multimodal extraction: 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+2026-01-31 04:03:05,372 - multimodal_rag - INFO - process_pdf:80 - Processing PDF '588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf': 3 pages, extract_images=True
+2026-01-31 04:03:05,742 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 04:03:13,543 - multimodal_rag - INFO - _load_ocr:57 - Loading EasyOCR reader for embedded images...
+2026-01-31 04:03:16,568 - multimodal_rag - INFO - _load_ocr:59 - EasyOCR loaded successfully
+2026-01-31 04:03:25,063 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf page 1 (71 chars)
+2026-01-31 04:03:25,716 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 04:03:25,767 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 04:03:26,186 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 04:03:26,186 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 04:03:26,193 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 04:03:26,194 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 04:03:32,059 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf page 2 (71 chars)
+2026-01-31 04:03:37,531 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf page 3 (71 chars)
+2026-01-31 04:03:37,532 - multimodal_rag - INFO - process_pdf:93 - Extracted 8 images from 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+2026-01-31 04:03:38,096 - multimodal_rag - INFO - process_pdf:117 - Detected language: English (en) with confidence 1.00
+2026-01-31 04:03:38,099 - multimodal_rag - INFO - process_pdf:138 - Processed PDF 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf: 2 text chunks, 5 image chunks
+2026-01-31 04:03:38,103 - multimodal_rag - INFO - _process_pdf:63 - Multimodal PDF processing complete for 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf: 10 total chunks (5 text, 5 image)
+2026-01-31 04:04:08,812 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 04:04:25,839 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 04:04:25,839 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 04:04:26,125 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 04:04:26,126 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 04:04:26,142 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 04:04:26,142 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 04:04:26,151 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 04:04:26,152 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 04:04:54,559 - multimodal_rag - INFO - _process_pdf:58 - Processing PDF with multimodal extraction: 128ff36a-b14f-4931-83de-c0bd639c74c4_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+2026-01-31 04:04:54,635 - multimodal_rag - INFO - process_pdf:80 - Processing PDF '128ff36a-b14f-4931-83de-c0bd639c74c4_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf': 3 pages, extract_images=True
+2026-01-31 04:04:54,841 - multimodal_rag - INFO - _load_ocr:57 - Loading EasyOCR reader for embedded images...
+2026-01-31 04:04:57,599 - multimodal_rag - INFO - _load_ocr:59 - EasyOCR loaded successfully
+2026-01-31 04:05:03,466 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 128ff36a-b14f-4931-83de-c0bd639c74c4_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf page 1 (71 chars)
+2026-01-31 04:05:09,325 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 128ff36a-b14f-4931-83de-c0bd639c74c4_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf page 2 (71 chars)
+2026-01-31 04:05:14,782 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 128ff36a-b14f-4931-83de-c0bd639c74c4_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf page 3 (71 chars)
+2026-01-31 04:05:14,783 - multimodal_rag - INFO - process_pdf:93 - Extracted 8 images from 128ff36a-b14f-4931-83de-c0bd639c74c4_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+2026-01-31 04:05:15,286 - multimodal_rag - INFO - process_pdf:117 - Detected language: English (en) with confidence 1.00
+2026-01-31 04:05:15,289 - multimodal_rag - INFO - process_pdf:138 - Processed PDF 128ff36a-b14f-4931-83de-c0bd639c74c4_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf: 2 text chunks, 5 image chunks
+2026-01-31 04:05:15,294 - multimodal_rag - INFO - _process_pdf:63 - Multimodal PDF processing complete for 128ff36a-b14f-4931-83de-c0bd639c74c4_588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf: 10 total chunks (5 text, 5 image)
+2026-01-31 04:05:16,043 - multimodal_rag - INFO - add_chunks:67 - Added 5 chunks to vector store
+2026-01-31 04:05:16,043 - multimodal_rag - INFO - upload_file:235 - Uploaded and processed 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf: 5 chunks in 21.50s
+2026-01-31 04:05:16,044 - multimodal_rag - ERROR - upload_file:260 - Upload error: 'str' object has no attribute 'value'
+2026-01-31 04:05:20,179 - multimodal_rag - INFO - get_or_create_session:45 - Created new conversation session: live_comprehensive_test
+2026-01-31 04:05:20,189 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is this document about? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-31 04:05:20,195 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-31 04:05:20,196 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-31 04:05:20,197 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is this documen...' modality=Modality.TEXT
+2026-01-31 04:05:20,264 - multimodal_rag - DEBUG - query:97 - Query returned 20 results (modality: Modality.TEXT, k: 20)
+2026-01-31 04:05:20,265 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is this documen...' modality=Modality.AUDIO
+2026-01-31 04:05:20,283 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.AUDIO, k: 20)
+2026-01-31 04:05:20,295 - multimodal_rag - INFO - retrieve:135 - Retrieved 14 results across 1 modalities, languages: unknown, en
+2026-01-31 04:05:20,297 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.858 | Sources: 14 | Reason: Avg relevance: 0.51; Avg source quality: 0.90; Unique sources: 4; Modalities: 1
+2026-01-31 04:05:27,256 - multimodal_rag - WARNING - log_conflict_detection:54 - CONFLICT DETECTED | Sources: ['ae5a1810-0825-40f0-afd8-757c808c1f13', 'c7704cb1-7182-4e1f-8455-89fd540117de', 'eeef4396-06b3-4777-a8cf-f7245740e9ba', 'dbfb59d0-5b9e-4ab9-acf5-dfa3b429986b', 'b1eeef2a-723b-436c-a50c-5228bc2fdd8a', '7a728b4f-e372-4ad1-b63c-943eab8335d5', '0e2d2fd8-f797-41e4-a2fe-60c20239d5c7', '161c01df-5e98-4392-ae9f-be5fda022fbc', '28f18b95-9d22-4155-ad1d-cc0aa5044de8', 'ea18a933-0bb3-4051-b0b6-c9a959c09c1f'] | Details: 30 contradiction(s) detected between sources
+2026-01-31 04:05:28,342 - multimodal_rag - WARNING - generate:47 - Gemini API failed: Gemini: Exception: All Gemini models failed after retries
+2026-01-31 04:05:29,475 - multimodal_rag - WARNING - generate:60 - OpenRouter API failed: OpenRouter: HTTPStatusError: Client error '401 Unauthorized' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-U
+2026-01-31 04:06:22,683 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What images or diagrams are in this document? | Modalities: ['image'] | Top-K: 20 | Reason: Image keywords detected; Complex query detected, using k=20
+2026-01-31 04:06:22,716 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-31 04:06:22,717 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-31 04:06:22,727 - multimodal_rag - WARNING - embed_query:40 - Using dummy embedding for modality=Modality.IMAGE
+2026-01-31 04:06:23,019 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.IMAGE, k: 20)
+2026-01-31 04:06:23,021 - multimodal_rag - INFO - retrieve:135 - Retrieved 0 results across 0 modalities, languages: 
+2026-01-31 04:06:23,038 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: What images or diagrams are in this document? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-31 04:06:25,374 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: Describe the visual content in the PDF | Modalities: ['image'] | Top-K: 10 | Reason: Image keywords detected; Simple query, using k=10
+2026-01-31 04:06:25,382 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-31 04:06:25,383 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-31 04:06:25,383 - multimodal_rag - WARNING - embed_query:40 - Using dummy embedding for modality=Modality.IMAGE
+2026-01-31 04:06:25,413 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.IMAGE, k: 10)
+2026-01-31 04:06:25,413 - multimodal_rag - INFO - retrieve:135 - Retrieved 0 results across 0 modalities, languages: 
+2026-01-31 04:06:25,417 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: Describe the visual content in the PDF | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-31 04:07:21,107 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 04:07:25,976 - multimodal_rag - WARNING - _init_translator:82 - Translation service initialization failed: module 'httpcore' has no attribute 'SyncHTTPTransport'
+2026-01-31 04:07:49,892 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 04:07:49,891 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 04:07:49,893 - multimodal_rag - INFO - __init__:116 - Web search using Serper.dev (Google results)
+2026-01-31 04:07:50,510 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 04:07:50,510 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 04:07:50,513 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 04:07:50,513 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 04:07:50,524 - multimodal_rag - INFO - __init__:28 - Connected to collection: multimodal_knowledge
+2026-01-31 04:07:50,525 - multimodal_rag - INFO - __init__:21 - Loading text embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-01-31 04:08:03,101 - multimodal_rag - WARNING - reset:145 - Vector store reset: 82 items deleted
+2026-01-31 04:08:12,654 - multimodal_rag - INFO - _process_pdf:58 - Processing PDF with multimodal extraction: 7030dd10-62d2-4d1a-b9ba-10a75783fdc7_gita.pdf file.pdf
+2026-01-31 04:08:12,768 - multimodal_rag - INFO - process_pdf:80 - Processing PDF '7030dd10-62d2-4d1a-b9ba-10a75783fdc7_gita.pdf file.pdf': 1 pages, extract_images=True
+2026-01-31 04:08:13,096 - multimodal_rag - INFO - _load_ocr:57 - Loading EasyOCR reader for embedded images...
+2026-01-31 04:08:16,660 - multimodal_rag - INFO - _load_ocr:59 - EasyOCR loaded successfully
+2026-01-31 04:08:19,728 - multimodal_rag - INFO - _extract_all_images:262 - Created OCR text chunk for embedded image: 7030dd10-62d2-4d1a-b9ba-10a75783fdc7_gita.pdf file.pdf page 1 (156 chars)
+2026-01-31 04:08:19,739 - multimodal_rag - INFO - process_pdf:93 - Extracted 2 images from 7030dd10-62d2-4d1a-b9ba-10a75783fdc7_gita.pdf file.pdf
+2026-01-31 04:08:20,327 - multimodal_rag - INFO - process_pdf:117 - Detected language: English (en) with confidence 1.00
+2026-01-31 04:08:20,329 - multimodal_rag - INFO - process_pdf:138 - Processed PDF 7030dd10-62d2-4d1a-b9ba-10a75783fdc7_gita.pdf file.pdf: 1 text chunks, 1 image chunks
+2026-01-31 04:08:20,331 - multimodal_rag - INFO - _process_pdf:63 - Multimodal PDF processing complete for 7030dd10-62d2-4d1a-b9ba-10a75783fdc7_gita.pdf file.pdf: 3 total chunks (2 text, 1 image)
+2026-01-31 04:08:20,854 - multimodal_rag - INFO - add_chunks:67 - Added 2 chunks to vector store
+2026-01-31 04:08:20,854 - multimodal_rag - INFO - upload_file:228 - Uploaded and processed gita.pdf file.pdf: 2 chunks in 8.21s
+2026-01-31 04:09:06,282 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is multimodal rag system? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-31 04:09:06,297 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (0.86)
+2026-01-31 04:09:06,297 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-31 04:09:06,300 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is multimodal r...' modality=Modality.TEXT
+2026-01-31 04:09:06,399 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.TEXT, k: 20)
+2026-01-31 04:09:06,402 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is multimodal r...' modality=Modality.AUDIO
+2026-01-31 04:09:06,429 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.AUDIO, k: 20)
+2026-01-31 04:09:06,435 - multimodal_rag - INFO - retrieve:135 - Retrieved 2 results across 1 modalities, languages: en, unknown
+2026-01-31 04:09:06,441 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.749 | Sources: 2 | Reason: Avg relevance: 0.47; Avg source quality: 0.93; Unique sources: 1; Modalities: 1
+2026-01-31 04:09:08,518 - multimodal_rag - WARNING - generate:47 - Gemini API failed: Gemini: Exception: All Gemini models failed after retries
+2026-01-31 04:09:09,948 - multimodal_rag - WARNING - generate:60 - OpenRouter API failed: OpenRouter: HTTPStatusError: Client error '401 Unauthorized' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-U
+2026-01-31 04:11:30,106 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: how many images it contains? | Modalities: ['image'] | Top-K: 20 | Reason: Image keywords detected; Complex query detected, using k=20
+2026-01-31 04:11:30,121 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-31 04:11:30,121 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-31 04:11:30,128 - multimodal_rag - WARNING - embed_query:40 - Using dummy embedding for modality=Modality.IMAGE
+2026-01-31 04:11:30,280 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.IMAGE, k: 20)
+2026-01-31 04:11:30,282 - multimodal_rag - INFO - retrieve:135 - Retrieved 0 results across 0 modalities, languages: 
+2026-01-31 04:11:30,289 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: how many images it contains? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-31 04:12:27,427 - multimodal_rag - WARNING - translate:135 - Translator not available
+2026-01-31 04:12:27,427 - multimodal_rag - WARNING - generate_response:167 - Translation failed, using original query
+2026-01-31 04:12:27,431 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is Ubuntu? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-31 04:12:27,438 - multimodal_rag - INFO - retrieve:53 - Query language detected: id (0.86)
+2026-01-31 04:12:27,438 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-31 04:12:27,439 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is Ubuntu?...' modality=Modality.TEXT
+2026-01-31 04:12:27,920 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.TEXT, k: 20)
+2026-01-31 04:12:27,922 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is Ubuntu?...' modality=Modality.AUDIO
+2026-01-31 04:12:27,949 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.AUDIO, k: 20)
+2026-01-31 04:12:27,952 - multimodal_rag - INFO - retrieve:135 - Retrieved 2 results across 1 modalities, languages: en, unknown
+2026-01-31 04:12:27,966 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.695 | Sources: 2 | Reason: Avg relevance: 0.36; Avg source quality: 0.93; Unique sources: 1; Modalities: 1
+2026-01-31 04:12:33,412 - multimodal_rag - WARNING - generate:47 - Gemini API failed: Gemini: Exception: All Gemini models failed after retries
+2026-01-31 04:12:35,550 - multimodal_rag - WARNING - generate:60 - OpenRouter API failed: OpenRouter: HTTPStatusError: Client error '401 Unauthorized' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-U
+2026-01-31 04:13:11,064 - multimodal_rag - WARNING - translate:135 - Translator not available
+2026-01-31 04:13:11,065 - multimodal_rag - WARNING - generate_response:603 - Failed to translate response, returning in English
+2026-01-31 04:16:38,552 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: which model performs based on the ubuntu  dataset for the text length between 60 and 90 words? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-31 04:16:38,566 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-31 04:16:38,567 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-31 04:16:38,570 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='which model performs...' modality=Modality.TEXT
+2026-01-31 04:16:39,096 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.TEXT, k: 20)
+2026-01-31 04:16:39,096 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='which model performs...' modality=Modality.AUDIO
+2026-01-31 04:16:39,129 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.AUDIO, k: 20)
+2026-01-31 04:16:39,131 - multimodal_rag - INFO - retrieve:135 - Retrieved 2 results across 1 modalities, languages: en, unknown
+2026-01-31 04:16:39,137 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.878 | Sources: 2 | Reason: Avg relevance: 0.73; Avg source quality: 0.93; Unique sources: 1; Modalities: 1
+2026-01-31 04:16:41,032 - multimodal_rag - WARNING - generate:47 - Gemini API failed: Gemini: Exception: All Gemini models failed after retries
+2026-01-31 04:16:42,751 - multimodal_rag - WARNING - generate:60 - OpenRouter API failed: OpenRouter: HTTPStatusError: Client error '401 Unauthorized' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-U
+2026-01-31 04:20:32,307 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is mentioned in the image? | Modalities: ['image'] | Top-K: 20 | Reason: Image keywords detected; Complex query detected, using k=20
+2026-01-31 04:20:32,317 - multimodal_rag - INFO - retrieve:53 - Query language detected: en (1.00)
+2026-01-31 04:20:32,318 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-31 04:20:32,323 - multimodal_rag - WARNING - embed_query:40 - Using dummy embedding for modality=Modality.IMAGE
+2026-01-31 04:20:32,428 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.IMAGE, k: 20)
+2026-01-31 04:20:32,429 - multimodal_rag - INFO - retrieve:135 - Retrieved 0 results across 0 modalities, languages: 
+2026-01-31 04:20:32,433 - multimodal_rag - WARNING - log_refusal:60 - REFUSAL | Query: What is mentioned in the image? | Reason: Insufficient evidence to answer confidently. Issues: No relevant sources found | Missing: No relevant sources found
+2026-01-31 04:21:23,049 - multimodal_rag - WARNING - translate:135 - Translator not available
+2026-01-31 04:21:23,049 - multimodal_rag - WARNING - generate_response:167 - Translation failed, using original query
+2026-01-31 04:21:23,051 - multimodal_rag - INFO - log_retrieval_decision:40 - RETRIEVAL DECISION | Query: What is kehnn? | Modalities: ['text', 'audio'] | Top-K: 20 | Reason: Text modality included for comprehensive coverage; Audio included for transcript search; Complex query detected, using k=20
+2026-01-31 04:21:23,065 - multimodal_rag - INFO - retrieve:53 - Query language detected: et (0.57)
+2026-01-31 04:21:23,066 - multimodal_rag - INFO - retrieve:69 - Translation unavailable - using semantic embeddings for cross-lingual search
+2026-01-31 04:21:23,066 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is kehnn?...' modality=Modality.TEXT
+2026-01-31 04:21:23,485 - multimodal_rag - DEBUG - query:97 - Query returned 2 results (modality: Modality.TEXT, k: 20)
+2026-01-31 04:21:23,486 - multimodal_rag - INFO - embed_query:33 - Generating embedding for query='What is kehnn?...' modality=Modality.AUDIO
+2026-01-31 04:21:23,510 - multimodal_rag - DEBUG - query:97 - Query returned 0 results (modality: Modality.AUDIO, k: 20)
+2026-01-31 04:21:23,512 - multimodal_rag - INFO - retrieve:135 - Retrieved 2 results across 1 modalities, languages: en, unknown
+2026-01-31 04:21:23,520 - multimodal_rag - INFO - log_confidence_assessment:47 - CONFIDENCE ASSESSMENT | Score: 0.694 | Sources: 2 | Reason: Avg relevance: 0.36; Avg source quality: 0.93; Unique sources: 1; Modalities: 1
+2026-01-31 04:21:25,416 - multimodal_rag - WARNING - generate:47 - Gemini API failed: Gemini: Exception: All Gemini models failed after retries
+2026-01-31 04:21:28,148 - multimodal_rag - WARNING - generate:60 - OpenRouter API failed: OpenRouter: HTTPStatusError: Client error '401 Unauthorized' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-U
+2026-01-31 04:22:36,154 - multimodal_rag - WARNING - translate:135 - Translator not available
+2026-01-31 04:22:36,155 - multimodal_rag - WARNING - generate_response:603 - Failed to translate response, returning in English
+2026-01-31 04:37:51,579 - multimodal_rag - INFO - info:72 - Connecting to google_drive in DEMO mode

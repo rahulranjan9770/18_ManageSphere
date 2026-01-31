@@ -1,0 +1,46 @@
+============================================================
+  LIVE TEST - Multimodal PDF Feature
+============================================================
+
+1. Checking server...
+   Server: OK (status 200)
+
+2. Current database stats...
+   Total chunks: 67
+   Documents: 0
+
+3. Uploading PDF...
+   File: 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+   Size: 4126.99 KB
+   Processing (please wait - this may take 30-60 seconds)...
+   Upload: SUCCESS!
+   Time: 21.09 seconds
+   Chunks created: 5
+   Message: Successfully processed 588f9cc5_PS4_Multimodal_RAG_System_Challenge.pdf
+
+4. Updated database stats...
+   Total chunks: 72
+   Documents: 0
+
+5. Testing query about PDF content...
+   Query: SUCCESS
+   Confidence: High
+   Answer: Error: Unable to generate response. Gemini: Exception: All Gemini models failed after retries | OpenRouter: HTTPStatusError: Client error '401 Unauthorized' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-U | Ollama: HTTPStatusError: Server error '500 Internal Server Error' for url 'http://localhost:11434/api/generate'
+For more i...
+
+6. Testing query about images...
+   Query: SUCCESS
+   Confidence: None
+   Answer: I cannot answer this query confidently due to insufficient evidence.
+
+**Issues identified:**
+- No relevant sources found
+
+**Suggestion:** Please upload more relevant documents or rephrase your query....
+
+============================================================
+  LIVE TEST COMPLETE!
+============================================================
+
+Results saved to: live_test_results.txt
